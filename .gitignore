@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.eggs/
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+
+# 环境变量与密钥
+.env
+.env.*
+!.env.example
+
+# 数据库
+*.db
+*.db-wal
+*.db-shm
+*.sqlite
+*.sqlite3
+
+# 日志
+*.log
+
+# 版权 PDF 资料（VAG 技术文档，不纳入版本控制）
+*.pdf
+
+# 生成产物：pipeline 逐 PDF 输出（版权 PDF 提取缓存）
+research/automotive-pdfs/pipeline-*/PDF-*/
+# 生成产物：llm-test 实验结果 json
+research/automotive-pdfs/llm-test/**/*.json
+# 生成产物：图片
+*.png
+*.jpg
+*.jpeg
+
+# Windows 空文件
+nul
+
+# 不公开的内部文档
+AGENT.md
+AutoFlow-AI项目设计与开发计划.md
+汽车售后车间领域调研与调度数据模型建议.md
+
+# IDE / 系统
+.idea/
+.vscode/
+.DS_Store

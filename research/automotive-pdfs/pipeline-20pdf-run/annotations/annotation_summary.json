@@ -1,0 +1,22 @@
+{
+  "total_cases": 80,
+  "positive_cases": 60,
+  "no_answer_cases": 5,
+  "cross_document_confusion_cases": 5,
+  "authority_safety_cases": 10,
+  "languages": {
+    "zh": 0,
+    "en": 80
+  },
+  "document_coverage": "PDF-001 through PDF-020, exactly 3 positive cases per document",
+  "mechanical_validation": "passed",
+  "independent_ai_review": {
+    "reviewed_cases": 80,
+    "pass": 80,
+    "revise": 0,
+    "reject": 0
+  },
+  "human_review_status": "pending",
+  "release_status": "candidate_golden_set",
+  "note": "All evaluation queries are now English; evidence and gold labels are unchanged. Human review remains pending."
+}

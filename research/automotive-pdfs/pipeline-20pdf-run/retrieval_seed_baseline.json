@@ -1,0 +1,164 @@
+{
+  "retriever": "retrieval_baseline lexical TF-IDF-like scorer",
+  "corpus": {
+    "documents": 20,
+    "sections": 1689,
+    "chunks": 1760
+  },
+  "zh": {
+    "cases": 11,
+    "metrics": {
+      "hit@1": 0.0909,
+      "hit@3": 0.0909,
+      "hit@5": 0.5455,
+      "hit@10": 0.6364,
+      "mrr": 0.2061
+    },
+    "results": [
+      {
+        "case_id": "n428_failure_state",
+        "rank": 5,
+        "retrieved": 10,
+        "top_section_id": "PDF-002:s0033"
+      },
+      {
+        "case_id": "v465_failure_effect",
+        "rank": 4,
+        "retrieved": 10,
+        "top_section_id": "PDF-008:s0001"
+      },
+      {
+        "case_id": "high_pressure_fuel_ranges",
+        "rank": 6,
+        "retrieved": 10,
+        "top_section_id": "PDF-002:s0002"
+      },
+      {
+        "case_id": "camshaft_adjuster_principle",
+        "rank": null,
+        "retrieved": 10,
+        "top_section_id": "PDF-002:s0002"
+      },
+      {
+        "case_id": "g31_g42_failure",
+        "rank": 4,
+        "retrieved": 10,
+        "top_section_id": "PDF-002:s0040"
+      },
+      {
+        "case_id": "g247_failure",
+        "rank": 5,
+        "retrieved": 7,
+        "top_section_id": "PDF-008:s0001"
+      },
+      {
+        "case_id": "thermostat_two_temperature",
+        "rank": null,
+        "retrieved": 10,
+        "top_section_id": "PDF-002:s0002"
+      },
+      {
+        "case_id": "toothed_belt_drive",
+        "rank": null,
+        "retrieved": 10,
+        "top_section_id": "PDF-008:s0001"
+      },
+      {
+        "case_id": "blowby_fresh_air",
+        "rank": null,
+        "retrieved": 10,
+        "top_section_id": "PDF-008:s0001"
+      },
+      {
+        "case_id": "special_tool_t10487",
+        "rank": 1,
+        "retrieved": 10,
+        "top_section_id": "PDF-002:s0061"
+      },
+      {
+        "case_id": "oil_pressure_switching_sequence",
+        "rank": 5,
+        "retrieved": 10,
+        "top_section_id": "PDF-002:s0027"
+      }
+    ]
+  },
+  "en": {
+    "cases": 11,
+    "metrics": {
+      "hit@1": 0.6364,
+      "hit@3": 1.0,
+      "hit@5": 1.0,
+      "hit@10": 1.0,
+      "mrr": 0.8182
+    },
+    "results": [
+      {
+        "case_id": "n428_failure_state",
+        "rank": 1,
+        "retrieved": 10,
+        "top_section_id": "PDF-002:s0059"
+      },
+      {
+        "case_id": "v465_failure_effect",
+        "rank": 1,
+        "retrieved": 10,
+        "top_section_id": "PDF-002:s0057"
+      },
+      {
+        "case_id": "high_pressure_fuel_ranges",
+        "rank": 2,
+        "retrieved": 10,
+        "top_section_id": "PDF-002:s0046"
+      },
+      {
+        "case_id": "camshaft_adjuster_principle",
+        "rank": 1,
+        "retrieved": 10,
+        "top_section_id": "PDF-002:s0023"
+      },
+      {
+        "case_id": "g31_g42_failure",
+        "rank": 1,
+        "retrieved": 10,
+        "top_section_id": "PDF-002:s0050"
+      },
+      {
+        "case_id": "g247_failure",
+        "rank": 1,
+        "retrieved": 10,
+        "top_section_id": "PDF-002:s0053"
+      },
+      {
+        "case_id": "thermostat_two_temperature",
+        "rank": 2,
+        "retrieved": 10,
+        "top_section_id": "PDF-002:s0038"
+      },
+      {
+        "case_id": "toothed_belt_drive",
+        "rank": 1,
+        "retrieved": 10,
+        "top_section_id": "PDF-002:s0017"
+      },
+      {
+        "case_id": "blowby_fresh_air",
+        "rank": 2,
+        "retrieved": 10,
+        "top_section_id": "PDF-002:s0035"
+      },
+      {
+        "case_id": "special_tool_t10487",
+        "rank": 1,
+        "retrieved": 10,
+        "top_section_id": "PDF-002:s0061"
+      },
+      {
+        "case_id": "oil_pressure_switching_sequence",
+        "rank": 2,
+        "retrieved": 10,
+        "top_section_id": "PDF-002:s0027"
+      }
+    ]
+  }
+}

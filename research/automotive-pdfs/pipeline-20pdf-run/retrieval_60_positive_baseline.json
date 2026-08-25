@@ -1,0 +1,599 @@
+{
+  "retriever": "retrieval_baseline lexical TF-IDF-like scorer",
+  "annotation_validation": "80/80 mechanically valid; 80/80 AI semantic-review pass",
+  "cases": 60,
+  "metrics": {
+    "section": {
+      "hit@1": 0.2333,
+      "hit@3": 0.3667,
+      "hit@5": 0.4333,
+      "hit@10": 0.4833,
+      "mrr@10": 0.3076
+    },
+    "document": {
+      "hit@1": 0.4167,
+      "hit@3": 0.5833,
+      "hit@5": 0.65,
+      "hit@10": 0.6667,
+      "mrr@10": 0.5124
+    }
+  },
+  "by_language": {
+    "zh": {
+      "cases": 31,
+      "section": {
+        "hit@1": 0.0,
+        "hit@3": 0.0968,
+        "hit@5": 0.129,
+        "hit@10": 0.2258,
+        "mrr@10": 0.0513
+      },
+      "document": {
+        "hit@1": 0.1935,
+        "hit@3": 0.3548,
+        "hit@5": 0.4194,
+        "hit@10": 0.4194,
+        "mrr@10": 0.2903
+      }
+    },
+    "en": {
+      "cases": 29,
+      "section": {
+        "hit@1": 0.4828,
+        "hit@3": 0.6552,
+        "hit@5": 0.7586,
+        "hit@10": 0.7586,
+        "mrr@10": 0.5816
+      },
+      "document": {
+        "hit@1": 0.6552,
+        "hit@3": 0.8276,
+        "hit@5": 0.8966,
+        "hit@10": 0.931,
+        "mrr@10": 0.7497
+      }
+    }
+  },
+  "results": [
+    {
+      "case_id": "p001_005_pos_pdf001_01",
+      "language": "zh",
+      "expected_document_id": "PDF-001",
+      "expected_section_id": "PDF-001:s0002",
+      "section_rank": 6,
+      "document_rank": 1,
+      "top_section_id": "PDF-001:s0003"
+    },
+    {
+      "case_id": "p001_005_pos_pdf001_02",
+      "language": "en",
+      "expected_document_id": "PDF-001",
+      "expected_section_id": "PDF-001:s0004",
+      "section_rank": 1,
+      "document_rank": 1,
+      "top_section_id": "PDF-001:s0004"
+    },
+    {
+      "case_id": "p001_005_pos_pdf001_03",
+      "language": "zh",
+      "expected_document_id": "PDF-001",
+      "expected_section_id": "PDF-001:s0005",
+      "section_rank": 5,
+      "document_rank": 2,
+      "top_section_id": "PDF-008:s0001"
+    },
+    {
+      "case_id": "p001_005_pos_pdf002_01",
+      "language": "en",
+      "expected_document_id": "PDF-002",
+      "expected_section_id": "PDF-002:s0017",
+      "section_rank": 2,
+      "document_rank": 1,
+      "top_section_id": "PDF-002:s0038"
+    },
+    {
+      "case_id": "p001_005_pos_pdf002_02",
+      "language": "zh",
+      "expected_document_id": "PDF-002",
+      "expected_section_id": "PDF-002:s0041",
+      "section_rank": null,
+      "document_rank": 1,
+      "top_section_id": "PDF-002:s0002"
+    },
+    {
+      "case_id": "p001_005_pos_pdf002_03",
+      "language": "en",
+      "expected_document_id": "PDF-002",
+      "expected_section_id": "PDF-002:s0061",
+      "section_rank": 1,
+      "document_rank": 1,
+      "top_section_id": "PDF-002:s0061"
+    },
+    {
+      "case_id": "p001_005_pos_pdf003_01",
+      "language": "zh",
+      "expected_document_id": "PDF-003",
+      "expected_section_id": "PDF-003:s0042",
+      "section_rank": null,
+      "document_rank": 2,
+      "top_section_id": "PDF-008:s0001"
+    },
+    {
+      "case_id": "p001_005_pos_pdf003_02",
+      "language": "en",
+      "expected_document_id": "PDF-003",
+      "expected_section_id": "PDF-003:s0070",
+      "section_rank": 4,
+      "document_rank": 1,
+      "top_section_id": "PDF-003:s0072"
+    },
+    {
+      "case_id": "p001_005_pos_pdf003_03",
+      "language": "zh",
+      "expected_document_id": "PDF-003",
+      "expected_section_id": "PDF-003:s0093",
+      "section_rank": 10,
+      "document_rank": 2,
+      "top_section_id": "PDF-008:s0001"
+    },
+    {
+      "case_id": "p001_005_pos_pdf004_01",
+      "language": "en",
+      "expected_document_id": "PDF-004",
+      "expected_section_id": "PDF-004:s0010",
+      "section_rank": 3,
+      "document_rank": 1,
+      "top_section_id": "PDF-004:s0002"
+    },
+    {
+      "case_id": "p001_005_pos_pdf004_02",
+      "language": "zh",
+      "expected_document_id": "PDF-004",
+      "expected_section_id": "PDF-004:s0046",
+      "section_rank": null,
+      "document_rank": 2,
+      "top_section_id": "PDF-003:s0119"
+    },
+    {
+      "case_id": "p001_005_pos_pdf004_03",
+      "language": "en",
+      "expected_document_id": "PDF-004",
+      "expected_section_id": "PDF-004:s0061",
+      "section_rank": 1,
+      "document_rank": 1,
+      "top_section_id": "PDF-004:s0061"
+    },
+    {
+      "case_id": "p001_005_pos_pdf005_01",
+      "language": "zh",
+      "expected_document_id": "PDF-005",
+      "expected_section_id": "PDF-005:s0013",
+      "section_rank": null,
+      "document_rank": null,
+      "top_section_id": null
+    },
+    {
+      "case_id": "p001_005_pos_pdf005_02",
+      "language": "en",
+      "expected_document_id": "PDF-005",
+      "expected_section_id": "PDF-005:s0026",
+      "section_rank": 5,
+      "document_rank": 1,
+      "top_section_id": "PDF-005:s0052"
+    },
+    {
+      "case_id": "p001_005_pos_pdf005_03",
+      "language": "zh",
+      "expected_document_id": "PDF-005",
+      "expected_section_id": "PDF-005:s0049",
+      "section_rank": null,
+      "document_rank": null,
+      "top_section_id": "PDF-008:s0001"
+    },
+    {
+      "case_id": "p006_010_001",
+      "language": "en",
+      "expected_document_id": "PDF-006",
+      "expected_section_id": "PDF-006:s0020",
+      "section_rank": 1,
+      "document_rank": 1,
+      "top_section_id": "PDF-006:s0020"
+    },
+    {
+      "case_id": "p006_010_002",
+      "language": "en",
+      "expected_document_id": "PDF-006",
+      "expected_section_id": "PDF-006:s0040",
+      "section_rank": 1,
+      "document_rank": 1,
+      "top_section_id": "PDF-006:s0040"
+    },
+    {
+      "case_id": "p006_010_003",
+      "language": "zh",
+      "expected_document_id": "PDF-006",
+      "expected_section_id": "PDF-006:s0071",
+      "section_rank": null,
+      "document_rank": null,
+      "top_section_id": "PDF-008:s0001"
+    },
+    {
+      "case_id": "p006_010_004",
+      "language": "en",
+      "expected_document_id": "PDF-007",
+      "expected_section_id": "PDF-007:s0031",
+      "section_rank": 2,
+      "document_rank": 2,
+      "top_section_id": "PDF-002:s0014"
+    },
+    {
+      "case_id": "p006_010_005",
+      "language": "en",
+      "expected_document_id": "PDF-007",
+      "expected_section_id": "PDF-007:s0054",
+      "section_rank": 1,
+      "document_rank": 1,
+      "top_section_id": "PDF-007:s0054"
+    },
+    {
+      "case_id": "p006_010_006",
+      "language": "zh",
+      "expected_document_id": "PDF-007",
+      "expected_section_id": "PDF-007:s0063",
+      "section_rank": null,
+      "document_rank": null,
+      "top_section_id": null
+    },
+    {
+      "case_id": "p006_010_007",
+      "language": "en",
+      "expected_document_id": "PDF-008",
+      "expected_section_id": "PDF-008:s0001",
+      "section_rank": null,
+      "document_rank": null,
+      "top_section_id": "PDF-002:s0022"
+    },
+    {
+      "case_id": "p006_010_008",
+      "language": "en",
+      "expected_document_id": "PDF-008",
+      "expected_section_id": "PDF-008:s0001",
+      "section_rank": null,
+      "document_rank": null,
+      "top_section_id": "PDF-002:s0007"
+    },
+    {
+      "case_id": "p006_010_009",
+      "language": "zh",
+      "expected_document_id": "PDF-009",
+      "expected_section_id": "PDF-009:s0001",
+      "section_rank": null,
+      "document_rank": null,
+      "top_section_id": "PDF-001:s0005"
+    },
+    {
+      "case_id": "p006_010_010",
+      "language": "en",
+      "expected_document_id": "PDF-009",
+      "expected_section_id": "PDF-009:s0001",
+      "section_rank": 1,
+      "document_rank": 1,
+      "top_section_id": "PDF-009:s0001"
+    },
+    {
+      "case_id": "p006_010_011",
+      "language": "en",
+      "expected_document_id": "PDF-009",
+      "expected_section_id": "PDF-009:s0001",
+      "section_rank": 1,
+      "document_rank": 1,
+      "top_section_id": "PDF-009:s0001"
+    },
+    {
+      "case_id": "p006_010_012",
+      "language": "zh",
+      "expected_document_id": "PDF-010",
+      "expected_section_id": "PDF-010:s0012",
+      "section_rank": 3,
+      "document_rank": 1,
+      "top_section_id": "PDF-010:s0016"
+    },
+    {
+      "case_id": "p006_010_013",
+      "language": "en",
+      "expected_document_id": "PDF-010",
+      "expected_section_id": "PDF-010:s0024",
+      "section_rank": 1,
+      "document_rank": 1,
+      "top_section_id": "PDF-010:s0024"
+    },
+    {
+      "case_id": "p006_010_014",
+      "language": "en",
+      "expected_document_id": "PDF-008",
+      "expected_section_id": "PDF-008:s0001",
+      "section_rank": 2,
+      "document_rank": 2,
+      "top_section_id": "PDF-010:s0016"
+    },
+    {
+      "case_id": "p006_010_015",
+      "language": "zh",
+      "expected_document_id": "PDF-010",
+      "expected_section_id": "PDF-010:s0105",
+      "section_rank": null,
+      "document_rank": null,
+      "top_section_id": "PDF-008:s0001"
+    },
+    {
+      "case_id": "p011_015_001",
+      "language": "zh",
+      "expected_document_id": "PDF-011",
+      "expected_section_id": "PDF-011:s0006",
+      "section_rank": null,
+      "document_rank": 4,
+      "top_section_id": "PDF-001:s0003"
+    },
+    {
+      "case_id": "p011_015_002",
+      "language": "en",
+      "expected_document_id": "PDF-011",
+      "expected_section_id": "PDF-011:s0010",
+      "section_rank": 1,
+      "document_rank": 1,
+      "top_section_id": "PDF-011:s0010"
+    },
+    {
+      "case_id": "p011_015_003",
+      "language": "zh",
+      "expected_document_id": "PDF-011",
+      "expected_section_id": "PDF-011:s0009",
+      "section_rank": null,
+      "document_rank": 4,
+      "top_section_id": "PDF-001:s0003"
+    },
+    {
+      "case_id": "p011_015_004",
+      "language": "zh",
+      "expected_document_id": "PDF-012",
+      "expected_section_id": "PDF-012:s0006",
+      "section_rank": null,
+      "document_rank": null,
+      "top_section_id": "PDF-001:s0003"
+    },
+    {
+      "case_id": "p011_015_005",
+      "language": "zh",
+      "expected_document_id": "PDF-012",
+      "expected_section_id": "PDF-012:s0010",
+      "section_rank": null,
+      "document_rank": null,
+      "top_section_id": "PDF-001:s0003"
+    },
+    {
+      "case_id": "p011_015_006",
+      "language": "en",
+      "expected_document_id": "PDF-013",
+      "expected_section_id": "PDF-013:s0023",
+      "section_rank": 1,
+      "document_rank": 1,
+      "top_section_id": "PDF-013:s0023"
+    },
+    {
+      "case_id": "p011_015_007",
+      "language": "en",
+      "expected_document_id": "PDF-013",
+      "expected_section_id": "PDF-013:s0015",
+      "section_rank": null,
+      "document_rank": 1,
+      "top_section_id": "PDF-013:s0035"
+    },
+    {
+      "case_id": "p011_015_008",
+      "language": "zh",
+      "expected_document_id": "PDF-014",
+      "expected_section_id": "PDF-014:s0008",
+      "section_rank": 8,
+      "document_rank": 1,
+      "top_section_id": "PDF-014:s0027"
+    },
+    {
+      "case_id": "p011_015_009",
+      "language": "zh",
+      "expected_document_id": "PDF-014",
+      "expected_section_id": "PDF-014:s0038",
+      "section_rank": 3,
+      "document_rank": 2,
+      "top_section_id": "PDF-004:s0084"
+    },
+    {
+      "case_id": "p011_015_010",
+      "language": "en",
+      "expected_document_id": "PDF-015",
+      "expected_section_id": "PDF-015:s0008",
+      "section_rank": null,
+      "document_rank": 5,
+      "top_section_id": "PDF-014:s0012"
+    },
+    {
+      "case_id": "p011_015_011",
+      "language": "en",
+      "expected_document_id": "PDF-015",
+      "expected_section_id": "PDF-015:s0089",
+      "section_rank": null,
+      "document_rank": 2,
+      "top_section_id": "PDF-019:s0057"
+    },
+    {
+      "case_id": "p011_015_012",
+      "language": "en",
+      "expected_document_id": "PDF-015",
+      "expected_section_id": "PDF-015:s0017",
+      "section_rank": 3,
+      "document_rank": 3,
+      "top_section_id": "PDF-002:s0033"
+    },
+    {
+      "case_id": "p011_015_013",
+      "language": "zh",
+      "expected_document_id": "PDF-012",
+      "expected_section_id": "PDF-012:s0007",
+      "section_rank": null,
+      "document_rank": null,
+      "top_section_id": "PDF-008:s0001"
+    },
+    {
+      "case_id": "p011_015_014",
+      "language": "zh",
+      "expected_document_id": "PDF-013",
+      "expected_section_id": "PDF-013:s0032",
+      "section_rank": null,
+      "document_rank": null,
+      "top_section_id": "PDF-008:s0001"
+    },
+    {
+      "case_id": "p011_015_015",
+      "language": "en",
+      "expected_document_id": "PDF-014",
+      "expected_section_id": "PDF-014:s0006",
+      "section_rank": null,
+      "document_rank": 3,
+      "top_section_id": "PDF-007:s0025"
+    },
+    {
+      "case_id": "p016_020_001",
+      "language": "zh",
+      "expected_document_id": "PDF-016",
+      "expected_section_id": "PDF-016:s0005",
+      "section_rank": null,
+      "document_rank": null,
+      "top_section_id": "PDF-008:s0001"
+    },
+    {
+      "case_id": "p016_020_002",
+      "language": "zh",
+      "expected_document_id": "PDF-016",
+      "expected_section_id": "PDF-016:s0028",
+      "section_rank": null,
+      "document_rank": null,
+      "top_section_id": "PDF-008:s0001"
+    },
+    {
+      "case_id": "p016_020_003",
+      "language": "en",
+      "expected_document_id": "PDF-016",
+      "expected_section_id": "PDF-016:s0042",
+      "section_rank": 1,
+      "document_rank": 1,
+      "top_section_id": "PDF-016:s0042"
+    },
+    {
+      "case_id": "p016_020_004",
+      "language": "zh",
+      "expected_document_id": "PDF-017",
+      "expected_section_id": "PDF-017:s0135",
+      "section_rank": null,
+      "document_rank": null,
+      "top_section_id": "PDF-008:s0001"
+    },
+    {
+      "case_id": "p016_020_005",
+      "language": "zh",
+      "expected_document_id": "PDF-017",
+      "expected_section_id": "PDF-017:s0166",
+      "section_rank": null,
+      "document_rank": null,
+      "top_section_id": "PDF-008:s0001"
+    },
+    {
+      "case_id": "p016_020_006",
+      "language": "en",
+      "expected_document_id": "PDF-017",
+      "expected_section_id": "PDF-017:s0215",
+      "section_rank": 1,
+      "document_rank": 1,
+      "top_section_id": "PDF-017:s0215"
+    },
+    {
+      "case_id": "p016_020_007",
+      "language": "zh",
+      "expected_document_id": "PDF-018",
+      "expected_section_id": "PDF-018:s0095",
+      "section_rank": null,
+      "document_rank": null,
+      "top_section_id": "PDF-008:s0001"
+    },
+    {
+      "case_id": "p016_020_008",
+      "language": "zh",
+      "expected_document_id": "PDF-018",
+      "expected_section_id": "PDF-018:s0114",
+      "section_rank": null,
+      "document_rank": null,
+      "top_section_id": "PDF-008:s0001"
+    },
+    {
+      "case_id": "p016_020_009",
+      "language": "en",
+      "expected_document_id": "PDF-018",
+      "expected_section_id": "PDF-018:s0131",
+      "section_rank": null,
+      "document_rank": 8,
+      "top_section_id": "PDF-002:s0058"
+    },
+    {
+      "case_id": "p016_020_010",
+      "language": "zh",
+      "expected_document_id": "PDF-019",
+      "expected_section_id": "PDF-019:s0021",
+      "section_rank": null,
+      "document_rank": null,
+      "top_section_id": "PDF-008:s0001"
+    },
+    {
+      "case_id": "p016_020_011",
+      "language": "zh",
+      "expected_document_id": "PDF-019",
+      "expected_section_id": "PDF-019:s0034",
+      "section_rank": null,
+      "document_rank": null,
+      "top_section_id": "PDF-008:s0001"
+    },
+    {
+      "case_id": "p016_020_012",
+      "language": "en",
+      "expected_document_id": "PDF-019",
+      "expected_section_id": "PDF-019:s0081",
+      "section_rank": 1,
+      "document_rank": 1,
+      "top_section_id": "PDF-019:s0081"
+    },
+    {
+      "case_id": "p016_020_013",
+      "language": "zh",
+      "expected_document_id": "PDF-020",
+      "expected_section_id": "PDF-020:s0007",
+      "section_rank": 3,
+      "document_rank": 1,
+      "top_section_id": "PDF-020:s0005"
+    },
+    {
+      "case_id": "p016_020_014",
+      "language": "zh",
+      "expected_document_id": "PDF-020",
+      "expected_section_id": "PDF-020:s0015",
+      "section_rank": null,
+      "document_rank": 1,
+      "top_section_id": "PDF-020:s0001"
+    },
+    {
+      "case_id": "p016_020_015",
+      "language": "en",
+      "expected_document_id": "PDF-020",
+      "expected_section_id": "PDF-020:s0071",
+      "section_rank": 4,
+      "document_rank": 4,
+      "top_section_id": "PDF-002:s0052"
+    }
+  ]
+}

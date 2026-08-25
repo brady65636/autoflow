@@ -1,0 +1,374 @@
+[
+  {
+    "case_id": "p011_015_001",
+    "case_kind": "positive",
+    "language": "en",
+    "query": "What effect does a low drag coefficient have on the Audi A3?",
+    "question_type": "general",
+    "required_knowledge": "Vehicle aerodynamics and the effect of low drag resistance",
+    "expected_document_id": "PDF-011",
+    "expected_section_id": "PDF-011:s0006",
+    "expected_title": "**Vehicle aerodynamics**",
+    "evidence_page_start": 7,
+    "evidence_page_end": 7,
+    "evidence_quote": "If the air resistance is low, less force is needed to overcome it. \n\nThis saves energy. And saves fuel.",
+    "annotation_status": "verified",
+    "expected_path_contains": [
+      "**Audi A3 - Presentation**",
+      "**Vehicle aerodynamics**"
+    ]
+  },
+  {
+    "case_id": "p011_015_002",
+    "case_kind": "positive",
+    "language": "en",
+    "query": "What percentage of the Audi A3 is made of recyclable materials?",
+    "question_type": "specification",
+    "required_knowledge": "Audi A3 environmental recyclability",
+    "expected_document_id": "PDF-011",
+    "expected_section_id": "PDF-011:s0010",
+    "expected_title": "**More than just scrap iron**",
+    "evidence_page_start": 9,
+    "evidence_page_end": 12,
+    "evidence_quote": "83% of the Audi A3 is made of recyclable materials. \n\nSSP 181/48 \n\n9\n\n**Safety** \n\n**How safe is the",
+    "annotation_status": "verified",
+    "expected_path_contains": [
+      "**Audi A3 - Presentation**",
+      "**More than just scrap iron**"
+    ]
+  },
+  {
+    "case_id": "p011_015_003",
+    "case_kind": "positive",
+    "language": "en",
+    "query": "What environmental benefits does the Audi A3 gain from using water-based paint?",
+    "question_type": "general",
+    "required_knowledge": "Environmental benefits of water-based paint",
+    "expected_document_id": "PDF-011",
+    "expected_section_id": "PDF-011:s0009",
+    "expected_title": "**In brief**",
+    "evidence_page_start": 8,
+    "evidence_page_end": 8,
+    "evidence_quote": "- Use of water-based paints means fewer solvents. \n\n- Use of recyclable materials saves raw material",
+    "annotation_status": "verified",
+    "expected_path_contains": [
+      "**Audi A3 - Presentation**",
+      "**In brief**"
+    ]
+  },
+  {
+    "case_id": "p011_015_004",
+    "case_kind": "positive",
+    "language": "en",
+    "query": "What panel thicknesses make up the Audi A3 front side members?",
+    "question_type": "principle",
+    "required_knowledge": "Audi A3 crash structure and side-member panel thicknesses",
+    "expected_document_id": "PDF-012",
+    "expected_section_id": "PDF-012:s0006",
+    "expected_title": "**Safety is ... programmed crumple zones**",
+    "evidence_page_start": 6,
+    "evidence_page_end": 7,
+    "evidence_quote": "front side members each consist of three mash seam welded panels with thicknesses of 2 mm, 3 mm and 1.5 mm._ \n\n_The different material thicknesses are calculated depending on the strength they require and their location._",
+    "annotation_status": "verified",
+    "expected_path_contains": [
+      "**Audi A3 - The Engineering**",
+      "**Body**",
+      "**Safety is ... programmed crumple zones**"
+    ]
+  },
+  {
+    "case_id": "p011_015_005",
+    "case_kind": "positive",
+    "language": "en",
+    "query": "Which components make up the Audi A3 seat frame with high transverse rigidity?",
+    "question_type": "general",
+    "required_knowledge": "Seat structure with high transverse rigidity",
+    "expected_document_id": "PDF-012",
+    "expected_section_id": "PDF-012:s0010",
+    "expected_title": "**Sturdy seats**",
+    "evidence_page_start": 11,
+    "evidence_page_end": 11,
+    "evidence_quote": "A frame structure with high transverse rigidity is the result of:_ \n\n- _one circumferential square tube,_ \n\n- _one transversely mounted U-section,_ \n\n- _one sturdy support tube between the seat rail and seat frame._",
+    "annotation_status": "verified",
+    "expected_path_contains": [
+      "**Audi A3 - The Engineering**",
+      "**Safety**",
+      "**Sturdy seats**"
+    ]
+  },
+  {
+    "case_id": "p011_015_006",
+    "case_kind": "positive",
+    "language": "en",
+    "query": "In CAN arbitration, which protocol is sent first when multiple control units transmit simultaneously?",
+    "question_type": "principle",
+    "required_knowledge": "CAN data bus priority allocation",
+    "expected_document_id": "PDF-013",
+    "expected_section_id": "PDF-013:s0023",
+    "expected_title": "**CAN data bus allocation**",
+    "evidence_page_start": 13,
+    "evidence_page_end": 13,
+    "evidence_quote": "The data protocol with the highest priority is sent first. \n\nFor safety reasons, the data protocol s",
+    "annotation_status": "verified",
+    "expected_path_contains": [
+      "**Function**",
+      "**CAN data bus allocation**"
+    ]
+  },
+  {
+    "case_id": "p011_015_007",
+    "case_kind": "positive",
+    "language": "en",
+    "query": "What does the CAN status field define?",
+    "question_type": "principle",
+    "required_knowledge": "CAN protocol status field",
+    "expected_document_id": "PDF-013",
+    "expected_section_id": "PDF-013:s0015",
+    "expected_title": "The **status field**",
+    "evidence_page_start": 10,
+    "evidence_page_end": 10,
+    "evidence_quote": "defines the level of priority of the data protocol. If, for instance, two control units want to send",
+    "annotation_status": "verified",
+    "expected_path_contains": [
+      "**CAN data bus**",
+      "**The seven areas:**",
+      "The **status field**"
+    ]
+  },
+  {
+    "case_id": "p011_015_008",
+    "case_kind": "positive",
+    "language": "en",
+    "query": "Where is the LT J234 control unit installed?",
+    "question_type": "general",
+    "required_knowledge": "LT airbag and belt-tensioner control-unit location",
+    "expected_document_id": "PDF-014",
+    "expected_section_id": "PDF-014:s0008",
+    "expected_title": "**Safety**",
+    "evidence_page_start": 8,
+    "evidence_page_end": 9,
+    "evidence_quote": "The J234 control unit for the airbag and the belt tensioners is located beneath the driver's seat.",
+    "annotation_status": "verified",
+    "expected_path_contains": [
+      "**The LT ´97**",
+      "**Safety**"
+    ]
+  },
+  {
+    "case_id": "p011_015_009",
+    "case_kind": "positive",
+    "language": "en",
+    "query": "Below what vehicle speed does the LT EDL operate?",
+    "question_type": "specification",
+    "required_knowledge": "LT electronic differential lock operating speed",
+    "expected_document_id": "PDF-014",
+    "expected_section_id": "PDF-014:s0038",
+    "expected_title": "**ABS/EDL**",
+    "evidence_page_start": 42,
+    "evidence_page_end": 43,
+    "evidence_quote": "It functions at speeds below 40 km/h. In this vehicle the EDL system is known as ABD (Automatic Brak",
+    "annotation_status": "verified",
+    "expected_path_contains": [
+      "**The LT ´97**",
+      "**ABS/EDL**"
+    ]
+  },
+  {
+    "case_id": "p011_015_010",
+    "case_kind": "positive",
+    "language": "en",
+    "query": "What are the Audi A3 2.3 l petrol engine's maximum torque and engine speed?",
+    "question_type": "specification",
+    "required_knowledge": "PDF-015 AGL engine performance data",
+    "expected_document_id": "PDF-015",
+    "expected_section_id": "PDF-015:s0008",
+    "expected_title": "**Data**",
+    "evidence_page_start": 5,
+    "evidence_page_end": 5,
+    "evidence_quote": "|Maximum torque|210 Nm at 4000 1/min|\n|Engine management|Siemens Motronic|\n\n\n\n5",
+    "annotation_status": "verified",
+    "expected_path_contains": [
+      "**The 2.3 l petrol engine** **<u>in the LT ‘97</u>**",
+      "**The new 2.3 l petrol engine**",
+      "**Data**"
+    ]
+  },
+  {
+    "case_id": "p011_015_011",
+    "case_kind": "positive",
+    "language": "en",
+    "query": "What happens when the 2.3 l petrol engine exceeds its speed limit?",
+    "question_type": "diagnosis",
+    "required_knowledge": "PDF-015 engine speed limiter behavior",
+    "expected_document_id": "PDF-015",
+    "expected_section_id": "PDF-015:s0089",
+    "expected_title": "**Engine speed limit**",
+    "evidence_page_start": 31,
+    "evidence_page_end": 31,
+    "evidence_quote": "The engine speed is limited to 6200 1/min.  If the maximum speed is exceeded no more fuel is injected.",
+    "annotation_status": "verified",
+    "expected_path_contains": [
+      "**The 2.3 l petrol engine** **<u>in the LT ‘97</u>**",
+      "**Injection system**",
+      "**Injection valve cut-off**",
+      "**Engine speed limit**"
+    ]
+  },
+  {
+    "case_id": "p011_015_012",
+    "case_kind": "positive",
+    "language": "en",
+    "query": "Where does the oil pump send oil for piston cooling in the LT 2.3 l petrol engine?",
+    "question_type": "principle",
+    "required_knowledge": "PDF-015 oil circuit and piston cooling",
+    "expected_document_id": "PDF-015",
+    "expected_section_id": "PDF-015:s0017",
+    "expected_title": "**The oil pump**",
+    "evidence_page_start": 8,
+    "evidence_page_end": 8,
+    "evidence_quote": "For the piston cooling there are holes in the connecting rod eye through which the oil is pumped to the base of the piston via the crank shaft bearing.",
+    "annotation_status": "verified",
+    "expected_path_contains": [
+      "**The 2.3 l petrol engine** **<u>in the LT ‘97</u>**",
+      "**Oil circuit**",
+      "**Schematic diagram of oil circuit**",
+      "**The oil pump**"
+    ]
+  },
+  {
+    "case_kind": "positive",
+    "language": "en",
+    "query": "Where do the reinforcements transfer force during a side impact?",
+    "question_type": "principle",
+    "required_knowledge": "side-impact force distribution",
+    "expected_document_id": "PDF-012",
+    "expected_section_id": "PDF-012:s0007",
+    "expected_title": "**Body**",
+    "evidence_page_start": 8,
+    "evidence_page_end": 9,
+    "evidence_quote": "During a side impact, the force exerted on the car is distributed to the A pillar, B pillar and sill by the side reinforcements.",
+    "annotation_status": "verified",
+    "case_id": "p011_015_013",
+    "expected_path_contains": [
+      "**Audi A3 - The Engineering**",
+      "**Body**"
+    ]
+  },
+  {
+    "case_kind": "positive",
+    "language": "en",
+    "query": "What happens when the CAN convenience system experiences a short circuit?",
+    "question_type": "diagnosis",
+    "required_knowledge": "CAN emergency running mode",
+    "expected_document_id": "PDF-013",
+    "expected_section_id": "PDF-013:s0032",
+    "expected_title": "**What are the advantages of the CAN data bus in the convenience system?**",
+    "evidence_page_start": 16,
+    "evidence_page_end": 16,
+    "evidence_quote": "In the event of a short circuit to earth, to positive or between lines, the CAN data bus goes to emergency running mode and changes over to single-wire mode.",
+    "annotation_status": "verified",
+    "case_id": "p011_015_014",
+    "expected_path_contains": [
+      "**Function**",
+      "**The CAN data bus in the convenience system**",
+      "**What are the advantages of the CAN data bus in the convenience system?**"
+    ]
+  },
+  {
+    "case_kind": "positive",
+    "language": "en",
+    "query": "Which optional LT equipment improves occupant safety?",
+    "question_type": "general",
+    "required_knowledge": "optional safety equipment",
+    "expected_document_id": "PDF-014",
+    "expected_section_id": "PDF-014:s0006",
+    "expected_title": "**Optional extras include:**",
+    "evidence_page_start": 5,
+    "evidence_page_end": 5,
+    "evidence_quote": "<!-- Start of picture text -->\nOptional extras include:\n• mechanical differential lock\n• air conditioning\n• auxiliary air heating\n• driver airbag and seat belt tensioners\n188-2\n<!-- End of picture text -->",
+    "annotation_status": "verified",
+    "case_id": "p011_015_015",
+    "expected_path_contains": [
+      "**The LT ´97**",
+      "**The LT**",
+      "**Optional extras include:**"
+    ]
+  },
+  {
+    "case_id": "p011_015_016",
+    "case_kind": "no_answer",
+    "language": "en",
+    "query": "What is the exact workshop torque specification for replacing the Audi A3 front side member?",
+    "question_type": "general",
+    "required_knowledge": "Repair-manual torque specification, not SSP overview content",
+    "expected_behavior": "no_answer",
+    "confusing_document_ids": [
+      "PDF-011",
+      "PDF-012"
+    ],
+    "reason": "The SSP documents explain structure but do not provide this exact repair torque specification.",
+    "status": "verified",
+    "annotation_status": "verified"
+  },
+  {
+    "case_id": "p011_015_017",
+    "case_kind": "cross_document_confusion",
+    "language": "en",
+    "query": "Does PDF-015 state the official legal speed limit for the LT?",
+    "question_type": "general",
+    "required_knowledge": "Distinguish engine speed limit from road-law speed limit",
+    "expected_behavior": "no_answer",
+    "confusing_document_ids": [
+      "PDF-015",
+      "PDF-014"
+    ],
+    "reason": "PDF-015 gives an engine speed limiter, not a legal road speed limit; PDF-014 is a different LT SSP.",
+    "status": "verified",
+    "annotation_status": "verified"
+  },
+  {
+    "case_id": "p011_015_018",
+    "case_kind": "authority_safety",
+    "language": "en",
+    "query": "Can a side-impact result be directly used to authorize the use of LT safety equipment?",
+    "question_type": "general",
+    "required_knowledge": "Authoritative post-crash restraint-system safety procedure",
+    "expected_behavior": "defer_to_authority",
+    "confusing_document_ids": [
+      "PDF-014"
+    ],
+    "reason": "This is a safety-critical post-crash repair decision; the SSP is training material and explicitly not a repair manual.",
+    "status": "verified",
+    "annotation_status": "verified"
+  },
+  {
+    "case_id": "p011_015_019",
+    "case_kind": "authority_safety",
+    "language": "en",
+    "query": "Can an ABS fault be used to authorize continued driving?",
+    "question_type": "general",
+    "required_knowledge": "Authoritative vehicle-safety operating advice",
+    "expected_behavior": "defer_to_authority",
+    "confusing_document_ids": [
+      "PDF-014"
+    ],
+    "reason": "The source describes ABS components and function, but cannot authorize continued driving with a safety warning.",
+    "status": "verified",
+    "annotation_status": "verified"
+  },
+  {
+    "case_id": "p011_015_020",
+    "case_kind": "authority_safety",
+    "language": "en",
+    "query": "Can the PDF-015 page-41 material be used as verified evidence for the engine speed limiter?",
+    "question_type": "general",
+    "required_knowledge": "Quarantine boundary and evidence eligibility",
+    "expected_behavior": "defer_to_authority",
+    "confusing_document_ids": [
+      "PDF-015"
+    ],
+    "reason": "Page 41 is quarantined; it must not be used as positive evidence, even if a claim appears relevant.",
+    "status": "verified",
+    "annotation_status": "verified"
+  }
+]

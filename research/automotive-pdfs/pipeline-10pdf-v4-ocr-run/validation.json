@@ -1,0 +1,61 @@
+{
+  "pipeline_version": 4,
+  "documents": [
+    {
+      "document_id": "PDF-001",
+      "sections": 5,
+      "chunks": 9
+    },
+    {
+      "document_id": "PDF-002",
+      "sections": 66,
+      "chunks": 81
+    },
+    {
+      "document_id": "PDF-003",
+      "sections": 136,
+      "chunks": 126
+    },
+    {
+      "document_id": "PDF-004",
+      "sections": 87,
+      "chunks": 111
+    },
+    {
+      "document_id": "PDF-005",
+      "sections": 52,
+      "chunks": 37
+    },
+    {
+      "document_id": "PDF-006",
+      "sections": 107,
+      "chunks": 98
+    },
+    {
+      "document_id": "PDF-007",
+      "sections": 118,
+      "chunks": 98
+    },
+    {
+      "document_id": "PDF-008",
+      "sections": 1,
+      "chunks": 279
+    },
+    {
+      "document_id": "PDF-009",
+      "sections": 1,
+      "chunks": 24
+    },
+    {
+      "document_id": "PDF-010",
+      "sections": 112,
+      "chunks": 110
+    }
+  ],
+  "summary": {
+    "sections": 685,
+    "chunks": 973,
+    "duplicate_section_ids": 0,
+    "duplicate_chunk_ids": 0
+  }
+}

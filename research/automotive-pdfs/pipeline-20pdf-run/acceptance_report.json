@@ -1,0 +1,434 @@
+{
+  "pipeline_version": 4,
+  "scope": {
+    "documents": 20,
+    "pages": 1125
+  },
+  "structural_validation": {
+    "documents": 20,
+    "sections": 1689,
+    "chunks": 1760,
+    "duplicate_section_ids": 0,
+    "duplicate_chunk_ids": 0,
+    "broken_chunk_section_refs": 0,
+    "empty_sections": 0,
+    "empty_chunks": 0
+  },
+  "sqlite_validation": {
+    "documents": 20,
+    "sections": 1689,
+    "chunks": 1760,
+    "hash_verified_documents": 20,
+    "missing_hashes": 0
+  },
+  "quality_gate": {
+    "status": "blocked",
+    "blocking_issues": 13,
+    "documents_requiring_review": [
+      "PDF-002",
+      "PDF-015",
+      "PDF-017",
+      "PDF-018"
+    ],
+    "note": "Extraction and persistence completed; release remains blocked until listed content issues are resolved or visually approved."
+  },
+  "documents": [
+    {
+      "document_id": "PDF-001",
+      "expected_pages": 3,
+      "parsed_pages": 3,
+      "sections": 5,
+      "chunks": 9,
+      "source_sha256": "9d65fbedc54f630ba32e6624689fa613a793a91d6492f53aa67d68da7d2cd860",
+      "hash_match": true,
+      "parser_fallback_pages": 0,
+      "ocr_pages": 0,
+      "parser_failed_pages": 0,
+      "failed_page_numbers": [],
+      "replacement_character_chunks": [],
+      "status": "pass"
+    },
+    {
+      "document_id": "PDF-002",
+      "expected_pages": 64,
+      "parsed_pages": 64,
+      "sections": 66,
+      "chunks": 81,
+      "source_sha256": "9a53bf0c76e2d5248787ecc13d32384704d76604f52d14aad57eb29e2cee2596",
+      "hash_match": true,
+      "parser_fallback_pages": 0,
+      "ocr_pages": 0,
+      "parser_failed_pages": 0,
+      "failed_page_numbers": [],
+      "replacement_character_chunks": [
+        "PDF-002:s0023:c003"
+      ],
+      "status": "review_required"
+    },
+    {
+      "document_id": "PDF-003",
+      "expected_pages": 72,
+      "parsed_pages": 72,
+      "sections": 136,
+      "chunks": 126,
+      "source_sha256": "9976d6d51a45730230bad870792a8dcc8643135f87dcc310107d5c269ea87979",
+      "hash_match": true,
+      "parser_fallback_pages": 0,
+      "ocr_pages": 0,
+      "parser_failed_pages": 0,
+      "failed_page_numbers": [],
+      "replacement_character_chunks": [],
+      "status": "pass"
+    },
+    {
+      "document_id": "PDF-004",
+      "expected_pages": 88,
+      "parsed_pages": 88,
+      "sections": 87,
+      "chunks": 111,
+      "source_sha256": "94baee1401e25e43cd3ffb50c860a28ff89e8657e6d01f19b115598515c60303",
+      "hash_match": true,
+      "parser_fallback_pages": 0,
+      "ocr_pages": 0,
+      "parser_failed_pages": 0,
+      "failed_page_numbers": [],
+      "replacement_character_chunks": [],
+      "status": "pass"
+    },
+    {
+      "document_id": "PDF-005",
+      "expected_pages": 32,
+      "parsed_pages": 32,
+      "sections": 52,
+      "chunks": 37,
+      "source_sha256": "d86a2d7aa21ca89f7ac43e1e3a8930556323e7a63bc0d4ef7c675af4dd99386d",
+      "hash_match": true,
+      "parser_fallback_pages": 0,
+      "ocr_pages": 0,
+      "parser_failed_pages": 0,
+      "failed_page_numbers": [],
+      "replacement_character_chunks": [],
+      "status": "pass"
+    },
+    {
+      "document_id": "PDF-006",
+      "expected_pages": 60,
+      "parsed_pages": 60,
+      "sections": 107,
+      "chunks": 98,
+      "source_sha256": "c5fa466e559ffe78abb7f9ec4ebff561a48daa041c0d6b8b4263bacc81872415",
+      "hash_match": true,
+      "parser_fallback_pages": 0,
+      "ocr_pages": 0,
+      "parser_failed_pages": 0,
+      "failed_page_numbers": [],
+      "replacement_character_chunks": [],
+      "status": "pass"
+    },
+    {
+      "document_id": "PDF-007",
+      "expected_pages": 68,
+      "parsed_pages": 68,
+      "sections": 118,
+      "chunks": 98,
+      "source_sha256": "6ed56517b60e7b1b9fa9192c03f1014cbb35002539c3c28f88bc1fcb6fa4b24f",
+      "hash_match": true,
+      "parser_fallback_pages": 0,
+      "ocr_pages": 0,
+      "parser_failed_pages": 0,
+      "failed_page_numbers": [],
+      "replacement_character_chunks": [],
+      "status": "pass"
+    },
+    {
+      "document_id": "PDF-008",
+      "expected_pages": 40,
+      "parsed_pages": 40,
+      "sections": 1,
+      "chunks": 279,
+      "source_sha256": "e2bf2399d10348eea1ff25e04d7e0cad8d8c47c458515dbfc5efabf805d0bbef",
+      "hash_match": true,
+      "parser_fallback_pages": 40,
+      "ocr_pages": 40,
+      "parser_failed_pages": 0,
+      "failed_page_numbers": [],
+      "replacement_character_chunks": [],
+      "status": "pass"
+    },
+    {
+      "document_id": "PDF-009",
+      "expected_pages": 31,
+      "parsed_pages": 31,
+      "sections": 1,
+      "chunks": 24,
+      "source_sha256": "b72a02c43d3a46c07126c4f337085cab7f4aa53c854094e69238c20fc58c33e5",
+      "hash_match": true,
+      "parser_fallback_pages": 31,
+      "ocr_pages": 0,
+      "parser_failed_pages": 0,
+      "failed_page_numbers": [],
+      "replacement_character_chunks": [],
+      "status": "pass"
+    },
+    {
+      "document_id": "PDF-010",
+      "expected_pages": 92,
+      "parsed_pages": 92,
+      "sections": 112,
+      "chunks": 110,
+      "source_sha256": "de2a09ad62f0c00b1765c5218c344643b5e4095d2157908a8db0351afbb7d76e",
+      "hash_match": true,
+      "parser_fallback_pages": 0,
+      "ocr_pages": 0,
+      "parser_failed_pages": 0,
+      "failed_page_numbers": [],
+      "replacement_character_chunks": [],
+      "status": "pass"
+    },
+    {
+      "document_id": "PDF-011",
+      "expected_pages": 32,
+      "parsed_pages": 32,
+      "sections": 38,
+      "chunks": 28,
+      "source_sha256": "c3246ce317aa22893c504978cfb59bdae6d47e3fabc6ddb6b6a95c6ad234fb6b",
+      "hash_match": true,
+      "parser_fallback_pages": 0,
+      "ocr_pages": 0,
+      "parser_failed_pages": 0,
+      "failed_page_numbers": [],
+      "replacement_character_chunks": [],
+      "status": "pass"
+    },
+    {
+      "document_id": "PDF-012",
+      "expected_pages": 74,
+      "parsed_pages": 74,
+      "sections": 81,
+      "chunks": 56,
+      "source_sha256": "88216050e9a8b3fe39bf61aebeaacfb2532fe4f89e3123c165e1fb5a5b300032",
+      "hash_match": true,
+      "parser_fallback_pages": 0,
+      "ocr_pages": 0,
+      "parser_failed_pages": 0,
+      "failed_page_numbers": [],
+      "replacement_character_chunks": [],
+      "status": "pass"
+    },
+    {
+      "document_id": "PDF-013",
+      "expected_pages": 29,
+      "parsed_pages": 29,
+      "sections": 55,
+      "chunks": 53,
+      "source_sha256": "fa5e6c81a465e68480570ba1e18db90ca1aacd5837d092391fda9f764620fcaf",
+      "hash_match": true,
+      "parser_fallback_pages": 0,
+      "ocr_pages": 0,
+      "parser_failed_pages": 0,
+      "failed_page_numbers": [],
+      "replacement_character_chunks": [],
+      "status": "pass"
+    },
+    {
+      "document_id": "PDF-014",
+      "expected_pages": 71,
+      "parsed_pages": 71,
+      "sections": 62,
+      "chunks": 55,
+      "source_sha256": "fad53affd37577697a05d62ba6997e5750407f82140c5fb2dd41576072af7c42",
+      "hash_match": true,
+      "parser_fallback_pages": 0,
+      "ocr_pages": 0,
+      "parser_failed_pages": 0,
+      "failed_page_numbers": [],
+      "replacement_character_chunks": [],
+      "status": "pass"
+    },
+    {
+      "document_id": "PDF-015",
+      "expected_pages": 52,
+      "parsed_pages": 52,
+      "sections": 127,
+      "chunks": 96,
+      "source_sha256": "2d83df16c0cfa4836c95a10f4a0ec8e52670e7b3b5f1925ff8a33a8264f6ee7e",
+      "hash_match": true,
+      "parser_fallback_pages": 1,
+      "ocr_pages": 1,
+      "parser_failed_pages": 1,
+      "failed_page_numbers": [
+        41
+      ],
+      "replacement_character_chunks": [],
+      "status": "review_required"
+    },
+    {
+      "document_id": "PDF-016",
+      "expected_pages": 32,
+      "parsed_pages": 32,
+      "sections": 57,
+      "chunks": 50,
+      "source_sha256": "013c301ada5d32fcc601c8a6947bacc95a77debf0d394403058a77e90639a51d",
+      "hash_match": true,
+      "parser_fallback_pages": 0,
+      "ocr_pages": 0,
+      "parser_failed_pages": 0,
+      "failed_page_numbers": [],
+      "replacement_character_chunks": [],
+      "status": "pass"
+    },
+    {
+      "document_id": "PDF-017",
+      "expected_pages": 122,
+      "parsed_pages": 122,
+      "sections": 236,
+      "chunks": 189,
+      "source_sha256": "5586dd0c6db8b4c6f2e09e48b251859bfa5fbeca15c14e6524b414265c1e34ef",
+      "hash_match": true,
+      "parser_fallback_pages": 0,
+      "ocr_pages": 0,
+      "parser_failed_pages": 0,
+      "failed_page_numbers": [],
+      "replacement_character_chunks": [
+        "PDF-017:s0020:c001",
+        "PDF-017:s0023:c001",
+        "PDF-017:s0033:c001",
+        "PDF-017:s0067:c001",
+        "PDF-017:s0088:c001",
+        "PDF-017:s0101:c001",
+        "PDF-017:s0103:c001",
+        "PDF-017:s0113:c001",
+        "PDF-017:s0124:c001",
+        "PDF-017:s0194:c001"
+      ],
+      "status": "review_required"
+    },
+    {
+      "document_id": "PDF-018",
+      "expected_pages": 75,
+      "parsed_pages": 75,
+      "sections": 174,
+      "chunks": 124,
+      "source_sha256": "925ef04c715390d4f7dd9e34625d426a2b14cf6e7fb05161ae4b04ba3fe613dd",
+      "hash_match": true,
+      "parser_fallback_pages": 0,
+      "ocr_pages": 0,
+      "parser_failed_pages": 0,
+      "failed_page_numbers": [],
+      "replacement_character_chunks": [
+        "PDF-018:s0119:c001"
+      ],
+      "status": "review_required"
+    },
+    {
+      "document_id": "PDF-019",
+      "expected_pages": 48,
+      "parsed_pages": 48,
+      "sections": 90,
+      "chunks": 74,
+      "source_sha256": "0222a731230cd7e2f1fba06673dfaf8f2448852280eb70774926c9347a92e79c",
+      "hash_match": true,
+      "parser_fallback_pages": 0,
+      "ocr_pages": 0,
+      "parser_failed_pages": 0,
+      "failed_page_numbers": [],
+      "replacement_character_chunks": [],
+      "status": "pass"
+    },
+    {
+      "document_id": "PDF-020",
+      "expected_pages": 40,
+      "parsed_pages": 40,
+      "sections": 84,
+      "chunks": 62,
+      "source_sha256": "c893f26ab67c33772947b2908a64ffcc608394268dd2b6461566ceff95963ec5",
+      "hash_match": true,
+      "parser_fallback_pages": 0,
+      "ocr_pages": 0,
+      "parser_failed_pages": 0,
+      "failed_page_numbers": [],
+      "replacement_character_chunks": [],
+      "status": "pass"
+    }
+  ],
+  "issues": [
+    {
+      "type": "replacement_character",
+      "severity": "blocking",
+      "document_id": "PDF-002",
+      "chunk_id": "PDF-002:s0023:c003"
+    },
+    {
+      "type": "parser_failed_page",
+      "severity": "blocking_pending_visual_review",
+      "document_id": "PDF-015",
+      "page": 41
+    },
+    {
+      "type": "replacement_character",
+      "severity": "blocking",
+      "document_id": "PDF-017",
+      "chunk_id": "PDF-017:s0020:c001"
+    },
+    {
+      "type": "replacement_character",
+      "severity": "blocking",
+      "document_id": "PDF-017",
+      "chunk_id": "PDF-017:s0023:c001"
+    },
+    {
+      "type": "replacement_character",
+      "severity": "blocking",
+      "document_id": "PDF-017",
+      "chunk_id": "PDF-017:s0033:c001"
+    },
+    {
+      "type": "replacement_character",
+      "severity": "blocking",
+      "document_id": "PDF-017",
+      "chunk_id": "PDF-017:s0067:c001"
+    },
+    {
+      "type": "replacement_character",
+      "severity": "blocking",
+      "document_id": "PDF-017",
+      "chunk_id": "PDF-017:s0088:c001"
+    },
+    {
+      "type": "replacement_character",
+      "severity": "blocking",
+      "document_id": "PDF-017",
+      "chunk_id": "PDF-017:s0101:c001"
+    },
+    {
+      "type": "replacement_character",
+      "severity": "blocking",
+      "document_id": "PDF-017",
+      "chunk_id": "PDF-017:s0103:c001"
+    },
+    {
+      "type": "replacement_character",
+      "severity": "blocking",
+      "document_id": "PDF-017",
+      "chunk_id": "PDF-017:s0113:c001"
+    },
+    {
+      "type": "replacement_character",
+      "severity": "blocking",
+      "document_id": "PDF-017",
+      "chunk_id": "PDF-017:s0124:c001"
+    },
+    {
+      "type": "replacement_character",
+      "severity": "blocking",
+      "document_id": "PDF-017",
+      "chunk_id": "PDF-017:s0194:c001"
+    },
+    {
+      "type": "replacement_character",
+      "severity": "blocking",
+      "document_id": "PDF-018",
+      "chunk_id": "PDF-018:s0119:c001"
+    }
+  ]
+}

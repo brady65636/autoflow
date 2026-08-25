@@ -1,0 +1,1740 @@
+[
+  {
+    "pdf_id": "PDF-074",
+    "canonical_title": "SSP 252 1.4l 77 kW Engine with Petrol Direct Injection System in the Lupo",
+    "document_kind": "self_study_program",
+    "publisher": "Volkswagen AG",
+    "source_host": "www.vdveer-engineering.nl",
+    "distribution_type": "web_mirror",
+    "authority_class": "oem_training",
+    "service_authority": "principle_only",
+    "brands": [
+      "Volkswagen"
+    ],
+    "models": [],
+    "platforms": [],
+    "engine_families": [],
+    "engine_codes": [],
+    "transmissions": [],
+    "system_tags": [],
+    "language": "en",
+    "publication_year": null,
+    "applicability_scope": null,
+    "ranking_tier": "B",
+    "confidence": 0.9,
+    "evidence": [
+      {
+        "field": "canonical_title",
+        "source": "local PDF正文",
+        "page": 1,
+        "text": "SSP 252 1.4l 77 kW Engine with Petrol Direct Injection System in the Lupo"
+      },
+      {
+        "field": "document_kind",
+        "source": "local PDF正文",
+        "page": 1,
+        "text": "Self-Study Programme / Design and Function"
+      },
+      {
+        "field": "models",
+        "source": "local PDF正文",
+        "page": 2,
+        "text": "No specific model stated on cover/front matter"
+      }
+    ],
+    "review_flags": [
+      "SSP says it is not a workshop manual; not current repair authority"
+    ]
+  },
+  {
+    "pdf_id": "PDF-075",
+    "canonical_title": "SSP 253 GDI With Bosch Motronic MED7",
+    "document_kind": "self_study_program",
+    "publisher": "Volkswagen AG",
+    "source_host": "www.vdveer-engineering.nl",
+    "distribution_type": "web_mirror",
+    "authority_class": "oem_training",
+    "service_authority": "principle_only",
+    "brands": [
+      "Volkswagen"
+    ],
+    "models": [],
+    "platforms": [],
+    "engine_families": [],
+    "engine_codes": [],
+    "transmissions": [],
+    "system_tags": [],
+    "language": "en",
+    "publication_year": null,
+    "applicability_scope": null,
+    "ranking_tier": "B",
+    "confidence": 0.9,
+    "evidence": [
+      {
+        "field": "canonical_title",
+        "source": "local PDF正文",
+        "page": 1,
+        "text": "SSP 253 GDI With Bosch Motronic MED7"
+      },
+      {
+        "field": "document_kind",
+        "source": "local PDF正文",
+        "page": 1,
+        "text": "Self-Study Programme / Design and Function"
+      },
+      {
+        "field": "models",
+        "source": "local PDF正文",
+        "page": 2,
+        "text": "No specific model stated on cover/front matter"
+      }
+    ],
+    "review_flags": [
+      "SSP says it is not a workshop manual; not current repair authority"
+    ]
+  },
+  {
+    "pdf_id": "PDF-076",
+    "canonical_title": "SSP 254 AUDI A4 ´01 - Technical Features",
+    "document_kind": "self_study_program",
+    "publisher": "Audi AG",
+    "source_host": "www.vdveer-engineering.nl",
+    "distribution_type": "web_mirror",
+    "authority_class": "oem_training",
+    "service_authority": "principle_only",
+    "brands": [
+      "Audi"
+    ],
+    "models": [
+      "Audi A4"
+    ],
+    "platforms": [],
+    "engine_families": [],
+    "engine_codes": [],
+    "transmissions": [],
+    "system_tags": [],
+    "language": "en",
+    "publication_year": null,
+    "applicability_scope": null,
+    "ranking_tier": "B",
+    "confidence": 0.9,
+    "evidence": [
+      {
+        "field": "canonical_title",
+        "source": "local PDF正文",
+        "page": 1,
+        "text": "SSP 254 AUDI A4 ´01 - Technical Features"
+      },
+      {
+        "field": "document_kind",
+        "source": "local PDF正文",
+        "page": 1,
+        "text": "Self-Study Programme / Design and Function"
+      },
+      {
+        "field": "models",
+        "source": "local PDF正文",
+        "page": 2,
+        "text": "Audi A4"
+      }
+    ],
+    "review_flags": [
+      "SSP says it is not a workshop manual; not current repair authority"
+    ]
+  },
+  {
+    "pdf_id": "PDF-077",
+    "canonical_title": "SSP 255 The 2,0 l R4 and the 3,0 l V6 engines",
+    "document_kind": "self_study_program",
+    "publisher": "Volkswagen AG",
+    "source_host": "www.vdveer-engineering.nl",
+    "distribution_type": "web_mirror",
+    "authority_class": "oem_training",
+    "service_authority": "principle_only",
+    "brands": [
+      "Volkswagen"
+    ],
+    "models": [],
+    "platforms": [],
+    "engine_families": [],
+    "engine_codes": [],
+    "transmissions": [],
+    "system_tags": [],
+    "language": "en",
+    "publication_year": null,
+    "applicability_scope": null,
+    "ranking_tier": "B",
+    "confidence": 0.9,
+    "evidence": [
+      {
+        "field": "canonical_title",
+        "source": "local PDF正文",
+        "page": 1,
+        "text": "SSP 255 The 2,0 l R4 and the 3,0 l V6 engines"
+      },
+      {
+        "field": "document_kind",
+        "source": "local PDF正文",
+        "page": 1,
+        "text": "Self-Study Programme / Design and Function"
+      },
+      {
+        "field": "models",
+        "source": "local PDF正文",
+        "page": 2,
+        "text": "No specific model stated on cover/front matter"
+      }
+    ],
+    "review_flags": [
+      "SSP says it is not a workshop manual; not current repair authority"
+    ]
+  },
+  {
+    "pdf_id": "PDF-078",
+    "canonical_title": "SSP 256 VAS 5052",
+    "document_kind": "self_study_program",
+    "publisher": "Volkswagen AG",
+    "source_host": "www.vdveer-engineering.nl",
+    "distribution_type": "web_mirror",
+    "authority_class": "oem_training",
+    "service_authority": "principle_only",
+    "brands": [
+      "Volkswagen"
+    ],
+    "models": [],
+    "platforms": [],
+    "engine_families": [],
+    "engine_codes": [],
+    "transmissions": [],
+    "system_tags": [],
+    "language": "en",
+    "publication_year": null,
+    "applicability_scope": null,
+    "ranking_tier": "B",
+    "confidence": 0.9,
+    "evidence": [
+      {
+        "field": "canonical_title",
+        "source": "local PDF正文",
+        "page": 1,
+        "text": "SSP 256 VAS 5052"
+      },
+      {
+        "field": "document_kind",
+        "source": "local PDF正文",
+        "page": 1,
+        "text": "Self-Study Programme / Design and Function"
+      },
+      {
+        "field": "models",
+        "source": "local PDF正文",
+        "page": 2,
+        "text": "No specific model stated on cover/front matter"
+      }
+    ],
+    "review_flags": [
+      "SSP says it is not a workshop manual; not current repair authority"
+    ]
+  },
+  {
+    "pdf_id": "PDF-079",
+    "canonical_title": "SSP 257 Electric vacuum pump for brake servo unit",
+    "document_kind": "self_study_program",
+    "publisher": "Volkswagen AG",
+    "source_host": "www.vdveer-engineering.nl",
+    "distribution_type": "web_mirror",
+    "authority_class": "oem_training",
+    "service_authority": "principle_only",
+    "brands": [
+      "Volkswagen"
+    ],
+    "models": [],
+    "platforms": [],
+    "engine_families": [],
+    "engine_codes": [],
+    "transmissions": [],
+    "system_tags": [],
+    "language": "en",
+    "publication_year": null,
+    "applicability_scope": null,
+    "ranking_tier": "B",
+    "confidence": 0.9,
+    "evidence": [
+      {
+        "field": "canonical_title",
+        "source": "local PDF正文",
+        "page": 1,
+        "text": "SSP 257 Electric vacuum pump for brake servo unit"
+      },
+      {
+        "field": "document_kind",
+        "source": "local PDF正文",
+        "page": 1,
+        "text": "Self-Study Programme / Design and Function"
+      },
+      {
+        "field": "models",
+        "source": "local PDF正文",
+        "page": 2,
+        "text": "No specific model stated on cover/front matter"
+      }
+    ],
+    "review_flags": [
+      "SSP says it is not a workshop manual; not current repair authority"
+    ]
+  },
+  {
+    "pdf_id": "PDF-080",
+    "canonical_title": "SSP 258 The New Beetle RSi",
+    "document_kind": "self_study_program",
+    "publisher": "Volkswagen AG",
+    "source_host": "www.vdveer-engineering.nl",
+    "distribution_type": "web_mirror",
+    "authority_class": "oem_training",
+    "service_authority": "principle_only",
+    "brands": [
+      "Volkswagen"
+    ],
+    "models": [
+      "New Beetle RSi"
+    ],
+    "platforms": [],
+    "engine_families": [],
+    "engine_codes": [],
+    "transmissions": [],
+    "system_tags": [],
+    "language": "en",
+    "publication_year": null,
+    "applicability_scope": null,
+    "ranking_tier": "B",
+    "confidence": 0.9,
+    "evidence": [
+      {
+        "field": "canonical_title",
+        "source": "local PDF正文",
+        "page": 1,
+        "text": "SSP 258 The New Beetle RSi"
+      },
+      {
+        "field": "document_kind",
+        "source": "local PDF正文",
+        "page": 1,
+        "text": "Self-Study Programme / Design and Function"
+      },
+      {
+        "field": "models",
+        "source": "local PDF正文",
+        "page": 2,
+        "text": "New Beetle RSi"
+      }
+    ],
+    "review_flags": [
+      "SSP says it is not a workshop manual; not current repair authority"
+    ]
+  },
+  {
+    "pdf_id": "PDF-081",
+    "canonical_title": "SSP 259 EPHS Electrically Powered Hydraulic Steering",
+    "document_kind": "self_study_program",
+    "publisher": "Volkswagen AG",
+    "source_host": "www.vdveer-engineering.nl",
+    "distribution_type": "web_mirror",
+    "authority_class": "oem_training",
+    "service_authority": "principle_only",
+    "brands": [
+      "Volkswagen"
+    ],
+    "models": [],
+    "platforms": [],
+    "engine_families": [],
+    "engine_codes": [],
+    "transmissions": [],
+    "system_tags": [],
+    "language": "en",
+    "publication_year": null,
+    "applicability_scope": null,
+    "ranking_tier": "B",
+    "confidence": 0.9,
+    "evidence": [
+      {
+        "field": "canonical_title",
+        "source": "local PDF正文",
+        "page": 1,
+        "text": "SSP 259 EPHS Electrically Powered Hydraulic Steering"
+      },
+      {
+        "field": "document_kind",
+        "source": "local PDF正文",
+        "page": 1,
+        "text": "Self-Study Programme / Design and Function"
+      },
+      {
+        "field": "models",
+        "source": "local PDF正文",
+        "page": 2,
+        "text": "No specific model stated on cover/front matter"
+      }
+    ],
+    "review_flags": [
+      "SSP says it is not a workshop manual; not current repair authority"
+    ]
+  },
+  {
+    "pdf_id": "PDF-082",
+    "canonical_title": "SSP 260 The 1.2 ltr 3 cylinder petrol engines",
+    "document_kind": "self_study_program",
+    "publisher": "Volkswagen AG",
+    "source_host": "www.vdveer-engineering.nl",
+    "distribution_type": "web_mirror",
+    "authority_class": "oem_training",
+    "service_authority": "principle_only",
+    "brands": [
+      "Volkswagen"
+    ],
+    "models": [
+      "Polo Model Year 2002"
+    ],
+    "platforms": [],
+    "engine_families": [],
+    "engine_codes": [],
+    "transmissions": [],
+    "system_tags": [],
+    "language": "en",
+    "publication_year": null,
+    "applicability_scope": null,
+    "ranking_tier": "B",
+    "confidence": 0.9,
+    "evidence": [
+      {
+        "field": "canonical_title",
+        "source": "local PDF正文",
+        "page": 1,
+        "text": "SSP 260 The 1.2 ltr 3 cylinder petrol engines"
+      },
+      {
+        "field": "document_kind",
+        "source": "local PDF正文",
+        "page": 1,
+        "text": "Self-Study Programme / Design and Function"
+      },
+      {
+        "field": "models",
+        "source": "local PDF正文",
+        "page": 2,
+        "text": "Polo Model Year 2002"
+      }
+    ],
+    "review_flags": [
+      "SSP says it is not a workshop manual; not current repair authority"
+    ]
+  },
+  {
+    "pdf_id": "PDF-083",
+    "canonical_title": "SSP 261 The Passat W8",
+    "document_kind": "self_study_program",
+    "publisher": "Volkswagen AG",
+    "source_host": "www.vdveer-engineering.nl",
+    "distribution_type": "web_mirror",
+    "authority_class": "oem_training",
+    "service_authority": "principle_only",
+    "brands": [
+      "Volkswagen"
+    ],
+    "models": [
+      "Passat Model Year 2001"
+    ],
+    "platforms": [],
+    "engine_families": [],
+    "engine_codes": [],
+    "transmissions": [],
+    "system_tags": [],
+    "language": "en",
+    "publication_year": null,
+    "applicability_scope": null,
+    "ranking_tier": "B",
+    "confidence": 0.9,
+    "evidence": [
+      {
+        "field": "canonical_title",
+        "source": "local PDF正文",
+        "page": 1,
+        "text": "SSP 261 The Passat W8"
+      },
+      {
+        "field": "document_kind",
+        "source": "local PDF正文",
+        "page": 1,
+        "text": "Self-Study Programme / Design and Function"
+      },
+      {
+        "field": "models",
+        "source": "local PDF正文",
+        "page": 2,
+        "text": "Passat Model Year 2001"
+      }
+    ],
+    "review_flags": [
+      "SSP says it is not a workshop manual; not current repair authority"
+    ]
+  },
+  {
+    "pdf_id": "PDF-084",
+    "canonical_title": "SSP 262 Natural gas an alternative fuel for motor vehicles",
+    "document_kind": "self_study_program",
+    "publisher": "Volkswagen AG",
+    "source_host": "www.vdveer-engineering.nl",
+    "distribution_type": "web_mirror",
+    "authority_class": "oem_training",
+    "service_authority": "principle_only",
+    "brands": [
+      "Volkswagen"
+    ],
+    "models": [
+      "Transporter '91 bivalent",
+      "Golf BI FUEL"
+    ],
+    "platforms": [],
+    "engine_families": [],
+    "engine_codes": [],
+    "transmissions": [],
+    "system_tags": [],
+    "language": "en",
+    "publication_year": null,
+    "applicability_scope": null,
+    "ranking_tier": "B",
+    "confidence": 0.9,
+    "evidence": [
+      {
+        "field": "canonical_title",
+        "source": "local PDF正文",
+        "page": 1,
+        "text": "SSP 262 Natural gas an alternative fuel for motor vehicles"
+      },
+      {
+        "field": "document_kind",
+        "source": "local PDF正文",
+        "page": 1,
+        "text": "Self-Study Programme / Design and Function"
+      },
+      {
+        "field": "models",
+        "source": "local PDF正文",
+        "page": 2,
+        "text": "Transporter '91 bivalent; Golf BI FUEL"
+      }
+    ],
+    "review_flags": [
+      "SSP says it is not a workshop manual; not current repair authority"
+    ]
+  },
+  {
+    "pdf_id": "PDF-085",
+    "canonical_title": "SSP 263 Polo Model Year 2002",
+    "document_kind": "self_study_program",
+    "publisher": "Volkswagen AG",
+    "source_host": "www.vdveer-engineering.nl",
+    "distribution_type": "web_mirror",
+    "authority_class": "oem_training",
+    "service_authority": "principle_only",
+    "brands": [
+      "Volkswagen"
+    ],
+    "models": [
+      "Polo Model Year 2002"
+    ],
+    "platforms": [],
+    "engine_families": [],
+    "engine_codes": [],
+    "transmissions": [],
+    "system_tags": [],
+    "language": "en",
+    "publication_year": null,
+    "applicability_scope": null,
+    "ranking_tier": "B",
+    "confidence": 0.9,
+    "evidence": [
+      {
+        "field": "canonical_title",
+        "source": "local PDF正文",
+        "page": 1,
+        "text": "SSP 263 Polo Model Year 2002"
+      },
+      {
+        "field": "document_kind",
+        "source": "local PDF正文",
+        "page": 1,
+        "text": "Self-Study Programme / Design and Function"
+      },
+      {
+        "field": "models",
+        "source": "local PDF正文",
+        "page": 2,
+        "text": "Polo Model Year 2002"
+      }
+    ],
+    "review_flags": [
+      "SSP says it is not a workshop manual; not current repair authority"
+    ]
+  },
+  {
+    "pdf_id": "PDF-086",
+    "canonical_title": "SSP 264 The Brake Assist System",
+    "document_kind": "self_study_program",
+    "publisher": "Volkswagen AG",
+    "source_host": "www.vdveer-engineering.nl",
+    "distribution_type": "web_mirror",
+    "authority_class": "oem_training",
+    "service_authority": "principle_only",
+    "brands": [
+      "Volkswagen"
+    ],
+    "models": [],
+    "platforms": [],
+    "engine_families": [],
+    "engine_codes": [],
+    "transmissions": [],
+    "system_tags": [],
+    "language": "en",
+    "publication_year": null,
+    "applicability_scope": null,
+    "ranking_tier": "B",
+    "confidence": 0.9,
+    "evidence": [
+      {
+        "field": "canonical_title",
+        "source": "local PDF正文",
+        "page": 1,
+        "text": "SSP 264 The Brake Assist System"
+      },
+      {
+        "field": "document_kind",
+        "source": "local PDF正文",
+        "page": 1,
+        "text": "Self-Study Programme / Design and Function"
+      },
+      {
+        "field": "models",
+        "source": "local PDF正文",
+        "page": 2,
+        "text": "No specific model stated on cover/front matter"
+      }
+    ],
+    "review_flags": [
+      "SSP says it is not a workshop manual; not current repair authority"
+    ]
+  },
+  {
+    "pdf_id": "PDF-087",
+    "canonical_title": "SSP 265 Vehicle electrics in Polo Model Year 2002",
+    "document_kind": "self_study_program",
+    "publisher": "Volkswagen AG",
+    "source_host": "www.vdveer-engineering.nl",
+    "distribution_type": "web_mirror",
+    "authority_class": "oem_training",
+    "service_authority": "principle_only",
+    "brands": [
+      "Volkswagen"
+    ],
+    "models": [
+      "Polo Model Year 2002"
+    ],
+    "platforms": [],
+    "engine_families": [],
+    "engine_codes": [],
+    "transmissions": [],
+    "system_tags": [],
+    "language": "en",
+    "publication_year": null,
+    "applicability_scope": null,
+    "ranking_tier": "B",
+    "confidence": 0.9,
+    "evidence": [
+      {
+        "field": "canonical_title",
+        "source": "local PDF正文",
+        "page": 1,
+        "text": "SSP 265 Vehicle electrics in Polo Model Year 2002"
+      },
+      {
+        "field": "document_kind",
+        "source": "local PDF正文",
+        "page": 1,
+        "text": "Self-Study Programme / Design and Function"
+      },
+      {
+        "field": "models",
+        "source": "local PDF正文",
+        "page": 2,
+        "text": "Polo Model Year 2002"
+      }
+    ],
+    "review_flags": [
+      "SSP says it is not a workshop manual; not current repair authority"
+    ]
+  },
+  {
+    "pdf_id": "PDF-088",
+    "canonical_title": "SSP 266 2,8 ltr TDI Engine",
+    "document_kind": "self_study_program",
+    "publisher": "Volkswagen AG",
+    "source_host": "www.vdveer-engineering.nl",
+    "distribution_type": "web_mirror",
+    "authority_class": "oem_training",
+    "service_authority": "principle_only",
+    "brands": [
+      "Volkswagen"
+    ],
+    "models": [
+      "VW LT2"
+    ],
+    "platforms": [],
+    "engine_families": [],
+    "engine_codes": [],
+    "transmissions": [],
+    "system_tags": [],
+    "language": "en",
+    "publication_year": null,
+    "applicability_scope": null,
+    "ranking_tier": "B",
+    "confidence": 0.9,
+    "evidence": [
+      {
+        "field": "canonical_title",
+        "source": "local PDF正文",
+        "page": 1,
+        "text": "SSP 266 2,8 ltr TDI Engine"
+      },
+      {
+        "field": "document_kind",
+        "source": "local PDF正文",
+        "page": 1,
+        "text": "Self-Study Programme / Design and Function"
+      },
+      {
+        "field": "models",
+        "source": "local PDF正文",
+        "page": 2,
+        "text": "VW LT2"
+      }
+    ],
+    "review_flags": [
+      "SSP says it is not a workshop manual; not current repair authority"
+    ]
+  },
+  {
+    "pdf_id": "PDF-089",
+    "canonical_title": "SSP 267 The 6,0l W12 Engine in the Audi A8 Part 1",
+    "document_kind": "self_study_program",
+    "publisher": "Audi AG",
+    "source_host": "www.vdveer-engineering.nl",
+    "distribution_type": "web_mirror",
+    "authority_class": "oem_training",
+    "service_authority": "principle_only",
+    "brands": [
+      "Audi"
+    ],
+    "models": [
+      "Audi A8"
+    ],
+    "platforms": [],
+    "engine_families": [],
+    "engine_codes": [],
+    "transmissions": [],
+    "system_tags": [],
+    "language": "en",
+    "publication_year": null,
+    "applicability_scope": null,
+    "ranking_tier": "B",
+    "confidence": 0.9,
+    "evidence": [
+      {
+        "field": "canonical_title",
+        "source": "local PDF正文",
+        "page": 1,
+        "text": "SSP 267 The 6,0l W12 Engine in the Audi A8 Part 1"
+      },
+      {
+        "field": "document_kind",
+        "source": "local PDF正文",
+        "page": 1,
+        "text": "Self-Study Programme / Design and Function"
+      },
+      {
+        "field": "models",
+        "source": "local PDF正文",
+        "page": 2,
+        "text": "Audi A8"
+      }
+    ],
+    "review_flags": [
+      "SSP says it is not a workshop manual; not current repair authority"
+    ]
+  },
+  {
+    "pdf_id": "PDF-090",
+    "canonical_title": "SSP 268 The 6.0 l W12 engine in the Audi A8 - Part 2",
+    "document_kind": "self_study_program",
+    "publisher": "Audi AG",
+    "source_host": "www.vdveer-engineering.nl",
+    "distribution_type": "web_mirror",
+    "authority_class": "oem_training",
+    "service_authority": "principle_only",
+    "brands": [
+      "Audi"
+    ],
+    "models": [
+      "Audi A8"
+    ],
+    "platforms": [],
+    "engine_families": [],
+    "engine_codes": [],
+    "transmissions": [],
+    "system_tags": [],
+    "language": "en",
+    "publication_year": null,
+    "applicability_scope": null,
+    "ranking_tier": "B",
+    "confidence": 0.9,
+    "evidence": [
+      {
+        "field": "canonical_title",
+        "source": "local PDF正文",
+        "page": 1,
+        "text": "SSP 268 The 6.0 l W12 engine in the Audi A8 - Part 2"
+      },
+      {
+        "field": "document_kind",
+        "source": "local PDF正文",
+        "page": 1,
+        "text": "Self-Study Programme / Design and Function"
+      },
+      {
+        "field": "models",
+        "source": "local PDF正文",
+        "page": 2,
+        "text": "Audi A8"
+      }
+    ],
+    "review_flags": [
+      "SSP says it is not a workshop manual; not current repair authority"
+    ]
+  },
+  {
+    "pdf_id": "PDF-091",
+    "canonical_title": "SSP 269 Data transfer on CAN data bus II",
+    "document_kind": "self_study_program",
+    "publisher": "Volkswagen AG",
+    "source_host": "www.vdveer-engineering.nl",
+    "distribution_type": "web_mirror",
+    "authority_class": "oem_training",
+    "service_authority": "principle_only",
+    "brands": [
+      "Volkswagen"
+    ],
+    "models": [],
+    "platforms": [],
+    "engine_families": [],
+    "engine_codes": [],
+    "transmissions": [],
+    "system_tags": [],
+    "language": "en",
+    "publication_year": null,
+    "applicability_scope": null,
+    "ranking_tier": "B",
+    "confidence": 0.9,
+    "evidence": [
+      {
+        "field": "canonical_title",
+        "source": "local PDF正文",
+        "page": 1,
+        "text": "SSP 269 Data transfer on CAN data bus II"
+      },
+      {
+        "field": "document_kind",
+        "source": "local PDF正文",
+        "page": 1,
+        "text": "Self-Study Programme / Design and Function"
+      },
+      {
+        "field": "models",
+        "source": "local PDF正文",
+        "page": 2,
+        "text": "No specific model stated on cover/front matter"
+      }
+    ],
+    "review_flags": [
+      "SSP says it is not a workshop manual; not current repair authority"
+    ]
+  },
+  {
+    "pdf_id": "PDF-092",
+    "canonical_title": "SSP 270 The Phaeton",
+    "document_kind": "self_study_program",
+    "publisher": "Volkswagen AG",
+    "source_host": "www.vdveer-engineering.nl",
+    "distribution_type": "web_mirror",
+    "authority_class": "oem_training",
+    "service_authority": "principle_only",
+    "brands": [
+      "Volkswagen"
+    ],
+    "models": [],
+    "platforms": [],
+    "engine_families": [],
+    "engine_codes": [],
+    "transmissions": [],
+    "system_tags": [],
+    "language": "en",
+    "publication_year": null,
+    "applicability_scope": null,
+    "ranking_tier": "B",
+    "confidence": 0.9,
+    "evidence": [
+      {
+        "field": "canonical_title",
+        "source": "local PDF正文",
+        "page": 1,
+        "text": "SSP 270 The Phaeton"
+      },
+      {
+        "field": "document_kind",
+        "source": "local PDF正文",
+        "page": 1,
+        "text": "Self-Study Programme / Design and Function"
+      },
+      {
+        "field": "models",
+        "source": "local PDF正文",
+        "page": 2,
+        "text": "No specific model stated on cover/front matter"
+      }
+    ],
+    "review_flags": [
+      "SSP says it is not a workshop manual; not current repair authority"
+    ]
+  },
+  {
+    "pdf_id": "PDF-093",
+    "canonical_title": "SSP 271 The Phaeton Heating and Air Conditioning System",
+    "document_kind": "self_study_program",
+    "publisher": "Volkswagen AG",
+    "source_host": "www.vdveer-engineering.nl",
+    "distribution_type": "web_mirror",
+    "authority_class": "oem_training",
+    "service_authority": "principle_only",
+    "brands": [
+      "Volkswagen"
+    ],
+    "models": [],
+    "platforms": [],
+    "engine_families": [],
+    "engine_codes": [],
+    "transmissions": [],
+    "system_tags": [],
+    "language": "en",
+    "publication_year": null,
+    "applicability_scope": null,
+    "ranking_tier": "B",
+    "confidence": 0.9,
+    "evidence": [
+      {
+        "field": "canonical_title",
+        "source": "local PDF正文",
+        "page": 1,
+        "text": "SSP 271 The Phaeton Heating and Air Conditioning System"
+      },
+      {
+        "field": "document_kind",
+        "source": "local PDF正文",
+        "page": 1,
+        "text": "Self-Study Programme / Design and Function"
+      },
+      {
+        "field": "models",
+        "source": "local PDF正文",
+        "page": 2,
+        "text": "No specific model stated on cover/front matter"
+      }
+    ],
+    "review_flags": [
+      "SSP says it is not a workshop manual; not current repair authority"
+    ]
+  },
+  {
+    "pdf_id": "PDF-094",
+    "canonical_title": "SSP 272 The Phaeton Onboard Power Supply",
+    "document_kind": "self_study_program",
+    "publisher": "Volkswagen AG",
+    "source_host": "www.vdveer-engineering.nl",
+    "distribution_type": "web_mirror",
+    "authority_class": "oem_training",
+    "service_authority": "principle_only",
+    "brands": [
+      "Volkswagen"
+    ],
+    "models": [],
+    "platforms": [],
+    "engine_families": [],
+    "engine_codes": [],
+    "transmissions": [],
+    "system_tags": [],
+    "language": "en",
+    "publication_year": null,
+    "applicability_scope": null,
+    "ranking_tier": "B",
+    "confidence": 0.9,
+    "evidence": [
+      {
+        "field": "canonical_title",
+        "source": "local PDF正文",
+        "page": 1,
+        "text": "SSP 272 The Phaeton Onboard Power Supply"
+      },
+      {
+        "field": "document_kind",
+        "source": "local PDF正文",
+        "page": 1,
+        "text": "Self-Study Programme / Design and Function"
+      },
+      {
+        "field": "models",
+        "source": "local PDF正文",
+        "page": 2,
+        "text": "No specific model stated on cover/front matter"
+      }
+    ],
+    "review_flags": [
+      "SSP says it is not a workshop manual; not current repair authority"
+    ]
+  },
+  {
+    "pdf_id": "PDF-095",
+    "canonical_title": "SSP 273 Phaeton Convenience",
+    "document_kind": "self_study_program",
+    "publisher": "Volkswagen AG",
+    "source_host": "www.vdveer-engineering.nl",
+    "distribution_type": "web_mirror",
+    "authority_class": "oem_training",
+    "service_authority": "principle_only",
+    "brands": [
+      "Volkswagen"
+    ],
+    "models": [],
+    "platforms": [],
+    "engine_families": [],
+    "engine_codes": [],
+    "transmissions": [],
+    "system_tags": [],
+    "language": "en",
+    "publication_year": null,
+    "applicability_scope": null,
+    "ranking_tier": "B",
+    "confidence": 0.9,
+    "evidence": [
+      {
+        "field": "canonical_title",
+        "source": "local PDF正文",
+        "page": 1,
+        "text": "SSP 273 Phaeton Convenience"
+      },
+      {
+        "field": "document_kind",
+        "source": "local PDF正文",
+        "page": 1,
+        "text": "Self-Study Programme / Design and Function"
+      },
+      {
+        "field": "models",
+        "source": "local PDF正文",
+        "page": 2,
+        "text": "No specific model stated on cover/front matter"
+      }
+    ],
+    "review_flags": [
+      "SSP says it is not a workshop manual; not current repair authority"
+    ]
+  },
+  {
+    "pdf_id": "PDF-096",
+    "canonical_title": "SSP 274 The Phaeton Infotainment System",
+    "document_kind": "self_study_program",
+    "publisher": "Volkswagen AG",
+    "source_host": "www.vdveer-engineering.nl",
+    "distribution_type": "web_mirror",
+    "authority_class": "oem_training",
+    "service_authority": "principle_only",
+    "brands": [
+      "Volkswagen"
+    ],
+    "models": [],
+    "platforms": [],
+    "engine_families": [],
+    "engine_codes": [],
+    "transmissions": [],
+    "system_tags": [],
+    "language": "en",
+    "publication_year": null,
+    "applicability_scope": null,
+    "ranking_tier": "B",
+    "confidence": 0.9,
+    "evidence": [
+      {
+        "field": "canonical_title",
+        "source": "local PDF正文",
+        "page": 1,
+        "text": "SSP 274 The Phaeton Infotainment System"
+      },
+      {
+        "field": "document_kind",
+        "source": "local PDF正文",
+        "page": 1,
+        "text": "Self-Study Programme / Design and Function"
+      },
+      {
+        "field": "models",
+        "source": "local PDF正文",
+        "page": 2,
+        "text": "No specific model stated on cover/front matter"
+      }
+    ],
+    "review_flags": [
+      "SSP says it is not a workshop manual; not current repair authority"
+    ]
+  },
+  {
+    "pdf_id": "PDF-097",
+    "canonical_title": "SSP 275 The Phaeton Air Suspension with Controlled Damping",
+    "document_kind": "self_study_program",
+    "publisher": "Volkswagen AG",
+    "source_host": "www.vdveer-engineering.nl",
+    "distribution_type": "web_mirror",
+    "authority_class": "oem_training",
+    "service_authority": "principle_only",
+    "brands": [
+      "Volkswagen"
+    ],
+    "models": [],
+    "platforms": [],
+    "engine_families": [],
+    "engine_codes": [],
+    "transmissions": [],
+    "system_tags": [],
+    "language": "en",
+    "publication_year": null,
+    "applicability_scope": null,
+    "ranking_tier": "B",
+    "confidence": 0.9,
+    "evidence": [
+      {
+        "field": "canonical_title",
+        "source": "local PDF正文",
+        "page": 1,
+        "text": "SSP 275 The Phaeton Air Suspension with Controlled Damping"
+      },
+      {
+        "field": "document_kind",
+        "source": "local PDF正文",
+        "page": 1,
+        "text": "Self-Study Programme / Design and Function"
+      },
+      {
+        "field": "models",
+        "source": "local PDF正文",
+        "page": 2,
+        "text": "No specific model stated on cover/front matter"
+      }
+    ],
+    "review_flags": [
+      "SSP says it is not a workshop manual; not current repair authority"
+    ]
+  },
+  {
+    "pdf_id": "PDF-098",
+    "canonical_title": "SSP 276 The Phaeton Automatic Proximity Control (APC)",
+    "document_kind": "self_study_program",
+    "publisher": "Volkswagen AG",
+    "source_host": "www.vdveer-engineering.nl",
+    "distribution_type": "web_mirror",
+    "authority_class": "oem_training",
+    "service_authority": "principle_only",
+    "brands": [
+      "Volkswagen"
+    ],
+    "models": [],
+    "platforms": [],
+    "engine_families": [],
+    "engine_codes": [],
+    "transmissions": [],
+    "system_tags": [],
+    "language": "en",
+    "publication_year": null,
+    "applicability_scope": null,
+    "ranking_tier": "B",
+    "confidence": 0.9,
+    "evidence": [
+      {
+        "field": "canonical_title",
+        "source": "local PDF正文",
+        "page": 1,
+        "text": "SSP 276 The Phaeton Automatic Proximity Control (APC)"
+      },
+      {
+        "field": "document_kind",
+        "source": "local PDF正文",
+        "page": 1,
+        "text": "Self-Study Programme / Design and Function"
+      },
+      {
+        "field": "models",
+        "source": "local PDF正文",
+        "page": 2,
+        "text": "No specific model stated on cover/front matter"
+      }
+    ],
+    "review_flags": [
+      "SSP says it is not a workshop manual; not current repair authority"
+    ]
+  },
+  {
+    "pdf_id": "PDF-099",
+    "canonical_title": "SSP 277 The Phaeton Chassis",
+    "document_kind": "self_study_program",
+    "publisher": "Volkswagen AG",
+    "source_host": "www.vdveer-engineering.nl",
+    "distribution_type": "web_mirror",
+    "authority_class": "oem_training",
+    "service_authority": "principle_only",
+    "brands": [
+      "Volkswagen"
+    ],
+    "models": [],
+    "platforms": [],
+    "engine_families": [],
+    "engine_codes": [],
+    "transmissions": [],
+    "system_tags": [],
+    "language": "en",
+    "publication_year": null,
+    "applicability_scope": null,
+    "ranking_tier": "B",
+    "confidence": 0.9,
+    "evidence": [
+      {
+        "field": "canonical_title",
+        "source": "local PDF正文",
+        "page": 1,
+        "text": "SSP 277 The Phaeton Chassis"
+      },
+      {
+        "field": "document_kind",
+        "source": "local PDF正文",
+        "page": 1,
+        "text": "Self-Study Programme / Design and Function"
+      },
+      {
+        "field": "models",
+        "source": "local PDF正文",
+        "page": 2,
+        "text": "No specific model stated on cover/front matter"
+      }
+    ],
+    "review_flags": [
+      "SSP says it is not a workshop manual; not current repair authority"
+    ]
+  },
+  {
+    "pdf_id": "PDF-100",
+    "canonical_title": "SSP 278 The Audi A4 Cabriolet",
+    "document_kind": "self_study_program",
+    "publisher": "Audi AG",
+    "source_host": "www.vdveer-engineering.nl",
+    "distribution_type": "web_mirror",
+    "authority_class": "oem_training",
+    "service_authority": "principle_only",
+    "brands": [
+      "Audi"
+    ],
+    "models": [
+      "Audi A4 Cabriolet"
+    ],
+    "platforms": [],
+    "engine_families": [],
+    "engine_codes": [],
+    "transmissions": [],
+    "system_tags": [],
+    "language": "en",
+    "publication_year": null,
+    "applicability_scope": null,
+    "ranking_tier": "B",
+    "confidence": 0.9,
+    "evidence": [
+      {
+        "field": "canonical_title",
+        "source": "local PDF正文",
+        "page": 1,
+        "text": "SSP 278 The Audi A4 Cabriolet"
+      },
+      {
+        "field": "document_kind",
+        "source": "local PDF正文",
+        "page": 1,
+        "text": "Self-Study Programme / Design and Function"
+      },
+      {
+        "field": "models",
+        "source": "local PDF正文",
+        "page": 2,
+        "text": "Audi A4 Cabriolet"
+      }
+    ],
+    "review_flags": [
+      "SSP says it is not a workshop manual; not current repair authority"
+    ]
+  },
+  {
+    "pdf_id": "PDF-101",
+    "canonical_title": "首届长治技能大赛技术文件（汽车维修项目）",
+    "document_kind": "competition_document",
+    "publisher": "长治市人力资源和社会保障局",
+    "source_host": "rsj.changzhi.gov.cn",
+    "distribution_type": "government_web",
+    "authority_class": "government",
+    "service_authority": "administrative_only",
+    "brands": [],
+    "models": [],
+    "platforms": [],
+    "engine_families": [],
+    "engine_codes": [],
+    "transmissions": [],
+    "system_tags": [],
+    "language": "zh",
+    "publication_year": 2018,
+    "applicability_scope": "职业技能大赛汽车维修项目技术文件",
+    "ranking_tier": "C",
+    "confidence": 0.9,
+    "evidence": [
+      {
+        "field": "canonical_title",
+        "source": "local PDF正文",
+        "page": 1,
+        "text": "首届长治技能大赛技术文件（汽车维修项目）"
+      },
+      {
+        "field": "applicability_scope",
+        "source": "local PDF正文",
+        "page": 1,
+        "text": "职业技能大赛汽车维修项目技术文件"
+      },
+      {
+        "field": "publication_year",
+        "source": "local PDF正文",
+        "page": 1,
+        "text": "2018"
+      }
+    ],
+    "review_flags": []
+  },
+  {
+    "pdf_id": "PDF-102",
+    "canonical_title": "汽车运用与维修（含智能新能源汽车）培训站、考核站设备与工具清单",
+    "document_kind": "equipment_list",
+    "publisher": "北京中车行高新技术有限公司职业教育培训评价组织",
+    "source_host": "zchweb.oss-cn-beijing.aliyuncs.com",
+    "distribution_type": "government_web",
+    "authority_class": "commercial",
+    "service_authority": "general_reference",
+    "brands": [],
+    "models": [],
+    "platforms": [],
+    "engine_families": [],
+    "engine_codes": [],
+    "transmissions": [],
+    "system_tags": [
+      "汽车运用与维修",
+      "智能新能源汽车",
+      "培训设备",
+      "考核设备"
+    ],
+    "language": "zh",
+    "publication_year": null,
+    "applicability_scope": "汽车运用与维修（含智能新能源汽车）专业培训/考核设备与工具",
+    "ranking_tier": "C",
+    "confidence": 0.9,
+    "evidence": [
+      {
+        "field": "canonical_title",
+        "source": "local PDF正文",
+        "page": 1,
+        "text": "汽车运用与维修（含智能新能源汽车）培训站、考核站设备与工具清单"
+      },
+      {
+        "field": "applicability_scope",
+        "source": "local PDF正文",
+        "page": 1,
+        "text": "汽车运用与维修（含智能新能源汽车）专业培训/考核设备与工具"
+      }
+    ],
+    "review_flags": []
+  },
+  {
+    "pdf_id": "PDF-103",
+    "canonical_title": "专业人才培养方案（机电工程学院）",
+    "document_kind": "training_material",
+    "publisher": "鹤壁职业技术学院",
+    "source_host": "jwc.hbzy.edu.cn",
+    "distribution_type": "institutional_web",
+    "authority_class": "vocational",
+    "service_authority": "general_reference",
+    "brands": [],
+    "models": [],
+    "platforms": [],
+    "engine_families": [],
+    "engine_codes": [],
+    "transmissions": [],
+    "system_tags": [
+      "职业教育人才培养方案",
+      "汽车检测与维修技术",
+      "新能源汽车技术",
+      "机电一体化技术"
+    ],
+    "language": "zh",
+    "publication_year": 2020,
+    "applicability_scope": "机电工程学院多专业人才培养方案汇编；目录含汽车检测与维修、新能源汽车、机电一体化",
+    "ranking_tier": "C",
+    "confidence": 0.9,
+    "evidence": [
+      {
+        "field": "canonical_title",
+        "source": "local PDF正文",
+        "page": 1,
+        "text": "封面仅写“专业人才培养方案”并标注“机电工程学院”；目录列出汽车检测与维修、新能源汽车技术、机电一体化技术等多个专业"
+      },
+      {
+        "field": "applicability_scope",
+        "source": "local PDF正文",
+        "page": 1,
+        "text": "机电工程学院多专业人才培养方案汇编；目录含汽车检测与维修、新能源汽车、机电一体化"
+      },
+      {
+        "field": "publication_year",
+        "source": "local PDF正文",
+        "page": 1,
+        "text": "2020"
+      }
+    ],
+    "review_flags": [
+      "title-body conflict: 文件名含 auto repair，但封面/正文是机电工程学院多专业方案汇编；不得标为单一汽车维修方案"
+    ]
+  },
+  {
+    "pdf_id": "PDF-104",
+    "canonical_title": "汽车运用与维修专业人才培养方案",
+    "document_kind": "training_material",
+    "publisher": "福建理工学校",
+    "source_host": "www.fjlg.com",
+    "distribution_type": "institutional_web",
+    "authority_class": "vocational",
+    "service_authority": "general_reference",
+    "brands": [],
+    "models": [],
+    "platforms": [],
+    "engine_families": [],
+    "engine_codes": [],
+    "transmissions": [],
+    "system_tags": [],
+    "language": "zh",
+    "publication_year": 2025,
+    "applicability_scope": "汽车运用与维修专业人才培养方案",
+    "ranking_tier": "C",
+    "confidence": 0.9,
+    "evidence": [
+      {
+        "field": "canonical_title",
+        "source": "local PDF正文",
+        "page": 1,
+        "text": "汽车运用与维修专业人才培养方案"
+      },
+      {
+        "field": "applicability_scope",
+        "source": "local PDF正文",
+        "page": 1,
+        "text": "汽车运用与维修专业人才培养方案"
+      },
+      {
+        "field": "publication_year",
+        "source": "local PDF正文",
+        "page": 1,
+        "text": "2025"
+      }
+    ],
+    "review_flags": []
+  },
+  {
+    "pdf_id": "PDF-105",
+    "canonical_title": "新疆维吾尔自治区第一届职业技能大赛汽车维修项目技术工作文件",
+    "document_kind": "competition_document",
+    "publisher": "新疆维吾尔自治区人力资源和社会保障厅",
+    "source_host": "rst.xinjiang.gov.cn",
+    "distribution_type": "government_web",
+    "authority_class": "government",
+    "service_authority": "administrative_only",
+    "brands": [],
+    "models": [],
+    "platforms": [],
+    "engine_families": [],
+    "engine_codes": [],
+    "transmissions": [],
+    "system_tags": [],
+    "language": "zh",
+    "publication_year": 2022,
+    "applicability_scope": "职业技能大赛汽车维修项目",
+    "ranking_tier": "C",
+    "confidence": 0.9,
+    "evidence": [
+      {
+        "field": "canonical_title",
+        "source": "local PDF正文",
+        "page": 1,
+        "text": "新疆维吾尔自治区第一届职业技能大赛汽车维修项目技术工作文件"
+      },
+      {
+        "field": "applicability_scope",
+        "source": "local PDF正文",
+        "page": 1,
+        "text": "职业技能大赛汽车维修项目"
+      },
+      {
+        "field": "publication_year",
+        "source": "local PDF正文",
+        "page": 1,
+        "text": "2022"
+      }
+    ],
+    "review_flags": []
+  },
+  {
+    "pdf_id": "PDF-106",
+    "canonical_title": "汽车发动机故障诊断技巧与维修经验",
+    "document_kind": "academic_article",
+    "publisher": "农机使用与维修",
+    "source_host": "www.aeeisp.com",
+    "distribution_type": "journal_web",
+    "authority_class": "academic",
+    "service_authority": "general_reference",
+    "brands": [],
+    "models": [],
+    "platforms": [],
+    "engine_families": [],
+    "engine_codes": [],
+    "transmissions": [],
+    "system_tags": [
+      "汽车发动机",
+      "故障诊断",
+      "维修技术",
+      "电子诊断技术"
+    ],
+    "language": "zh",
+    "publication_year": 2023,
+    "applicability_scope": "一般汽车发动机故障诊断技巧与维修经验",
+    "ranking_tier": "C",
+    "confidence": 0.9,
+    "evidence": [
+      {
+        "field": "canonical_title",
+        "source": "local PDF正文",
+        "page": 1,
+        "text": "汽车发动机故障诊断技巧与维修经验"
+      },
+      {
+        "field": "applicability_scope",
+        "source": "local PDF正文",
+        "page": 1,
+        "text": "一般汽车发动机故障诊断技巧与维修经验"
+      },
+      {
+        "field": "publication_year",
+        "source": "local PDF正文",
+        "page": 1,
+        "text": "2023"
+      },
+      {
+        "field": "author",
+        "source": "local PDF正文",
+        "page": 1,
+        "text": "雷云进"
+      },
+      {
+        "field": "publisher",
+        "source": "local PDF正文",
+        "page": 1,
+        "text": "农机使用与维修"
+      }
+    ],
+    "review_flags": []
+  },
+  {
+    "pdf_id": "PDF-107",
+    "canonical_title": "汽车电气系统典型故障诊断与维修探究",
+    "document_kind": "academic_article",
+    "publisher": "农机使用与维修",
+    "source_host": "www.aeeisp.com",
+    "distribution_type": "journal_web",
+    "authority_class": "academic",
+    "service_authority": "general_reference",
+    "brands": [],
+    "models": [],
+    "platforms": [],
+    "engine_families": [],
+    "engine_codes": [],
+    "transmissions": [],
+    "system_tags": [
+      "汽车电气系统",
+      "故障诊断",
+      "维修方法"
+    ],
+    "language": "zh",
+    "publication_year": 2021,
+    "applicability_scope": "一般汽车电气系统典型故障诊断与维修方法",
+    "ranking_tier": "C",
+    "confidence": 0.9,
+    "evidence": [
+      {
+        "field": "canonical_title",
+        "source": "local PDF正文",
+        "page": 1,
+        "text": "汽车电气系统典型故障诊断与维修探究"
+      },
+      {
+        "field": "applicability_scope",
+        "source": "local PDF正文",
+        "page": 1,
+        "text": "一般汽车电气系统典型故障诊断与维修方法"
+      },
+      {
+        "field": "publication_year",
+        "source": "local PDF正文",
+        "page": 1,
+        "text": "2021"
+      },
+      {
+        "field": "author",
+        "source": "local PDF正文",
+        "page": 1,
+        "text": "刘世斌"
+      },
+      {
+        "field": "publisher",
+        "source": "local PDF正文",
+        "page": 1,
+        "text": "农机使用与维修"
+      }
+    ],
+    "review_flags": []
+  },
+  {
+    "pdf_id": "PDF-108",
+    "canonical_title": "新能源汽车维修与故障诊断技术",
+    "document_kind": "academic_article",
+    "publisher": "Anmai/安麦 工程技术论坛",
+    "source_host": "anmaichuban.com",
+    "distribution_type": "journal_web",
+    "authority_class": "academic",
+    "service_authority": "general_reference",
+    "brands": [],
+    "models": [
+      "新能源汽车"
+    ],
+    "platforms": [],
+    "engine_families": [],
+    "engine_codes": [],
+    "transmissions": [],
+    "system_tags": [
+      "新能源汽车",
+      "动力电池",
+      "驱动电机",
+      "电控系统",
+      "故障诊断"
+    ],
+    "language": "zh",
+    "publication_year": 2026,
+    "applicability_scope": "新能源汽车维修与故障诊断技术",
+    "ranking_tier": "C",
+    "confidence": 0.9,
+    "evidence": [
+      {
+        "field": "canonical_title",
+        "source": "local PDF正文",
+        "page": 1,
+        "text": "新能源汽车维修与故障诊断技术"
+      },
+      {
+        "field": "applicability_scope",
+        "source": "local PDF正文",
+        "page": 1,
+        "text": "新能源汽车维修与故障诊断技术"
+      },
+      {
+        "field": "publication_year",
+        "source": "local PDF正文",
+        "page": 1,
+        "text": "2026"
+      },
+      {
+        "field": "author",
+        "source": "local PDF正文",
+        "page": 1,
+        "text": "严万春"
+      },
+      {
+        "field": "publisher",
+        "source": "local PDF正文",
+        "page": 1,
+        "text": "Anmai/安麦 工程技术论坛"
+      }
+    ],
+    "review_flags": []
+  },
+  {
+    "pdf_id": "PDF-109",
+    "canonical_title": "基于电子诊断技术的新能源汽车检测与维修技术研究",
+    "document_kind": "academic_article",
+    "publisher": null,
+    "source_host": "www.issplc.com",
+    "distribution_type": "journal_web",
+    "authority_class": "academic",
+    "service_authority": "general_reference",
+    "brands": [],
+    "models": [],
+    "platforms": [],
+    "engine_families": [],
+    "engine_codes": [],
+    "transmissions": [],
+    "system_tags": [],
+    "language": "zh",
+    "publication_year": 2026,
+    "applicability_scope": "基于电子诊断技术的新能源汽车检测与维修研究",
+    "ranking_tier": "C",
+    "confidence": 0.9,
+    "evidence": [
+      {
+        "field": "canonical_title",
+        "source": "local PDF正文",
+        "page": 1,
+        "text": "基于电子诊断技术的新能源汽车检测与维修技术研究"
+      },
+      {
+        "field": "applicability_scope",
+        "source": "local PDF正文",
+        "page": 1,
+        "text": "基于电子诊断技术的新能源汽车检测与维修研究"
+      },
+      {
+        "field": "publication_year",
+        "source": "local PDF正文",
+        "page": 1,
+        "text": "2026"
+      }
+    ],
+    "review_flags": []
+  }
+]

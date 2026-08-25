@@ -1,0 +1,83 @@
+"""Small illustrative service catalog for the scheduling MVP."""
+
+from .models import ServiceOperation
+
+# The equipment entries model scarce shared resources for demonstration. A real
+# store would configure scarcity and availability from its operational data.
+MVP_OPERATIONS = [
+    ServiceOperation(
+        code="arrival-diagnosis",
+        name="到店诊断",
+        brand="volkswagen",
+        store_id="vw-4s-store-001",
+        duration_minutes=30,
+        required_skills={"inspection"},
+        required_workstation_types={"diagnostic"},
+    ),
+    ServiceOperation(
+        code="routine-maintenance",
+        name="常规保养",
+        brand="volkswagen",
+        store_id="vw-4s-store-001",
+        duration_minutes=60,
+        required_skills={"maintenance"},
+        required_workstation_types={"quick-service"},
+    ),
+    ServiceOperation(
+        code="engine-warning-diagnosis",
+        name="发动机故障灯诊断",
+        brand="volkswagen",
+        store_id="vw-4s-store-001",
+        duration_minutes=90,
+        required_skills={"engine-diagnosis"},
+        required_workstation_types={"diagnostic"},
+        required_equipment_types={"obd-scanner"},
+    ),
+    ServiceOperation(
+        code="electrical-diagnosis",
+        name="电气诊断",
+        brand="volkswagen",
+        store_id="vw-4s-store-001",
+        duration_minutes=90,
+        required_skills={"electrical-diagnosis"},
+        required_workstation_types={"diagnostic"},
+        required_equipment_types={"oem-diagnostic-tool"},
+    ),
+    ServiceOperation(
+        code="brake-inspection",
+        name="制动检查",
+        brand="volkswagen",
+        store_id="vw-4s-store-001",
+        duration_minutes=30,
+        required_skills={"brake"},
+        required_workstation_types={"lift"},
+    ),
+    ServiceOperation(
+        code="brake-pad-replacement",
+        name="更换刹车片",
+        brand="volkswagen",
+        store_id="vw-4s-store-001",
+        duration_minutes=120,
+        required_skills={"brake"},
+        required_workstation_types={"lift"},
+    ),
+    ServiceOperation(
+        code="wheel-alignment",
+        name="四轮定位",
+        brand="volkswagen",
+        store_id="vw-4s-store-001",
+        duration_minutes=60,
+        required_skills={"alignment"},
+        required_workstation_types={"alignment"},
+        required_equipment_types={"alignment-machine"},
+    ),
+    ServiceOperation(
+        code="final-quality-inspection",
+        name="竣工质检",
+        brand="volkswagen",
+        store_id="vw-4s-store-001",
+        duration_minutes=20,
+        required_skills={"quality-inspection"},
+        required_workstation_types={"inspection"},
+    ),
+]

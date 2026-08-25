@@ -1,0 +1,50 @@
+[
+  {
+    "filename": "102_changzhi_auto_repair_competition_brake_records.pdf",
+    "source": "https://rsj.changzhi.gov.cn/zypx/zypxhjnjd/201809/W020180930415286169662.pdf",
+    "sha256": "7852d6daed0656999f77bca154d79617140b196cb99f01d78306c0cf4a56f12a",
+    "bytes": 480314
+  },
+  {
+    "filename": "103_auto_repair_training_station_equipment.pdf",
+    "source": "http://zchweb.oss-cn-beijing.aliyuncs.com/contract/temp/2021120915585358301.pdf",
+    "sha256": "e649b80f5474b4e7901db50838b79d71dd9138fa08db16ddbb337f9c546b9afc",
+    "bytes": 1299865
+  },
+  {
+    "filename": "104_dexi_auto_repair_technical_training_plan.pdf",
+    "source": "https://jwc.hbzy.edu.cn/__local/5/40/BD/AA560B332C79D17C0A481257B90_A609DDE0_19ED0E.pdf",
+    "sha256": "b28f304bfe6e4a49725ce208e9a28109be8549c4408dde895f0a21d6156b22d9",
+    "bytes": 1699086
+  },
+  {
+    "filename": "105_auto_operation_repair_training_plan.pdf",
+    "source": "https://www.fjlg.com/wp-content/uploads/2025/08/2025_Ji_Qi_Che_Yun_Yong_Yu_Wei_Xiu_Zhuan_Ye_Ren_Cai_Pei_Yang_Fang_An.pdf",
+    "sha256": "a4b6f0740ef59ef2514b914fb74fae9feeaa68dfed54f44a6cdebf4981d48f16",
+    "bytes": 1699950
+  },
+  {
+    "filename": "106_xinjiang_auto_repair_competition_technical_file.pdf",
+    "source": "https://rst.xinjiang.gov.cn/xjrst/tzgg/202206/3d6de9b6376048549c7bf74c293b1b0c/files/17.%E6%B1%BD%E8%BD%A6%E7%BB%B4%E4%BF%AE%E9%A1%B9%E7%9B%AE%E6%8A%80%E6%9C%AF%E5%B7%A5%E4%BD%9C%E6%96%87%E4%BB%B6.pdf",
+    "sha256": "9d7cef760112cdcc987894459252665654d6aec54d755ffa21133c947a8d7db0",
+    "bytes": 1663532
+  },
+  {
+    "filename": "107_engine_fault_diagnosis_repair_article.pdf",
+    "source": "https://www.aeeisp.com/njsyywx/cn/article/pdf/preview/10.14031/j.cnki.njwx.2023.01.025.pdf",
+    "sha256": "3de8142d4887a55faecaa4e7d550471102451c9c72af52d340b1102ff34b904c",
+    "bytes": 1275935
+  },
+  {
+    "filename": "108_auto_electrical_fault_diagnosis_repair_article.pdf",
+    "source": "https://www.aeeisp.com/njsyywx/cn/article/pdf/preview/10.14031/j.cnki.njwx.2021.02.044.pdf",
+    "sha256": "d04441db0ac57356a4bf3381b9a55df56f595fa65c6eacf98533992aa32b725a",
+    "bytes": 128540
+  },
+  {
+    "filename": "109_new_energy_vehicle_diagnosis_repair_article.pdf",
+    "source": "https://anmaichuban.com/static/upload/file/20260107/1767746811190787.pdf",
+    "sha256": "fa2db0f016b5597f9c99b27f3ef0c440255a018721cf17479739966ea00de0dc",
+    "bytes": 1293458
+  }
+]

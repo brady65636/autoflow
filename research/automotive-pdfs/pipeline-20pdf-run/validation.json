@@ -1,0 +1,11 @@
+{
+  "status": "pass",
+  "documents": 20,
+  "section_count": 1689,
+  "chunk_count": 1760,
+  "replacement_character_chunks": 12,
+  "errors": [],
+  "warnings": [
+    "replacement characters found in 12 chunks"
+  ]
+}

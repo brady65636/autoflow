@@ -1,0 +1,209 @@
+{
+  "dataset": "research/automotive-pdfs/pipeline-20pdf-run/agent_rag_smoke_cases.json",
+  "positive_cases": 5,
+  "negative_cases_not_scored_by_retrieval": 3,
+  "document_hit_at_15": 1.0,
+  "section_hit_at_15": 1.0,
+  "section_hit_at_1": 0.8,
+  "results": [
+    {
+      "case_id": "p001_005_pos_pdf002_02",
+      "expected_document_id": "PDF-002",
+      "expected_section_id": "PDF-002:s0041",
+      "document_hit": true,
+      "section_hit": true,
+      "expected_section_rank": 2,
+      "top_sections": [
+        {
+          "title": "Fuel system",
+          "section_id": "PDF-002:s0047",
+          "rank": 1
+        },
+        {
+          "title": "High-pressure fuel system",
+          "section_id": "PDF-002:s0041",
+          "rank": 2
+        },
+        {
+          "title": "Charge air cooling system",
+          "section_id": "PDF-002:s0040",
+          "rank": 3
+        }
+      ],
+      "sources": [
+        {
+          "filename": "01_SSP_511_EA211_petrol_engine.pdf",
+          "metadata_confidence": 0.95
+        },
+        {
+          "filename": "06_SSP_588_Jetta_2019.pdf",
+          "metadata_confidence": 0.95
+        }
+      ]
+    },
+    {
+      "case_id": "p001_005_pos_pdf003_01",
+      "expected_document_id": "PDF-003",
+      "expected_section_id": "PDF-003:s0042",
+      "document_hit": true,
+      "section_hit": true,
+      "expected_section_rank": 1,
+      "top_sections": [
+        {
+          "title": "**Camshaft adjuster**",
+          "section_id": "PDF-003:s0042",
+          "rank": 1
+        },
+        {
+          "title": "Inlet and exhaust camshaft adjustment",
+          "section_id": "PDF-002:s0023",
+          "rank": 2
+        },
+        {
+          "title": "Please note:",
+          "section_id": "PDF-003:s0003",
+          "rank": 3
+        }
+      ],
+      "sources": [
+        {
+          "filename": "vag_011_View_document_SSP_192_The_Passat_1997_The_Engineering__925ef04c7153.pdf",
+          "metadata_confidence": 0.95
+        },
+        {
+          "filename": "02_SSP_920243_EA888_gen3.pdf",
+          "metadata_confidence": 0.95
+        },
+        {
+          "filename": "01_SSP_511_EA211_petrol_engine.pdf",
+          "metadata_confidence": 0.95
+        },
+        {
+          "filename": "vag_005_View_document_SSP_182_Audi_A3_-_The_Engineering__88216050e9a8.pdf",
+          "metadata_confidence": 0.95
+        },
+        {
+          "filename": "vag_010_View_document_SSP_191_Passat_B5__5586dd0c6db8.pdf",
+          "metadata_confidence": 0.95
+        }
+      ]
+    },
+    {
+      "case_id": "p006_010_003",
+      "expected_document_id": "PDF-006",
+      "expected_section_id": "PDF-006:s0071",
+      "document_hit": true,
+      "section_hit": true,
+      "expected_section_rank": 1,
+      "top_sections": [
+        {
+          "title": "Service and winter position",
+          "section_id": "PDF-006:s0071",
+          "rank": 1
+        },
+        {
+          "title": "Wiper functions",
+          "section_id": "PDF-006:s0070",
+          "rank": 2
+        },
+        {
+          "title": "Alternating rest position",
+          "section_id": "PDF-006:s0072",
+          "rank": 3
+        }
+      ],
+      "sources": [
+        {
+          "filename": "05_SSP_307_Touran_electrical_system.pdf",
+          "metadata_confidence": 0.95
+        }
+      ]
+    },
+    {
+      "case_id": "p011_015_006",
+      "expected_document_id": "PDF-013",
+      "expected_section_id": "PDF-013:s0023",
+      "document_hit": true,
+      "section_hit": true,
+      "expected_section_rank": 1,
+      "top_sections": [
+        {
+          "title": "**CAN data bus allocation**",
+          "section_id": "PDF-013:s0023",
+          "rank": 1
+        },
+        {
+          "title": "**Bit 1:**",
+          "section_id": "PDF-013:s0029",
+          "rank": 2
+        },
+        {
+          "title": "**How are allocations made?**",
+          "section_id": "PDF-013:s0025",
+          "rank": 3
+        }
+      ],
+      "sources": [
+        {
+          "filename": "05_SSP_307_Touran_electrical_system.pdf",
+          "metadata_confidence": 0.95
+        },
+        {
+          "filename": "vag_012_View_document_SSP_193_Convenience_System__0222a731230c.pdf",
+          "metadata_confidence": 0.95
+        },
+        {
+          "filename": "vag_006_View_document_SSP_186_The_CAN_Databus__fa5e6c81a465.pdf",
+          "metadata_confidence": 0.95
+        }
+      ]
+    },
+    {
+      "case_id": "p016_020_002",
+      "expected_document_id": "PDF-016",
+      "expected_section_id": "PDF-016:s0028",
+      "document_hit": true,
+      "section_hit": true,
+      "expected_section_rank": 1,
+      "top_sections": [
+        {
+          "title": "**Effect of signal failure:**",
+          "section_id": "PDF-016:s0028",
+          "rank": 1
+        },
+        {
+          "title": "**Effect of signal failure:**",
+          "section_id": "PDF-016:s0042",
+          "rank": 2
+        },
+        {
+          "title": "**Effect of signal failure:**",
+          "section_id": "PDF-016:s0036",
+          "rank": 3
+        }
+      ],
+      "sources": [
+        {
+          "filename": "vag_009_View_document_SSP_190_Adjustable_Turbocharger__013c301ada5d.pdf",
+          "metadata_confidence": 0.95
+        },
+        {
+          "filename": "vag_013_View_document_SSP_195_The_2.3-ltr_V5_Engine__c893f26ab67c.pdf",
+          "metadata_confidence": 0.95
+        },
+        {
+          "filename": "vag_003_View_document_SSP_175_On-Board_Diagnosis_System__de2a09ad62f0.pdf",
+          "metadata_confidence": 0.95
+        },
+        {
+          "filename": "01_SSP_511_EA211_petrol_engine.pdf",
+          "metadata_confidence": 0.95
+        },
+        {
+          "filename": "vag_008_View_document_SSP_189_The_2.3_l_petrol_engine_in_the_LT_1997__2d83df16c0cf.pdf",
+          "metadata_confidence": 0.95
+        }
+      ]
+    }
+  ]
+}

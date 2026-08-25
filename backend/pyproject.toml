@@ -1,0 +1,52 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "autoflow-scheduling"
+version = "0.2.0"
+description = "Minimal AutoFlow scheduling domain and First-Fit planner"
+requires-python = ">=3.11"
+dependencies = [
+    "pydantic>=2.7,<3",
+    "sqlalchemy>=2.0,<3",
+    "fastapi>=0.115,<1",
+    "uvicorn>=0.30,<1",
+    "pymupdf>=1.28.2",
+    "pymupdf4llm>=1.28.2",
+    "camelot-py>=2.0.0",
+    "langchain-text-splitters>=1.1.2",
+    "langsmith>=0.11,<1",
+    "numpy>=2.0",
+    "rank-bm25>=0.2",
+    "torch>=2.0",
+    "transformers>=4.51",
+    "langgraph>=0.2",
+    "langgraph-checkpoint-sqlite>=2.0",
+    "langchain-openai>=0.3",
+    "python-dotenv>=1.0",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0", "ruff>=0.6", "httpx2>=0.1"]
+[project.scripts]
+autoflow-quality = "autoflow_scheduling.observability.quality_cli:main"
+autoflow-langsmith-eval = "autoflow_scheduling.observability.langsmith_evaluation:main"
+autoflow-knowledge-import = "autoflow_scheduling.knowledge.sqlite_import:main"
+autoflow-knowledge-embeddings = "autoflow_scheduling.knowledge.embedding_store:main"
+autoflow-knowledge-verify = "autoflow_scheduling.knowledge.sqlite_import:verify_main"
+autoflow-knowledge-batch = "autoflow_scheduling.knowledge.batch_ingestion:main"
+autoflow-agent = "autoflow_scheduling.agent_cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 100
+
+[tool.ruff.lint]
+select = ["E", "F", "I"]

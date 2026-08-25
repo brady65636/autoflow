@@ -1,0 +1,80 @@
+[
+  {
+    "type": "replacement_character",
+    "severity": "blocking",
+    "document_id": "PDF-002",
+    "chunk_id": "PDF-002:s0023:c003"
+  },
+  {
+    "type": "parser_failed_page",
+    "severity": "blocking_pending_visual_review",
+    "document_id": "PDF-015",
+    "page": 41
+  },
+  {
+    "type": "replacement_character",
+    "severity": "blocking",
+    "document_id": "PDF-017",
+    "chunk_id": "PDF-017:s0020:c001"
+  },
+  {
+    "type": "replacement_character",
+    "severity": "blocking",
+    "document_id": "PDF-017",
+    "chunk_id": "PDF-017:s0023:c001"
+  },
+  {
+    "type": "replacement_character",
+    "severity": "blocking",
+    "document_id": "PDF-017",
+    "chunk_id": "PDF-017:s0033:c001"
+  },
+  {
+    "type": "replacement_character",
+    "severity": "blocking",
+    "document_id": "PDF-017",
+    "chunk_id": "PDF-017:s0067:c001"
+  },
+  {
+    "type": "replacement_character",
+    "severity": "blocking",
+    "document_id": "PDF-017",
+    "chunk_id": "PDF-017:s0088:c001"
+  },
+  {
+    "type": "replacement_character",
+    "severity": "blocking",
+    "document_id": "PDF-017",
+    "chunk_id": "PDF-017:s0101:c001"
+  },
+  {
+    "type": "replacement_character",
+    "severity": "blocking",
+    "document_id": "PDF-017",
+    "chunk_id": "PDF-017:s0103:c001"
+  },
+  {
+    "type": "replacement_character",
+    "severity": "blocking",
+    "document_id": "PDF-017",
+    "chunk_id": "PDF-017:s0113:c001"
+  },
+  {
+    "type": "replacement_character",
+    "severity": "blocking",
+    "document_id": "PDF-017",
+    "chunk_id": "PDF-017:s0124:c001"
+  },
+  {
+    "type": "replacement_character",
+    "severity": "blocking",
+    "document_id": "PDF-017",
+    "chunk_id": "PDF-017:s0194:c001"
+  },
+  {
+    "type": "replacement_character",
+    "severity": "blocking",
+    "document_id": "PDF-018",
+    "chunk_id": "PDF-018:s0119:c001"
+  }
+]

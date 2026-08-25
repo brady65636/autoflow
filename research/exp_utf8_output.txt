@@ -1,0 +1,18 @@
+所有文字元素: 112
+明显旋转文字: 103
+检测到疑似水印区域:
+(144.62852478027344, 314.2037658691406, 485.2862548828125, 652.7969970703125)
+
+========== 清理后的正文 ==========
+
+Service Training
+Self-Study Programme 511
+The New EA211 Petrol Engine Family
+Design and function
+
+========== 清理后的正文 ==========
+
+Service Training
+Self-Study Programme 511
+The New EA211 Petrol Engine Family
+Design and function

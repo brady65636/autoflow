@@ -1,0 +1,863 @@
+[
+  {
+    "case_id": "p001_005_pos_pdf001_01",
+    "query": "How many vehicles had been produced on the MQB platform by 2022?",
+    "question_type": "specification",
+    "required_knowledge": "MQB平台的累计产量及其作为大众集团技术平台的定位",
+    "expected_document_id": "PDF-001",
+    "expected_section_id": "PDF-001:s0002",
+    "expected_title": "**Modular toolkit strategy as recipe for success: the MQB celebrates tenth anniversary**",
+    "expected_path_contains": [
+      "Modular toolkit strategy as recipe for success: the MQB celebrates tenth anniversary"
+    ],
+    "language": "en"
+  },
+  {
+    "case_id": "p001_005_pos_pdf001_02",
+    "query": "How does the MQB support economies of scale and wider access to driver-assistance technology?",
+    "question_type": "principle",
+    "required_knowledge": "The carry-over part concept, large quantities, and how they support technology adoption across vehicle classes",
+    "expected_document_id": "PDF-001",
+    "expected_section_id": "PDF-001:s0004",
+    "expected_title": "**Media Information**",
+    "expected_path_contains": [
+      "**Media Information**"
+    ],
+    "language": "en"
+  },
+  {
+    "case_id": "p001_005_pos_pdf001_03",
+    "query": "What differentiated products can MQB manufacture on the same production line?",
+    "question_type": "principle",
+    "required_knowledge": "MQB对不同轴距、轮距及不同品牌车型共线生产的支持",
+    "expected_document_id": "PDF-001",
+    "expected_section_id": "PDF-001:s0005",
+    "expected_title": "**Media Information**",
+    "expected_path_contains": [
+      "**Media Information**"
+    ],
+    "language": "en"
+  },
+  {
+    "case_id": "p001_005_pos_pdf002_01",
+    "query": "How is the EA211 camshaft toothed belt tensioned and guided?",
+    "question_type": "principle",
+    "required_knowledge": "The maintenance-free toothed-belt drive and the functions of its automatic tensioning roller and idler roller",
+    "expected_document_id": "PDF-002",
+    "expected_section_id": "PDF-002:s0017",
+    "expected_title": "Toothed belt drive",
+    "expected_path_contains": [
+      "Engine mechanics",
+      "Toothed belt drive"
+    ],
+    "language": "en"
+  },
+  {
+    "case_id": "p001_005_pos_pdf002_02",
+    "query": "What are the high-pressure fuel system pressure ranges for the 1.2-litre and 1.4-litre EA211 TSI engines?",
+    "question_type": "specification",
+    "required_knowledge": "不同排量TSI发动机的高压燃油压力调节范围",
+    "expected_document_id": "PDF-002",
+    "expected_section_id": "PDF-002:s0041",
+    "expected_title": "High-pressure fuel system",
+    "expected_path_contains": [
+      "Engine mechanics",
+      "Fuel system",
+      "High-pressure fuel system"
+    ],
+    "language": "en"
+  },
+  {
+    "case_id": "p001_005_pos_pdf002_03",
+    "query": "What is the stated purpose of the T10494 camshaft clamp in the EA211 special-tools table?",
+    "question_type": "specification",
+    "required_knowledge": "The documented usage of special tool T10494",
+    "expected_document_id": "PDF-002",
+    "expected_section_id": "PDF-002:s0061",
+    "expected_title": "Special tools",
+    "expected_path_contains": [
+      "Service",
+      "Special tools"
+    ],
+    "language": "en"
+  },
+  {
+    "case_id": "p001_005_pos_pdf003_01",
+    "query": "Why did the third-generation EA888 adopt a camshaft adjuster on the exhaust camshaft?",
+    "question_type": "principle",
+    "required_knowledge": "排气凸轮轴调节与AVS对不同负荷工况换气需求和扭矩输出的作用",
+    "expected_document_id": "PDF-003",
+    "expected_section_id": "PDF-003:s0042",
+    "expected_title": "**Camshaft adjuster**",
+    "expected_path_contains": [
+      "**Engine mechanicals**",
+      "**Auxiliaries mounting bracket**",
+      "**Camshaft adjuster**"
+    ],
+    "language": "en"
+  },
+  {
+    "case_id": "p001_005_pos_pdf003_02",
+    "query": "What does actuator N493 regulate, and what temperature range can it enable?",
+    "question_type": "specification",
+    "required_knowledge": "N493 coolant-flow regulation mechanism and its documented variable engine operating-temperature range",
+    "expected_document_id": "PDF-003",
+    "expected_section_id": "PDF-003:s0070",
+    "expected_title": "**Engine Temperature Control Actuator N493 (rotary slide valve)**",
+    "expected_path_contains": [
+      "**Cooling system**",
+      "**Innovative Thermal Management (ITM)**",
+      "**Engine Temperature Control Actuator N493 (rotary slide valve)**"
+    ],
+    "language": "en"
+  },
+  {
+    "case_id": "p001_005_pos_pdf003_03",
+    "query": "What response characteristic does the single-scroll turbocharger of the third-generation EA888 provide at high engine speed and full load?",
+    "question_type": "principle",
+    "required_knowledge": "单涡管涡轮增压器在高转速全负荷时改善响应的 documented effect",
+    "expected_document_id": "PDF-003",
+    "expected_section_id": "PDF-003:s0093",
+    "expected_title": "**Turbocharger**",
+    "expected_path_contains": [
+      "**Cooling system**",
+      "**Turbocharger**"
+    ],
+    "language": "en"
+  },
+  {
+    "case_id": "p001_005_pos_pdf004_01",
+    "query": "What do passive and active speed sensors inform the traction-control systems about?",
+    "question_type": "principle",
+    "required_knowledge": "The vehicle-speed and individual-wheel-speed information supplied by both sensor types",
+    "expected_document_id": "PDF-004",
+    "expected_section_id": "PDF-004:s0010",
+    "expected_title": "**Passive and active speed sensors**",
+    "expected_path_contains": [
+      "**Sensors**",
+      "**Passive and active speed sensors**"
+    ],
+    "language": "en"
+  },
+  {
+    "case_id": "p001_005_pos_pdf004_02",
+    "query": "Through which system interventions can ESP stabilize the vehicle?",
+    "question_type": "principle",
+    "required_knowledge": "ESP通过制动、发动机管理以及变速箱或四轮驱动控制进行稳定干预的方式",
+    "expected_document_id": "PDF-004",
+    "expected_section_id": "PDF-004:s0046",
+    "expected_title": "**Traction control systems**",
+    "expected_path_contains": [
+      "**Traction control systems**"
+    ],
+    "language": "en"
+  },
+  {
+    "case_id": "p001_005_pos_pdf004_03",
+    "query": "What does hill descent assist (HDC) do for the driver on hilly roads?",
+    "question_type": "principle",
+    "required_knowledge": "The documented role of HDC in supporting the driver on hilly roads",
+    "expected_document_id": "PDF-004",
+    "expected_section_id": "PDF-004:s0061",
+    "expected_title": "**Hill descent assist system**",
+    "expected_path_contains": [
+      "**Assist systems**",
+      "**Hill descent assist system**"
+    ],
+    "language": "en"
+  },
+  {
+    "case_id": "p001_005_pos_pdf005_01",
+    "query": "What are the main components of the heat-pump circuit?",
+    "question_type": "specification",
+    "required_knowledge": "热泵闭合制冷剂回路的压缩机、蒸发器、膨胀阀和冷凝器",
+    "expected_document_id": "PDF-005",
+    "expected_section_id": "PDF-005:s0013",
+    "expected_title": "Circuit design",
+    "expected_path_contains": [
+      "Basic principle of the heat pump",
+      "Circuit design"
+    ],
+    "language": "en"
+  },
+  {
+    "case_id": "p001_005_pos_pdf005_02",
+    "query": "What happens to the refrigerant and the air in the heat condenser?",
+    "question_type": "principle",
+    "required_knowledge": "Heat transfer, refrigerant condensation, and the resulting heated air flow",
+    "expected_document_id": "PDF-005",
+    "expected_section_id": "PDF-005:s0026",
+    "expected_title": "Heat condenser function",
+    "expected_path_contains": [
+      "Components",
+      "Electrical air conditioner compressor",
+      "Heat condenser function"
+    ],
+    "language": "en"
+  },
+  {
+    "case_id": "p001_005_pos_pdf005_03",
+    "query": "What maintenance qualifications and high-voltage safety boundaries apply to the heat-pump system?",
+    "question_type": "specification",
+    "required_knowledge": "文档对热泵系统维护人员资格及高压技师断电程序要求的说明",
+    "expected_document_id": "PDF-005",
+    "expected_section_id": "PDF-005:s0049",
+    "expected_title": "Service",
+    "expected_path_contains": [
+      "Service"
+    ],
+    "language": "en"
+  },
+  {
+    "case_id": "p006_010_001",
+    "query": "What is the transfer speed range of the LIN data bus?",
+    "question_type": "principle",
+    "required_knowledge": "LIN data-bus transfer rate",
+    "expected_document_id": "PDF-006",
+    "expected_section_id": "PDF-006:s0020",
+    "expected_title": "Data transfer",
+    "expected_path_contains": [
+      "The LIN data bus as sub data bus system",
+      "Data transfer"
+    ],
+    "language": "en"
+  },
+  {
+    "case_id": "p006_010_002",
+    "query": "Which control unit manages terminal 15 run-on and the sleep and wake-up modes?",
+    "question_type": "principle",
+    "required_knowledge": "J533 data bus diagnosis interface master functions",
+    "expected_document_id": "PDF-006",
+    "expected_section_id": "PDF-006:s0040",
+    "expected_title": "Master functions",
+    "expected_path_contains": [
+      "The relay carrier and the fuse box in the interior",
+      "Master functions"
+    ],
+    "language": "en"
+  },
+  {
+    "case_id": "p006_010_003",
+    "query": "After switching off the engine, how can the wipers be moved to the service and winter positions?",
+    "question_type": "maintenance",
+    "required_knowledge": "Service and winter position activation conditions",
+    "expected_document_id": "PDF-006",
+    "expected_section_id": "PDF-006:s0071",
+    "expected_title": "Service and winter position",
+    "expected_path_contains": [
+      "Wiper motor actuation",
+      "Service and winter position"
+    ],
+    "language": "en"
+  },
+  {
+    "case_id": "p006_010_004",
+    "query": "What engine generation was used as the basis for the Jetta 1.4 l 110 kW TSI engine?",
+    "question_type": "specification",
+    "required_knowledge": "EA211 engine generation",
+    "expected_document_id": "PDF-007",
+    "expected_section_id": "PDF-007:s0031",
+    "expected_title": "1.4 l 110 kW TSI Engine",
+    "expected_path_contains": [
+      "Power Units",
+      "1.4 l 110 kW TSI Engine"
+    ],
+    "language": "en"
+  },
+  {
+    "case_id": "p006_010_005",
+    "query": "How does ACC respond when it recognizes a vehicle moving ahead?",
+    "question_type": "principle",
+    "required_knowledge": "Adaptive Cruise Control radar-based speed adjustment",
+    "expected_document_id": "PDF-007",
+    "expected_section_id": "PDF-007:s0054",
+    "expected_title": "Adaptive Cruise Control (ACC)",
+    "expected_path_contains": [
+      "Running Gear",
+      "Driver Assist Systems Overview",
+      "Mid-Range Radar (MRR) for the following functions:",
+      "Adaptive Cruise Control (ACC)"
+    ],
+    "language": "en"
+  },
+  {
+    "case_id": "p006_010_006",
+    "query": "Where is the front radar sensor statically calibrated?",
+    "question_type": "repair",
+    "required_knowledge": "Location of static calibration for the front radar sensor",
+    "expected_document_id": "PDF-007",
+    "expected_section_id": "PDF-007:s0063",
+    "expected_title": "Static Calibration",
+    "expected_path_contains": [
+      "Running Gear",
+      "Static Calibration"
+    ],
+    "language": "en"
+  },
+  {
+    "case_id": "p006_010_007",
+    "query": "Which cover title words are directly searchable in the PDF-008 OCR?",
+    "question_type": "training",
+    "required_knowledge": "Searchable cover title words: Radio and Design",
+    "expected_document_id": "PDF-008",
+    "expected_section_id": "PDF-008:s0001",
+    "expected_title": "Document introduction",
+    "expected_path_contains": [
+      "Document introduction"
+    ],
+    "language": "en"
+  },
+  {
+    "case_id": "p006_010_008",
+    "query": "Which four index words are directly searchable in the PDF-008 OCR?",
+    "question_type": "training",
+    "required_knowledge": "Searchable radio-system index labels: Aerial, Loudspeakers, Noise, and RDS",
+    "expected_document_id": "PDF-008",
+    "expected_section_id": "PDF-008:s0001",
+    "expected_title": "Document introduction",
+    "expected_path_contains": [
+      "Document introduction"
+    ],
+    "language": "en"
+  },
+  {
+    "case_id": "p006_010_009",
+    "query": "Why does the 1.9-litre direct-injection diesel engine use two-stage injection in the combustion chamber?",
+    "question_type": "principle",
+    "required_knowledge": "Two-stage injection and combustion pressure rise",
+    "expected_document_id": "PDF-009",
+    "expected_section_id": "PDF-009:s0001",
+    "expected_title": "Document introduction",
+    "expected_path_contains": [
+      "Document introduction"
+    ],
+    "language": "en"
+  },
+  {
+    "case_id": "p006_010_010",
+    "query": "What does the needle lift sender G80 signal to the control unit?",
+    "question_type": "diagnosis",
+    "required_knowledge": "G80 feedback of injector opening time",
+    "expected_document_id": "PDF-009",
+    "expected_section_id": "PDF-009:s0001",
+    "expected_title": "Document introduction",
+    "expected_path_contains": [
+      "Document introduction"
+    ],
+    "language": "en"
+  },
+  {
+    "case_id": "p006_010_011",
+    "query": "What does the air-mass flow meter measure?",
+    "question_type": "diagnosis",
+    "required_knowledge": "Fresh air mass measurement",
+    "expected_document_id": "PDF-009",
+    "expected_section_id": "PDF-009:s0001",
+    "expected_title": "Document introduction",
+    "expected_path_contains": [
+      "Document introduction"
+    ],
+    "language": "en"
+  },
+  {
+    "case_id": "p006_010_012",
+    "query": "What does the OBD-II readiness code indicate?",
+    "question_type": "principle",
+    "required_knowledge": "Readiness Code meaning",
+    "expected_document_id": "PDF-010",
+    "expected_section_id": "PDF-010:s0012",
+    "expected_title": "Readiness Code",
+    "expected_path_contains": [
+      "Self-Study Program 175",
+      "Glossary:",
+      "Readiness Code"
+    ],
+    "language": "en"
+  },
+  {
+    "case_id": "p006_010_013",
+    "query": "How does the engine management system diagnose catalytic-converter conversion?",
+    "question_type": "diagnosis",
+    "required_knowledge": "Comparison of primary and secondary catalytic-converter probe voltages",
+    "expected_document_id": "PDF-010",
+    "expected_section_id": "PDF-010:s0024",
+    "expected_title": "Catalytic conversion diagnosis",
+    "expected_path_contains": [
+      "Self-Study Program 175",
+      "The catalytic converter",
+      "Catalytic conversion diagnosis"
+    ],
+    "language": "en"
+  },
+  {
+    "case_id": "p006_010_014",
+    "query": "Which searchable index words appear in this PDF-008 OCR fragment?",
+    "question_type": "training",
+    "required_knowledge": "Searchable index labels: System, Telephone, and Reception",
+    "expected_document_id": "PDF-008",
+    "expected_section_id": "PDF-008:s0001",
+    "expected_title": "Document introduction",
+    "expected_path_contains": [
+      "Document introduction"
+    ],
+    "language": "en"
+  },
+  {
+    "case_id": "p006_010_015",
+    "query": "How should the fault memory be handled before starting the short-trip test?",
+    "question_type": "maintenance",
+    "required_knowledge": "Short-trip test precondition",
+    "expected_document_id": "PDF-010",
+    "expected_section_id": "PDF-010:s0105",
+    "expected_title": "Conditions for the short trip",
+    "expected_path_contains": [
+      "System Components (Diesel)",
+      "Charge pressure control",
+      "Conditions for the short trip"
+    ],
+    "language": "en"
+  },
+  {
+    "case_id": "p011_015_001",
+    "query": "What effect does a low drag coefficient have on the Audi A3?",
+    "question_type": "general",
+    "required_knowledge": "Vehicle aerodynamics and the effect of low drag resistance",
+    "expected_document_id": "PDF-011",
+    "expected_section_id": "PDF-011:s0006",
+    "expected_title": "**Vehicle aerodynamics**",
+    "expected_path_contains": [
+      "**Audi A3 - Presentation**",
+      "**Vehicle aerodynamics**"
+    ],
+    "language": "en"
+  },
+  {
+    "case_id": "p011_015_002",
+    "query": "What percentage of the Audi A3 is made of recyclable materials?",
+    "question_type": "specification",
+    "required_knowledge": "Audi A3 environmental recyclability",
+    "expected_document_id": "PDF-011",
+    "expected_section_id": "PDF-011:s0010",
+    "expected_title": "**More than just scrap iron**",
+    "expected_path_contains": [
+      "**Audi A3 - Presentation**",
+      "**More than just scrap iron**"
+    ],
+    "language": "en"
+  },
+  {
+    "case_id": "p011_015_003",
+    "query": "What environmental benefits does the Audi A3 gain from using water-based paint?",
+    "question_type": "general",
+    "required_knowledge": "Environmental benefits of water-based paint",
+    "expected_document_id": "PDF-011",
+    "expected_section_id": "PDF-011:s0009",
+    "expected_title": "**In brief**",
+    "expected_path_contains": [
+      "**Audi A3 - Presentation**",
+      "**In brief**"
+    ],
+    "language": "en"
+  },
+  {
+    "case_id": "p011_015_004",
+    "query": "What panel thicknesses make up the Audi A3 front side members?",
+    "question_type": "principle",
+    "required_knowledge": "Audi A3 crash structure and side-member panel thicknesses",
+    "expected_document_id": "PDF-012",
+    "expected_section_id": "PDF-012:s0006",
+    "expected_title": "**Safety is ... programmed crumple zones**",
+    "expected_path_contains": [
+      "**Audi A3 - The Engineering**",
+      "**Body**",
+      "**Safety is ... programmed crumple zones**"
+    ],
+    "language": "en"
+  },
+  {
+    "case_id": "p011_015_005",
+    "query": "Which components make up the Audi A3 seat frame with high transverse rigidity?",
+    "question_type": "general",
+    "required_knowledge": "Seat structure with high transverse rigidity",
+    "expected_document_id": "PDF-012",
+    "expected_section_id": "PDF-012:s0010",
+    "expected_title": "**Sturdy seats**",
+    "expected_path_contains": [
+      "**Audi A3 - The Engineering**",
+      "**Safety**",
+      "**Sturdy seats**"
+    ],
+    "language": "en"
+  },
+  {
+    "case_id": "p011_015_006",
+    "query": "In CAN arbitration, which protocol is sent first when multiple control units transmit simultaneously?",
+    "question_type": "principle",
+    "required_knowledge": "CAN data bus priority allocation",
+    "expected_document_id": "PDF-013",
+    "expected_section_id": "PDF-013:s0023",
+    "expected_title": "**CAN data bus allocation**",
+    "expected_path_contains": [
+      "**Function**",
+      "**CAN data bus allocation**"
+    ],
+    "language": "en"
+  },
+  {
+    "case_id": "p011_015_007",
+    "query": "What does the CAN status field define?",
+    "question_type": "principle",
+    "required_knowledge": "CAN protocol status field",
+    "expected_document_id": "PDF-013",
+    "expected_section_id": "PDF-013:s0015",
+    "expected_title": "The **status field**",
+    "expected_path_contains": [
+      "**CAN data bus**",
+      "**The seven areas:**",
+      "The **status field**"
+    ],
+    "language": "en"
+  },
+  {
+    "case_id": "p011_015_008",
+    "query": "Where is the LT J234 control unit installed?",
+    "question_type": "general",
+    "required_knowledge": "LT airbag and belt-tensioner control-unit location",
+    "expected_document_id": "PDF-014",
+    "expected_section_id": "PDF-014:s0008",
+    "expected_title": "**Safety**",
+    "expected_path_contains": [
+      "**The LT ´97**",
+      "**Safety**"
+    ],
+    "language": "en"
+  },
+  {
+    "case_id": "p011_015_009",
+    "query": "Below what vehicle speed does the LT EDL operate?",
+    "question_type": "specification",
+    "required_knowledge": "LT electronic differential lock operating speed",
+    "expected_document_id": "PDF-014",
+    "expected_section_id": "PDF-014:s0038",
+    "expected_title": "**ABS/EDL**",
+    "expected_path_contains": [
+      "**The LT ´97**",
+      "**ABS/EDL**"
+    ],
+    "language": "en"
+  },
+  {
+    "case_id": "p011_015_010",
+    "query": "What are the Audi A3 2.3 l petrol engine's maximum torque and engine speed?",
+    "question_type": "specification",
+    "required_knowledge": "PDF-015 AGL engine performance data",
+    "expected_document_id": "PDF-015",
+    "expected_section_id": "PDF-015:s0008",
+    "expected_title": "**Data**",
+    "expected_path_contains": [
+      "**The 2.3 l petrol engine** **<u>in the LT ‘97</u>**",
+      "**The new 2.3 l petrol engine**",
+      "**Data**"
+    ],
+    "language": "en"
+  },
+  {
+    "case_id": "p011_015_011",
+    "query": "What happens when the 2.3 l petrol engine exceeds its speed limit?",
+    "question_type": "diagnosis",
+    "required_knowledge": "PDF-015 engine speed limiter behavior",
+    "expected_document_id": "PDF-015",
+    "expected_section_id": "PDF-015:s0089",
+    "expected_title": "**Engine speed limit**",
+    "expected_path_contains": [
+      "**The 2.3 l petrol engine** **<u>in the LT ‘97</u>**",
+      "**Injection system**",
+      "**Injection valve cut-off**",
+      "**Engine speed limit**"
+    ],
+    "language": "en"
+  },
+  {
+    "case_id": "p011_015_012",
+    "query": "Where does the oil pump send oil for piston cooling in the LT 2.3 l petrol engine?",
+    "question_type": "principle",
+    "required_knowledge": "PDF-015 oil circuit and piston cooling",
+    "expected_document_id": "PDF-015",
+    "expected_section_id": "PDF-015:s0017",
+    "expected_title": "**The oil pump**",
+    "expected_path_contains": [
+      "**The 2.3 l petrol engine** **<u>in the LT ‘97</u>**",
+      "**Oil circuit**",
+      "**Schematic diagram of oil circuit**",
+      "**The oil pump**"
+    ],
+    "language": "en"
+  },
+  {
+    "case_id": "p011_015_013",
+    "query": "Where do the reinforcements transfer force during a side impact?",
+    "question_type": "principle",
+    "required_knowledge": "side-impact force distribution",
+    "expected_document_id": "PDF-012",
+    "expected_section_id": "PDF-012:s0007",
+    "expected_title": "**Body**",
+    "expected_path_contains": [
+      "**Audi A3 - The Engineering**",
+      "**Body**"
+    ],
+    "language": "en"
+  },
+  {
+    "case_id": "p011_015_014",
+    "query": "What happens when the CAN convenience system experiences a short circuit?",
+    "question_type": "diagnosis",
+    "required_knowledge": "CAN emergency running mode",
+    "expected_document_id": "PDF-013",
+    "expected_section_id": "PDF-013:s0032",
+    "expected_title": "**What are the advantages of the CAN data bus in the convenience system?**",
+    "expected_path_contains": [
+      "**Function**",
+      "**The CAN data bus in the convenience system**",
+      "**What are the advantages of the CAN data bus in the convenience system?**"
+    ],
+    "language": "en"
+  },
+  {
+    "case_id": "p011_015_015",
+    "query": "Which optional LT equipment improves occupant safety?",
+    "question_type": "general",
+    "required_knowledge": "optional safety equipment",
+    "expected_document_id": "PDF-014",
+    "expected_section_id": "PDF-014:s0006",
+    "expected_title": "**Optional extras include:**",
+    "expected_path_contains": [
+      "**The LT ´97**",
+      "**The LT**",
+      "**Optional extras include:**"
+    ],
+    "language": "en"
+  },
+  {
+    "case_id": "p016_020_001",
+    "query": "What is the purpose of the exhaust-gas turbocharger?",
+    "question_type": "specification",
+    "required_knowledge": "废气涡轮增压器提高扭矩和发动机输出。",
+    "expected_document_id": "PDF-016",
+    "expected_section_id": "PDF-016:s0005",
+    "expected_title": "**The basic principle of an exhaust gas turbocharger**",
+    "expected_path_contains": [
+      "**<u>Adjustable Turbocharger</u>**",
+      "**Fundamental principles**",
+      "**The basic principle of an exhaust gas turbocharger**"
+    ],
+    "language": "en"
+  },
+  {
+    "case_id": "p016_020_002",
+    "query": "If the boost-pressure sensor signal fails, what happens to the variable vanes and how does engine output change?",
+    "question_type": "diagnosis",
+    "required_knowledge": "传感器信号失效时的叶片位置和输出影响。",
+    "expected_document_id": "PDF-016",
+    "expected_section_id": "PDF-016:s0028",
+    "expected_title": "**Effect of signal failure:**",
+    "expected_path_contains": [
+      "**<u>Adjustable Turbocharger</u>**",
+      "**Mechanics**",
+      "**Solenoid valve N 75 and the low-pressure box for vane adjustment**",
+      "**Effect of signal failure:**"
+    ],
+    "language": "en"
+  },
+  {
+    "case_id": "p016_020_003",
+    "query": "What happens if no signal is received from the engine speed sender G28?",
+    "question_type": "diagnosis",
+    "required_knowledge": "G28 signal failure effects.",
+    "expected_document_id": "PDF-016",
+    "expected_section_id": "PDF-016:s0042",
+    "expected_title": "**Effect of signal failure:**",
+    "expected_path_contains": [
+      "**<u>Adjustable Turbocharger</u>**",
+      "**Mechanics**",
+      "**Solenoid valve N 75 and the low-pressure box for vane adjustment**",
+      "**Effect of signal failure:**"
+    ],
+    "language": "en"
+  },
+  {
+    "case_id": "p016_020_004",
+    "query": "What drives the intake camshaft in the variable valve-timing system?",
+    "question_type": "principle",
+    "required_knowledge": "凸轮轴驱动关系。",
+    "expected_document_id": "PDF-017",
+    "expected_section_id": "PDF-017:s0135",
+    "expected_title": "**The principle of variable valve timing:**",
+    "expected_path_contains": [
+      "**<u>The Passat ‘97</u> The Presentation**",
+      "**2.8-ltr. V6 Engine ACK**",
+      "**Variable valve timing**",
+      "**The principle of variable valve timing:**"
+    ],
+    "language": "en"
+  },
+  {
+    "case_id": "p016_020_005",
+    "query": "How do the rollers of the triple-roller constant-velocity joint move?",
+    "question_type": "principle",
+    "required_knowledge": "三滚子万向节滚子的运动方式。",
+    "expected_document_id": "PDF-017",
+    "expected_section_id": "PDF-017:s0166",
+    "expected_title": "**Design**",
+    "expected_path_contains": [
+      "**<u>The Passat ‘97</u> The Presentation**",
+      "**Drive shafts**",
+      "**Triple roller constant velocity joint**",
+      "**Design**"
+    ],
+    "language": "en"
+  },
+  {
+    "case_id": "p016_020_006",
+    "query": "At what speed are both ventilation flaps fully open in fresh-air mode?",
+    "question_type": "specification",
+    "required_knowledge": "Fresh-air mode flap state and speed threshold.",
+    "expected_document_id": "PDF-017",
+    "expected_section_id": "PDF-017:s0215",
+    "expected_title": "**Fresh air mode**",
+    "expected_path_contains": [
+      "**<u>The Passat ‘97</u> The Presentation**",
+      "**Air-conditioning**",
+      "**Ventilation flap and the fresh/air recirculation flap**",
+      "**Fresh air mode**"
+    ],
+    "language": "en"
+  },
+  {
+    "case_id": "p016_020_007",
+    "query": "What type of vehicle uses the new wheel-bearing unit on its rear axle?",
+    "question_type": "specification",
+    "required_knowledge": "车轮轴承单元的适用车辆。",
+    "expected_document_id": "PDF-018",
+    "expected_section_id": "PDF-018:s0095",
+    "expected_title": "**Hub/wheel bearing unit**",
+    "expected_path_contains": [
+      "Hub/wheel bearing unit"
+    ],
+    "language": "en"
+  },
+  {
+    "case_id": "p016_020_008",
+    "query": "What happens to the navigation system when the ABS speed-sensor signal fails?",
+    "question_type": "diagnosis",
+    "required_knowledge": "ABS传感器失效时导航系统状态。",
+    "expected_document_id": "PDF-018",
+    "expected_section_id": "PDF-018:s0114",
+    "expected_title": "**Effect of signal failure**",
+    "expected_path_contains": [
+      "ABS speed sensor",
+      "**Effect of signal failure**"
+    ],
+    "language": "en"
+  },
+  {
+    "case_id": "p016_020_009",
+    "query": "What safety precaution does the document require before repairing gas-discharge headlights?",
+    "question_type": "specification",
+    "required_knowledge": "Documented high-voltage repair precaution.",
+    "expected_document_id": "PDF-018",
+    "expected_section_id": "PDF-018:s0131",
+    "expected_title": "**Headlight position in emergency operation**",
+    "expected_path_contains": [
+      "Electrics",
+      "**Self-diagnosis:**",
+      "**Headlight position in emergency operation**"
+    ],
+    "language": "en"
+  },
+  {
+    "case_id": "p016_020_010",
+    "query": "What happens to the convenience system if the entire CAN bus fails?",
+    "question_type": "diagnosis",
+    "required_knowledge": "CAN总线完全失效的系统后果。",
+    "expected_document_id": "PDF-019",
+    "expected_section_id": "PDF-019:s0021",
+    "expected_title": "**Effects of failure**",
+    "expected_path_contains": [
+      "**<u>Convenience System</u>**",
+      "**Control units**",
+      "**CAN databus**",
+      "**Effects of failure**"
+    ],
+    "language": "en"
+  },
+  {
+    "case_id": "p016_020_011",
+    "query": "How does the interior locking function lock and unlock all the doors?",
+    "question_type": "principle",
+    "required_knowledge": "车内锁止功能。",
+    "expected_document_id": "PDF-019",
+    "expected_section_id": "PDF-019:s0034",
+    "expected_title": "**The lock-unlock function**",
+    "expected_path_contains": [
+      "**<u>Convenience System</u>**",
+      "**Central locking**",
+      "**Central locking with Safe function**",
+      "**The lock-unlock function**"
+    ],
+    "language": "en"
+  },
+  {
+    "case_id": "p016_020_012",
+    "query": "Which address word initiates self-diagnosis for the convenience system central module?",
+    "question_type": "diagnosis",
+    "required_knowledge": "Convenience-system self-diagnosis address word.",
+    "expected_document_id": "PDF-019",
+    "expected_section_id": "PDF-019:s0081",
+    "expected_title": "**Self-diagnosis**",
+    "expected_path_contains": [
+      "**<u>Convenience System</u>**",
+      "**Self-diagnosis**"
+    ],
+    "language": "en"
+  },
+  {
+    "case_id": "p016_020_013",
+    "query": "What are the V-shaped angle and displacement of the V5 engine?",
+    "question_type": "specification",
+    "required_knowledge": "V5发动机V形夹角。",
+    "expected_document_id": "PDF-020",
+    "expected_section_id": "PDF-020:s0007",
+    "expected_title": "Technical specifications",
+    "expected_path_contains": [
+      "Technical specifications"
+    ],
+    "language": "en"
+  },
+  {
+    "case_id": "p016_020_014",
+    "query": "Which component must be replaced when changing the V5 engine oil filter?",
+    "question_type": "maintenance",
+    "required_knowledge": "机油滤清器更换内容。",
+    "expected_document_id": "PDF-020",
+    "expected_section_id": "PDF-020:s0015",
+    "expected_title": "Engine lubrication",
+    "expected_path_contains": [
+      "Engine lubrication"
+    ],
+    "language": "en"
+  },
+  {
+    "case_id": "p016_020_015",
+    "query": "What happens if the Hall sender G40 fails?",
+    "question_type": "diagnosis",
+    "required_knowledge": "G40 failure effect.",
+    "expected_document_id": "PDF-020",
+    "expected_section_id": "PDF-020:s0071",
+    "expected_title": "Electric circuit",
+    "expected_path_contains": [
+      "The quick-start sender wheel",
+      "Electric circuit"
+    ],
+    "language": "en"
+  }
+]

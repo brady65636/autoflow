@@ -1,0 +1,1776 @@
+[
+  {
+    "pdf_id": "PDF-001",
+    "canonical_title": "Modular toolkit strategy as recipe for success: the MQB celebrates tenth anniversary",
+    "document_kind": "press_release",
+    "publisher": "Volkswagen Communications",
+    "source_host": "volkswagen-newsroom.com",
+    "distribution_type": "public_press_release",
+    "authority_class": "oem_service",
+    "service_authority": "general_reference",
+    "brands": [
+      "Volkswagen"
+    ],
+    "models": [],
+    "platforms": [
+      "MQB",
+      "MEB",
+      "SSP"
+    ],
+    "engine_families": [],
+    "engine_codes": [],
+    "transmissions": [],
+    "system_tags": [
+      "vehicle platforms",
+      "modular toolkit"
+    ],
+    "language": "en",
+    "publication_year": 2022,
+    "applicability_scope": "Volkswagen Group platform/media scope",
+    "ranking_tier": "B",
+    "confidence": 0.93,
+    "evidence": [
+      {
+        "field": "canonical_title",
+        "source": "local PDF cover/opening page",
+        "page": 1,
+        "text": "Media Information June 23, 2022; MQB celebrates tenth anniversary; more than 32 million vehicles produced on the platform"
+      },
+      {
+        "field": "applicability_scope",
+        "source": "local PDF cover/opening page or contents",
+        "page": 1,
+        "text": "Media Information June 23, 2022; MQB celebrates tenth anniversary; more than 32 million vehicles produced on the platform"
+      }
+    ],
+    "review_flags": [
+      "MQB/MEB are platform subjects, not model applicability."
+    ]
+  },
+  {
+    "pdf_id": "PDF-002",
+    "canonical_title": "The New EA211 Petrol Engine Family",
+    "document_kind": "self_study_program",
+    "publisher": "Volkswagen AG",
+    "source_host": "vdveer-engineering.nl",
+    "distribution_type": "public_web_download",
+    "authority_class": "oem_training",
+    "service_authority": "principle_only",
+    "brands": [
+      "Volkswagen"
+    ],
+    "models": [],
+    "platforms": [
+      "MQB"
+    ],
+    "engine_families": [
+      "EA211"
+    ],
+    "engine_codes": [],
+    "transmissions": [],
+    "system_tags": [
+      "petrol engine",
+      "engine design and function"
+    ],
+    "language": "en",
+    "publication_year": null,
+    "applicability_scope": "Volkswagen MQB petrol-engine family, 1.0–1.6 L",
+    "ranking_tier": "C",
+    "confidence": 0.93,
+    "evidence": [
+      {
+        "field": "canonical_title",
+        "source": "local PDF cover/opening page",
+        "page": 1,
+        "text": "Self-Study Programme 511; new EA211 modular petrol engine matrix; engines 1.0 l to 1.6 l"
+      },
+      {
+        "field": "applicability_scope",
+        "source": "local PDF cover/opening page or contents",
+        "page": 1,
+        "text": "Self-Study Programme 511; new EA211 modular petrol engine matrix; engines 1.0 l to 1.6 l"
+      }
+    ],
+    "review_flags": [
+      "SSP is design/function training, not workshop repair instructions."
+    ]
+  },
+  {
+    "pdf_id": "PDF-003",
+    "canonical_title": "The Audi 1.8L and 2.0L Third Generation EA888 Engines",
+    "document_kind": "self_study_program",
+    "publisher": "Audi of America, LLC",
+    "source_host": "vdveer-engineering.nl",
+    "distribution_type": "public_web_download",
+    "authority_class": "oem_training",
+    "service_authority": "principle_only",
+    "brands": [
+      "Audi"
+    ],
+    "models": [],
+    "platforms": [],
+    "engine_families": [
+      "EA888"
+    ],
+    "engine_codes": [],
+    "transmissions": [],
+    "system_tags": [
+      "petrol engine",
+      "engine management"
+    ],
+    "language": "en",
+    "publication_year": 2013,
+    "applicability_scope": "Audi third-generation 1.8 L and 2.0 L EA888 engines",
+    "ranking_tier": "C",
+    "confidence": 0.93,
+    "evidence": [
+      {
+        "field": "canonical_title",
+        "source": "local PDF cover/opening page",
+        "page": 1,
+        "text": "Self-Study Program 920243; Audi of America, LLC; Created 11/2013; title names the engines"
+      },
+      {
+        "field": "applicability_scope",
+        "source": "local PDF cover/opening page or contents",
+        "page": 1,
+        "text": "Self-Study Program 920243; Audi of America, LLC; Created 11/2013; title names the engines"
+      }
+    ],
+    "review_flags": [
+      "Current service repair literature may supersede this training."
+    ]
+  },
+  {
+    "pdf_id": "PDF-004",
+    "canonical_title": "Traction Control and Assist Systems",
+    "document_kind": "self_study_program",
+    "publisher": "Volkswagen AG Service Training",
+    "source_host": "vdveer-engineering.nl",
+    "distribution_type": "public_web_download",
+    "authority_class": "oem_training",
+    "service_authority": "principle_only",
+    "brands": [
+      "Volkswagen"
+    ],
+    "models": [],
+    "platforms": [],
+    "engine_families": [],
+    "engine_codes": [],
+    "transmissions": [],
+    "system_tags": [
+      "ABS",
+      "traction control",
+      "ESP",
+      "driver assistance"
+    ],
+    "language": "en",
+    "publication_year": null,
+    "applicability_scope": "Volkswagen vehicle traction-control and assist systems",
+    "ranking_tier": "C",
+    "confidence": 0.93,
+    "evidence": [
+      {
+        "field": "canonical_title",
+        "source": "local PDF cover/opening page",
+        "page": 1,
+        "text": "SSP 374 explains system principles and states it is not a workshop manual"
+      },
+      {
+        "field": "applicability_scope",
+        "source": "local PDF cover/opening page or contents",
+        "page": 1,
+        "text": "SSP 374 explains system principles and states it is not a workshop manual"
+      }
+    ],
+    "review_flags": [
+      "No model/platform established."
+    ]
+  },
+  {
+    "pdf_id": "PDF-005",
+    "canonical_title": "The Heat Pump from Volkswagen",
+    "document_kind": "self_study_program",
+    "publisher": "Volkswagen AG",
+    "source_host": "vdveer-engineering.nl",
+    "distribution_type": "public_web_download",
+    "authority_class": "oem_training",
+    "service_authority": "principle_only",
+    "brands": [
+      "Volkswagen"
+    ],
+    "models": [
+      "e-Golf"
+    ],
+    "platforms": [],
+    "engine_families": [],
+    "engine_codes": [],
+    "transmissions": [],
+    "system_tags": [
+      "heat pump",
+      "refrigerant circuit",
+      "thermal management"
+    ],
+    "language": "en",
+    "publication_year": null,
+    "applicability_scope": "Volkswagen e-Golf heat-pump system",
+    "ranking_tier": "C",
+    "confidence": 0.93,
+    "evidence": [
+      {
+        "field": "canonical_title",
+        "source": "local PDF cover/opening page",
+        "page": 1,
+        "text": "SSP 532 says the system is used for the first time in the e-Golf"
+      },
+      {
+        "field": "applicability_scope",
+        "source": "local PDF cover/opening page or contents",
+        "page": 1,
+        "text": "SSP 532 says the system is used for the first time in the e-Golf"
+      }
+    ],
+    "review_flags": [
+      "e-Golf is explicit subject; no wider model inference."
+    ]
+  },
+  {
+    "pdf_id": "PDF-006",
+    "canonical_title": "The Touran Electrical system",
+    "document_kind": "self_study_program",
+    "publisher": "Volkswagen AG Service Training",
+    "source_host": "vdveer-engineering.nl",
+    "distribution_type": "public_web_download",
+    "authority_class": "oem_training",
+    "service_authority": "principle_only",
+    "brands": [
+      "Volkswagen"
+    ],
+    "models": [
+      "Touran"
+    ],
+    "platforms": [],
+    "engine_families": [],
+    "engine_codes": [],
+    "transmissions": [],
+    "system_tags": [
+      "electrical system",
+      "data bus",
+      "diagnosis"
+    ],
+    "language": "en",
+    "publication_year": null,
+    "applicability_scope": "Volkswagen Touran electrical/networking system",
+    "ranking_tier": "C",
+    "confidence": 0.93,
+    "evidence": [
+      {
+        "field": "canonical_title",
+        "source": "local PDF cover/opening page",
+        "page": 1,
+        "text": "SSP 307 is designed to explain the Volkswagen Touran networking concept and diagnosis system"
+      },
+      {
+        "field": "applicability_scope",
+        "source": "local PDF cover/opening page or contents",
+        "page": 1,
+        "text": "SSP 307 is designed to explain the Volkswagen Touran networking concept and diagnosis system"
+      }
+    ],
+    "review_flags": [
+      "Not a repair manual; no engine/transmission scope."
+    ]
+  },
+  {
+    "pdf_id": "PDF-007",
+    "canonical_title": "The New Jetta",
+    "document_kind": "self_study_program",
+    "publisher": "Volkswagen AG Service Training",
+    "source_host": "vag-technique.fr",
+    "distribution_type": "public_web_download",
+    "authority_class": "oem_training",
+    "service_authority": "principle_only",
+    "brands": [
+      "Volkswagen"
+    ],
+    "models": [
+      "Jetta"
+    ],
+    "platforms": [],
+    "engine_families": [],
+    "engine_codes": [],
+    "transmissions": [],
+    "system_tags": [
+      "vehicle systems",
+      "driver assistance",
+      "comfort electronics"
+    ],
+    "language": "en",
+    "publication_year": 2019,
+    "applicability_scope": "Volkswagen Jetta 2019 North American model presentation",
+    "ranking_tier": "C",
+    "confidence": 0.93,
+    "evidence": [
+      {
+        "field": "canonical_title",
+        "source": "local PDF cover/opening page",
+        "page": 1,
+        "text": "SSP 588 Jetta 2019; opening identifies The New Jetta and its model features"
+      },
+      {
+        "field": "applicability_scope",
+        "source": "local PDF cover/opening page or contents",
+        "page": 1,
+        "text": "SSP 588 Jetta 2019; opening identifies The New Jetta and its model features"
+      }
+    ],
+    "review_flags": [
+      "Presentation/training, not repair authority."
+    ]
+  },
+  {
+    "pdf_id": "PDF-008",
+    "canonical_title": "Radio Systems 94",
+    "document_kind": "self_study_program",
+    "publisher": "Volkswagen AG Service Training",
+    "source_host": "vdveer-engineering.nl",
+    "distribution_type": "public_web_download",
+    "authority_class": "oem_training",
+    "service_authority": "principle_only",
+    "brands": [
+      "Volkswagen"
+    ],
+    "models": [],
+    "platforms": [],
+    "engine_families": [],
+    "engine_codes": [],
+    "transmissions": [],
+    "system_tags": [
+      "radio systems",
+      "vehicle electronics"
+    ],
+    "language": "en",
+    "publication_year": 1994,
+    "applicability_scope": "Volkswagen/Audi radio systems (1994)",
+    "ranking_tier": "C",
+    "confidence": 0.55,
+    "evidence": [
+      {
+        "field": "canonical_title",
+        "source": "local PDF cover/opening page",
+        "page": 1,
+        "text": "Local PDF first page inspected; image-only cover text is empty; manifest identifies SSP 147 Radio Systems 94"
+      },
+      {
+        "field": "applicability_scope",
+        "source": "local PDF cover/opening page or contents",
+        "page": 1,
+        "text": "Local PDF first page inspected; image-only cover text is empty; manifest identifies SSP 147 Radio Systems 94"
+      }
+    ],
+    "review_flags": [
+      "Scanned/image-only opening; title/year/applicability need visual review."
+    ]
+  },
+  {
+    "pdf_id": "PDF-009",
+    "canonical_title": "1.9 ltr-TDI-Industrial Engine",
+    "document_kind": "self_study_program",
+    "publisher": "Volkswagen AG",
+    "source_host": "vdveer-engineering.nl",
+    "distribution_type": "public_web_download",
+    "authority_class": "oem_training",
+    "service_authority": "principle_only",
+    "brands": [
+      "Volkswagen"
+    ],
+    "models": [],
+    "platforms": [],
+    "engine_families": [
+      "TDI"
+    ],
+    "engine_codes": [],
+    "transmissions": [],
+    "system_tags": [
+      "industrial diesel engine",
+      "fuel injection",
+      "self-diagnosis"
+    ],
+    "language": "en",
+    "publication_year": 1999,
+    "applicability_scope": "Volkswagen 1.9 l TDI industrial engine",
+    "ranking_tier": "C",
+    "confidence": 0.93,
+    "evidence": [
+      {
+        "field": "canonical_title",
+        "source": "local PDF cover/opening page",
+        "page": 1,
+        "text": "First-page contents: 1,9 ltr-TDI-Industrial Engine, Technical Status 4/1999; repair is referred to Workshop Manual"
+      },
+      {
+        "field": "applicability_scope",
+        "source": "local PDF cover/opening page or contents",
+        "page": 2,
+        "text": "First-page contents: 1,9 ltr-TDI-Industrial Engine, Technical Status 4/1999; repair is referred to Workshop Manual"
+      }
+    ],
+    "review_flags": [
+      "No engine code."
+    ]
+  },
+  {
+    "pdf_id": "PDF-010",
+    "canonical_title": "On-Board Diagnosis System II",
+    "document_kind": "self_study_program",
+    "publisher": "Volkswagen AG",
+    "source_host": "vdveer-engineering.nl",
+    "distribution_type": "public_web_download",
+    "authority_class": "oem_training",
+    "service_authority": "principle_only",
+    "brands": [
+      "Volkswagen"
+    ],
+    "models": [
+      "New Beetle"
+    ],
+    "platforms": [],
+    "engine_families": [],
+    "engine_codes": [],
+    "transmissions": [],
+    "system_tags": [
+      "OBD II",
+      "engine management",
+      "emissions diagnosis"
+    ],
+    "language": "en",
+    "publication_year": null,
+    "applicability_scope": "Volkswagen New Beetle (USA) OBD II system",
+    "ranking_tier": "C",
+    "confidence": 0.93,
+    "evidence": [
+      {
+        "field": "canonical_title",
+        "source": "local PDF cover/opening page",
+        "page": 1,
+        "text": "Opening identifies On-Board Diagnosis System II in the New Beetle (USA)"
+      },
+      {
+        "field": "applicability_scope",
+        "source": "local PDF cover/opening page or contents",
+        "page": 1,
+        "text": "Opening identifies On-Board Diagnosis System II in the New Beetle (USA)"
+      }
+    ],
+    "review_flags": [
+      "System training, not repair procedure."
+    ]
+  },
+  {
+    "pdf_id": "PDF-011",
+    "canonical_title": "Audi A3 - Presentation",
+    "document_kind": "self_study_program",
+    "publisher": "Volkswagen AG Service Department",
+    "source_host": "vdveer-engineering.nl",
+    "distribution_type": "public_web_download",
+    "authority_class": "oem_training",
+    "service_authority": "principle_only",
+    "brands": [
+      "Audi"
+    ],
+    "models": [
+      "A3"
+    ],
+    "platforms": [],
+    "engine_families": [],
+    "engine_codes": [],
+    "transmissions": [],
+    "system_tags": [
+      "vehicle presentation",
+      "body",
+      "safety",
+      "engine",
+      "gearbox"
+    ],
+    "language": "en",
+    "publication_year": 1996,
+    "applicability_scope": "Audi A3 presentation, technical status 07/96",
+    "ranking_tier": "C",
+    "confidence": 0.93,
+    "evidence": [
+      {
+        "field": "canonical_title",
+        "source": "local PDF cover/opening page",
+        "page": 1,
+        "text": "Cover: SSP 181 Audi A3 - Presentation; contents includes engines and gearbox; Technical Stand 07/96"
+      },
+      {
+        "field": "applicability_scope",
+        "source": "local PDF cover/opening page or contents",
+        "page": 1,
+        "text": "Cover: SSP 181 Audi A3 - Presentation; contents includes engines and gearbox; Technical Stand 07/96"
+      }
+    ],
+    "review_flags": [
+      "Presentation, not workshop manual."
+    ]
+  },
+  {
+    "pdf_id": "PDF-012",
+    "canonical_title": "Audi A3 - The Engineering",
+    "document_kind": "self_study_program",
+    "publisher": "Volkswagen AG Service Department",
+    "source_host": "vdveer-engineering.nl",
+    "distribution_type": "public_web_download",
+    "authority_class": "oem_training",
+    "service_authority": "principle_only",
+    "brands": [
+      "Audi"
+    ],
+    "models": [
+      "A3"
+    ],
+    "platforms": [],
+    "engine_families": [],
+    "engine_codes": [],
+    "transmissions": [],
+    "system_tags": [
+      "body",
+      "safety",
+      "engine",
+      "gearbox",
+      "running gear"
+    ],
+    "language": "en",
+    "publication_year": 1996,
+    "applicability_scope": "Audi A3 engineering, technical status 07/96",
+    "ranking_tier": "C",
+    "confidence": 0.93,
+    "evidence": [
+      {
+        "field": "canonical_title",
+        "source": "local PDF cover/opening page",
+        "page": 1,
+        "text": "Cover: SSP 182 Audi A3 - The Engineering; contents lists engines, gearbox and running gear; Technical Status 07/96"
+      },
+      {
+        "field": "applicability_scope",
+        "source": "local PDF cover/opening page or contents",
+        "page": 1,
+        "text": "Cover: SSP 182 Audi A3 - The Engineering; contents lists engines, gearbox and running gear; Technical Status 07/96"
+      }
+    ],
+    "review_flags": [
+      "Engineering training, not repair authority."
+    ]
+  },
+  {
+    "pdf_id": "PDF-013",
+    "canonical_title": "The CAN Databus",
+    "document_kind": "self_study_program",
+    "publisher": "Volkswagen AG",
+    "source_host": "vdveer-engineering.nl",
+    "distribution_type": "public_web_download",
+    "authority_class": "oem_training",
+    "service_authority": "principle_only",
+    "brands": [
+      "Volkswagen",
+      "Audi"
+    ],
+    "models": [],
+    "platforms": [],
+    "engine_families": [],
+    "engine_codes": [],
+    "transmissions": [],
+    "system_tags": [
+      "CAN bus",
+      "vehicle electronics",
+      "control units"
+    ],
+    "language": "en",
+    "publication_year": null,
+    "applicability_scope": "Volkswagen and Audi vehicle CAN data bus principles",
+    "ranking_tier": "C",
+    "confidence": 0.93,
+    "evidence": [
+      {
+        "field": "canonical_title",
+        "source": "local PDF cover/opening page",
+        "page": 1,
+        "text": "Opening states CAN is used by both Volkswagen and Audi and explains networked control units"
+      },
+      {
+        "field": "applicability_scope",
+        "source": "local PDF cover/opening page or contents",
+        "page": 1,
+        "text": "Opening states CAN is used by both Volkswagen and Audi and explains networked control units"
+      }
+    ],
+    "review_flags": [
+      "Brands are context, not model applicability."
+    ]
+  },
+  {
+    "pdf_id": "PDF-014",
+    "canonical_title": "The LT 97",
+    "document_kind": "self_study_program",
+    "publisher": "Volkswagen AG Customer Service",
+    "source_host": "vdveer-engineering.nl",
+    "distribution_type": "public_web_download",
+    "authority_class": "oem_training",
+    "service_authority": "principle_only",
+    "brands": [
+      "Volkswagen"
+    ],
+    "models": [
+      "LT 28",
+      "LT 35",
+      "LT 45",
+      "LT 50"
+    ],
+    "platforms": [],
+    "engine_families": [],
+    "engine_codes": [],
+    "transmissions": [],
+    "system_tags": [
+      "commercial vehicle",
+      "body",
+      "safety",
+      "economy"
+    ],
+    "language": "en",
+    "publication_year": 1996,
+    "applicability_scope": "Volkswagen LT 1997 generation",
+    "ranking_tier": "C",
+    "confidence": 0.93,
+    "evidence": [
+      {
+        "field": "canonical_title",
+        "source": "local PDF cover/opening page",
+        "page": 1,
+        "text": "SSP 188 opening history lists LT 28, LT 35, LT 45 and addition of LT 50"
+      },
+      {
+        "field": "applicability_scope",
+        "source": "local PDF cover/opening page or contents",
+        "page": 1,
+        "text": "SSP 188 opening history lists LT 28, LT 35, LT 45 and addition of LT 50"
+      }
+    ],
+    "review_flags": [
+      "Model designations are explicit in opening scope."
+    ]
+  },
+  {
+    "pdf_id": "PDF-015",
+    "canonical_title": "The 2.3 l petrol engine in the LT 1997",
+    "document_kind": "self_study_program",
+    "publisher": "Volkswagen Commercial Vehicles",
+    "source_host": "vdveer-engineering.nl",
+    "distribution_type": "public_web_download",
+    "authority_class": "oem_training",
+    "service_authority": "principle_only",
+    "brands": [
+      "Volkswagen"
+    ],
+    "models": [
+      "LT"
+    ],
+    "platforms": [],
+    "engine_families": [],
+    "engine_codes": [],
+    "transmissions": [],
+    "system_tags": [
+      "petrol engine",
+      "engine mechanics",
+      "injection",
+      "ignition"
+    ],
+    "language": "en",
+    "publication_year": 1997,
+    "applicability_scope": "Volkswagen LT 1997 2.3 l petrol engine",
+    "ranking_tier": "C",
+    "confidence": 0.93,
+    "evidence": [
+      {
+        "field": "canonical_title",
+        "source": "local PDF cover/opening page",
+        "page": 1,
+        "text": "SSP 189 opening says VW Commercial Vehicles features a 2.3 l petrol engine in its LT 97 range"
+      },
+      {
+        "field": "applicability_scope",
+        "source": "local PDF cover/opening page or contents",
+        "page": 1,
+        "text": "SSP 189 opening says VW Commercial Vehicles features a 2.3 l petrol engine in its LT 97 range"
+      }
+    ],
+    "review_flags": [
+      "No engine code."
+    ]
+  },
+  {
+    "pdf_id": "PDF-016",
+    "canonical_title": "Adjustable Turbocharger",
+    "document_kind": "self_study_program",
+    "publisher": "Volkswagen AG Service Department",
+    "source_host": "vdveer-engineering.nl",
+    "distribution_type": "public_web_download",
+    "authority_class": "oem_training",
+    "service_authority": "principle_only",
+    "brands": [
+      "Volkswagen"
+    ],
+    "models": [],
+    "platforms": [],
+    "engine_families": [],
+    "engine_codes": [],
+    "transmissions": [],
+    "system_tags": [
+      "turbocharger",
+      "engine control",
+      "self-diagnosis"
+    ],
+    "language": "en",
+    "publication_year": null,
+    "applicability_scope": "Volkswagen adjustable-turbocharger principle",
+    "ranking_tier": "C",
+    "confidence": 0.93,
+    "evidence": [
+      {
+        "field": "canonical_title",
+        "source": "local PDF cover/opening page",
+        "page": 1,
+        "text": "SSP 190 contents covers engine control, sensors, actuators and self-diagnosis; not a workshop manual"
+      },
+      {
+        "field": "applicability_scope",
+        "source": "local PDF cover/opening page or contents",
+        "page": 1,
+        "text": "SSP 190 contents covers engine control, sensors, actuators and self-diagnosis; not a workshop manual"
+      }
+    ],
+    "review_flags": [
+      "No vehicle model/engine family established."
+    ]
+  },
+  {
+    "pdf_id": "PDF-017",
+    "canonical_title": "The Passat 97 - The Presentation",
+    "document_kind": "self_study_program",
+    "publisher": "Volkswagen AG Service Department",
+    "source_host": "vdveer-engineering.nl",
+    "distribution_type": "public_web_download",
+    "authority_class": "oem_training",
+    "service_authority": "principle_only",
+    "brands": [
+      "Volkswagen"
+    ],
+    "models": [
+      "Passat"
+    ],
+    "platforms": [],
+    "engine_families": [],
+    "engine_codes": [],
+    "transmissions": [],
+    "system_tags": [
+      "vehicle presentation",
+      "body",
+      "engines",
+      "gearboxes",
+      "brakes"
+    ],
+    "language": "en",
+    "publication_year": 1996,
+    "applicability_scope": "Volkswagen Passat 1997 presentation",
+    "ranking_tier": "C",
+    "confidence": 0.93,
+    "evidence": [
+      {
+        "field": "canonical_title",
+        "source": "local PDF cover/opening page",
+        "page": 1,
+        "text": "SSP 191 cover/contents identify Passat 97 and Technical Status 09/96"
+      },
+      {
+        "field": "applicability_scope",
+        "source": "local PDF cover/opening page or contents",
+        "page": 1,
+        "text": "SSP 191 cover/contents identify Passat 97 and Technical Status 09/96"
+      }
+    ],
+    "review_flags": [
+      "Presentation scope."
+    ]
+  },
+  {
+    "pdf_id": "PDF-018",
+    "canonical_title": "The Passat 97 - The Engineering",
+    "document_kind": "self_study_program",
+    "publisher": "Volkswagen AG Service Department",
+    "source_host": "vdveer-engineering.nl",
+    "distribution_type": "public_web_download",
+    "authority_class": "oem_training",
+    "service_authority": "principle_only",
+    "brands": [
+      "Volkswagen"
+    ],
+    "models": [
+      "Passat"
+    ],
+    "platforms": [],
+    "engine_families": [
+      "VR5",
+      "TDI"
+    ],
+    "engine_codes": [
+      "ADR",
+      "AEB",
+      "ACK",
+      "AFN"
+    ],
+    "transmissions": [],
+    "system_tags": [
+      "engine",
+      "gearbox",
+      "ABS/EDL",
+      "electrics",
+      "air conditioning"
+    ],
+    "language": "en",
+    "publication_year": 1996,
+    "applicability_scope": "Volkswagen Passat 1997 engineering; listed engine variants/codes",
+    "ranking_tier": "C",
+    "confidence": 0.93,
+    "evidence": [
+      {
+        "field": "canonical_title",
+        "source": "local PDF cover/opening page",
+        "page": 1,
+        "text": "SSP 192 contents explicitly lists ADR, AEB, ACK and AFN engine sections"
+      },
+      {
+        "field": "applicability_scope",
+        "source": "local PDF cover/opening page or contents",
+        "page": 2,
+        "text": "SSP 192 contents explicitly lists ADR, AEB, ACK and AFN engine sections"
+      }
+    ],
+    "review_flags": [
+      "Codes are listed Passat-engine sections, not incidental examples."
+    ]
+  },
+  {
+    "pdf_id": "PDF-019",
+    "canonical_title": "Convenience System",
+    "document_kind": "self_study_program",
+    "publisher": "Volkswagen AG Service Department",
+    "source_host": "vdveer-engineering.nl",
+    "distribution_type": "public_web_download",
+    "authority_class": "oem_training",
+    "service_authority": "principle_only",
+    "brands": [
+      "Volkswagen"
+    ],
+    "models": [],
+    "platforms": [],
+    "engine_families": [],
+    "engine_codes": [],
+    "transmissions": [],
+    "system_tags": [
+      "central locking",
+      "electric windows",
+      "interior lights",
+      "anti-theft",
+      "self-diagnosis"
+    ],
+    "language": "en",
+    "publication_year": null,
+    "applicability_scope": "Volkswagen vehicle convenience-system principles",
+    "ranking_tier": "C",
+    "confidence": 0.93,
+    "evidence": [
+      {
+        "field": "canonical_title",
+        "source": "local PDF cover/opening page",
+        "page": 1,
+        "text": "SSP 193 opening defines central locking, mirrors, windows and interior light as convenience system"
+      },
+      {
+        "field": "applicability_scope",
+        "source": "local PDF cover/opening page or contents",
+        "page": 1,
+        "text": "SSP 193 opening defines central locking, mirrors, windows and interior light as convenience system"
+      }
+    ],
+    "review_flags": [
+      "No model applicability."
+    ]
+  },
+  {
+    "pdf_id": "PDF-020",
+    "canonical_title": "The 2.3-ltr V5 Engine",
+    "document_kind": "self_study_program",
+    "publisher": "Volkswagen AG",
+    "source_host": "vdveer-engineering.nl",
+    "distribution_type": "public_web_download",
+    "authority_class": "oem_training",
+    "service_authority": "principle_only",
+    "brands": [
+      "Volkswagen"
+    ],
+    "models": [],
+    "platforms": [],
+    "engine_families": [
+      "V5",
+      "VR6"
+    ],
+    "engine_codes": [],
+    "transmissions": [],
+    "system_tags": [
+      "engine mechanicals",
+      "cooling",
+      "oil circuit",
+      "Motronic"
+    ],
+    "language": "en",
+    "publication_year": null,
+    "applicability_scope": "Volkswagen 2.3 l V5 engine related to VR6",
+    "ranking_tier": "C",
+    "confidence": 0.93,
+    "evidence": [
+      {
+        "field": "canonical_title",
+        "source": "local PDF cover/opening page",
+        "page": 1,
+        "text": "SSP 195 opening states the V5 is related in design to VR6"
+      },
+      {
+        "field": "applicability_scope",
+        "source": "local PDF cover/opening page or contents",
+        "page": 1,
+        "text": "SSP 195 opening states the V5 is related in design to VR6"
+      }
+    ],
+    "review_flags": [
+      "VR6 is design relationship, not model."
+    ]
+  },
+  {
+    "pdf_id": "PDF-021",
+    "canonical_title": "The 1.4-ltr 16V 55kW Engine with roller-type cam follower",
+    "document_kind": "self_study_program",
+    "publisher": "Volkswagen AG",
+    "source_host": "vdveer-engineering.nl",
+    "distribution_type": "public_web_download",
+    "authority_class": "oem_training",
+    "service_authority": "principle_only",
+    "brands": [
+      "Volkswagen"
+    ],
+    "models": [
+      "Polo GTI"
+    ],
+    "platforms": [],
+    "engine_families": [],
+    "engine_codes": [],
+    "transmissions": [],
+    "system_tags": [
+      "petrol engine",
+      "engine mechanics",
+      "cam follower"
+    ],
+    "language": "en",
+    "publication_year": null,
+    "applicability_scope": "Volkswagen 1.4 l 16V 55 kW engine; related Polo GTI engine mentioned",
+    "ranking_tier": "C",
+    "confidence": 0.93,
+    "evidence": [
+      {
+        "field": "canonical_title",
+        "source": "local PDF cover/opening page",
+        "page": 1,
+        "text": "SSP 196 opening identifies 1.4-ltr 16V 55kW and mentions 1.6-ltr 16V 88kW Polo GTI"
+      },
+      {
+        "field": "applicability_scope",
+        "source": "local PDF cover/opening page or contents",
+        "page": 1,
+        "text": "SSP 196 opening identifies 1.4-ltr 16V 55kW and mentions 1.6-ltr 16V 88kW Polo GTI"
+      }
+    ],
+    "review_flags": [
+      "Polo GTI is related explicit mention; primary vehicle coverage uncertain."
+    ]
+  },
+  {
+    "pdf_id": "PDF-022",
+    "canonical_title": "The 2.7-litre V6 Biturbo",
+    "document_kind": "self_study_program",
+    "publisher": "AUDI AG",
+    "source_host": "vdveer-engineering.nl",
+    "distribution_type": "public_web_download",
+    "authority_class": "oem_training",
+    "service_authority": "principle_only",
+    "brands": [
+      "Audi"
+    ],
+    "models": [],
+    "platforms": [],
+    "engine_families": [
+      "V6"
+    ],
+    "engine_codes": [],
+    "transmissions": [],
+    "system_tags": [
+      "biturbo",
+      "engine",
+      "turbocharging",
+      "torque"
+    ],
+    "language": "en",
+    "publication_year": 1998,
+    "applicability_scope": "Audi 2.7 l V6 biturbo, technical status 01/98",
+    "ranking_tier": "C",
+    "confidence": 0.93,
+    "evidence": [
+      {
+        "field": "canonical_title",
+        "source": "local PDF cover/opening page",
+        "page": 1,
+        "text": "SSP 198 cover identifies The 2.7-litre V6 Biturbo and Technical status 01/98"
+      },
+      {
+        "field": "applicability_scope",
+        "source": "local PDF cover/opening page or contents",
+        "page": 1,
+        "text": "SSP 198 cover identifies The 2.7-litre V6 Biturbo and Technical status 01/98"
+      }
+    ],
+    "review_flags": [
+      "No model/engine code."
+    ]
+  },
+  {
+    "pdf_id": "PDF-023",
+    "canonical_title": "The Radio Navigation System",
+    "document_kind": "self_study_program",
+    "publisher": "Volkswagen AG / Audi",
+    "source_host": "vdveer-engineering.nl",
+    "distribution_type": "public_web_download",
+    "authority_class": "oem_training",
+    "service_authority": "principle_only",
+    "brands": [
+      "Volkswagen",
+      "Audi"
+    ],
+    "models": [],
+    "platforms": [],
+    "engine_families": [],
+    "engine_codes": [],
+    "transmissions": [],
+    "system_tags": [
+      "radio navigation",
+      "satellite navigation",
+      "self-diagnosis"
+    ],
+    "language": "en",
+    "publication_year": null,
+    "applicability_scope": "Volkswagen Radio Navigation and Audi Plus Navigation systems",
+    "ranking_tier": "C",
+    "confidence": 0.93,
+    "evidence": [
+      {
+        "field": "canonical_title",
+        "source": "local PDF cover/opening page",
+        "page": 1,
+        "text": "SSP 199 opening explicitly describes Volkswagen and Audi radio-navigation systems"
+      },
+      {
+        "field": "applicability_scope",
+        "source": "local PDF cover/opening page or contents",
+        "page": 1,
+        "text": "SSP 199 opening explicitly describes Volkswagen and Audi radio-navigation systems"
+      }
+    ],
+    "review_flags": [
+      "No model applicability."
+    ]
+  },
+  {
+    "pdf_id": "PDF-024",
+    "canonical_title": "Golf IV",
+    "document_kind": "self_study_program",
+    "publisher": "Volkswagen AG",
+    "source_host": "vdveer-engineering.nl",
+    "distribution_type": "public_web_download",
+    "authority_class": "oem_training",
+    "service_authority": "principle_only",
+    "brands": [
+      "Volkswagen"
+    ],
+    "models": [
+      "Golf IV"
+    ],
+    "platforms": [
+      "A-platform"
+    ],
+    "engine_families": [],
+    "engine_codes": [],
+    "transmissions": [],
+    "system_tags": [
+      "vehicle construction",
+      "servicing",
+      "body",
+      "vehicle systems"
+    ],
+    "language": "en",
+    "publication_year": null,
+    "applicability_scope": "Volkswagen Golf IV / Golf 98 training",
+    "ranking_tier": "C",
+    "confidence": 0.93,
+    "evidence": [
+      {
+        "field": "canonical_title",
+        "source": "local PDF cover/opening page",
+        "page": 1,
+        "text": "SSP 200 opening identifies launch of new Golf and servicing changes; contents based on workshop manuals"
+      },
+      {
+        "field": "applicability_scope",
+        "source": "local PDF cover/opening page or contents",
+        "page": 1,
+        "text": "SSP 200 opening identifies launch of new Golf and servicing changes; contents based on workshop manuals"
+      }
+    ],
+    "review_flags": [
+      "Training directs repairs to service literature."
+    ]
+  },
+  {
+    "pdf_id": "PDF-025",
+    "canonical_title": "The Lupo",
+    "document_kind": "self_study_program",
+    "publisher": "Volkswagen AG",
+    "source_host": "vdveer-engineering.nl",
+    "distribution_type": "public_web_download",
+    "authority_class": "oem_training",
+    "service_authority": "principle_only",
+    "brands": [
+      "Volkswagen"
+    ],
+    "models": [
+      "Lupo"
+    ],
+    "platforms": [],
+    "engine_families": [],
+    "engine_codes": [],
+    "transmissions": [],
+    "system_tags": [
+      "vehicle design",
+      "safety",
+      "environment",
+      "engines"
+    ],
+    "language": "en",
+    "publication_year": null,
+    "applicability_scope": "Volkswagen Lupo vehicle training",
+    "ranking_tier": "C",
+    "confidence": 0.93,
+    "evidence": [
+      {
+        "field": "canonical_title",
+        "source": "local PDF cover/opening page",
+        "page": 1,
+        "text": "SSP 201 opening says Lupo extends Volkswagen subcompact range and describes safety/engines"
+      },
+      {
+        "field": "applicability_scope",
+        "source": "local PDF cover/opening page or contents",
+        "page": 1,
+        "text": "SSP 201 opening says Lupo extends Volkswagen subcompact range and describes safety/engines"
+      }
+    ],
+    "review_flags": [
+      "No specific engine/transmission."
+    ]
+  },
+  {
+    "pdf_id": "PDF-026",
+    "canonical_title": "Vehicle Diagnostic, Testing and Information System VAS 5051",
+    "document_kind": "self_study_program",
+    "publisher": "Volkswagen AG",
+    "source_host": "vdveer-engineering.nl",
+    "distribution_type": "public_web_download",
+    "authority_class": "oem_training",
+    "service_authority": "principle_only",
+    "brands": [
+      "Volkswagen"
+    ],
+    "models": [],
+    "platforms": [],
+    "engine_families": [],
+    "engine_codes": [],
+    "transmissions": [],
+    "system_tags": [
+      "diagnostic tester",
+      "guided fault finding",
+      "self-diagnosis"
+    ],
+    "language": "en",
+    "publication_year": null,
+    "applicability_scope": "Volkswagen VAS 5051 diagnostic/test information system",
+    "ranking_tier": "C",
+    "confidence": 0.93,
+    "evidence": [
+      {
+        "field": "canonical_title",
+        "source": "local PDF cover/opening page",
+        "page": 1,
+        "text": "SSP 202 opening says VAS 5051 supports guided fault finding, test instruments and self-diagnosis"
+      },
+      {
+        "field": "applicability_scope",
+        "source": "local PDF cover/opening page or contents",
+        "page": 1,
+        "text": "SSP 202 opening says VAS 5051 supports guided fault finding, test instruments and self-diagnosis"
+      }
+    ],
+    "review_flags": [
+      "Equipment training, not vehicle repair procedure."
+    ]
+  },
+  {
+    "pdf_id": "PDF-027",
+    "canonical_title": "The 1.0-ltr 37 kW petrol engine",
+    "document_kind": "self_study_program",
+    "publisher": "Volkswagen AG",
+    "source_host": "vdveer-engineering.nl",
+    "distribution_type": "public_web_download",
+    "authority_class": "oem_training",
+    "service_authority": "principle_only",
+    "brands": [
+      "Volkswagen"
+    ],
+    "models": [
+      "Lupo"
+    ],
+    "platforms": [],
+    "engine_families": [],
+    "engine_codes": [],
+    "transmissions": [],
+    "system_tags": [
+      "petrol engine",
+      "OHV",
+      "engine management",
+      "Simos 2P"
+    ],
+    "language": "en",
+    "publication_year": null,
+    "applicability_scope": "Volkswagen Lupo 1.0 l 37 kW petrol engine",
+    "ranking_tier": "C",
+    "confidence": 0.93,
+    "evidence": [
+      {
+        "field": "canonical_title",
+        "source": "local PDF cover/opening page",
+        "page": 1,
+        "text": "SSP 203 opening says engine extends Lupo petrol range; identifies OHV and Simos 2P"
+      },
+      {
+        "field": "applicability_scope",
+        "source": "local PDF cover/opening page or contents",
+        "page": 1,
+        "text": "SSP 203 opening says engine extends Lupo petrol range; identifies OHV and Simos 2P"
+      }
+    ],
+    "review_flags": [
+      "No engine code."
+    ]
+  },
+  {
+    "pdf_id": "PDF-028",
+    "canonical_title": "ESP Electronic Stability Programme",
+    "document_kind": "self_study_program",
+    "publisher": "Volkswagen AG",
+    "source_host": "vdveer-engineering.nl",
+    "distribution_type": "public_web_download",
+    "authority_class": "oem_training",
+    "service_authority": "principle_only",
+    "brands": [
+      "Volkswagen"
+    ],
+    "models": [],
+    "platforms": [],
+    "engine_families": [],
+    "engine_codes": [],
+    "transmissions": [],
+    "system_tags": [
+      "ESP",
+      "ABS",
+      "TCS",
+      "EDL",
+      "EBD",
+      "EBC",
+      "stability control"
+    ],
+    "language": "en",
+    "publication_year": null,
+    "applicability_scope": "Volkswagen vehicle electronic stability programme principles",
+    "ranking_tier": "C",
+    "confidence": 0.93,
+    "evidence": [
+      {
+        "field": "canonical_title",
+        "source": "local PDF cover/opening page",
+        "page": 1,
+        "text": "SSP 204 opening expands ESP and lists ABS, TCS, EDL, EBD and EBC"
+      },
+      {
+        "field": "applicability_scope",
+        "source": "local PDF cover/opening page or contents",
+        "page": 1,
+        "text": "SSP 204 opening expands ESP and lists ABS, TCS, EDL, EBD and EBC"
+      }
+    ],
+    "review_flags": [
+      "No model applicability."
+    ]
+  },
+  {
+    "pdf_id": "PDF-029",
+    "canonical_title": "6-speed manual gearbox 02M",
+    "document_kind": "self_study_program",
+    "publisher": "Volkswagen AG",
+    "source_host": "vdveer-engineering.nl",
+    "distribution_type": "public_web_download",
+    "authority_class": "oem_training",
+    "service_authority": "principle_only",
+    "brands": [
+      "Volkswagen"
+    ],
+    "models": [],
+    "platforms": [
+      "A-platform"
+    ],
+    "engine_families": [],
+    "engine_codes": [
+      "02M"
+    ],
+    "transmissions": [
+      "02M"
+    ],
+    "system_tags": [
+      "manual gearbox",
+      "6-speed transmission",
+      "transversely mounted engine"
+    ],
+    "language": "en",
+    "publication_year": null,
+    "applicability_scope": "Volkswagen 02M gearbox for A-platform vehicles",
+    "ranking_tier": "C",
+    "confidence": 0.93,
+    "evidence": [
+      {
+        "field": "canonical_title",
+        "source": "local PDF cover/opening page",
+        "page": 1,
+        "text": "SSP 205 opening identifies 02M and says it is for A-platform vehicles with transversely mounted engine"
+      },
+      {
+        "field": "applicability_scope",
+        "source": "local PDF cover/opening page or contents",
+        "page": 1,
+        "text": "SSP 205 opening identifies 02M and says it is for A-platform vehicles with transversely mounted engine"
+      }
+    ],
+    "review_flags": [
+      "Training directs repairs to service literature."
+    ]
+  },
+  {
+    "pdf_id": "PDF-030",
+    "canonical_title": "Four-Wheel Drive with Haldex Coupling",
+    "document_kind": "self_study_program",
+    "publisher": "Volkswagen AG / Audi",
+    "source_host": "vdveer-engineering.nl",
+    "distribution_type": "public_web_download",
+    "authority_class": "oem_training",
+    "service_authority": "principle_only",
+    "brands": [
+      "Volkswagen",
+      "Audi"
+    ],
+    "models": [],
+    "platforms": [],
+    "engine_families": [],
+    "engine_codes": [],
+    "transmissions": [],
+    "system_tags": [
+      "four-wheel drive",
+      "Haldex coupling",
+      "ABS",
+      "CAN bus",
+      "Torsen"
+    ],
+    "language": "en",
+    "publication_year": null,
+    "applicability_scope": "Volkswagen/Audi four-wheel-drive system with Haldex coupling",
+    "ranking_tier": "C",
+    "confidence": 0.93,
+    "evidence": [
+      {
+        "field": "canonical_title",
+        "source": "local PDF cover/opening page",
+        "page": 1,
+        "text": "SSP 206 opening contrasts VW viscous coupling and Audi Torsen and describes Haldex/ABS/CAN control"
+      },
+      {
+        "field": "applicability_scope",
+        "source": "local PDF cover/opening page or contents",
+        "page": 1,
+        "text": "SSP 206 opening contrasts VW viscous coupling and Audi Torsen and describes Haldex/ABS/CAN control"
+      }
+    ],
+    "review_flags": [
+      "No model/platform applicability."
+    ]
+  },
+  {
+    "pdf_id": "PDF-031",
+    "canonical_title": "The Audi TT Coupé",
+    "document_kind": "self_study_program",
+    "publisher": "Volkswagen AG",
+    "source_host": "vdveer-engineering.nl",
+    "distribution_type": "public_web_download",
+    "authority_class": "oem_training",
+    "service_authority": "principle_only",
+    "brands": [
+      "Audi"
+    ],
+    "models": [
+      "TT Coupé"
+    ],
+    "platforms": [],
+    "engine_families": [],
+    "engine_codes": [],
+    "transmissions": [],
+    "system_tags": [
+      "vehicle production",
+      "body",
+      "engine",
+      "safety",
+      "quality control"
+    ],
+    "language": "en",
+    "publication_year": 1998,
+    "applicability_scope": "Audi TT Coupé, production context",
+    "ranking_tier": "C",
+    "confidence": 0.93,
+    "evidence": [
+      {
+        "field": "canonical_title",
+        "source": "local PDF cover/opening page",
+        "page": 1,
+        "text": "SSP 207 opening identifies Audi TT Coupé and states final assembly began in 1998"
+      },
+      {
+        "field": "applicability_scope",
+        "source": "local PDF cover/opening page or contents",
+        "page": 1,
+        "text": "SSP 207 opening identifies Audi TT Coupé and states final assembly began in 1998"
+      }
+    ],
+    "review_flags": [
+      "Production/training, not repair authority."
+    ]
+  },
+  {
+    "pdf_id": "PDF-032",
+    "canonical_title": "Air Conditioner in the Motor Vehicle",
+    "document_kind": "self_study_program",
+    "publisher": "Volkswagen AG",
+    "source_host": "vdveer-engineering.nl",
+    "distribution_type": "public_web_download",
+    "authority_class": "oem_training",
+    "service_authority": "principle_only",
+    "brands": [
+      "Volkswagen"
+    ],
+    "models": [],
+    "platforms": [],
+    "engine_families": [],
+    "engine_codes": [],
+    "transmissions": [],
+    "system_tags": [
+      "air conditioning",
+      "refrigerant circuit",
+      "thermal management"
+    ],
+    "language": "en",
+    "publication_year": null,
+    "applicability_scope": "Vehicle air-conditioning fundamentals",
+    "ranking_tier": "C",
+    "confidence": 0.93,
+    "evidence": [
+      {
+        "field": "canonical_title",
+        "source": "local PDF cover/opening page",
+        "page": 1,
+        "text": "SSP 208 opening explains refrigerant-circuit design and component functions"
+      },
+      {
+        "field": "applicability_scope",
+        "source": "local PDF cover/opening page or contents",
+        "page": 1,
+        "text": "SSP 208 opening explains refrigerant-circuit design and component functions"
+      }
+    ],
+    "review_flags": [
+      "General principles; no model."
+    ]
+  },
+  {
+    "pdf_id": "PDF-033",
+    "canonical_title": "1.9-ltr TDI Engine with Pump Injection System",
+    "document_kind": "self_study_program",
+    "publisher": "Volkswagen AG",
+    "source_host": "vdveer-engineering.nl",
+    "distribution_type": "public_web_download",
+    "authority_class": "oem_training",
+    "service_authority": "principle_only",
+    "brands": [
+      "Volkswagen"
+    ],
+    "models": [],
+    "platforms": [],
+    "engine_families": [
+      "TDI"
+    ],
+    "engine_codes": [],
+    "transmissions": [],
+    "system_tags": [
+      "diesel engine",
+      "pump injection",
+      "fuel injection",
+      "emissions"
+    ],
+    "language": "en",
+    "publication_year": null,
+    "applicability_scope": "Volkswagen 1.9 l TDI pump-injection system",
+    "ranking_tier": "C",
+    "confidence": 0.93,
+    "evidence": [
+      {
+        "field": "canonical_title",
+        "source": "local PDF cover/opening page",
+        "page": 1,
+        "text": "SSP 209 opening explains pump-injection high pressure and fuel atomisation"
+      },
+      {
+        "field": "applicability_scope",
+        "source": "local PDF cover/opening page or contents",
+        "page": 1,
+        "text": "SSP 209 opening explains pump-injection high pressure and fuel atomisation"
+      }
+    ],
+    "review_flags": [
+      "No model/engine code."
+    ]
+  },
+  {
+    "pdf_id": "PDF-034",
+    "canonical_title": "Electronic Power Control",
+    "document_kind": "self_study_program",
+    "publisher": "Volkswagen AG",
+    "source_host": "vdveer-engineering.nl",
+    "distribution_type": "public_web_download",
+    "authority_class": "oem_training",
+    "service_authority": "principle_only",
+    "brands": [
+      "Volkswagen"
+    ],
+    "models": [],
+    "platforms": [],
+    "engine_families": [],
+    "engine_codes": [],
+    "transmissions": [],
+    "system_tags": [
+      "electronic throttle",
+      "engine management",
+      "accelerator pedal"
+    ],
+    "language": "en",
+    "publication_year": null,
+    "applicability_scope": "Volkswagen Electronic Power Control system",
+    "ranking_tier": "C",
+    "confidence": 0.93,
+    "evidence": [
+      {
+        "field": "canonical_title",
+        "source": "local PDF cover/opening page",
+        "page": 1,
+        "text": "SSP 210 opening explains electric throttle, pedal signal and ECU command"
+      },
+      {
+        "field": "applicability_scope",
+        "source": "local PDF cover/opening page or contents",
+        "page": 1,
+        "text": "SSP 210 opening explains electric throttle, pedal signal and ECU command"
+      }
+    ],
+    "review_flags": [
+      "System principle only."
+    ]
+  },
+  {
+    "pdf_id": "PDF-035",
+    "canonical_title": "The New Beetle",
+    "document_kind": "self_study_program",
+    "publisher": "Volkswagen AG",
+    "source_host": "vdveer-engineering.nl",
+    "distribution_type": "public_web_download",
+    "authority_class": "oem_training",
+    "service_authority": "principle_only",
+    "brands": [
+      "Volkswagen"
+    ],
+    "models": [
+      "New Beetle"
+    ],
+    "platforms": [
+      "A4"
+    ],
+    "engine_families": [],
+    "engine_codes": [],
+    "transmissions": [],
+    "system_tags": [
+      "vehicle design",
+      "body",
+      "safety",
+      "engines",
+      "vehicle systems"
+    ],
+    "language": "en",
+    "publication_year": null,
+    "applicability_scope": "Volkswagen New Beetle based on A4 platform",
+    "ranking_tier": "C",
+    "confidence": 0.93,
+    "evidence": [
+      {
+        "field": "canonical_title",
+        "source": "local PDF cover/opening page",
+        "page": 1,
+        "text": "SSP 211 opening explicitly states New Beetle is based on A4 platform"
+      },
+      {
+        "field": "applicability_scope",
+        "source": "local PDF cover/opening page or contents",
+        "page": 1,
+        "text": "SSP 211 opening explicitly states New Beetle is based on A4 platform"
+      }
+    ],
+    "review_flags": [
+      "Do not infer other A4-platform models."
+    ]
+  },
+  {
+    "pdf_id": "PDF-036",
+    "canonical_title": "Variable Intake Manifold in VR Engines",
+    "document_kind": "self_study_program",
+    "publisher": "Volkswagen AG",
+    "source_host": "vdveer-engineering.nl",
+    "distribution_type": "public_web_download",
+    "authority_class": "oem_training",
+    "service_authority": "principle_only",
+    "brands": [
+      "Volkswagen"
+    ],
+    "models": [],
+    "platforms": [],
+    "engine_families": [
+      "VR",
+      "VR6"
+    ],
+    "engine_codes": [],
+    "transmissions": [],
+    "system_tags": [
+      "variable intake manifold",
+      "engine air supply",
+      "torque"
+    ],
+    "language": "en",
+    "publication_year": null,
+    "applicability_scope": "Volkswagen VR-engine variable intake manifold principle",
+    "ranking_tier": "C",
+    "confidence": 0.93,
+    "evidence": [
+      {
+        "field": "canonical_title",
+        "source": "local PDF cover/opening page",
+        "page": 1,
+        "text": "SSP 212 opening explicitly identifies VR6 engine as the example"
+      },
+      {
+        "field": "applicability_scope",
+        "source": "local PDF cover/opening page or contents",
+        "page": 1,
+        "text": "SSP 212 opening explicitly identifies VR6 engine as the example"
+      }
+    ],
+    "review_flags": [
+      "VR6 is engine-family subject, not model applicability."
+    ]
+  },
+  {
+    "pdf_id": "PDF-037",
+    "canonical_title": "New Technology 99",
+    "document_kind": "self_study_program",
+    "publisher": "Volkswagen AG",
+    "source_host": "vdveer-engineering.nl",
+    "distribution_type": "public_web_download",
+    "authority_class": "oem_training",
+    "service_authority": "principle_only",
+    "brands": [
+      "Audi"
+    ],
+    "models": [
+      "A8"
+    ],
+    "platforms": [],
+    "engine_families": [],
+    "engine_codes": [],
+    "transmissions": [],
+    "system_tags": [
+      "vehicle safety",
+      "engine",
+      "gearbox",
+      "running gear",
+      "air conditioning",
+      "electrics",
+      "body"
+    ],
+    "language": "en",
+    "publication_year": 1999,
+    "applicability_scope": "Audi A8 major product upgrade technical status",
+    "ranking_tier": "C",
+    "confidence": 0.93,
+    "evidence": [
+      {
+        "field": "canonical_title",
+        "source": "local PDF cover/opening page",
+        "page": 1,
+        "text": "SSP 213 contents covers vehicle systems and says descriptions refer only to technical status of A8 major product upgrade"
+      },
+      {
+        "field": "applicability_scope",
+        "source": "local PDF cover/opening page or contents",
+        "page": 1,
+        "text": "SSP 213 contents covers vehicle systems and says descriptions refer only to technical status of A8 major product upgrade"
+      }
+    ],
+    "review_flags": [
+      "Exact trim/engine coverage not established."
+    ]
+  }
+]

@@ -1,0 +1,37 @@
+[
+  {
+    "document_id": "PDF-008",
+    "pipeline_version": 4,
+    "pages": 40,
+    "sections": 1,
+    "chunks": 279,
+    "clean_chars": 297827,
+    "replacement_chars": 0,
+    "parser_fallback_pages": 40,
+    "ocr_pages": 40,
+    "parser_failed_pages": 0,
+    "quarantine_pages": 0,
+    "warnings": [
+      "ocr_used",
+      "parser_fallback"
+    ],
+    "indexed_chars": 286927
+  },
+  {
+    "document_id": "PDF-009",
+    "pipeline_version": 4,
+    "pages": 31,
+    "sections": 1,
+    "chunks": 24,
+    "clean_chars": 31058,
+    "replacement_chars": 0,
+    "parser_fallback_pages": 31,
+    "ocr_pages": 0,
+    "parser_failed_pages": 0,
+    "quarantine_pages": 0,
+    "warnings": [
+      "parser_fallback"
+    ],
+    "indexed_chars": 31124
+  }
+]

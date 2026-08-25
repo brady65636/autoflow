@@ -1,0 +1,81 @@
+{
+  "run": "second_pass",
+  "expected": "skipped",
+  "checks": [
+    {
+      "pdf_id": "PDF-001",
+      "status": "skipped",
+      "skip_reason": "source_and_pipeline_unchanged",
+      "wall_seconds": 0.0047,
+      "incremental_skip_verified": true
+    },
+    {
+      "pdf_id": "PDF-002",
+      "status": "skipped",
+      "skip_reason": "source_and_pipeline_unchanged",
+      "wall_seconds": 0.0425,
+      "incremental_skip_verified": true
+    },
+    {
+      "pdf_id": "PDF-003",
+      "status": "skipped",
+      "skip_reason": "source_and_pipeline_unchanged",
+      "wall_seconds": 0.0089,
+      "incremental_skip_verified": true
+    },
+    {
+      "pdf_id": "PDF-004",
+      "status": "skipped",
+      "skip_reason": "source_and_pipeline_unchanged",
+      "wall_seconds": 0.0109,
+      "incremental_skip_verified": true
+    },
+    {
+      "pdf_id": "PDF-005",
+      "status": "skipped",
+      "skip_reason": "source_and_pipeline_unchanged",
+      "wall_seconds": 0.0083,
+      "incremental_skip_verified": true
+    },
+    {
+      "pdf_id": "PDF-006",
+      "status": "skipped",
+      "skip_reason": "source_and_pipeline_unchanged",
+      "wall_seconds": 0.0094,
+      "incremental_skip_verified": true
+    },
+    {
+      "pdf_id": "PDF-007",
+      "status": "skipped",
+      "skip_reason": "source_and_pipeline_unchanged",
+      "wall_seconds": 0.0067,
+      "incremental_skip_verified": true
+    },
+    {
+      "pdf_id": "PDF-008",
+      "status": "skipped",
+      "skip_reason": "source_and_pipeline_unchanged",
+      "wall_seconds": 0.0203,
+      "incremental_skip_verified": true
+    },
+    {
+      "pdf_id": "PDF-009",
+      "status": "skipped",
+      "skip_reason": "source_and_pipeline_unchanged",
+      "wall_seconds": 0.0046,
+      "incremental_skip_verified": true
+    },
+    {
+      "pdf_id": "PDF-010",
+      "status": "skipped",
+      "skip_reason": "source_and_pipeline_unchanged",
+      "wall_seconds": 0.0071,
+      "incremental_skip_verified": true
+    }
+  ],
+  "counts": {
+    "total": 10,
+    "skipped": 10,
+    "errors": 0
+  }
+}

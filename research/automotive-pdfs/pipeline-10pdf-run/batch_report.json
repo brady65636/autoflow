@@ -1,0 +1,438 @@
+{
+  "run": "initial_or_resume",
+  "parallel_workers": 3,
+  "chunk_size": 1800,
+  "chunk_overlap": 200,
+  "wall_seconds": 871.3912,
+  "results": [
+    {
+      "pdf_id": "PDF-001",
+      "filename": "00_official_MQB_MEB_platform_press_release.pdf",
+      "source": "C:\\Users\\LX\\Desktop\\codebase\\autoflow\\research\\automotive-pdfs\\framework\\00_official_MQB_MEB_platform_press_release.pdf",
+      "manifest_pages": 3,
+      "sha256_match": true,
+      "status": "ok",
+      "wall_seconds": 0.0181,
+      "report": {
+        "pdf": "C:\\Users\\LX\\Desktop\\codebase\\autoflow\\research\\automotive-pdfs\\framework\\00_official_MQB_MEB_platform_press_release.pdf",
+        "document_id": "PDF-001",
+        "document_content_type": "official_news",
+        "metadata_confidence": 0.95,
+        "source_sha256": "9d65fbedc54f630ba32e6624689fa613a793a91d6492f53aa67d68da7d2cd860",
+        "pipeline_fingerprint": "9d1433606ecd0131cd03f9526b79dbb7f027904d5297c82695f8ec7ea246d2a2",
+        "pipeline_version": 2,
+        "ingestion_status": "skipped",
+        "pages": 3,
+        "sections": 5,
+        "chunks": 9,
+        "chunk_size": 1800,
+        "chunk_overlap": 200,
+        "timings": {
+          "parse_seconds": 8.0777,
+          "clean_seconds": 0.0738,
+          "section_seconds": 0.0074,
+          "chunk_seconds": 0.0029
+        },
+        "skip_reason": "source_and_pipeline_unchanged"
+      },
+      "quality": {
+        "page_count": 3,
+        "rag_pass_pages": 3,
+        "rag_warning_pages": 0,
+        "quarantine_pages": 0,
+        "geometry_watermark_pages": 0,
+        "watermark_in_text_pages": 0,
+        "watermark_removed": 0,
+        "table_count": 0,
+        "low_quality_tables": 0,
+        "warnings": []
+      }
+    },
+    {
+      "pdf_id": "PDF-002",
+      "filename": "01_SSP_511_EA211_petrol_engine.pdf",
+      "source": "C:\\Users\\LX\\Desktop\\codebase\\autoflow\\research\\automotive-pdfs\\framework\\01_SSP_511_EA211_petrol_engine.pdf",
+      "manifest_pages": 64,
+      "sha256_match": true,
+      "status": "ok",
+      "wall_seconds": 0.0359,
+      "report": {
+        "pdf": "C:\\Users\\LX\\Desktop\\codebase\\autoflow\\research\\automotive-pdfs\\framework\\01_SSP_511_EA211_petrol_engine.pdf",
+        "document_id": "PDF-002",
+        "document_content_type": "technical_training",
+        "metadata_confidence": 0.95,
+        "source_sha256": "9a53bf0c76e2d5248787ecc13d32384704d76604f52d14aad57eb29e2cee2596",
+        "pipeline_fingerprint": "790b8f7163370915d9fd814ef0a5bb010729f434b7686d4ac6b88d7b8a7bb834",
+        "pipeline_version": 2,
+        "ingestion_status": "skipped",
+        "pages": 64,
+        "sections": 66,
+        "chunks": 81,
+        "chunk_size": 1800,
+        "chunk_overlap": 200,
+        "timings": {
+          "parse_seconds": 278.0336,
+          "clean_seconds": 6.155,
+          "section_seconds": 0.052,
+          "chunk_seconds": 0.0178
+        },
+        "skip_reason": "source_and_pipeline_unchanged"
+      },
+      "quality": {
+        "page_count": 64,
+        "rag_pass_pages": 64,
+        "rag_warning_pages": 0,
+        "quarantine_pages": 0,
+        "geometry_watermark_pages": 64,
+        "watermark_in_text_pages": 0,
+        "watermark_removed": 2785,
+        "table_count": 5,
+        "low_quality_tables": 3,
+        "warnings": []
+      }
+    },
+    {
+      "pdf_id": "PDF-003",
+      "filename": "02_SSP_920243_EA888_gen3.pdf",
+      "source": "C:\\Users\\LX\\Desktop\\codebase\\autoflow\\research\\automotive-pdfs\\framework\\02_SSP_920243_EA888_gen3.pdf",
+      "manifest_pages": 72,
+      "sha256_match": true,
+      "status": "ok",
+      "wall_seconds": 0.0385,
+      "report": {
+        "pdf": "C:\\Users\\LX\\Desktop\\codebase\\autoflow\\research\\automotive-pdfs\\framework\\02_SSP_920243_EA888_gen3.pdf",
+        "document_id": "PDF-003",
+        "document_content_type": "technical_training",
+        "metadata_confidence": 0.95,
+        "source_sha256": "9976d6d51a45730230bad870792a8dcc8643135f87dcc310107d5c269ea87979",
+        "pipeline_fingerprint": "a90101c9034f31077dd0812c4456ce6c86f34fe894cadc825c0533ea60e0e6a8",
+        "pipeline_version": 2,
+        "ingestion_status": "skipped",
+        "pages": 72,
+        "sections": 136,
+        "chunks": 126,
+        "chunk_size": 1800,
+        "chunk_overlap": 200,
+        "timings": {
+          "parse_seconds": 194.5138,
+          "clean_seconds": 1.5238,
+          "section_seconds": 0.0281,
+          "chunk_seconds": 0.0222
+        },
+        "skip_reason": "source_and_pipeline_unchanged"
+      },
+      "quality": {
+        "page_count": 72,
+        "rag_pass_pages": 72,
+        "rag_warning_pages": 0,
+        "quarantine_pages": 0,
+        "geometry_watermark_pages": 0,
+        "watermark_in_text_pages": 0,
+        "watermark_removed": 73,
+        "table_count": 4,
+        "low_quality_tables": 2,
+        "warnings": []
+      }
+    },
+    {
+      "pdf_id": "PDF-004",
+      "filename": "03_SSP_374_traction_control_ESP.pdf",
+      "source": "C:\\Users\\LX\\Desktop\\codebase\\autoflow\\research\\automotive-pdfs\\framework\\03_SSP_374_traction_control_ESP.pdf",
+      "manifest_pages": 88,
+      "sha256_match": true,
+      "status": "ok",
+      "wall_seconds": 0.0461,
+      "report": {
+        "pdf": "C:\\Users\\LX\\Desktop\\codebase\\autoflow\\research\\automotive-pdfs\\framework\\03_SSP_374_traction_control_ESP.pdf",
+        "document_id": "PDF-004",
+        "document_content_type": "technical_training",
+        "metadata_confidence": 0.95,
+        "source_sha256": "94baee1401e25e43cd3ffb50c860a28ff89e8657e6d01f19b115598515c60303",
+        "pipeline_fingerprint": "97a7ee77e2225348292484b6e619e1dd1790bd9ba89d42df640f9d32a2e77c9b",
+        "pipeline_version": 2,
+        "ingestion_status": "skipped",
+        "pages": 88,
+        "sections": 87,
+        "chunks": 111,
+        "chunk_size": 1800,
+        "chunk_overlap": 200,
+        "timings": {
+          "parse_seconds": 281.7309,
+          "clean_seconds": 9.3188,
+          "section_seconds": 0.0282,
+          "chunk_seconds": 0.02
+        },
+        "skip_reason": "source_and_pipeline_unchanged"
+      },
+      "quality": {
+        "page_count": 88,
+        "rag_pass_pages": 88,
+        "rag_warning_pages": 0,
+        "quarantine_pages": 0,
+        "geometry_watermark_pages": 0,
+        "watermark_in_text_pages": 0,
+        "watermark_removed": 373,
+        "table_count": 4,
+        "low_quality_tables": 1,
+        "warnings": []
+      }
+    },
+    {
+      "pdf_id": "PDF-005",
+      "filename": "04_SSP_532_VW_heat_pump.pdf",
+      "source": "C:\\Users\\LX\\Desktop\\codebase\\autoflow\\research\\automotive-pdfs\\framework\\04_SSP_532_VW_heat_pump.pdf",
+      "manifest_pages": 32,
+      "sha256_match": true,
+      "status": "ok",
+      "wall_seconds": 387.687,
+      "report": {
+        "pdf": "C:\\Users\\LX\\Desktop\\codebase\\autoflow\\research\\automotive-pdfs\\framework\\04_SSP_532_VW_heat_pump.pdf",
+        "document_id": "PDF-005",
+        "document_content_type": "technical_training",
+        "metadata_confidence": 0.95,
+        "source_sha256": "d86a2d7aa21ca89f7ac43e1e3a8930556323e7a63bc0d4ef7c675af4dd99386d",
+        "pipeline_fingerprint": "a6093ee06b7b1b2646e8ac00c37d0253d3b12835a3f1d08757421b13c88b5263",
+        "pipeline_version": 2,
+        "ingestion_status": "complete",
+        "pages": 32,
+        "sections": 52,
+        "chunks": 37,
+        "chunk_size": 1800,
+        "chunk_overlap": 200,
+        "timings": {
+          "parse_seconds": 363.1717,
+          "clean_seconds": 22.2097,
+          "section_seconds": 0.0209,
+          "chunk_seconds": 0.108
+        }
+      },
+      "quality": {
+        "page_count": 32,
+        "rag_pass_pages": 32,
+        "rag_warning_pages": 0,
+        "quarantine_pages": 0,
+        "geometry_watermark_pages": 32,
+        "watermark_in_text_pages": 0,
+        "watermark_removed": 1441,
+        "table_count": 1,
+        "low_quality_tables": 1,
+        "warnings": []
+      }
+    },
+    {
+      "pdf_id": "PDF-006",
+      "filename": "05_SSP_307_Touran_electrical_system.pdf",
+      "source": "C:\\Users\\LX\\Desktop\\codebase\\autoflow\\research\\automotive-pdfs\\framework\\05_SSP_307_Touran_electrical_system.pdf",
+      "manifest_pages": 60,
+      "sha256_match": true,
+      "status": "ok",
+      "wall_seconds": 395.6623,
+      "report": {
+        "pdf": "C:\\Users\\LX\\Desktop\\codebase\\autoflow\\research\\automotive-pdfs\\framework\\05_SSP_307_Touran_electrical_system.pdf",
+        "document_id": "PDF-006",
+        "document_content_type": "technical_training",
+        "metadata_confidence": 0.95,
+        "source_sha256": "c5fa466e559ffe78abb7f9ec4ebff561a48daa041c0d6b8b4263bacc81872415",
+        "pipeline_fingerprint": "c51085ad73660396f89287a3fc5412aa1e45450ba7769a01cf83d5a76d5320d9",
+        "pipeline_version": 2,
+        "ingestion_status": "complete",
+        "pages": 60,
+        "sections": 107,
+        "chunks": 98,
+        "chunk_size": 1800,
+        "chunk_overlap": 200,
+        "timings": {
+          "parse_seconds": 392.2847,
+          "clean_seconds": 2.3321,
+          "section_seconds": 0.0175,
+          "chunk_seconds": 0.7553
+        }
+      },
+      "quality": {
+        "page_count": 60,
+        "rag_pass_pages": 60,
+        "rag_warning_pages": 0,
+        "quarantine_pages": 0,
+        "geometry_watermark_pages": 0,
+        "watermark_in_text_pages": 0,
+        "watermark_removed": 44,
+        "table_count": 6,
+        "low_quality_tables": 4,
+        "warnings": []
+      }
+    },
+    {
+      "pdf_id": "PDF-007",
+      "filename": "06_SSP_588_Jetta_2019.pdf",
+      "source": "C:\\Users\\LX\\Desktop\\codebase\\autoflow\\research\\automotive-pdfs\\framework\\06_SSP_588_Jetta_2019.pdf",
+      "manifest_pages": 68,
+      "sha256_match": true,
+      "status": "ok",
+      "wall_seconds": 489.7516,
+      "report": {
+        "pdf": "C:\\Users\\LX\\Desktop\\codebase\\autoflow\\research\\automotive-pdfs\\framework\\06_SSP_588_Jetta_2019.pdf",
+        "document_id": "PDF-007",
+        "document_content_type": "technical_training",
+        "metadata_confidence": 0.95,
+        "source_sha256": "6ed56517b60e7b1b9fa9192c03f1014cbb35002539c3c28f88bc1fcb6fa4b24f",
+        "pipeline_fingerprint": "fcd596efb8b71ea069c8caa9abf19d43207ec04b24104a1c82df2e4a56e7ed44",
+        "pipeline_version": 2,
+        "ingestion_status": "complete",
+        "pages": 68,
+        "sections": 118,
+        "chunks": 98,
+        "chunk_size": 1800,
+        "chunk_overlap": 200,
+        "timings": {
+          "parse_seconds": 482.4908,
+          "clean_seconds": 6.5154,
+          "section_seconds": 0.2412,
+          "chunk_seconds": 0.0341
+        }
+      },
+      "quality": {
+        "page_count": 68,
+        "rag_pass_pages": 68,
+        "rag_warning_pages": 0,
+        "quarantine_pages": 0,
+        "geometry_watermark_pages": 0,
+        "watermark_in_text_pages": 0,
+        "watermark_removed": 30,
+        "table_count": 9,
+        "low_quality_tables": 4,
+        "warnings": []
+      }
+    },
+    {
+      "pdf_id": "PDF-008",
+      "filename": "vag_001_View_document_SSP_147_Radio_Systems_94__e2bf2399d103.pdf",
+      "source": "C:\\Users\\LX\\Desktop\\codebase\\autoflow\\research\\automotive-pdfs\\pdfs\\vag_001_View_document_SSP_147_Radio_Systems_94__e2bf2399d103.pdf",
+      "manifest_pages": 40,
+      "sha256_match": true,
+      "status": "ok",
+      "wall_seconds": 167.9952,
+      "report": {
+        "pdf": "C:\\Users\\LX\\Desktop\\codebase\\autoflow\\research\\automotive-pdfs\\pdfs\\vag_001_View_document_SSP_147_Radio_Systems_94__e2bf2399d103.pdf",
+        "document_id": "PDF-008",
+        "document_content_type": "technical_training",
+        "metadata_confidence": 0.95,
+        "source_sha256": "e2bf2399d10348eea1ff25e04d7e0cad8d8c47c458515dbfc5efabf805d0bbef",
+        "pipeline_fingerprint": "a484ecc70721c8bd0d7c7db24073812dc2db26af60fad8e5fce41a61730572e3",
+        "pipeline_version": 2,
+        "ingestion_status": "complete",
+        "pages": 40,
+        "sections": 0,
+        "chunks": 0,
+        "chunk_size": 1800,
+        "chunk_overlap": 200,
+        "timings": {
+          "parse_seconds": 167.6947,
+          "clean_seconds": 0.131,
+          "section_seconds": 0.0004,
+          "chunk_seconds": 0.0
+        }
+      },
+      "quality": {
+        "page_count": 40,
+        "rag_pass_pages": 40,
+        "rag_warning_pages": 0,
+        "quarantine_pages": 0,
+        "geometry_watermark_pages": 0,
+        "watermark_in_text_pages": 0,
+        "watermark_removed": 0,
+        "table_count": 0,
+        "low_quality_tables": 0,
+        "warnings": []
+      }
+    },
+    {
+      "pdf_id": "PDF-009",
+      "filename": "vag_002_View_document_SSP_153_1_9_ltr-TDI-Industrial_Engine__b72a02c43d3a.pdf",
+      "source": "C:\\Users\\LX\\Desktop\\codebase\\autoflow\\research\\automotive-pdfs\\pdfs\\vag_002_View_document_SSP_153_1_9_ltr-TDI-Industrial_Engine__b72a02c43d3a.pdf",
+      "manifest_pages": 31,
+      "sha256_match": true,
+      "status": "ok",
+      "wall_seconds": 152.6885,
+      "report": {
+        "pdf": "C:\\Users\\LX\\Desktop\\codebase\\autoflow\\research\\automotive-pdfs\\pdfs\\vag_002_View_document_SSP_153_1_9_ltr-TDI-Industrial_Engine__b72a02c43d3a.pdf",
+        "document_id": "PDF-009",
+        "document_content_type": "technical_training",
+        "metadata_confidence": 0.95,
+        "source_sha256": "b72a02c43d3a46c07126c4f337085cab7f4aa53c854094e69238c20fc58c33e5",
+        "pipeline_fingerprint": "f15b1dc3aef9473ec379922ed1bb4a293a7674b2ed10aa311ee9a4227a97cf85",
+        "pipeline_version": 2,
+        "ingestion_status": "complete",
+        "pages": 31,
+        "sections": 1,
+        "chunks": 1,
+        "chunk_size": 1800,
+        "chunk_overlap": 200,
+        "timings": {
+          "parse_seconds": 151.1808,
+          "clean_seconds": 1.2341,
+          "section_seconds": 0.0112,
+          "chunk_seconds": 0.1518
+        }
+      },
+      "quality": {
+        "page_count": 31,
+        "rag_pass_pages": 31,
+        "rag_warning_pages": 0,
+        "quarantine_pages": 0,
+        "geometry_watermark_pages": 0,
+        "watermark_in_text_pages": 0,
+        "watermark_removed": 0,
+        "table_count": 1,
+        "low_quality_tables": 1,
+        "warnings": []
+      }
+    },
+    {
+      "pdf_id": "PDF-010",
+      "filename": "vag_003_View_document_SSP_175_On-Board_Diagnosis_System__de2a09ad62f0.pdf",
+      "source": "C:\\Users\\LX\\Desktop\\codebase\\autoflow\\research\\automotive-pdfs\\pdfs\\vag_003_View_document_SSP_175_On-Board_Diagnosis_System__de2a09ad62f0.pdf",
+      "manifest_pages": 92,
+      "sha256_match": true,
+      "status": "ok",
+      "wall_seconds": 369.5195,
+      "report": {
+        "pdf": "C:\\Users\\LX\\Desktop\\codebase\\autoflow\\research\\automotive-pdfs\\pdfs\\vag_003_View_document_SSP_175_On-Board_Diagnosis_System__de2a09ad62f0.pdf",
+        "document_id": "PDF-010",
+        "document_content_type": "technical_training",
+        "metadata_confidence": 0.95,
+        "source_sha256": "de2a09ad62f0c00b1765c5218c344643b5e4095d2157908a8db0351afbb7d76e",
+        "pipeline_fingerprint": "a6768fd56d4ae423e2e14e1b33f9bdb603bb0a6ca72651240319b0a1476c1fe1",
+        "pipeline_version": 2,
+        "ingestion_status": "complete",
+        "pages": 92,
+        "sections": 112,
+        "chunks": 110,
+        "chunk_size": 1800,
+        "chunk_overlap": 200,
+        "timings": {
+          "parse_seconds": 367.6827,
+          "clean_seconds": 1.4281,
+          "section_seconds": 0.0306,
+          "chunk_seconds": 0.1352
+        }
+      },
+      "quality": {
+        "page_count": 92,
+        "rag_pass_pages": 92,
+        "rag_warning_pages": 0,
+        "quarantine_pages": 0,
+        "geometry_watermark_pages": 92,
+        "watermark_in_text_pages": 0,
+        "watermark_removed": 4019,
+        "table_count": 1,
+        "low_quality_tables": 1,
+        "warnings": []
+      }
+    }
+  ],
+  "counts": {
+    "total": 10,
+    "ok": 10,
+    "error": 0
+  }
+}

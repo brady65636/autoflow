@@ -1,0 +1,2748 @@
+{
+  "corpus": {
+    "chunks": 671,
+    "sections": 684,
+    "evaluation_cases": 11
+  },
+  "models": {
+    "embedding": "D:\\hf_cache\\hub\\models--Qwen--Qwen3-Embedding-0.6B\\snapshots\\97b0c614be4d77ee51c0cef4e5f07c00f9eb65b3",
+    "reranker_mode": "cross_encoder",
+    "reranker": "D:\\hf_cache\\hub\\models--Qwen--Qwen3-Reranker-0.6B\\snapshots\\e61197ed45024b0ed8a2d74b80b4d909f1255473",
+    "embedding_dimension": 1024,
+    "device": "NVIDIA GeForce RTX 4060 Laptop GPU"
+  },
+  "parameters": {
+    "dense_limit": 50,
+    "bm25_limit": 50,
+    "rerank_candidates": 30,
+    "rrf_k": 60,
+    "parallel_retrieval_workers": 2
+  },
+  "fallback": {
+    "strategy": "rrf",
+    "count": 0
+  },
+  "timings": {
+    "embedding_model_load_seconds": 5.2404,
+    "embedding_seconds": 23.4846,
+    "hybrid_retrieval_seconds": 0.118,
+    "reranker_model_load_seconds": 3.9178,
+    "rerank_seconds": 22.5788
+  },
+  "metrics": {
+    "dense": {
+      "hit@1": 1.0,
+      "hit@3": 1.0,
+      "hit@5": 1.0,
+      "hit@10": 1.0,
+      "mrr": 1.0
+    },
+    "bm25": {
+      "hit@1": 0.9091,
+      "hit@3": 1.0,
+      "hit@5": 1.0,
+      "hit@10": 1.0,
+      "mrr": 0.9545
+    },
+    "rrf": {
+      "hit@1": 1.0,
+      "hit@3": 1.0,
+      "hit@5": 1.0,
+      "hit@10": 1.0,
+      "mrr": 1.0
+    },
+    "reranker": {
+      "hit@1": 1.0,
+      "hit@3": 1.0,
+      "hit@5": 1.0,
+      "hit@10": 1.0,
+      "mrr": 1.0
+    }
+  },
+  "cases": [
+    {
+      "case_id": "n428_failure_state",
+      "query": "When N428 loses electrical power or fails, which pressure stage does the EA211 oil pump use?",
+      "question_type": "diagnosis",
+      "required_knowledge": "The valve state and oil pump pressure stage when N428 fails",
+      "expected_title": "Valve for oil pressure control N428",
+      "expected_path_contains": [
+        "Engine management system",
+        "Actuators"
+      ],
+      "ranks": {
+        "dense": 1,
+        "bm25": 1,
+        "rrf": 1,
+        "reranker": 1
+      },
+      "candidate_summary": [
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0059_c001",
+          "rank": 1,
+          "score": 0.984863
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0031_c001",
+          "rank": 2,
+          "score": 0.853027
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0033_c001",
+          "rank": 3,
+          "score": 0.089478
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0027_c001",
+          "rank": 4,
+          "score": 0.009483
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0034_c004",
+          "rank": 5,
+          "score": 0.01001
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0034_c003",
+          "rank": 6,
+          "score": 0.00629
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0034_c002",
+          "rank": 7,
+          "score": 0.012726
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0053_c003",
+          "rank": 8,
+          "score": 0.006439
+        },
+        {
+          "chunk_id": "ssp175englisch_s0094_c001",
+          "rank": 9,
+          "score": 0.001536
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0013_c001",
+          "rank": 10,
+          "score": 0.002981
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0028_c001",
+          "rank": 11,
+          "score": 0.003651
+        },
+        {
+          "chunk_id": "vwjetta7selfstudyprogram_s0031_c001",
+          "rank": 12,
+          "score": 0.002935
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0034_c005",
+          "rank": 13,
+          "score": 0.004868
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0053_c002",
+          "rank": 14,
+          "score": 0.000732
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0046_c001",
+          "rank": 15,
+          "score": 0.004868
+        },
+        {
+          "chunk_id": "ssp175englisch_s0040_c001",
+          "rank": 16,
+          "score": 0.004906
+        },
+        {
+          "chunk_id": "auiliteraturtemplate_s0063_c001",
+          "rank": 17,
+          "score": 0.011871
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0034_c006",
+          "rank": 18,
+          "score": 0.010986
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0032_c001",
+          "rank": 19,
+          "score": 0.001846
+        },
+        {
+          "chunk_id": "auiliteraturtemplate_s0062_c001",
+          "rank": 20,
+          "score": 0.000904
+        }
+      ],
+      "rank_delta": [
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0059_c001",
+          "rank_delta": 0
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0031_c001",
+          "rank_delta": 0
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0033_c001",
+          "rank_delta": 0
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0027_c001",
+          "rank_delta": 5
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0034_c004",
+          "rank_delta": 3
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0034_c003",
+          "rank_delta": 6
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0034_c002",
+          "rank_delta": -2
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0053_c003",
+          "rank_delta": 3
+        },
+        {
+          "chunk_id": "ssp175englisch_s0094_c001",
+          "rank_delta": 15
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0013_c001",
+          "rank_delta": 7
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0028_c001",
+          "rank_delta": 5
+        },
+        {
+          "chunk_id": "vwjetta7selfstudyprogram_s0031_c001",
+          "rank_delta": 6
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0034_c005",
+          "rank_delta": 1
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0053_c002",
+          "rank_delta": 13
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0046_c001",
+          "rank_delta": 0
+        },
+        {
+          "chunk_id": "ssp175englisch_s0040_c001",
+          "rank_delta": -3
+        },
+        {
+          "chunk_id": "auiliteraturtemplate_s0063_c001",
+          "rank_delta": -11
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0034_c006",
+          "rank_delta": -11
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0032_c001",
+          "rank_delta": 4
+        },
+        {
+          "chunk_id": "auiliteraturtemplate_s0062_c001",
+          "rank_delta": 6
+        }
+      ],
+      "final_stage": "reranker",
+      "reranker_error": null,
+      "top_sections": [
+        {
+          "section_id": "ssp511thenewea211petrolenginefamily_s0059",
+          "title": "Valve for oil pressure control N428",
+          "path": [
+            "Engine management system",
+            "Actuators",
+            "Valve for oil pressure control N428"
+          ],
+          "score": 0.984863,
+          "matched_chunk_id": "ssp511thenewea211petrolenginefamily_s0059_c001",
+          "matched_subheading": "Effects upon failure",
+          "text": "### Valve for oil pressure control N428\n\nThe valve is screwed into the cylinder block on the exhaust side, near the toothed belt and sump (top section).\n\n##### Task\n\nThe valve for oil pressure control N428 is a hydraulic 3/2-way valve. The electric activation by the engine control unit switches the value between the two oil pressure stages depending on the load and engine speed. When there is no current, it is closed, and the oil pump pumps at the high oil pressure stage. If it is activate, an oil port to the control piston opens and moves it within the oil pump. This switches it to the lower pressure stage. \n\n\n\n<!-- Start of picture text -->\ns511_215\n<!-- End of picture text -->\n\nValve for oil pressure control N428\n\n##### Effects upon failure\n\nIf the valve fails, it is closed. \n\nThe oil pump pumps at the high oil pressure stage. \n\n\n\n\n\n\n\n58"
+        },
+        {
+          "section_id": "ssp511thenewea211petrolenginefamily_s0031",
+          "title": "Valve for oil pressure control N428",
+          "path": [
+            "Engine mechanics",
+            "Oil circuit",
+            "The components in the two-level oil pressure regulation",
+            "Valve for oil pressure control N428"
+          ],
+          "score": 0.853027,
+          "matched_chunk_id": "ssp511thenewea211petrolenginefamily_s0031_c001",
+          "matched_subheading": null,
+          "text": "#### Valve for oil pressure control N428\n\nThe valve for oil pressure control is actuated by an earth signal from the engine control unit in accordance with the load and engine speed. A valve is used to switch between the two oil pressure stages by alternately supplying the various control ports of the oil pump with oil. \n\nThe valve features the following switch states: \n\n- If the valve is actuated, it opens the control port to the oil pump and pumps at the low oil pressure stage of 1.8 bar. \n\n- If the valve is not actuated, the port is kept closed by spring pressure and the oil pump and pumps at the high oil pressure stage of 3.3 bar. \n\n\n\n<!-- Start of picture text -->\ns511_177\n<!-- End of picture text -->\n\nValve for oil pressure control N428"
+        },
+        {
+          "section_id": "ssp511thenewea211petrolenginefamily_s0033",
+          "title": "The oil pressure control",
+          "path": [
+            "Engine mechanics",
+            "Oil circuit",
+            "The oil pressure control"
+          ],
+          "score": 0.089478,
+          "matched_chunk_id": "ssp511thenewea211petrolenginefamily_s0033_c001",
+          "matched_subheading": null,
+          "text": "### The oil pressure control\n\nCompared to an unregulated oil pump, the drive power had already been reduced considerably in the regulated ducocentric oil pumps in the EA111 petrol engine family. It only pumped as much oil over the entire engine speed range as was needed to keep the oil pressure at a constant 3.5 bar. \n\nWith the new oil pumps for the EA211 engine family, the oil pressure is regulated at two levels depending on the engine speed and load. Above all, in the lower to medium engine speed/load range, the drive power falls as the oil pressure is only approx. 1.8 bar in this case. Less oil therefore has to be pumped by the oil pump. \n\n\n\n\n\n<!-- Start of picture text -->\nExhaust camshaft control valve 1 N318 Camshaft control valve 1 N205\nExhaust camshaft adjuster Inlet camshaft adjuster\nLubrication points for camshafts, Fourfold cams\nhydraulic compensation elements and\nvalves\nFuel pressure\nregulator\nOil pressure switch for reduced oil\npressure F378\nPiston cooling\nOil pressure switch F1 Lubrication point for crankshaft\nValve for oil pressure\ncontrol N428\nOil cooler\nExternal gear oil pump\nOil pump drive\nReturn\nOil filter\nSump\nIntake fitting\ns511_180\n<!-- End of picture text -->\n\n29\n\nEngine mechanics"
+        }
+      ]
+    },
+    {
+      "case_id": "v465_failure_effect",
+      "query": "What happens to the wastegate and charge pressure after an electrical or mechanical failure of V465?",
+      "question_type": "diagnosis",
+      "required_knowledge": "The control function of V465 and the effects of electrical and mechanical failure",
+      "expected_title": "Charge pressure positioner V465",
+      "expected_path_contains": [
+        "Engine management system",
+        "Actuators"
+      ],
+      "ranks": {
+        "dense": 1,
+        "bm25": 1,
+        "rrf": 1,
+        "reranker": 1
+      },
+      "candidate_summary": [
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0057_c001",
+          "rank": 1,
+          "score": 0.998047
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0026_c001",
+          "rank": 2,
+          "score": 0.981934
+        },
+        {
+          "chunk_id": "auiliteraturtemplate_s0095_c001",
+          "rank": 3,
+          "score": 0.867188
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0057_c002",
+          "rank": 4,
+          "score": 0.97168
+        },
+        {
+          "chunk_id": "auiliteraturtemplate_s0099_c001",
+          "rank": 5,
+          "score": 0.248047
+        },
+        {
+          "chunk_id": "auiliteraturtemplate_s0096_c001",
+          "rank": 6,
+          "score": 0.053802
+        },
+        {
+          "chunk_id": "ssp175englisch_s0094_c001",
+          "rank": 7,
+          "score": 0.259766
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0025_c002",
+          "rank": 8,
+          "score": 0.482422
+        },
+        {
+          "chunk_id": "auiliteraturtemplate_s0091_c001",
+          "rank": 9,
+          "score": 0.618652
+        },
+        {
+          "chunk_id": "auiliteraturtemplate_s0091_c002",
+          "rank": 10,
+          "score": 0.847168
+        },
+        {
+          "chunk_id": "auiliteraturtemplate_s0098_c001",
+          "rank": 11,
+          "score": 0.053406
+        },
+        {
+          "chunk_id": "ssp532theheatpumpfromvolkswagen_s0035_c002",
+          "rank": 12,
+          "score": 0.009483
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0050_c001",
+          "rank": 13,
+          "score": 0.000811
+        },
+        {
+          "chunk_id": "ssp175englisch_s0060_c001",
+          "rank": 14,
+          "score": 0.0002
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0059_c001",
+          "rank": 15,
+          "score": 0.014618
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0055_c001",
+          "rank": 16,
+          "score": 0.00073
+        },
+        {
+          "chunk_id": "ssp175englisch_s0091_c001",
+          "rank": 17,
+          "score": 0.008003
+        },
+        {
+          "chunk_id": "ssp175englisch_s0032_c001",
+          "rank": 18,
+          "score": 0.000222
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0056_c001",
+          "rank": 19,
+          "score": 0.003197
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0053_c003",
+          "rank": 20,
+          "score": 0.001017
+        }
+      ],
+      "rank_delta": [
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0057_c001",
+          "rank_delta": 0
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0026_c001",
+          "rank_delta": 0
+        },
+        {
+          "chunk_id": "auiliteraturtemplate_s0095_c001",
+          "rank_delta": 1
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0057_c002",
+          "rank_delta": -1
+        },
+        {
+          "chunk_id": "auiliteraturtemplate_s0099_c001",
+          "rank_delta": 4
+        },
+        {
+          "chunk_id": "auiliteraturtemplate_s0096_c001",
+          "rank_delta": 7
+        },
+        {
+          "chunk_id": "ssp175englisch_s0094_c001",
+          "rank_delta": 1
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0025_c002",
+          "rank_delta": -1
+        },
+        {
+          "chunk_id": "auiliteraturtemplate_s0091_c001",
+          "rank_delta": -3
+        },
+        {
+          "chunk_id": "auiliteraturtemplate_s0091_c002",
+          "rank_delta": -5
+        },
+        {
+          "chunk_id": "auiliteraturtemplate_s0098_c001",
+          "rank_delta": 3
+        },
+        {
+          "chunk_id": "ssp532theheatpumpfromvolkswagen_s0035_c002",
+          "rank_delta": 5
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0050_c001",
+          "rank_delta": 11
+        },
+        {
+          "chunk_id": "ssp175englisch_s0060_c001",
+          "rank_delta": 14
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0059_c001",
+          "rank_delta": 1
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0055_c001",
+          "rank_delta": 9
+        },
+        {
+          "chunk_id": "ssp175englisch_s0091_c001",
+          "rank_delta": 1
+        },
+        {
+          "chunk_id": "ssp175englisch_s0032_c001",
+          "rank_delta": 9
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0056_c001",
+          "rank_delta": 2
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0053_c003",
+          "rank_delta": 3
+        }
+      ],
+      "final_stage": "reranker",
+      "reranker_error": null,
+      "top_sections": [
+        {
+          "section_id": "ssp511thenewea211petrolenginefamily_s0057",
+          "title": "Charge pressure positioner V465",
+          "path": [
+            "Engine management system",
+            "Actuators",
+            "Charge pressure positioner V465"
+          ],
+          "score": 0.998047,
+          "matched_chunk_id": "ssp511thenewea211petrolenginefamily_s0057_c001",
+          "matched_subheading": null,
+          "text": "### Charge pressure positioner V465\n\n<!-- Start of picture text -->\nThe charge pressure positioner is part of the exhaust s511_217\ngas turbocharger module.\nIt controls the charge pressure.\nThe advantages of the electric charge pressure\npositioner in comparison with the pneumatic charge\npressure control solenoid valve are:\nA fast adjustment time and therefore faster charge\npressure build-up.\nA high actuation force, as a result of which the\nwastegate remains firmly closed, even in the event Charge pressure positioner V465\nof high exhaust gas mass flows, in order to\nachieve the specified charge pressure. Effects upon failure\nThe wastegate can be actuated independently of In the event of an electrical failure, the wastegate is\nthe charge pressure. This opens the wastegate in pushed open by the exhaust gas mass flow. In the\nthe lower engine load/speed range. The basic event of a mechanical failure, the wastegate is\ncharge pressure drops and the engine has less opened by the electric charge pressure positioner or\ncharge cycle work to do. the throttle valve is closed accordingly. Charge\npressure is not built up in either case.\n<!-- End of picture text -->\n\n54\n\n<!-- Start of picture text -->\nHow it works:\nTurbine wheel Charge pressure\nThe engine control unit calculates the required target\nExhaust gas side positioner V465\ncharge pressure depending on torque requirements turbocharger\nin order to deliver the necessary air mass to the\ncylinders. The wastegate remains closed until this\ntarget charge pressure has been attained. The entire\nexhaust gas flow is therefore directed towards the\nturbine wheel and drives it.\nThe turbine wheel is connected to the compressor\nwheel on the fresh air side via a common shaft. This Rod linkage\ncompresses the intake air until the target charge\npressure is achieved.\nBypass flap Exhaust manifold\nclosed\nOnce the target charge pressure has been reached,\nthe wastegate is regulated to the position required for\nthe target/actual charge pressure.\nIf the wastegate is opened further, for example, part\nof the exhaust gas flow flows past the turbine wheel.\nThis reduces the rotational speed of the turbine and\nthe compressor wheel. The intake air is no longer\ncompressed as much, and the charge pressure is\nreduced.\nThe engine control unit calculates the necessary\nwastegate adjustment travel via the rod linkage using\nthe actual and the target charge pressure. The charge\npressure sender G31 measures the actual charge\nBypass flap\npressure. opened\n<!-- End of picture text -->\n\n55\n\nEngine management system"
+        },
+        {
+          "section_id": "ssp511thenewea211petrolenginefamily_s0026",
+          "title": "Charge pressure positioner V465",
+          "path": [
+            "Engine mechanics",
+            "Exhaust gas turbocharger",
+            "Charge pressure positioner V465"
+          ],
+          "score": 0.981934,
+          "matched_chunk_id": "ssp511thenewea211petrolenginefamily_s0026_c001",
+          "matched_subheading": null,
+          "text": "### Charge pressure positioner V465\n\nThe advantages of the electric charge pressure positioner in comparison with the pneumatic charge pressure control solenoid valve are: \n\n- A fast adjustment time and therefore faster charge pressure build-up. \n\n- A high actuation force, as a result of which the wastegate remains firmly closed, even in the event of high exhaust gas mass flows, in order to achieve the specified charge pressure. \n\n- The wastegate can be actuated independently of the charge pressure. This allows it to be opened in the lower engine load/speed range. The basic charge pressure drops and the engine has less charge cycle work to do. \n\n\n\n<!-- Start of picture text -->\nActuation of the\nwastegate flap\nElectrical charge\npressure positioner with\nintegrated position\nsender\ns511_224\n<!-- End of picture text -->\n\n\n\n<!-- Start of picture text -->\nFurther information on the electrical charge pressure positioner V465 can be found in Self-Study\nProgramme No. 443 “The 1.2 l 77 kW TSI engine with turbocharger”.\nExhaust gas turbocharger versions\nEngine version Diameter Diameter Max. charge Charge pressure positioner\nturbine wheel compressor wheel pressure adaptation\naccording to map\n1.2 l 63 kW/ 33.6 mm 36 mm 1.7 bar (63 kW) Fault reader\n77 kW TSI 1.0 bar (77 kW)\n1.4 l 90 kW TSI 37 mm 40 mm 1.8 bar Threaded rod preset,\nvehicle diagnostic tester\n1.4 l 103 kW TSI 39.2 mm 41 mm 2.2 bar Fault reader\nwith/without ACT\n<!-- End of picture text -->\n\n24"
+        },
+        {
+          "section_id": "auiliteraturtemplate_s0095",
+          "title": "**Charge Pressure Actuator V465**",
+          "path": [
+            "**Cooling system**",
+            "**Turbocharger**",
+            "**Charge Pressure Actuator V465**"
+          ],
+          "score": 0.867188,
+          "matched_chunk_id": "auiliteraturtemplate_s0095_c001",
+          "matched_subheading": null,
+          "text": "### **Charge Pressure Actuator V465**\n\nAn electrical wastegate actuator is used in an Audi turbocharged four-cylinder engine for the first time. This technology offers the following advantages over the previously used vacuum motors: \n\n- Faster and more precise response \n\n- Can be actuated independently of the charge pressure \n\n- • Due to the higher closing force, the engine achieves its maximum torque at lower engine speeds \n\n- The active opening of the wastegate at partial throttle allows the basic charge pressure to be reduced. This provides fuel savings \n\n- Active opening of the wastegate during the heating phase of the catalytic converter increases the exhaust gas temperature upstream of the catalytic converter by 50 °F (10 °C), resulting in lower cold start emissions. \n\n- The adjustment rate of the electrical wastegate actuator allows the immediate build-up of charge pressure during negative load cycles (acceleration), which has a particularly positive overall effect on the acoustic characteristics of the turbocharger (blow-off hiss and groan). \n\nActuating lever for the wastegate with clearance and tolerance compensating elements on the push rod \n\n\n\n<!-- Start of picture text -->\nClearance compensating spring\nSpring seat\nCharge Pressure Actuator V465 Gear\n<!-- End of picture text -->\n\n54"
+        }
+      ]
+    },
+    {
+      "case_id": "high_pressure_fuel_ranges",
+      "query": "What are the high-pressure fuel system pressure ranges for the 1.2 litre TSI and 1.4 litre TSI engines?",
+      "question_type": "specification",
+      "required_knowledge": "High-pressure fuel system pressure ranges for different TSI engine displacements",
+      "expected_title": "High-pressure fuel system",
+      "expected_path_contains": [
+        "Engine mechanics",
+        "Fuel system"
+      ],
+      "expected_sections": [
+        {
+          "title": "High-pressure fuel system",
+          "path_contains": [
+            "Engine mechanics",
+            "Fuel system"
+          ]
+        },
+        {
+          "title": "Fuel system",
+          "path_contains": [
+            "Engine management system"
+          ]
+        }
+      ],
+      "ranks": {
+        "dense": 1,
+        "bm25": 1,
+        "rrf": 1,
+        "reranker": 1
+      },
+      "candidate_summary": [
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0047_c002",
+          "rank": 1,
+          "score": 1.0
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0041_c001",
+          "rank": 2,
+          "score": 0.992676
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0040_c002",
+          "rank": 3,
+          "score": 0.902832
+        },
+        {
+          "chunk_id": "auiliteraturtemplate_s0104_c001",
+          "rank": 4,
+          "score": 0.001919
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0047_c001",
+          "rank": 5,
+          "score": 0.53125
+        },
+        {
+          "chunk_id": "vwjetta7selfstudyprogram_s0035_c001",
+          "rank": 6,
+          "score": 0.004486
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0028_c001",
+          "rank": 7,
+          "score": 0.451416
+        },
+        {
+          "chunk_id": "auiliteraturtemplate_s0107_c001",
+          "rank": 8,
+          "score": 0.003593
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0010_c001",
+          "rank": 9,
+          "score": 0.023697
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0009_c001",
+          "rank": 10,
+          "score": 0.013847
+        },
+        {
+          "chunk_id": "auiliteraturtemplate_s0105_c001",
+          "rank": 11,
+          "score": 0.000727
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0011_c001",
+          "rank": 12,
+          "score": 0.004467
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0056_c001",
+          "rank": 13,
+          "score": 0.000767
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0014_c001",
+          "rank": 14,
+          "score": 0.004135
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0048_c001",
+          "rank": 15,
+          "score": 0.00145
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0034_c004",
+          "rank": 16,
+          "score": 0.001957
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0026_c001",
+          "rank": 17,
+          "score": 0.041138
+        },
+        {
+          "chunk_id": "vwjetta7selfstudyprogram_s0031_c001",
+          "rank": 18,
+          "score": 0.039337
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0053_c001",
+          "rank": 19,
+          "score": 0.003885
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0025_c001",
+          "rank": 20,
+          "score": 0.000281
+        }
+      ],
+      "rank_delta": [
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0047_c002",
+          "rank_delta": 0
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0041_c001",
+          "rank_delta": 0
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0040_c002",
+          "rank_delta": 0
+        },
+        {
+          "chunk_id": "auiliteraturtemplate_s0104_c001",
+          "rank_delta": 17
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0047_c001",
+          "rank_delta": -1
+        },
+        {
+          "chunk_id": "vwjetta7selfstudyprogram_s0035_c001",
+          "rank_delta": 9
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0028_c001",
+          "rank_delta": -2
+        },
+        {
+          "chunk_id": "auiliteraturtemplate_s0107_c001",
+          "rank_delta": 11
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0010_c001",
+          "rank_delta": 1
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0009_c001",
+          "rank_delta": 2
+        },
+        {
+          "chunk_id": "auiliteraturtemplate_s0105_c001",
+          "rank_delta": 15
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0011_c001",
+          "rank_delta": 4
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0056_c001",
+          "rank_delta": 12
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0014_c001",
+          "rank_delta": 3
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0048_c001",
+          "rank_delta": 7
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0034_c004",
+          "rank_delta": 4
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0026_c001",
+          "rank_delta": -9
+        },
+        {
+          "chunk_id": "vwjetta7selfstudyprogram_s0031_c001",
+          "rank_delta": -9
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0053_c001",
+          "rank_delta": -1
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0025_c001",
+          "rank_delta": 8
+        }
+      ],
+      "final_stage": "reranker",
+      "reranker_error": null,
+      "top_sections": [
+        {
+          "section_id": "ssp511thenewea211petrolenginefamily_s0047",
+          "title": "Fuel system",
+          "path": [
+            "Engine management system",
+            "Fuel system"
+          ],
+          "score": 1.0,
+          "matched_chunk_id": "ssp511thenewea211petrolenginefamily_s0047_c002",
+          "matched_subheading": "High-pressure fuel system",
+          "text": "## Fuel system\n\n<!-- Start of picture text -->\nThe demand-based fuel system consists of the low-pressure and the high-pressure fuel system.\nIt has the advantage that both the electrical fuel pump and the high-pressure fuel pump only deliver the amount of\nfuel required by the engine at that moment. This reduces electrical and mechanical drive power of the fuel pumps\nand fuel is saved.\nHigh-pressure fuel pump\nFuel rail\nFuel pressure sender\nG247\nFuel pressure regulating\nvalve N276 Injectors, cylinders 1 - 4\nN30-N33\nFuel pump\ncontrol unit J538\nEngine control unit\nFuel tank J623\ns511_260\nFuel delivery unit GX1 with fuel system pressurisation pump G6\nHigh-pressure system Actuator/output signal\nFuel system/low pressure system Sensor/input signal\n<!-- End of picture text -->\n\n##### Low-pressure fuel system\n\nIn the low-pressure fuel system, the pressure is between approx. 2 and 6 bar, depending on the engine map. \n\nWhen making a cold start, higher pressure is used to start to build up fuel pressure as quickly as possible. When making a hot start, higher pressure is used to prevent steam bubbles from forming in the highpressure fuel pump. The temperature in the highpressure fuel pump as calculated by the engine control unit is the deciding factor.\n\n##### High-pressure fuel system\n\nIn the high-pressure fuel system, the pressure in the 1.2 l TSI engines is between 120 and 200 bar, and in the 1.4 l TSI engines between 140 and 200 bar, depending on the load and engine speed. This high pressure results in improved vaporisation of the injected fuel and therefore an improved mixture formation with fewer exhaust emissions and less soot formation. \n\nFurthermore, the spray pattern of the injectors has been optimised to ensure the fuel jet does not hit any components in the combustion chamber. \n\n45\n\nEngine management system"
+        },
+        {
+          "section_id": "ssp511thenewea211petrolenginefamily_s0041",
+          "title": "High-pressure fuel system",
+          "path": [
+            "Engine mechanics",
+            "Fuel system",
+            "High-pressure fuel system"
+          ],
+          "score": 0.992676,
+          "matched_chunk_id": "ssp511thenewea211petrolenginefamily_s0041_c001",
+          "matched_subheading": null,
+          "text": "### High-pressure fuel system\n\nIn the high pressure fuel system, fuel is pumped from the high pressure fuel pump into the fuel rail. The pressure is measured by the fuel pressure sender there and is regulated by the fuel pressure regulating valve from 120 up to 200 bar in the 1.2 l TSI engines and from 140 up to 200 bar in the 1.4 l TSI engines. The fuel is injected by the high pressure injectors. \n\nThe high pressure ensures a very good mixture formation and reduces the particle emissions. \n\n\n\n<!-- Start of picture text -->\nLow-pressure line from High-pressure\nfuel tank fuel pump\nFuel pressure Fuel rail, Fuel pressure\nsender injectors 1 - 4 regulating valve\nG247 N30 - N33 N276\n<!-- End of picture text -->\n\n39\n\nEngine mechanics"
+        },
+        {
+          "section_id": "ssp511thenewea211petrolenginefamily_s0040",
+          "title": "Charge air cooling system",
+          "path": [
+            "Engine mechanics",
+            "Cooling system",
+            "Charge air cooling system"
+          ],
+          "score": 0.902832,
+          "matched_chunk_id": "ssp511thenewea211petrolenginefamily_s0040_c002",
+          "matched_subheading": null,
+          "text": "### Charge air cooling system\n\nWhen the intake air is compressed by the exhaust gas turbocharger, the pressure, and therefore the intake air temperature, increases significantly. Warm air has a lower density and less oxygen enters the cylinder. The charge air is cooled to ensure the filling is a good as possible. The engine knocking is also reduced. A charge air cooler through which coolant flows is installed in the intake manifold. The heated charge air flows through it and transfers the majority of its heat to the charge air cooler and the coolant. \n\n\n\n<!-- Start of picture text -->\nCharge air pipe\nCharge pressure\nsender G31 with intake\nair temperature sender\nG42\nIntake manifold pres-\nsure sender G71 with\nintake manifold pres-\nsure sender 2 G299\nThrottle valve module\nJ338\nCharge air cooler\nCharge air cooling pump\nV188\ns511_239\nCharge air cooling pump V188\nThe charge air cooling system is a self-contained cooling system in which the turbocharger is also integrated.\nThe charge air cooling pump is a circulation pump which is activated according to requirements. It draws the\ncoolant from the auxiliary radiator for charge air and conveys it to the charge air cooler in the intake manifold and\nto the exhaust gas turbocharger. From there it flows back to the charge air cooler at the front end.\n<!-- End of picture text -->\n\n38\n\n<!-- Start of picture text -->\nFuel system\nThe fuel system used for the TSI engines is divided into a low-pressure and a high-pressure fuel system. In addition,\nthe fuel is fed via the activated charcoal filter system for combustion.\nLow-pressure fuel system Fuel delivery unit GX1 with the fuel system\npressurisation pump G6 and integrated fuel filter\nand pressure limiting valve\nIn the low-pressure fuel system, the fuel is delivered to\nthe high-pressure fuel pump by the electric fuel pump\nin the fuel tank. The fuel pressure is between\n2 and 6 bar depending on requirements.\nIn normal operation, the fuel pressure is between\n2 and 5 bar. When a cold or hot start is made, the Activated charcoal\npressure is briefly raised to 5 to 6 bar, depending on filter\nthe engine temperature. Fuel pressure\nregulator\nLow-pressure line to the high-\npressure fuel pump\nin s511_240 err\n<!-- End of picture text -->"
+        }
+      ]
+    },
+    {
+      "case_id": "camshaft_adjuster_principle",
+      "query": "How does the EA211 vane-type camshaft adjuster use engine oil to change the camshaft angle?",
+      "question_type": "principle",
+      "required_knowledge": "The hydraulic operating principle and locking positions of the inlet and exhaust camshaft adjusters",
+      "expected_title": "Inlet and exhaust camshaft adjustment",
+      "expected_path_contains": [
+        "Variable valve timing"
+      ],
+      "ranks": {
+        "dense": 1,
+        "bm25": 1,
+        "rrf": 1,
+        "reranker": 1
+      },
+      "candidate_summary": [
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0023_c002",
+          "rank": 1,
+          "score": 0.996094
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0022_c001",
+          "rank": 2,
+          "score": 0.944824
+        },
+        {
+          "chunk_id": "auiliteraturtemplate_s0042_c001",
+          "rank": 3,
+          "score": 0.501953
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0021_c001",
+          "rank": 4,
+          "score": 0.051453
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0033_c001",
+          "rank": 5,
+          "score": 0.269043
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0023_c003",
+          "rank": 6,
+          "score": 0.817383
+        },
+        {
+          "chunk_id": "auiliteraturtemplate_s0055_c001",
+          "rank": 7,
+          "score": 0.658203
+        },
+        {
+          "chunk_id": "auiliteraturtemplate_s0037_c001",
+          "rank": 8,
+          "score": 0.003975
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0013_c001",
+          "rank": 9,
+          "score": 0.090088
+        },
+        {
+          "chunk_id": "auiliteraturtemplate_s0032_c001",
+          "rank": 10,
+          "score": 0.002493
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0027_c001",
+          "rank": 11,
+          "score": 0.005959
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0023_c001",
+          "rank": 12,
+          "score": 0.914062
+        },
+        {
+          "chunk_id": "auiliteraturtemplate_s0039_c001",
+          "rank": 13,
+          "score": 0.17334
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0023_c004",
+          "rank": 14,
+          "score": 0.804199
+        },
+        {
+          "chunk_id": "auiliteraturtemplate_s0015_c001",
+          "rank": 15,
+          "score": 0.005512
+        },
+        {
+          "chunk_id": "auiliteraturtemplate_s0058_c001",
+          "rank": 16,
+          "score": 7.3e-05
+        },
+        {
+          "chunk_id": "vwjetta7selfstudyprogram_s0031_c001",
+          "rank": 17,
+          "score": 0.090759
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0007_c001",
+          "rank": 18,
+          "score": 0.014061
+        },
+        {
+          "chunk_id": "vwjetta7selfstudyprogram_s0033_c001",
+          "rank": 19,
+          "score": 0.033081
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0030_c001",
+          "rank": 20,
+          "score": 3e-06
+        }
+      ],
+      "rank_delta": [
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0023_c002",
+          "rank_delta": 0
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0022_c001",
+          "rank_delta": 0
+        },
+        {
+          "chunk_id": "auiliteraturtemplate_s0042_c001",
+          "rank_delta": 6
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0021_c001",
+          "rank_delta": 10
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0033_c001",
+          "rank_delta": 5
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0023_c003",
+          "rank_delta": -2
+        },
+        {
+          "chunk_id": "auiliteraturtemplate_s0055_c001",
+          "rank_delta": -1
+        },
+        {
+          "chunk_id": "auiliteraturtemplate_s0037_c001",
+          "rank_delta": 13
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0013_c001",
+          "rank_delta": 4
+        },
+        {
+          "chunk_id": "auiliteraturtemplate_s0032_c001",
+          "rank_delta": 12
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0027_c001",
+          "rank_delta": 8
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0023_c001",
+          "rank_delta": -9
+        },
+        {
+          "chunk_id": "auiliteraturtemplate_s0039_c001",
+          "rank_delta": -2
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0023_c004",
+          "rank_delta": -9
+        },
+        {
+          "chunk_id": "auiliteraturtemplate_s0015_c001",
+          "rank_delta": 5
+        },
+        {
+          "chunk_id": "auiliteraturtemplate_s0058_c001",
+          "rank_delta": 11
+        },
+        {
+          "chunk_id": "vwjetta7selfstudyprogram_s0031_c001",
+          "rank_delta": -5
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0007_c001",
+          "rank_delta": -1
+        },
+        {
+          "chunk_id": "vwjetta7selfstudyprogram_s0033_c001",
+          "rank_delta": -3
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0030_c001",
+          "rank_delta": 10
+        }
+      ],
+      "final_stage": "reranker",
+      "reranker_error": null,
+      "top_sections": [
+        {
+          "section_id": "ssp511thenewea211petrolenginefamily_s0023",
+          "title": "Inlet and exhaust camshaft adjustment",
+          "path": [
+            "Engine mechanics",
+            "Variable valve timing",
+            "Inlet and exhaust camshaft adjustment"
+          ],
+          "score": 0.996094,
+          "matched_chunk_id": "ssp511thenewea211petrolenginefamily_s0023_c002",
+          "matched_subheading": "Special features of the camshaft adjusters",
+          "text": "### Inlet and exhaust camshaft adjustment\n\nThe basic design of both camshaft adjusters is identical.\n\n#### Special features of the camshaft adjusters\n\n<!-- Start of picture text -->\nVane-type adjusters\nThe camshaft adjusters function according to the Housing\nvane-type adjuster principle. Depending on which of\nthe two chambers the oil is guided to, the rotor turns\nand the camshaft turns with it. Chamber 2\nThe adjustment is stepless.\nRotor\nGear wheel\ns511_222\nExhaust camshaft adjuster return\nIf the engine is to start quickly, no residual gases may Exhaust camshaft adjuster\nenter the cylinders. To ensure this happens,\nReturn spring\nthe exhaust camshaft adjuster is locked in the “early\nposition” and the inlet camshaft adjuster is locked in\nthe “late position” when the engine is switched off.\nThe exhaust camshaft adjuster is set to a position\nwhich is opposite to the direction of engine rotation.\nDue to the large adjustment angle up to a 40° crank\ns511_223\nangle, the oil pressure alone may not be sufficient\nAdjustment direction for\nenough for this. “Engine off”\nA return spring on the exhaust camshaft adjuster\nassists the oil pressure when being set in the “early\nposition”.\nLocking\nWhen the engine is switched off, the exhaust Gear wheel\ncamshaft adjuster is locked in the early position and\nHousing\nthe inlet camshaft adjuster is locked in the late\nposition. This prevents adjustment of the camshafts Locking\nduring the engine start, and the engine starts faster. mechanism\nFurthermore, it prevents noises when the engine is\nstarting.\ns511_268\nRotor Return spring\n<!-- End of picture text -->\n\n20\n\n<!-- Start of picture text -->\nValve timing\nThe use of an inlet and exhaust camshaft adjuster allows the valve timing to be optimized to the requirements of\nthe engine. This is because, depending on the engine's operation, different opening and closing times provide\nimportant advantages.\nValve timing for the exhaust valve Valve timing for the inlet valve\n40° in direction of late 50° in direction of early\nValve lift\n9 mm\nMax.\nMax.\nadjustment\nadjustment\nBasic position\nBasic position\nMax. valve\noverlap\n1 mm\nBDC TDC BDC\n��� ��� ��� ��� ��� ��� ��� ��� Crank angle [°]\nSpeed/ Pressure ratio Valve Effects\nload range intake manifold/ overlap\nexhaust system\nIdling Intake manifold None - Very few residual gases in the cylinder, producing quiet\npressure lower than the running.\nexhaust back pressure\nLow speed/ Intake manifold High - Residual gases are drawn out of the exhaust system into\nlow to medium load pressure lower than the the cylinders.\nexhaust back pressure The throttle valve is opened further to ensure there is an\nadequate supply of fresh air for the torque required.\nThe engine is dethrottled, the fuel consumption falls.\nLow speed/ Intake manifold High - Fresh air is forced into the cylinders, residual gases are\nhigh load pressure higher than forced out.\nthe exhaust back - Due to a low proportion of residual gas, the rated torque\npressure due to charge is reached at a low engine speed.\npressure - Improved response by the exhaust gas turbocharger\nand reduced tendency to knock.\nMedium engine Charge pressure Low - When pressure ratios are equal, a larger\nspeed/ approximately equal to valve overlap has little benefit.\nmedium load exhaust back pressure\nHigh speed/ Charge pressure lower Low - No residual gases forced back despite high exhaust back\nhigh load than the exhaust back pressure, preventing any disadvantageous mixture\npressure formation.\n<!-- End of picture text -->\n\n21\n\nEngine mechanics"
+        },
+        {
+          "section_id": "ssp511thenewea211petrolenginefamily_s0022",
+          "title": "Variable valve timing",
+          "path": [
+            "Engine mechanics",
+            "Variable valve timing"
+          ],
+          "score": 0.944824,
+          "matched_chunk_id": "ssp511thenewea211petrolenginefamily_s0022_c001",
+          "matched_subheading": null,
+          "text": "## Variable valve timing\n\nAll EA211 engines employ stepless inlet camshaft adjustment, engines with an output of 103 kW or more have stepless exhaust camshaft adjustment as well. \n\nThe camshaft adjuster directly on the camshafts carries out the adjustment according to the engine load and speed. They are adjusted by the valves for the camshaft adjustment, which are integrated directly in the oil circuit. The two Hall senders are used to identify the adjustment angle. \n\n\n\n\n\n<!-- Start of picture text -->\nHall sender G300 (exhaust side)\nCamshaft control valve 1 N205 (inlet side)\nHall sender G40\n(inlet side)\nExhaust camshaft control valve 1\nN318\nEnd cover for exhaust\ncamshaft adjuster\nPlug for inlet camshaft\nadjuster\ns511_149\nCamshaft adjustment versions\nEngine version Inlet camshaft adjustment Exhaust camshaft adjustment\n1.0 l 44/50/55 kW MPI engine Stepless up to a crank angle of 40° –\n1.2 l 63/77 kW TSI engine and\nStepless up to a crank angle of 50° –\n1.4 l 90 kW TSI engine\n1.4 l 103 kW TSI engine\nwith/without Active Cylinder Stepless up to a crank angle of 50° Stepless up to a crank angle of 40°\nManagement\nCamshaft adjuster seals and attachment\nTo ensure no engine oil finds its way onto the toothed belt, the camshaft adjusters are sealed. This is done by a\nrubber seal on the end cover of the exhaust camshaft adjuster and one on the plug for the inlet camshaft adjuster.\nBoth camshaft adjusters are attached using securing bolts on the camshafts.\nBoth bolts have a right-handed thread.\n<!-- End of picture text -->\n\n19\n\nEngine mechanics"
+        },
+        {
+          "section_id": "auiliteraturtemplate_s0055",
+          "title": "**System overview**",
+          "path": [
+            "**Oil supply**",
+            "**System overview**"
+          ],
+          "score": 0.658203,
+          "matched_chunk_id": "auiliteraturtemplate_s0055_c001",
+          "matched_subheading": "**Key:**",
+          "text": "## **System overview**\n\n##### **Key:**\n\n- **A** Camshaft bearing **B** Support element **1 C** Balancer shaft bearing **D** Exhaust balancer shaft bearing 1 **E** Connecting rod **F** Main bearings 1 – 5 **3** \n\n- **1** Exhaust Camshaft Adjustment Valve 1 N318 **A 2** Hydraulic vane cell adjuster (exhaust) **2 4 3** Non-return valve, integrated. into bearing bridge **4** Mesh oil filter **5** Camshaft Adjustment Valve 1 N205 **6** Hydraulic vane cell adjuster (intake) **7** Non-return valve, integrated into cyl. head **5 8** Fine oil separator **9** Vacuum pump **10** Flow restrictor **11** Lubrication of cam for high pressure fuel pump **3 12** Oil cooler **A** \n\n- **13** Non-return valve, integrated into oil filter **6 4 14** Oil filter **15** Oil drain valve **16** Oil Pressure Switch F22 33.3 - 43.5 psi (2.3 - 3.0 bar) **17** Reduced Oil Pressure Switch F378 7.25 - 11.6 psi (0.5 - 0.8 bar) Auxiliaries mounting \n\n- **18** Piston Cooling Nozzle Control Valve N522 bracket **12 13 14 19** Mechanical switching valve **20** Chain tensioner for balancer shafts **21** Chain tensioner for timing gear **22** Turbocharger **18 23** Coarse oil separator **16 17 24** Oil Pressure Switch Level 3 F447 **15 25** Lubrication of gear step **26** Oil Level Thermal Sensor G266 **19 27** Cold start valve **28** Non-return valve, integrated into oil pump **29** Regulated oil pump **30** Oil Pressure Regulation Valve N428 \n\nHigh pressure circuit Low pressure circuit \n\n\n\n<!-- Start of picture text -->\nOil pan top\nsection\n28\n29\n30\n27\n26\nOil pan bottom section\n<!-- End of picture text -->\n\n28\n\n<!-- Start of picture text -->\nOil channels\nA A A A A\n4 10\nB B B B B B B B 11\nVacuum pump\nB B B B B B B B\nA A A A\n20 21\n22\nC C C\nE E E E\n23\nF F F F F\n24\n4 4\nC C C\n25\n<!-- End of picture text -->\n\n606_018 \n\n29"
+        }
+      ]
+    },
+    {
+      "case_id": "g31_g42_failure",
+      "query": "How are turbocharger boost and engine power affected if the G31 or G42 signal fails?",
+      "question_type": "diagnosis",
+      "required_knowledge": "System fallback behaviour after failure of the charge pressure or intake air temperature sender",
+      "expected_title": "Charge pressure sender G31 and intake air temperature sender G42",
+      "expected_path_contains": [
+        "Sensors"
+      ],
+      "ranks": {
+        "dense": 1,
+        "bm25": 1,
+        "rrf": 1,
+        "reranker": 1
+      },
+      "candidate_summary": [
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0050_c001",
+          "rank": 1,
+          "score": 0.98584
+        },
+        {
+          "chunk_id": "auiliteraturtemplate_s0094_c001",
+          "rank": 2,
+          "score": 0.97168
+        },
+        {
+          "chunk_id": "auiliteraturtemplate_s0091_c002",
+          "rank": 3,
+          "score": 0.946777
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0052_c002",
+          "rank": 4,
+          "score": 0.242188
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0051_c001",
+          "rank": 5,
+          "score": 0.981934
+        },
+        {
+          "chunk_id": "ssp175englisch_s0060_c001",
+          "rank": 6,
+          "score": 0.062317
+        },
+        {
+          "chunk_id": "auiliteraturtemplate_s0080_c001",
+          "rank": 7,
+          "score": 2.7e-05
+        },
+        {
+          "chunk_id": "ssp175englisch_s0032_c001",
+          "rank": 8,
+          "score": 0.167725
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0053_c003",
+          "rank": 9,
+          "score": 0.338135
+        },
+        {
+          "chunk_id": "ssp175englisch_s0055_c001",
+          "rank": 10,
+          "score": 0.012428
+        },
+        {
+          "chunk_id": "ssp175englisch_s0074_c001",
+          "rank": 11,
+          "score": 0.018402
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0040_c001",
+          "rank": 12,
+          "score": 0.472656
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0053_c001",
+          "rank": 13,
+          "score": 0.377441
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0046_c001",
+          "rank": 14,
+          "score": 0.710449
+        },
+        {
+          "chunk_id": "ssp175englisch_s0094_c001",
+          "rank": 15,
+          "score": 0.965332
+        },
+        {
+          "chunk_id": "ssp175englisch_s0066_c001",
+          "rank": 16,
+          "score": 0.338135
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0057_c002",
+          "rank": 17,
+          "score": 0.141235
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0025_c001",
+          "rank": 18,
+          "score": 0.000291
+        },
+        {
+          "chunk_id": "ssp175englisch_s0071_c001",
+          "rank": 19,
+          "score": 0.001478
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0044_c001",
+          "rank": 20,
+          "score": 0.95752
+        }
+      ],
+      "rank_delta": [
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0050_c001",
+          "rank_delta": 0
+        },
+        {
+          "chunk_id": "auiliteraturtemplate_s0094_c001",
+          "rank_delta": 1
+        },
+        {
+          "chunk_id": "auiliteraturtemplate_s0091_c002",
+          "rank_delta": 3
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0052_c002",
+          "rank_delta": 9
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0051_c001",
+          "rank_delta": -3
+        },
+        {
+          "chunk_id": "ssp175englisch_s0060_c001",
+          "rank_delta": 11
+        },
+        {
+          "chunk_id": "auiliteraturtemplate_s0080_c001",
+          "rank_delta": 21
+        },
+        {
+          "chunk_id": "ssp175englisch_s0032_c001",
+          "rank_delta": 6
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0053_c003",
+          "rank_delta": 2
+        },
+        {
+          "chunk_id": "ssp175englisch_s0055_c001",
+          "rank_delta": 9
+        },
+        {
+          "chunk_id": "ssp175englisch_s0074_c001",
+          "rank_delta": 7
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0040_c001",
+          "rank_delta": -4
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0053_c001",
+          "rank_delta": -3
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0046_c001",
+          "rank_delta": -7
+        },
+        {
+          "chunk_id": "ssp175englisch_s0094_c001",
+          "rank_delta": -11
+        },
+        {
+          "chunk_id": "ssp175englisch_s0066_c001",
+          "rank_delta": -4
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0057_c002",
+          "rank_delta": -1
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0025_c001",
+          "rank_delta": 9
+        },
+        {
+          "chunk_id": "ssp175englisch_s0071_c001",
+          "rank_delta": 6
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0044_c001",
+          "rank_delta": -15
+        }
+      ],
+      "final_stage": "reranker",
+      "reranker_error": null,
+      "top_sections": [
+        {
+          "section_id": "ssp511thenewea211petrolenginefamily_s0050",
+          "title": "Charge pressure sender G31 and intake air temperature sender G42",
+          "path": [
+            "Engine management system",
+            "Sensors",
+            "Charge pressure sender G31 and intake air temperature sender G42"
+          ],
+          "score": 0.98584,
+          "matched_chunk_id": "ssp511thenewea211petrolenginefamily_s0050_c001",
+          "matched_subheading": null,
+          "text": "### Charge pressure sender G31 and intake air temperature sender G42\n\n<!-- Start of picture text -->\nThe charge pressure sender with intake air s511_206\ntemperature sender is screwed into the pressure pipe\njust in front of the throttle valve module. It measures\nthe pressure and temperature in this area.\nSignal use\nThe engine control unit regulates the turbocharger\ncharge pressure using the signal from the charge\nCharge pressure sender G31 and\npressure sender. It is regulated via the electrical\nintake air temperature sender G42\ncharge pressure positioner.\nThe signal from the intake air temperature sender is\nrequired:\nto protect components. If the temperature of the Effects upon signal failure\ncharge air rises above a certain value, the charge If one or both senders fail, the turbocharger\npressure is reduced. operation is just regulated.\nThe charge pressure is lower and the power is\nThe signals from both intake air temperature senders reduced.\nG42 and G299 are required:\nto activate the charge air cooling pump. If the\ntemperature difference of the charge air before\nand after the charge air cooler is less than 12 °C,\nthe charge air cooling pump is activated. If it\nincreases to more than 15 °C, the pump is\ndeactivated again.\n<!-- End of picture text -->\n\n\n\n- for a plausibility test of the charge air cooling system. If, under certain conditions, the temperature difference between the charge air before and after the charge air cooler is too low despite activation of the charge air cooling pump, then it is assumed there is a fault in the charge air cooling system. \n\n47\n\nEngine management system"
+        },
+        {
+          "section_id": "ssp511thenewea211petrolenginefamily_s0051",
+          "title": "Intake manifold pressure sender G71 and intake air temperature sender 2 G299",
+          "path": [
+            "Engine management system",
+            "Sensors",
+            "Intake manifold pressure sender G71 and intake air temperature sender 2 G299"
+          ],
+          "score": 0.981934,
+          "matched_chunk_id": "ssp511thenewea211petrolenginefamily_s0051_c001",
+          "matched_subheading": null,
+          "text": "### Intake manifold pressure sender G71 and intake air temperature sender 2 G299\n\nThe intake manifold pressure sender with intake air temperature sender is screwed into the intake manifold behind the charge air cooler. It measures the pressure and temperature in this area. \n\n- The intake manifold pressure sender with intake air temperature sender is screwed into the intake manifold behind the charge air cooler. It measures the pressure and temperature in this area. Signal use The engine control unit uses the signals from both senders and the engine speed to calculate the air mass taken in. Intake manifold pressure sender G71 and intake air temperature sender 2 G299 \n\n- The signal from the intake air temperature sender is required: - to calculate a correction value for the charge Effects upon signal failure pressure. The effect of the temperature on the If one or both signals fail, the throttle valve position density of the charge air is taken into and the temperature from the intake air temperature consideration. sender G42 is used as a replacement signal. The turbocharger is only operated with regulation. \n\n- The signals from both intake air temperature senders The charge pressure is lower and the power is G42 and G299 are required: reduced. - to activate the charge air cooling pump. If the temperature difference of the charge air before and after the charge air cooler is less than 12 °C, the charge air cooling pump is activated. If it increases to more than 15 °C, the pump is deactivated again. \n\n- - for a plausibility test of the charge air cooling system. If, under certain conditions, the temperature difference between the charge air before and after the charge air cooler is too low despite activation of the charge air cooling pump, then it is assumed there is a fault in the charge air cooling system. olksw \n\n48"
+        },
+        {
+          "section_id": "auiliteraturtemplate_s0094",
+          "title": "**Sensors for detecting air mass and air temperature:**",
+          "path": [
+            "**Cooling system**",
+            "**Turbocharger**",
+            "**Sensors for detecting air mass and air temperature:**"
+          ],
+          "score": 0.97168,
+          "matched_chunk_id": "auiliteraturtemplate_s0094_c001",
+          "matched_subheading": null,
+          "text": "#### **Sensors for detecting air mass and air temperature:**\n\n- Charge Air Pressure Sensor G31 is installed between the charge air cooler and the throttle valve. Its signal is used to monitor and control charge pressure \n\n\n\n<!-- Start of picture text -->\nCharge Pressure Actuator\nIntake Air Temperature Sensor G42 with Manifold V465\nFrom air filter\nHeated Oxygen Sensor G39\nTurbocharger Recirculation\nValve N249\nIntegrated pulsation\nsilencer\nTo charge air cooler\nTurbine housing Wastegate valve\nIntegral exhaust manifold\n<!-- End of picture text -->\n\n- Intake Air Temperature Sensor G42 with Manifold Absolute Pressure Sensor G71 \n\n53 \n\n606_013"
+        }
+      ]
+    },
+    {
+      "case_id": "g247_failure",
+      "query": "How does the high-pressure fuel system enter emergency operation when fuel pressure sender G247 fails?",
+      "question_type": "diagnosis",
+      "required_knowledge": "Fuel pressure control and engine behaviour after loss of the G247 signal",
+      "expected_title": "Fuel pressure sender G247",
+      "expected_path_contains": [
+        "Sensors"
+      ],
+      "ranks": {
+        "dense": 1,
+        "bm25": 1,
+        "rrf": 1,
+        "reranker": 1
+      },
+      "candidate_summary": [
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0053_c001",
+          "rank": 1,
+          "score": 0.997559
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0053_c003",
+          "rank": 2,
+          "score": 0.946289
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0041_c001",
+          "rank": 3,
+          "score": 0.725098
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0056_c001",
+          "rank": 4,
+          "score": 0.076416
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0047_c001",
+          "rank": 5,
+          "score": 0.699219
+        },
+        {
+          "chunk_id": "ssp175englisch_s0094_c001",
+          "rank": 6,
+          "score": 0.089478
+        },
+        {
+          "chunk_id": "ssp175englisch_s0055_c001",
+          "rank": 7,
+          "score": 0.008781
+        },
+        {
+          "chunk_id": "auiliteraturtemplate_s0104_c001",
+          "rank": 8,
+          "score": 0.320801
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0047_c002",
+          "rank": 9,
+          "score": 0.09137
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0053_c002",
+          "rank": 10,
+          "score": 0.836426
+        },
+        {
+          "chunk_id": "auiliteraturtemplate_s0115_c001",
+          "rank": 11,
+          "score": 0.002693
+        },
+        {
+          "chunk_id": "auiliteraturtemplate_s0107_c001",
+          "rank": 12,
+          "score": 0.000457
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0040_c002",
+          "rank": 13,
+          "score": 0.001912
+        },
+        {
+          "chunk_id": "ssp175englisch_s0032_c001",
+          "rank": 14,
+          "score": 0.291016
+        },
+        {
+          "chunk_id": "ssp175englisch_s0051_c001",
+          "rank": 15,
+          "score": 0.03067
+        },
+        {
+          "chunk_id": "ssp175englisch_s0049_c001",
+          "rank": 16,
+          "score": 0.000247
+        },
+        {
+          "chunk_id": "ssp175englisch_s0060_c001",
+          "rank": 17,
+          "score": 0.037048
+        },
+        {
+          "chunk_id": "ssp175englisch_s0047_c001",
+          "rank": 18,
+          "score": 2.8e-05
+        },
+        {
+          "chunk_id": "ssp175englisch_s0048_c001",
+          "rank": 19,
+          "score": 0.000173
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0045_c001",
+          "rank": 20,
+          "score": 0.004539
+        }
+      ],
+      "rank_delta": [
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0053_c001",
+          "rank_delta": 0
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0053_c003",
+          "rank_delta": 0
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0041_c001",
+          "rank_delta": 1
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0056_c001",
+          "rank_delta": 8
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0047_c001",
+          "rank_delta": 0
+        },
+        {
+          "chunk_id": "ssp175englisch_s0094_c001",
+          "rank_delta": 5
+        },
+        {
+          "chunk_id": "ssp175englisch_s0055_c001",
+          "rank_delta": 8
+        },
+        {
+          "chunk_id": "auiliteraturtemplate_s0104_c001",
+          "rank_delta": 0
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0047_c002",
+          "rank_delta": 1
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0053_c002",
+          "rank_delta": -7
+        },
+        {
+          "chunk_id": "auiliteraturtemplate_s0115_c001",
+          "rank_delta": 8
+        },
+        {
+          "chunk_id": "auiliteraturtemplate_s0107_c001",
+          "rank_delta": 12
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0040_c002",
+          "rank_delta": 8
+        },
+        {
+          "chunk_id": "ssp175englisch_s0032_c001",
+          "rank_delta": -5
+        },
+        {
+          "chunk_id": "ssp175englisch_s0051_c001",
+          "rank_delta": -1
+        },
+        {
+          "chunk_id": "ssp175englisch_s0049_c001",
+          "rank_delta": 9
+        },
+        {
+          "chunk_id": "ssp175englisch_s0060_c001",
+          "rank_delta": -4
+        },
+        {
+          "chunk_id": "ssp175englisch_s0047_c001",
+          "rank_delta": 11
+        },
+        {
+          "chunk_id": "ssp175englisch_s0048_c001",
+          "rank_delta": 7
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0045_c001",
+          "rank_delta": -3
+        }
+      ],
+      "final_stage": "reranker",
+      "reranker_error": null,
+      "top_sections": [
+        {
+          "section_id": "ssp511thenewea211petrolenginefamily_s0053",
+          "title": "Fuel pressure sender G247",
+          "path": [
+            "Engine management system",
+            "Sensors",
+            "Fuel pressure sender G247"
+          ],
+          "score": 0.997559,
+          "matched_chunk_id": "ssp511thenewea211petrolenginefamily_s0053_c001",
+          "matched_subheading": null,
+          "text": "### Fuel pressure sender G247\n\n<!-- Start of picture text -->\nThe sender is installed on the intake manifold (bottom s511_210\nsection) on the same side as the toothed belt, and is\nscrewed into the fuel rail. It measures the fuel\npressure in the high-pressure fuel system and\ntransmits the signal to the engine control unit.\nSignal use\nThe engine control unit evaluates the signals and\nregulates the pressure in the fuel rail using the fuel\nFuel pressure sender G247\npressure regulating valve. If the fuel pressure sender\nalso identifies that the target pressure can no longer Effects upon signal failure\nbe adjusted, then it is limited to 125 bar and the low- If the fuel pressure sender fails, the fuel pressure\npressure fuel pump is fully activated. regulating valve is kept open so that no high pressure\ncan be built up. At the same time, the electric fuel\npump is fully activated, providing adequate fuel\npressure for emergency operation of the engine.\nThe engine torque and the power are reduced\ndrastically.\n<!-- End of picture text -->\n\n50\n\nOil pressure switch for reduced oil pressure F378 It is screwed into the cylinder head next to the intake s511_211 manifold on the same side as the toothed belt. It is used to check whether the minimum oil pressure is being applied. Signal use When there is no pressure, the oil pressure switch is open. If the pressure rises above a certain value, the switch closes. The engine control unit can identify that the oil pressure in the oil system is sufficient by its closed state. If the oil pressure falls below the Oil pressure switch for reduced oil pressure F378 required oil pressure, the oil pressure warning lamp Effects upon signal failure K3 in the dash panel insert is switched on. If the oil pressure switch fails, an entry is made in the event memory and the oil pressure warning lamp K3 is switched on. Oil pressure switch F1 It is bolted into the middle of the cylinder block on the exhaust side. It is used to examine whether high oil pressure is being applied. Signal use Once a certain load and engine speed are reached, a switchover to the high oil pressure stage occurs. If high oil pressure is reached, the switch closes and the engine control unit identifies that high oil pressure is being applied. If it falls below a threshold for a Oil pressure switch F1 olksw \n\nIt is bolted into the middle of the cylinder block on the exhaust side. It is used to examine whether high oil pressure is being applied. \n\nOnce a certain load and engine speed are reached, a switchover to the high oil pressure stage occurs. If high oil pressure is reached, the switch closes and the engine control unit identifies that high oil pressure is being applied. If it falls below a threshold for a certain period of time, the electronic power control fault lamp K132 is switched on.\n\n##### Effects upon signal failure\n\nIf the oil pressure switch fails, the engine speed is limited to 4000 rpm and the electronic power control fault lamp K132 is switched on. \n\nIf one of the two oil pressure switches is identified as being activated 60 seconds after the “engine is off”, the oil pressure warning lamp K3 will be activated for 15 seconds the next time the engine is started. \n\n\n\n51\n\nEngine management system"
+        },
+        {
+          "section_id": "ssp511thenewea211petrolenginefamily_s0041",
+          "title": "High-pressure fuel system",
+          "path": [
+            "Engine mechanics",
+            "Fuel system",
+            "High-pressure fuel system"
+          ],
+          "score": 0.725098,
+          "matched_chunk_id": "ssp511thenewea211petrolenginefamily_s0041_c001",
+          "matched_subheading": null,
+          "text": "### High-pressure fuel system\n\nIn the high pressure fuel system, fuel is pumped from the high pressure fuel pump into the fuel rail. The pressure is measured by the fuel pressure sender there and is regulated by the fuel pressure regulating valve from 120 up to 200 bar in the 1.2 l TSI engines and from 140 up to 200 bar in the 1.4 l TSI engines. The fuel is injected by the high pressure injectors. \n\nThe high pressure ensures a very good mixture formation and reduces the particle emissions. \n\n\n\n<!-- Start of picture text -->\nLow-pressure line from High-pressure\nfuel tank fuel pump\nFuel pressure Fuel rail, Fuel pressure\nsender injectors 1 - 4 regulating valve\nG247 N30 - N33 N276\n<!-- End of picture text -->\n\n39\n\nEngine mechanics"
+        },
+        {
+          "section_id": "ssp511thenewea211petrolenginefamily_s0047",
+          "title": "Fuel system",
+          "path": [
+            "Engine management system",
+            "Fuel system"
+          ],
+          "score": 0.699219,
+          "matched_chunk_id": "ssp511thenewea211petrolenginefamily_s0047_c001",
+          "matched_subheading": "Low-pressure fuel system",
+          "text": "## Fuel system\n\n<!-- Start of picture text -->\nThe demand-based fuel system consists of the low-pressure and the high-pressure fuel system.\nIt has the advantage that both the electrical fuel pump and the high-pressure fuel pump only deliver the amount of\nfuel required by the engine at that moment. This reduces electrical and mechanical drive power of the fuel pumps\nand fuel is saved.\nHigh-pressure fuel pump\nFuel rail\nFuel pressure sender\nG247\nFuel pressure regulating\nvalve N276 Injectors, cylinders 1 - 4\nN30-N33\nFuel pump\ncontrol unit J538\nEngine control unit\nFuel tank J623\ns511_260\nFuel delivery unit GX1 with fuel system pressurisation pump G6\nHigh-pressure system Actuator/output signal\nFuel system/low pressure system Sensor/input signal\n<!-- End of picture text -->\n\n##### Low-pressure fuel system\n\nIn the low-pressure fuel system, the pressure is between approx. 2 and 6 bar, depending on the engine map. \n\nWhen making a cold start, higher pressure is used to start to build up fuel pressure as quickly as possible. When making a hot start, higher pressure is used to prevent steam bubbles from forming in the highpressure fuel pump. The temperature in the highpressure fuel pump as calculated by the engine control unit is the deciding factor.\n\n##### High-pressure fuel system\n\nIn the high-pressure fuel system, the pressure in the 1.2 l TSI engines is between 120 and 200 bar, and in the 1.4 l TSI engines between 140 and 200 bar, depending on the load and engine speed. This high pressure results in improved vaporisation of the injected fuel and therefore an improved mixture formation with fewer exhaust emissions and less soot formation. \n\nFurthermore, the spray pattern of the injectors has been optimised to ensure the fuel jet does not hit any components in the combustion chamber. \n\n45\n\nEngine management system"
+        }
+      ]
+    },
+    {
+      "case_id": "thermostat_two_temperature",
+      "query": "At what temperature does thermostat 2 for the EA211 cylinder block open, and where does the coolant flow after it opens?",
+      "question_type": "principle",
+      "required_knowledge": "The opening temperature and coolant path of thermostat 2 in the dual-circuit cooling system",
+      "expected_title": "Engine cooling system",
+      "expected_path_contains": [
+        "Cooling system"
+      ],
+      "ranks": {
+        "dense": 1,
+        "bm25": 1,
+        "rrf": 1,
+        "reranker": 1
+      },
+      "candidate_summary": [
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0039_c001",
+          "rank": 1,
+          "score": 0.998047
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0038_c001",
+          "rank": 2,
+          "score": 0.833496
+        },
+        {
+          "chunk_id": "auiliteraturtemplate_s0076_c001",
+          "rank": 3,
+          "score": 0.014618
+        },
+        {
+          "chunk_id": "auiliteraturtemplate_s0075_c001",
+          "rank": 4,
+          "score": 0.237915
+        },
+        {
+          "chunk_id": "auiliteraturtemplate_s0074_c001",
+          "rank": 5,
+          "score": 0.004944
+        },
+        {
+          "chunk_id": "auiliteraturtemplate_s0088_c001",
+          "rank": 6,
+          "score": 0.000597
+        },
+        {
+          "chunk_id": "auiliteraturtemplate_s0084_c001",
+          "rank": 7,
+          "score": 0.00433
+        },
+        {
+          "chunk_id": "auiliteraturtemplate_s0080_c001",
+          "rank": 8,
+          "score": 0.001636
+        },
+        {
+          "chunk_id": "auiliteraturtemplate_s0077_c001",
+          "rank": 9,
+          "score": 0.018402
+        },
+        {
+          "chunk_id": "vwjetta7selfstudyprogram_s0031_c001",
+          "rank": 10,
+          "score": 0.057922
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0009_c001",
+          "rank": 11,
+          "score": 0.008575
+        },
+        {
+          "chunk_id": "auiliteraturtemplate_s0079_c001",
+          "rank": 12,
+          "score": 0.000926
+        },
+        {
+          "chunk_id": "auiliteraturtemplate_s0071_c001",
+          "rank": 13,
+          "score": 0.035156
+        },
+        {
+          "chunk_id": "auiliteraturtemplate_s0073_c001",
+          "rank": 14,
+          "score": 0.001438
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0020_c002",
+          "rank": 15,
+          "score": 0.0006
+        },
+        {
+          "chunk_id": "auiliteraturtemplate_s0072_c001",
+          "rank": 16,
+          "score": 0.000926
+        },
+        {
+          "chunk_id": "ssp532theheatpumpfromvolkswagen_s0045_c001",
+          "rank": 17,
+          "score": 3.7e-05
+        },
+        {
+          "chunk_id": "auiliteraturtemplate_s0045_c001",
+          "rank": 18,
+          "score": 1.1e-05
+        },
+        {
+          "chunk_id": "vwjetta7selfstudyprogram_s0033_c001",
+          "rank": 19,
+          "score": 0.00629
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0037_c001",
+          "rank": 20,
+          "score": 7.8e-05
+        }
+      ],
+      "rank_delta": [
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0039_c001",
+          "rank_delta": 0
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0038_c001",
+          "rank_delta": 0
+        },
+        {
+          "chunk_id": "auiliteraturtemplate_s0076_c001",
+          "rank_delta": 5
+        },
+        {
+          "chunk_id": "auiliteraturtemplate_s0075_c001",
+          "rank_delta": -1
+        },
+        {
+          "chunk_id": "auiliteraturtemplate_s0074_c001",
+          "rank_delta": 7
+        },
+        {
+          "chunk_id": "auiliteraturtemplate_s0088_c001",
+          "rank_delta": 14
+        },
+        {
+          "chunk_id": "auiliteraturtemplate_s0084_c001",
+          "rank_delta": 6
+        },
+        {
+          "chunk_id": "auiliteraturtemplate_s0080_c001",
+          "rank_delta": 6
+        },
+        {
+          "chunk_id": "auiliteraturtemplate_s0077_c001",
+          "rank_delta": -3
+        },
+        {
+          "chunk_id": "vwjetta7selfstudyprogram_s0031_c001",
+          "rank_delta": -6
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0009_c001",
+          "rank_delta": -1
+        },
+        {
+          "chunk_id": "auiliteraturtemplate_s0079_c001",
+          "rank_delta": 4
+        },
+        {
+          "chunk_id": "auiliteraturtemplate_s0071_c001",
+          "rank_delta": -8
+        },
+        {
+          "chunk_id": "auiliteraturtemplate_s0073_c001",
+          "rank_delta": 1
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0020_c002",
+          "rank_delta": 4
+        },
+        {
+          "chunk_id": "auiliteraturtemplate_s0072_c001",
+          "rank_delta": 1
+        },
+        {
+          "chunk_id": "ssp532theheatpumpfromvolkswagen_s0045_c001",
+          "rank_delta": 11
+        },
+        {
+          "chunk_id": "auiliteraturtemplate_s0045_c001",
+          "rank_delta": 11
+        },
+        {
+          "chunk_id": "vwjetta7selfstudyprogram_s0033_c001",
+          "rank_delta": -8
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0037_c001",
+          "rank_delta": 7
+        }
+      ],
+      "final_stage": "reranker",
+      "reranker_error": null,
+      "top_sections": [
+        {
+          "section_id": "ssp511thenewea211petrolenginefamily_s0039",
+          "title": "Engine cooling system",
+          "path": [
+            "Engine mechanics",
+            "Cooling system",
+            "Engine cooling system"
+          ],
+          "score": 0.998047,
+          "matched_chunk_id": "ssp511thenewea211petrolenginefamily_s0039_c001",
+          "matched_subheading": "Thermostat 2 for cylinder block",
+          "text": "### Engine cooling system\n\n<!-- Start of picture text -->\nThe dual-circuit cooling system for the engine pumps the coolant from a coolant pump integrated into the\nthermostat housing to the cylinder head and cylinder block.\nThe dual-circuit cooling system has the following\nadvantages:\nThe cylinder block warms up faster because the\ncoolant remains in the cylinder block until it\nreaches approx. 105 °C.\nLess friction in the crankshaft group due to the\nhigher temperature level in the cylinder block.\nBetter cooling of the combustion chambers due to\nthe lower temperature level in the cylinder head.\nThis ensures better filling with a lower knocking\ntendency.\ns511_026\nThermostat housing with Drive gear on the\nintegrated coolant pump exhaust camshaft\nThe thermostat housing is installed on the cylinder Thermostat 1\nhead on the gearbox side. The coolant pump has\nbeen integrated into the thermostat housing to\nproduce the most compact cooling system design\npossible. The coolant pump is driven by the exhaust\ncamshaft using a toothed belt.\nThermostat 2\n<!-- End of picture text -->\n\n##### Thermostat 1 for cylinder head\n\nIt opens at a temperature of 87 °C or above, and opens the path from the radiator to the coolant pump. It opens at a coolant temperature of 80 °C or above in the MPI engines.\n\n##### Thermostat 2 for cylinder block\n\nIt opens at a temperature of 105 °C or above, and opens the path for the warm coolant from the cylinder block to the radiator. \n\nThe entire coolant circuit is open. \n\n37\n\nEngine mechanics"
+        },
+        {
+          "section_id": "ssp511thenewea211petrolenginefamily_s0038",
+          "title": "Cooling system",
+          "path": [
+            "Engine mechanics",
+            "Cooling system"
+          ],
+          "score": 0.833496,
+          "matched_chunk_id": "ssp511thenewea211petrolenginefamily_s0038_c001",
+          "matched_subheading": "Special features of the engine cooling system:",
+          "text": "## Cooling system\n\nA dual-circuit cooling system is used for engine cooling in all EA211 engines. With this system, the coolant is channelled separately through the cylinder block and cylinder head at different temperatures. The temperature regulation is controlled by two thermostats in the thermostat housing. The respective coolant temperatures differ according to the engine.\n\n##### Special features of the charge air cooling system:\n\n##### Special features of the engine cooling system:\n\n- Cooling for the integrated exhaust manifold \n\n- Cross-flow cooling in the cylinder head for a more uniform temperature distribution \n\n   - Charge air cooling pump V188 \n\n   - Air-to-liquid charge air cooler in intake manifold \n\n- Thermostat housing with integrated coolant pump \n\n   - Cooling of the exhaust gas turbocharger \n\n- Coolant pump driven by the exhaust camshaft using a toothed belt \n\n\n\n<!-- Start of picture text -->\nCoolant expansion tank Heat\nexchanger for heater\nLine up to the\nT piece until 05/2013 Auxiliary heater\nCoolant temperature sender\nG62\nCylinder head/\ncylinder block Thermostat housing\nwith\nintegrated coolant\nCharge air cooler Engine oil cooler Line from 06/2013\nCharge air cooling pump\nT piece V188\nCoolant temperature\nsender on the\nradiator outlet G83\nWater radiator for charge Radiator s511_238\nair cooling circuit\nThe charge-air cooling system needs to be bled after it is opened to ensure a correct cooling output.\nThe system is bled either by using the cooling system charge unit VAS 6096 or by using the guided\nfunction “Filling and bleeding cooling system”. Please note the instructions in ELSA.\n<!-- End of picture text -->\n\n36"
+        },
+        {
+          "section_id": "auiliteraturtemplate_s0075",
+          "title": "**Warm-up with mini-volume flow**",
+          "path": [
+            "**Cooling system**",
+            "**Innovative Thermal Management (ITM)**",
+            "**Engine Temperature Control Actuator N493 (rotary slide valve)**",
+            "**Warm-up with mini-volume flow**"
+          ],
+          "score": 0.237915,
+          "matched_chunk_id": "auiliteraturtemplate_s0075_c001",
+          "matched_subheading": null,
+          "text": "#### **Warm-up with mini-volume flow**\n\nThis control phase in the warm-up range protects the cylinder head and the turbocharger from overheating from the static coolant in the exhaust manifold. \n\nAt a Rotary valve 1 angle position of 145°, Rotary valve 2 is engaged and begins to open.  A small coolant flow begins through the cylinder block, the cylinder head and the turbocharger returning back to the rotary valve module and coolant pump. \n\nRotary valve 1 \n\n\n\n\n\n\n\ns522_093 \n\n42"
+        }
+      ]
+    },
+    {
+      "case_id": "toothed_belt_drive",
+      "query": "How is the EA211 camshaft toothed belt tensioned, and what is the purpose of the oval timing gear?",
+      "question_type": "principle",
+      "required_knowledge": "The toothed belt drive, tensioning mechanism, and oval camshaft or crankshaft gear design",
+      "expected_title": "Toothed belt drive",
+      "expected_path_contains": [
+        "Engine mechanics"
+      ],
+      "ranks": {
+        "dense": 1,
+        "bm25": 1,
+        "rrf": 1,
+        "reranker": 1
+      },
+      "candidate_summary": [
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0017_c001",
+          "rank": 1,
+          "score": 0.98291
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0064_c001",
+          "rank": 2,
+          "score": 0.020798
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0017_c002",
+          "rank": 3,
+          "score": 0.79834
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0061_c001",
+          "rank": 4,
+          "score": 0.072083
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0022_c001",
+          "rank": 5,
+          "score": 0.02298
+        },
+        {
+          "chunk_id": "vwjetta7selfstudyprogram_s0031_c001",
+          "rank": 6,
+          "score": 0.233765
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0021_c001",
+          "rank": 7,
+          "score": 0.003885
+        },
+        {
+          "chunk_id": "vwjetta7selfstudyprogram_s0033_c001",
+          "rank": 8,
+          "score": 0.562012
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0063_c001",
+          "rank": 9,
+          "score": 0.001017
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0013_c001",
+          "rank": 10,
+          "score": 0.464844
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0009_c001",
+          "rank": 11,
+          "score": 0.064209
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0011_c001",
+          "rank": 12,
+          "score": 0.143188
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0007_c001",
+          "rank": 13,
+          "score": 0.19812
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0010_c001",
+          "rank": 14,
+          "score": 0.189575
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0023_c002",
+          "rank": 15,
+          "score": 0.000586
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0027_c001",
+          "rank": 16,
+          "score": 0.000173
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0016_c001",
+          "rank": 17,
+          "score": 9.9e-05
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0038_c001",
+          "rank": 18,
+          "score": 0.000422
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0023_c001",
+          "rank": 19,
+          "score": 0.001156
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0033_c001",
+          "rank": 20,
+          "score": 0.000779
+        }
+      ],
+      "rank_delta": [
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0017_c001",
+          "rank_delta": 0
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0064_c001",
+          "rank_delta": 11
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0017_c002",
+          "rank_delta": -1
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0061_c001",
+          "rank_delta": 6
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0022_c001",
+          "rank_delta": 7
+        },
+        {
+          "chunk_id": "vwjetta7selfstudyprogram_s0031_c001",
+          "rank_delta": 0
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0021_c001",
+          "rank_delta": 7
+        },
+        {
+          "chunk_id": "vwjetta7selfstudyprogram_s0033_c001",
+          "rank_delta": -5
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0063_c001",
+          "rank_delta": 7
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0013_c001",
+          "rank_delta": -6
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0009_c001",
+          "rank_delta": 0
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0011_c001",
+          "rank_delta": -3
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0007_c001",
+          "rank_delta": -6
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0010_c001",
+          "rank_delta": -6
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0023_c002",
+          "rank_delta": 3
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0027_c001",
+          "rank_delta": 6
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0016_c001",
+          "rank_delta": 6
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0038_c001",
+          "rank_delta": 2
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0023_c001",
+          "rank_delta": -4
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0033_c001",
+          "rank_delta": -3
+        }
+      ],
+      "final_stage": "reranker",
+      "reranker_error": null,
+      "top_sections": [
+        {
+          "section_id": "ssp511thenewea211petrolenginefamily_s0017",
+          "title": "Toothed belt drive",
+          "path": [
+            "Engine mechanics",
+            "Toothed belt drive"
+          ],
+          "score": 0.98291,
+          "matched_chunk_id": "ssp511thenewea211petrolenginefamily_s0017_c001",
+          "matched_subheading": null,
+          "text": "## Toothed belt drive\n\nThe camshafts are driven by a maintenance-free toothed belt. It is tensioned using an automatic tensioning roller, which uses contact shoulders at the same time to guide the toothed belt. \n\nAn idler roller on the tension side and the special shape of the camshaft sprockets in the 3-cylinder engine, or camshaft gearwheel in the 4-cylinder engine respectively, ensure that the toothed belt runs smoothly.\n\n###### 1.4 l 103 kW TSI engine\n\n<!-- Start of picture text -->\nGear wheel exhaust camshaft\nwith camshaft adjuster\nGear wheel inlet camshaft\ncamshaft with camshaft\nadjuster\nAutomatic tensioning roller\nIdler roller\nCTC crankshaft sprocket\n(in 1.2 l and 1.4 l engines)\ns511_103\n<!-- End of picture text -->\n\n\n\n<!-- Start of picture text -->\nEngine versions Gear wheel Effects\n3-cylinder Tri-oval A certain amount of force is required to open the valves of a cylinder. This force also\nengines camshaft acts on the toothed belt drive every time the valve is opened, and at higher speeds will\nsprockets cause it to vibrate. To minimise the strong vibrations which are typical for 3-cylinder\nengines in particular, special camshaft gears have been employed. It has been\ndesigned with a larger radius, at intervals of 120° (tri-oval).\n4-cylinder Oval A so-called CTC crankshaft sprocket is installed in the 4-cylinder engines. CTC is an\nengines CTC crankshaft abbreviation which stands for Crankshaft Torsionals Cancellation, meaning the tensile\nsprocket forces and vibrations from the crankshaft are reduced.\nDuring the working stroke, the toothed belt is slackened slightly due to its smaller\nradius. This reduces the tensile forces and lowers the vibrations of the toothed belt\ndrive.\nAdvantages\nThe lower toothed belt forces allow the tension force of the tensioning roller to be reduced.\nThis results in lower friction and mechanical stress on the entire toothed belt drive.\nThe reduced level of vibrations allows the toothed belt drive to run even more quietly.\n<!-- End of picture text -->\n\n13\n\nEngine mechanics"
+        },
+        {
+          "section_id": "vwjetta7selfstudyprogram_s0033",
+          "title": "1.6 l 81 kW MPI Engine",
+          "path": [
+            "Power Units",
+            "1.6 l 81 kW MPI Engine"
+          ],
+          "score": 0.562012,
+          "matched_chunk_id": "vwjetta7selfstudyprogram_s0033_c001",
+          "matched_subheading": "Technical features",
+          "text": "## 1.6 l 81 kW MPI Engine\n\nThe basic engine was designed in the EA211 engine generation with the characteristics of the Modular MOB Gasoline Engine System.\n\n### Technical features\n\n- Camshaft is driven by a toothed belt. \n\n- Modular design of camshaft housing. \n\n- Cylinder head with integrated exhaust manifold. \n\n- Coolant pump is integrated in the thermostat housing. \n\n- Coolant pump is driven by a toothed belt from the exhaust camshaft. \n\n- Intake Camshaft Timing. \n\n|Engine code|CWVA|\n|---|---|\n|Type|4-cylinder inline engine|\n|Displacement|1,598 cm<sup>3</sup>|\n|Bore|76,5 mm|\n|Stroke|86,9 mm|\n|Valves per cylinder|4|\n|Compression ratio|10,5:1|\n|Maximum output|81 kW at 5800 rpm|\n|Maximum torque|155 Nm at 3800-4000<br>rpm|\n|Engine management|Bosch Motronic MPI|\n|Fuel|95 RON unleaded|\n|Exhaust gas treatment|Three-way catalyst, two<br>binary lambda probes:<br>one before and another<br>after the catalyst|\n|Emission standard|EU5|\n\n\n\n\n\nS588_022 \n\n\n\nMore information on engine mechanics can be found in the Self-Study Program Nr. 511 “New Range of EA211 Gasoline Engines”."
+        },
+        {
+          "section_id": "ssp511thenewea211petrolenginefamily_s0013",
+          "title": "1.4 l 66 kW / 1.6 l 81 kW MPI engine with intake manifold injection",
+          "path": [
+            "Introduction",
+            "Overview of the new EA211 petrol engine family",
+            "The EA211 engines with intake manifold injection or for alternative drive systems",
+            "1.4 l 66 kW / 1.6 l 81 kW MPI engine with intake manifold injection"
+          ],
+          "score": 0.464844,
+          "matched_chunk_id": "ssp511thenewea211petrolenginefamily_s0013_c001",
+          "matched_subheading": null,
+          "text": "#### 1.4 l 66 kW / 1.6 l 81 kW MPI engine with intake manifold injection\n\n<!-- Start of picture text -->\nThese engines with the engine codes CKAA (66 kW)\nand CPDA (81 kW) were developed for the markets\noutside Europe.\nThe first use of the 1.6 l 81 kW MPI engine is in\nChina.\n• Camshafts driven by a toothed belt\n• Camshaft housing features a modular design\n• Cylinder head with integrated exhaust manifold\n• Coolant pump integrated into the thermostat\nhousing\n• s511_129\nCoolant pump driven by a toothed belt from the\nexhaust camshaft\n• Inlet camshaft adjustment\n1.4 l 81 kW TGI engine (natural gas)\nThis engine with the engine code CPWA is being used\nin the Golf 2013. It features a bivalent natural gas\ndrive. The only difference to the 1.4 l 90 kW TSI\nengine is the additional components for the natural\ngas drive.\n• One engine control unit for natural gas and petrol\noperation\n• Electronic gas pressure regulator with a\nmechanical pressure reduction level\n• Optimised gas injection valve, allowing a start s511_117\n<!-- End of picture text -->\n\n- Optimised gas injection valve, allowing a start from -10 °C in natural gas operation \n\n- Valve seat inserts reinforced, hard-faced inlet valves, valve stem oil seals with a second sealing lip, resulting in forced lubrication of the valve stem in the valve guides \n\n10"
+        }
+      ]
+    },
+    {
+      "case_id": "blowby_fresh_air",
+      "query": "How are EA211 crankcase blow-by gases discharged into the fresh-air system under different boost conditions?",
+      "question_type": "principle",
+      "required_knowledge": "The blow-by gas paths into the fresh-air system under different operating conditions",
+      "expected_title": "Discharge of blow-by gases into fresh air",
+      "expected_path_contains": [
+        "Crankcase breather and ventilation system"
+      ],
+      "ranks": {
+        "dense": 1,
+        "bm25": 2,
+        "rrf": 1,
+        "reranker": 1
+      },
+      "candidate_summary": [
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0037_c001",
+          "rank": 1,
+          "score": 0.981934
+        },
+        {
+          "chunk_id": "auiliteraturtemplate_s0052_c001",
+          "rank": 2,
+          "score": 0.013222
+        },
+        {
+          "chunk_id": "auiliteraturtemplate_s0049_c001",
+          "rank": 3,
+          "score": 0.017853
+        },
+        {
+          "chunk_id": "auiliteraturtemplate_s0046_c001",
+          "rank": 4,
+          "score": 0.122498
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0035_c001",
+          "rank": 5,
+          "score": 0.034088
+        },
+        {
+          "chunk_id": "auiliteraturtemplate_s0048_c001",
+          "rank": 6,
+          "score": 0.012726
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0036_c001",
+          "rank": 7,
+          "score": 0.014503
+        },
+        {
+          "chunk_id": "auiliteraturtemplate_s0051_c001",
+          "rank": 8,
+          "score": 0.013428
+        },
+        {
+          "chunk_id": "auiliteraturtemplate_s0053_c001",
+          "rank": 9,
+          "score": 0.029083
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0038_c001",
+          "rank": 10,
+          "score": 0.008316
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0024_c001",
+          "rank": 11,
+          "score": 0.000183
+        },
+        {
+          "chunk_id": "ssp175englisch_s0041_c001",
+          "rank": 12,
+          "score": 8e-06
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0007_c001",
+          "rank": 13,
+          "score": 0.024796
+        },
+        {
+          "chunk_id": "vwjetta7selfstudyprogram_s0031_c001",
+          "rank": 14,
+          "score": 0.02211
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0014_c001",
+          "rank": 15,
+          "score": 0.00956
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0051_c002",
+          "rank": 16,
+          "score": 2.9e-05
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0046_c001",
+          "rank": 17,
+          "score": 0.000657
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0025_c001",
+          "rank": 18,
+          "score": 0.004681
+        },
+        {
+          "chunk_id": "auiliteraturtemplate_s0091_c002",
+          "rank": 19,
+          "score": 9.1e-05
+        },
+        {
+          "chunk_id": "auiliteraturtemplate_s0125_c001",
+          "rank": 20,
+          "score": 1.9e-05
+        }
+      ],
+      "rank_delta": [
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0037_c001",
+          "rank_delta": 0
+        },
+        {
+          "chunk_id": "auiliteraturtemplate_s0052_c001",
+          "rank_delta": 8
+        },
+        {
+          "chunk_id": "auiliteraturtemplate_s0049_c001",
+          "rank_delta": 4
+        },
+        {
+          "chunk_id": "auiliteraturtemplate_s0046_c001",
+          "rank_delta": -2
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0035_c001",
+          "rank_delta": -2
+        },
+        {
+          "chunk_id": "auiliteraturtemplate_s0048_c001",
+          "rank_delta": 5
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0036_c001",
+          "rank_delta": 1
+        },
+        {
+          "chunk_id": "auiliteraturtemplate_s0051_c001",
+          "rank_delta": 1
+        },
+        {
+          "chunk_id": "auiliteraturtemplate_s0053_c001",
+          "rank_delta": -5
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0038_c001",
+          "rank_delta": 3
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0024_c001",
+          "rank_delta": 11
+        },
+        {
+          "chunk_id": "ssp175englisch_s0041_c001",
+          "rank_delta": 14
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0007_c001",
+          "rank_delta": -8
+        },
+        {
+          "chunk_id": "vwjetta7selfstudyprogram_s0031_c001",
+          "rank_delta": -8
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0014_c001",
+          "rank_delta": -3
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0051_c002",
+          "rank_delta": 8
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0046_c001",
+          "rank_delta": 2
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0025_c001",
+          "rank_delta": -2
+        },
+        {
+          "chunk_id": "auiliteraturtemplate_s0091_c002",
+          "rank_delta": 4
+        },
+        {
+          "chunk_id": "auiliteraturtemplate_s0125_c001",
+          "rank_delta": 5
+        }
+      ],
+      "final_stage": "reranker",
+      "reranker_error": null,
+      "top_sections": [
+        {
+          "section_id": "ssp511thenewea211petrolenginefamily_s0037",
+          "title": "Discharge of blow-by gases into fresh air",
+          "path": [
+            "Engine mechanics",
+            "Crankcase breather and ventilation system",
+            "Discharge of blow-by gases into fresh air"
+          ],
+          "score": 0.981934,
+          "matched_chunk_id": "ssp511thenewea211petrolenginefamily_s0037_c001",
+          "matched_subheading": null,
+          "text": "#### Discharge of blow-by gases into fresh air\n\nThe EA211 engines features an internally guided crankcase breather which prevents any freezing. Internal means that the blow-by gases purified of oil in the oil separator are largely guided to the inlet points within the engine. They mix with fresh air there. \n\nIn the 1.0 l MPI engines, the gases are drawn into the intake manifold by a vacuum. \n\n\n\nIn the 1.2 l and 1.4 l TSI engines they go directly to the intake manifold or the intake side of the exhaust gas turbocharger, depending on the pressure ratio. \n\n\n\n<!-- Start of picture text -->\nVacuum in intake manifold\nThe suction effect of the engine makes the pressure in the valve in the intake manifold lower than that on the intake\nside of the turbocharger. This opens the valve in the intake manifold and the valve on the intake side of the\nturbocharger closes.\nThe blow-by gases are now sucked into the intake manifold via the hose.\nCharge pressure in the intake manifold\nThe pressure on the intake side of the turbocharger is lower than in the intake manifold in this case. The valve on\nthe intake side of the turbocharger opens. The valve in the intake manifold closes. The blow-by gases are drawn in\ndirectly by the turbocharger.\nintake side on the\nNon-return valve in the\nintake manifold\nThis is attached to the lowest point of the\nintake manifold. When the engine is at\na standstill, it is open and any oil there\ncan flow back to the separator.\ns511_188\non the intake manifold\n<!-- End of picture text -->\n\n35\n\nEngine mechanics"
+        },
+        {
+          "section_id": "auiliteraturtemplate_s0046",
+          "title": "**Positive crankcase ventilation**",
+          "path": [
+            "**Engine mechanicals**",
+            "**Positive crankcase ventilation**"
+          ],
+          "score": 0.122498,
+          "matched_chunk_id": "auiliteraturtemplate_s0046_c001",
+          "matched_subheading": null,
+          "text": "## **Positive crankcase ventilation**\n\nThe positive crankcase ventilation system has also been systematically improved. The cylinder block pressure to ambient air pressure ratio is configured for a high pressure gradient. \n\nA strong emphasis has been placed on reducing the number of components. On the exterior of the engine, for example, there is now only one pipe for the discharge of cleaned blow-by gases. \n\nThe system comprises the following components: \n\n- Coarse oil separator integrated with cylinder block \n\n- • Fine oil separator module, bolted onto the cylinder head cover \n\n- Hose for the discharge of cleaned blow-by gases \n\n- • Oil return line in the cylinder block with shutoff valve in the oil pan honeycomb insert \n\n\n\n<!-- Start of picture text -->\nEntry of blow-by gases into the intake manifold module\n(in naturally aspirated mode)\nEntry of blow-by gases into the turbocharger\n(in charging mode)\nFine oil separator module\nOil return duct from\nthe fine oil separator\nOil return line shut-off valve Coarse oil separator Oil return duct from the fine oil separator\nfor the fine oil separator (below the oil level in the oil pan)\n(below the oil level in the oil pan)\n<!-- End of picture text -->\n\n606_043 \n\n23"
+        },
+        {
+          "section_id": "ssp511thenewea211petrolenginefamily_s0035",
+          "title": "Crankcase breather and ventilation system",
+          "path": [
+            "Engine mechanics",
+            "Crankcase breather and ventilation system"
+          ],
+          "score": 0.034088,
+          "matched_chunk_id": "ssp511thenewea211petrolenginefamily_s0035_c001",
+          "matched_subheading": null,
+          "text": "## Crankcase breather and ventilation system\n\nThe crankcase breather and ventilation system must ensure that: \n\n\n\n\n\n<!-- Start of picture text -->\nThe formation of condensation in the oil remains low on short trips and therefore prevents the crankcase\nbreather from freezing, and\noil vapour and uncombusted hydrocarbons are prevented from being emitted into the environment under all\noperating conditions.\nCrankcase breather\nThe crankcase breather allows the crankcase to be\nflushed with fresh air, therefore reducing the\nformation of condensation in the oil. It is ventilated\nwith fresh air using a hose leading from the air filter Connection on the air\nto the non-return valve on the camshaft housing. filter\nThe non-return valve prevents oil or unfiltered blow- s511_234\nby gases from entering the air filter. If the pressure in\nthe crankcase becomes too high, it opens the path to\nthe air filter. This prevents any damage to seals due\nto excessive pressures.\ns511_235\n<!-- End of picture text -->"
+        }
+      ]
+    },
+    {
+      "case_id": "special_tool_t10487",
+      "query": "What is special tool T10487 used for when servicing the EA211 camshaft toothed belt?",
+      "question_type": "repair",
+      "required_knowledge": "The name and service use of special tool T10487",
+      "expected_title": "Special tools",
+      "expected_path_contains": [
+        "Service"
+      ],
+      "ranks": {
+        "dense": 1,
+        "bm25": 1,
+        "rrf": 1,
+        "reranker": 1
+      },
+      "candidate_summary": [
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0061_c001",
+          "rank": 1,
+          "score": 0.981934
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0064_c001",
+          "rank": 2,
+          "score": 0.195557
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0017_c001",
+          "rank": 3,
+          "score": 0.546875
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0017_c002",
+          "rank": 4,
+          "score": 0.00639
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0063_c001",
+          "rank": 5,
+          "score": 0.041473
+        },
+        {
+          "chunk_id": "vwjetta7selfstudyprogram_s0031_c001",
+          "rank": 6,
+          "score": 0.096008
+        },
+        {
+          "chunk_id": "vwjetta7selfstudyprogram_s0033_c001",
+          "rank": 7,
+          "score": 0.324219
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0013_c001",
+          "rank": 8,
+          "score": 0.305664
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0009_c001",
+          "rank": 9,
+          "score": 0.012825
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0022_c001",
+          "rank": 10,
+          "score": 0.001867
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0007_c001",
+          "rank": 11,
+          "score": 0.262939
+        },
+        {
+          "chunk_id": "auiliteraturtemplate_s0132_c001",
+          "rank": 12,
+          "score": 8.2e-05
+        },
+        {
+          "chunk_id": "auiliteraturtemplate_s0127_c001",
+          "rank": 13,
+          "score": 3.9e-05
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0011_c001",
+          "rank": 14,
+          "score": 0.066101
+        },
+        {
+          "chunk_id": "auiliteraturtemplate_s0130_c001",
+          "rank": 15,
+          "score": 0.000253
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0010_c001",
+          "rank": 16,
+          "score": 0.031372
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0038_c001",
+          "rank": 17,
+          "score": 0.001444
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0021_c001",
+          "rank": 18,
+          "score": 0.003796
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0008_c001",
+          "rank": 19,
+          "score": 0.097412
+        },
+        {
+          "chunk_id": "auiliteraturtemplate_s0032_c001",
+          "rank": 20,
+          "score": 0.002758
+        }
+      ],
+      "rank_delta": [
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0061_c001",
+          "rank_delta": 0
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0064_c001",
+          "rank_delta": 4
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0017_c001",
+          "rank_delta": -1
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0017_c002",
+          "rank_delta": 9
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0063_c001",
+          "rank_delta": 5
+        },
+        {
+          "chunk_id": "vwjetta7selfstudyprogram_s0031_c001",
+          "rank_delta": 2
+        },
+        {
+          "chunk_id": "vwjetta7selfstudyprogram_s0033_c001",
+          "rank_delta": -4
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0013_c001",
+          "rank_delta": -4
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0009_c001",
+          "rank_delta": 3
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0022_c001",
+          "rank_delta": 7
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0007_c001",
+          "rank_delta": -6
+        },
+        {
+          "chunk_id": "auiliteraturtemplate_s0132_c001",
+          "rank_delta": 14
+        },
+        {
+          "chunk_id": "auiliteraturtemplate_s0127_c001",
+          "rank_delta": 15
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0011_c001",
+          "rank_delta": -5
+        },
+        {
+          "chunk_id": "auiliteraturtemplate_s0130_c001",
+          "rank_delta": 5
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0010_c001",
+          "rank_delta": -5
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0038_c001",
+          "rank_delta": 1
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0021_c001",
+          "rank_delta": -3
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0008_c001",
+          "rank_delta": -12
+        },
+        {
+          "chunk_id": "auiliteraturtemplate_s0032_c001",
+          "rank_delta": -4
+        }
+      ],
+      "final_stage": "reranker",
+      "reranker_error": null,
+      "top_sections": [
+        {
+          "section_id": "ssp511thenewea211petrolenginefamily_s0061",
+          "title": "Special tools",
+          "path": [
+            "Service",
+            "Special tools"
+          ],
+          "score": 0.981934,
+          "matched_chunk_id": "ssp511thenewea211petrolenginefamily_s0061_c001",
+          "matched_subheading": null,
+          "text": "## Special tools\n\n<!-- Start of picture text -->\nDescription Tool Usage\nT10487 The toothed belt between the camshafts is pressed\nAssembly tool downwards using this assembly tool, in order to\nallow the camshaft clamp T10494 to be inserted into\nthe camshafts under tension.\ns511_264\nT10494 For fixing the camshaft when checking and adjusting\nCamshaft clamp the valve timing.\ns511_267\nT10499 The wrench is used to loosen and tighten the\nSpecial wrench eccentric toothed belt tensioner\ns511_266\nT10500 The insert is used to loosen and tighten to bolt on the\nInsert tool eccentric toothed belt tensioner if an engine support\nis installed.\ns511_265\nVAS 6583 The electronic torque wrench is used to tighten the\nElectronic torque wrench bolt on the eccentric toothed belt tensioner and,\nwhen installing the thermostat housing, to tension the\ntoothed belt for the coolant pump drive to an exact\ntorque.\ns511_263\n<!-- End of picture text -->\n\n\n\n59\n\nService"
+        },
+        {
+          "section_id": "ssp511thenewea211petrolenginefamily_s0017",
+          "title": "Toothed belt drive",
+          "path": [
+            "Engine mechanics",
+            "Toothed belt drive"
+          ],
+          "score": 0.546875,
+          "matched_chunk_id": "ssp511thenewea211petrolenginefamily_s0017_c001",
+          "matched_subheading": null,
+          "text": "## Toothed belt drive\n\nThe camshafts are driven by a maintenance-free toothed belt. It is tensioned using an automatic tensioning roller, which uses contact shoulders at the same time to guide the toothed belt. \n\nAn idler roller on the tension side and the special shape of the camshaft sprockets in the 3-cylinder engine, or camshaft gearwheel in the 4-cylinder engine respectively, ensure that the toothed belt runs smoothly.\n\n###### 1.4 l 103 kW TSI engine\n\n<!-- Start of picture text -->\nGear wheel exhaust camshaft\nwith camshaft adjuster\nGear wheel inlet camshaft\ncamshaft with camshaft\nadjuster\nAutomatic tensioning roller\nIdler roller\nCTC crankshaft sprocket\n(in 1.2 l and 1.4 l engines)\ns511_103\n<!-- End of picture text -->\n\n\n\n<!-- Start of picture text -->\nEngine versions Gear wheel Effects\n3-cylinder Tri-oval A certain amount of force is required to open the valves of a cylinder. This force also\nengines camshaft acts on the toothed belt drive every time the valve is opened, and at higher speeds will\nsprockets cause it to vibrate. To minimise the strong vibrations which are typical for 3-cylinder\nengines in particular, special camshaft gears have been employed. It has been\ndesigned with a larger radius, at intervals of 120° (tri-oval).\n4-cylinder Oval A so-called CTC crankshaft sprocket is installed in the 4-cylinder engines. CTC is an\nengines CTC crankshaft abbreviation which stands for Crankshaft Torsionals Cancellation, meaning the tensile\nsprocket forces and vibrations from the crankshaft are reduced.\nDuring the working stroke, the toothed belt is slackened slightly due to its smaller\nradius. This reduces the tensile forces and lowers the vibrations of the toothed belt\ndrive.\nAdvantages\nThe lower toothed belt forces allow the tension force of the tensioning roller to be reduced.\nThis results in lower friction and mechanical stress on the entire toothed belt drive.\nThe reduced level of vibrations allows the toothed belt drive to run even more quietly.\n<!-- End of picture text -->\n\n13\n\nEngine mechanics"
+        },
+        {
+          "section_id": "vwjetta7selfstudyprogram_s0033",
+          "title": "1.6 l 81 kW MPI Engine",
+          "path": [
+            "Power Units",
+            "1.6 l 81 kW MPI Engine"
+          ],
+          "score": 0.324219,
+          "matched_chunk_id": "vwjetta7selfstudyprogram_s0033_c001",
+          "matched_subheading": "Technical features",
+          "text": "## 1.6 l 81 kW MPI Engine\n\nThe basic engine was designed in the EA211 engine generation with the characteristics of the Modular MOB Gasoline Engine System.\n\n### Technical features\n\n- Camshaft is driven by a toothed belt. \n\n- Modular design of camshaft housing. \n\n- Cylinder head with integrated exhaust manifold. \n\n- Coolant pump is integrated in the thermostat housing. \n\n- Coolant pump is driven by a toothed belt from the exhaust camshaft. \n\n- Intake Camshaft Timing. \n\n|Engine code|CWVA|\n|---|---|\n|Type|4-cylinder inline engine|\n|Displacement|1,598 cm<sup>3</sup>|\n|Bore|76,5 mm|\n|Stroke|86,9 mm|\n|Valves per cylinder|4|\n|Compression ratio|10,5:1|\n|Maximum output|81 kW at 5800 rpm|\n|Maximum torque|155 Nm at 3800-4000<br>rpm|\n|Engine management|Bosch Motronic MPI|\n|Fuel|95 RON unleaded|\n|Exhaust gas treatment|Three-way catalyst, two<br>binary lambda probes:<br>one before and another<br>after the catalyst|\n|Emission standard|EU5|\n\n\n\n\n\nS588_022 \n\n\n\nMore information on engine mechanics can be found in the Self-Study Program Nr. 511 “New Range of EA211 Gasoline Engines”."
+        }
+      ]
+    },
+    {
+      "case_id": "oil_pressure_switching_sequence",
+      "query": "How does the EA211 two-stage oil pressure system switch from 1.8 bar to 3.3 bar?",
+      "question_type": "principle",
+      "required_knowledge": "The complete switching sequence from the low oil pressure stage to the high pressure stage",
+      "expected_title": "Functional sequence of the oil pressure regulation",
+      "expected_path_contains": [
+        "The oil pressure control"
+      ],
+      "ranks": {
+        "dense": 1,
+        "bm25": 1,
+        "rrf": 1,
+        "reranker": 1
+      },
+      "candidate_summary": [
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0034_c004",
+          "rank": 1,
+          "score": 0.995117
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0034_c003",
+          "rank": 2,
+          "score": 0.928223
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0034_c005",
+          "rank": 3,
+          "score": 0.991699
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0034_c001",
+          "rank": 4,
+          "score": 0.919434
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0031_c001",
+          "rank": 5,
+          "score": 0.959961
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0033_c001",
+          "rank": 6,
+          "score": 0.925781
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0027_c001",
+          "rank": 7,
+          "score": 0.741699
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0034_c002",
+          "rank": 8,
+          "score": 0.91748
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0028_c001",
+          "rank": 9,
+          "score": 0.972656
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0034_c006",
+          "rank": 10,
+          "score": 0.982422
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0032_c001",
+          "rank": 11,
+          "score": 0.269043
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0059_c001",
+          "rank": 12,
+          "score": 0.223999
+        },
+        {
+          "chunk_id": "auiliteraturtemplate_s0055_c001",
+          "rank": 13,
+          "score": 0.023514
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0040_c002",
+          "rank": 14,
+          "score": 0.001687
+        },
+        {
+          "chunk_id": "vwjetta7selfstudyprogram_s0031_c001",
+          "rank": 15,
+          "score": 0.106689
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0053_c002",
+          "rank": 16,
+          "score": 0.596191
+        },
+        {
+          "chunk_id": "auiliteraturtemplate_s0056_c001",
+          "rank": 17,
+          "score": 0.038452
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0041_c001",
+          "rank": 18,
+          "score": 0.001687
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0047_c002",
+          "rank": 19,
+          "score": 0.003172
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0053_c003",
+          "rank": 20,
+          "score": 0.002003
+        }
+      ],
+      "rank_delta": [
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0034_c004",
+          "rank_delta": 0
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0034_c003",
+          "rank_delta": 4
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0034_c005",
+          "rank_delta": -1
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0034_c001",
+          "rank_delta": 4
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0031_c001",
+          "rank_delta": 0
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0033_c001",
+          "rank_delta": 1
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0027_c001",
+          "rank_delta": 3
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0034_c002",
+          "rank_delta": 1
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0028_c001",
+          "rank_delta": -5
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0034_c006",
+          "rank_delta": -7
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0032_c001",
+          "rank_delta": 1
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0059_c001",
+          "rank_delta": 1
+        },
+        {
+          "chunk_id": "auiliteraturtemplate_s0055_c001",
+          "rank_delta": 6
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0040_c002",
+          "rank_delta": 12
+        },
+        {
+          "chunk_id": "vwjetta7selfstudyprogram_s0031_c001",
+          "rank_delta": -1
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0053_c002",
+          "rank_delta": -5
+        },
+        {
+          "chunk_id": "auiliteraturtemplate_s0056_c001",
+          "rank_delta": -2
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0041_c001",
+          "rank_delta": 9
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0047_c002",
+          "rank_delta": 4
+        },
+        {
+          "chunk_id": "ssp511thenewea211petrolenginefamily_s0053_c003",
+          "rank_delta": 4
+        }
+      ],
+      "final_stage": "reranker",
+      "reranker_error": null,
+      "top_sections": [
+        {
+          "section_id": "ssp511thenewea211petrolenginefamily_s0034",
+          "title": "Functional sequence of the oil pressure regulation",
+          "path": [
+            "Engine mechanics",
+            "Oil circuit",
+            "The oil pressure control",
+            "Functional sequence of the oil pressure regulation"
+          ],
+          "score": 0.995117,
+          "matched_chunk_id": "ssp511thenewea211petrolenginefamily_s0034_c004",
+          "matched_subheading": "Switching over to the high pressure stage – approx. 3.3 bar",
+          "text": "#### Functional sequence of the oil pressure regulation\n\nThe oil pressure level is set by the oil quantity being pumped. The amount of oil being pumped depends on the position of the slide unit, how far the two pump gears are apart, and the engine speed.\n\n##### Pressure build-up from engine start to approx. 1.8 bar\n\n<!-- Start of picture text -->\napprox. 1.8 bar to the oil circuit\nOnce the engine has started, the required oil pressure\nmust be built up as quickly as possible. The two pump to the oil pump\ngears are exactly opposite each other and the\nmaximum oil quantity at the engine speed is pumped a\ninto the oil circuit.\nValve for oil pressure\ncontrol (activated)\na) The valve for oil pressure control is activated by\nthe engine control unit using the earth and opens Control piston 1 + 2\nthe control port to chamber 2.\nb) The control piston is pressed onto the stop of the\nhigh pressure stage by the compression spring.\nCompression\nspring\nc) The oil pressure in chambers 3 and 4 totals less\nthan 1.8 bar and has no effect on the position of Pump gears\nthe slide unit. The compression spring presses the\nslide unit against the full flow stop.\nChamber 3 Chamber 4\nSlide unit\nCompression spring\nfull flow s511_249\n<1.8 bar\nEngine speed increases\nWhen the engine speed increases, the oil pump Chamber 2\npumps more oil and the oil pressure increases. At the Control piston Chamber 1\nsame time, the pressure in chambers 1 and 2 of the\ncontrol piston increases, and it is pushed to the left\nagainst the spring force. Because the pressure in\nchambers 3 and 4 of the slide unit still totals less than\n1.8 bar, the slide unit remains at the full flow stop.\nCompression spring s511_250\nto chamber 3 Return\nto chamber 4\nStop High pressure stage\n<!-- End of picture text -->\n\n30\n\n##### Low-pressure stage – approx. 1.8 bar\n\nAt approx. 1400 rpm, the oil pressure reaches the lower pressure stage of approx. 1.8 bar. This pressure is kept constant up to 400 rpm or 150 Nm respectively. \n\nWhen the engine speed increases, the oil flow quantity and the oil pressure increase; they decrease when the engine speed falls. \n\n\n\n<!-- Start of picture text -->\nOil pressure regulation when the oil pressure\nincreases to more than 1.8 bar\na) The valve for oil pressure control is activated by a\nthe engine control unit using the earth and opens Valve for oil\nthe control port to chamber 2. pressure control\n(activated)\nb) The increasing engine speed increases the\npressure in chambers 1 and 2 to more than 1.8 Chamber 2\nbar and the control piston is pushed to the left b\nagainst the spring force. The path from chamber 4 Return\nto the return to the sump is opened.\nChamber 3\nPump gears\nc) The pressure in chamber 3 increases to more than\n1.8 bar and pushes the slide unit slightly to the\nright, against the spring force. The oil from c\nchamber 4 is pressed back into the sump. The\npump gears no longer intermesh as much, and the s511_251\noil quantity being pumped, and therefore the oil Mesh range of the pump gears\npressure, decrease.\nLow-pressure stage (1.8 bar)\nOil pressure regulation when the oil pressure\nfalls below 1.8 bar\na) The valve for oil pressure control remains open. Control piston\nb) When the engine speed decreases, the pressure in Chamber 2\nchambers 1 and 2 falls below 1.8 bar and the\ncontrol piston is pushed to the right by the spring\nforce. The path from the oil circuit to chamber 4 of Chamber 3\nthe slide unit is opened.\nPump gears\nc) The pressure in chambers 3 and 4 is now equal\nagain. Together with the spring force, the slide unit c\nis pushed slightly to the left. The pump gears Slide unit Chamber 4\ncontinue to intermesh, and the oil quantity being s511_269\npumped, and therefore the oil pressure, increase.\n<!-- End of picture text -->\n\n31\n\nEngine mechanics\n\n##### Switching over to the high pressure stage – approx. 3.3 bar\n\nAt an engine speed of 4000 rpm or an engine load of 150 Nm, a switchover to the high pressure stage of approx. 3.3 bar occurs. To reach the higher pressure, the quantity of oil pumped is increased. \n\n\n\n\n\n<!-- Start of picture text -->\nSwitchover position to the high pressure stage\na) The valve for oil pressure control is no longer\nControl port\nactivated by the engine control unit and closes the\na closed\ncontrol port to chamber 2.\nValve for oil\npressure control\nb) The lack of oil pressure in chamber 2 allows the (activated)\ncompression spring to push the control piston far Chamber 1\nto the right, and opens a large cross section to Chamber 2\nchamber 4. b\nReturn\nchamber 4\nc) The oil pressure in chamber 4 of the slide unit\nChamber 3\nincreases and pushes this far to the left together\nwith the compression spring. The two pump gears\nnow intermesh deeply and pump more oil, and the\noil pressure increases. c\nHigh-pressure stage (3.3 bar)\nSwitching back to the low pressure stage\nTo switch back to a low pressure stage, the valve for oil pressure control is activated again using the earth and it\nopens the control port to chamber 2. The oil pressure in chambers 1 and 2 pushes the control piston to the left\nagainst the spring force, closes the control port to chamber 4 and opens the return line to the sump. This causes the\noil pressure in chamber 4 to fall, and the slide unit is pushed to the right by the higher oil pressure in chamber 3.\nThe pump gears intermesh less, and the oil quantity being pumped, and therefore the oil pressure, decrease.\n<!-- End of picture text -->\n\n32\n\n##### High-pressure stage – approx. 3.3 bar\n\nAs with the low pressure stage, the oil pressure is also regulated at a constant 3.3 bar in the high pressure stage. When the engine speed increases, the oil quantity being pumped and the oil pressure also continue to increase. To keep the oil pressure at a constant 3.3 bar, the quantity of oil being pumped is adjusted. The regulation at a constant oil pressure is carried out the same way as it is for the low pressure stage. \n\n\n\n<!-- Start of picture text -->\nOil pressure regulation when the oil pressure\nincreases to more than 3.3 bar\na) The valve for oil pressure control is not activated\nControl port\nby the engine control unit and closes the control\na closed\nport to chamber 2. Valve for oil\npressure control Control\nb) The oil pressure in chamber 1 is now high enough (activated) piston Chamber 1\nthat it pushes the control piston to the left against\nChamber 2\nthe force of the spring, and opens the return port\nfrom chamber 4 to the sump. b\nc) The pressure in chamber 4 falls, and the slide unit Chamber 3 Return\nis pushed to the right against the compression\nspring by the high oil pressure in chamber 3.\nThe pump gears no longer intermesh as deeply,\npumping less oil, and the oil pressure falls to c\napprox. 3.3 bar.\nHigh-pressure stage (3.3 bar)\n<!-- End of picture text -->\n\nOil pressure regulation when the oil pressure\n\n##### falls below 3.3 bar\n\nIf the oil pressure falls below 3.3 bar, for example because the engine speed is falling, then the same regulation is carried out as in the low pressure stage. The regulation at a constant pressure is a continual process in both pressure stages: \n\n- If the oil pressure is too low, the control port from the oil circuit to chamber 4 opens at the slide unit. The oil flowing in pushes it so that the pump gears intermesh further, more oil is pumped and the oil pressure increases. \n\n- If the oil pressure is too high, the return line from chamber 4 to the sump opens. The oil flowing back pushes the slide unit so that the pump gears do not intermesh as far, less oil is pumped and the oil pressure decreases. \n\n33\n\nEngine mechanics"
+        },
+        {
+          "section_id": "ssp511thenewea211petrolenginefamily_s0028",
+          "title": "External gear oil pump",
+          "path": [
+            "Engine mechanics",
+            "Oil circuit",
+            "External gear oil pump"
+          ],
+          "score": 0.972656,
+          "matched_chunk_id": "ssp511thenewea211petrolenginefamily_s0028_c001",
+          "matched_subheading": "Advantages of the two-level oil pressure and oil quantity regulation",
+          "text": "### External gear oil pump\n\n<!-- Start of picture text -->\nAn external gear oil pump is being used in the 1.4 l Crankshaft\nTSI engines. It features very efficient operation and\ncontributes to fuel savings and CO2 reductions.\nThe oil pump is bolted onto the upper section of the\nsump and operates in two pressure stages of approx.\n1.8 bar and 3.3 bar depending on the load and\nengine speed.\nIt is driven by the crankshaft via a maintenance-free\nchain drive without a chain tensioner.\nThe respective oil pressure is regulated by the oil\nquantity pumped.\nSump (upper\nsection)\nOil pump Chain drive\nSump (bottom\nsection)\nDriven by crankshaft\n<!-- End of picture text -->\n\n##### Advantages of the two-level oil pressure and oil quantity regulation\n\n- The drive output of the oil pump is lowered because the oil pump only pumps as much oil as is required. \n\n- Oil degradation is reduced, because less oil is being circulated. \n\n\n\n<!-- Start of picture text -->\n[bar]\n3.5\n3.3\n1.8\ns511_202\napprox. 1400 rpm 4000 rpm\n150 Nm\n<!-- End of picture text -->\n\nPressure requirements Oil pressure unregulated (1.0 l and 1.2 l engines) Oil pressure regulated in two levels (1.4 l engines) Low pressure stage High pressure stage \n\n26"
+        },
+        {
+          "section_id": "ssp511thenewea211petrolenginefamily_s0031",
+          "title": "Valve for oil pressure control N428",
+          "path": [
+            "Engine mechanics",
+            "Oil circuit",
+            "The components in the two-level oil pressure regulation",
+            "Valve for oil pressure control N428"
+          ],
+          "score": 0.959961,
+          "matched_chunk_id": "ssp511thenewea211petrolenginefamily_s0031_c001",
+          "matched_subheading": null,
+          "text": "#### Valve for oil pressure control N428\n\nThe valve for oil pressure control is actuated by an earth signal from the engine control unit in accordance with the load and engine speed. A valve is used to switch between the two oil pressure stages by alternately supplying the various control ports of the oil pump with oil. \n\nThe valve features the following switch states: \n\n- If the valve is actuated, it opens the control port to the oil pump and pumps at the low oil pressure stage of 1.8 bar. \n\n- If the valve is not actuated, the port is kept closed by spring pressure and the oil pump and pumps at the high oil pressure stage of 3.3 bar. \n\n\n\n<!-- Start of picture text -->\ns511_177\n<!-- End of picture text -->\n\nValve for oil pressure control N428"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "pipeline_version": 3,
+  "documents": [
+    {
+      "document_id": "PDF-001",
+      "sections": 5,
+      "chunks": 9,
+      "first_section_id": "PDF-001:s0001",
+      "first_chunk_id": "PDF-001:s0001:c001"
+    },
+    {
+      "document_id": "PDF-002",
+      "sections": 66,
+      "chunks": 81,
+      "first_section_id": "PDF-002:s0001",
+      "first_chunk_id": "PDF-002:s0002:c001"
+    },
+    {
+      "document_id": "PDF-003",
+      "sections": 136,
+      "chunks": 126,
+      "first_section_id": "PDF-003:s0001",
+      "first_chunk_id": "PDF-003:s0001:c001"
+    },
+    {
+      "document_id": "PDF-004",
+      "sections": 87,
+      "chunks": 111,
+      "first_section_id": "PDF-004:s0001",
+      "first_chunk_id": "PDF-004:s0001:c001"
+    },
+    {
+      "document_id": "PDF-005",
+      "sections": 52,
+      "chunks": 37,
+      "first_section_id": "PDF-005:s0001",
+      "first_chunk_id": "PDF-005:s0003:c001"
+    },
+    {
+      "document_id": "PDF-006",
+      "sections": 107,
+      "chunks": 98,
+      "first_section_id": "PDF-006:s0001",
+      "first_chunk_id": "PDF-006:s0001:c001"
+    },
+    {
+      "document_id": "PDF-007",
+      "sections": 118,
+      "chunks": 98,
+      "first_section_id": "PDF-007:s0001",
+      "first_chunk_id": "PDF-007:s0004:c001"
+    },
+    {
+      "document_id": "PDF-008",
+      "sections": 0,
+      "chunks": 0,
+      "first_section_id": null,
+      "first_chunk_id": null
+    },
+    {
+      "document_id": "PDF-009",
+      "sections": 1,
+      "chunks": 1,
+      "first_section_id": "PDF-009:s0001",
+      "first_chunk_id": "PDF-009:s0001:c001"
+    },
+    {
+      "document_id": "PDF-010",
+      "sections": 112,
+      "chunks": 110,
+      "first_section_id": "PDF-010:s0001",
+      "first_chunk_id": "PDF-010:s0002:c001"
+    }
+  ],
+  "summary": {
+    "sections": 684,
+    "chunks": 671,
+    "duplicate_section_ids": 0,
+    "duplicate_chunk_ids": 0,
+    "all_section_document_links_valid": true,
+    "all_chunk_links_valid": true
+  }
+}

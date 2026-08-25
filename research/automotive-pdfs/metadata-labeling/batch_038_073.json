@@ -1,0 +1,1826 @@
+[
+  {
+    "pdf_id": "PDF-038",
+    "canonical_title": "Painting the Vehicle - Pre-Treatment",
+    "document_kind": "self_study_program",
+    "publisher": "Volkswagen AG",
+    "source_host": "vdveer-engineering.nl",
+    "distribution_type": "third_party_mirror",
+    "authority_class": "oem_training",
+    "service_authority": "principle_only",
+    "brands": [
+      "Volkswagen"
+    ],
+    "models": [],
+    "platforms": [],
+    "engine_families": [],
+    "engine_codes": [],
+    "transmissions": [],
+    "system_tags": [
+      "vehicle_painting",
+      "corrosion",
+      "body_repair",
+      "paint_pre_treatment"
+    ],
+    "language": "en",
+    "publication_year": null,
+    "applicability_scope": "General vehicle painting and repair-shop pre-treatment principles; no model-specific scope stated.",
+    "ranking_tier": "C",
+    "confidence": 0.97,
+    "evidence": [
+      {
+        "field": "canonical_title",
+        "source": "local_pdf",
+        "page": 1,
+        "text": "Self-Study Programme 214 / Painting the Vehicle - Pre-Treatment / Basic Principles"
+      },
+      {
+        "field": "document_kind",
+        "source": "local_pdf",
+        "page": 2,
+        "text": "The self-study programme is not a workshop manual; testing, adjustment and repair instructions may be found in appropriate service material."
+      },
+      {
+        "field": "applicability_scope",
+        "source": "local_pdf",
+        "page": 2,
+        "text": "Vehicle Painting - Basic Principles; Painting in the Factory; Painting in the Repair Shop."
+      }
+    ],
+    "review_flags": [
+      "SSP training overview, not a repair manual; mirror distribution; publication year not explicit."
+    ]
+  },
+  {
+    "pdf_id": "PDF-039",
+    "canonical_title": "Painting the Vehicle - The Topcoat",
+    "document_kind": "self_study_program",
+    "publisher": "Volkswagen AG",
+    "source_host": "vdveer-engineering.nl",
+    "distribution_type": "third_party_mirror",
+    "authority_class": "oem_training",
+    "service_authority": "principle_only",
+    "brands": [
+      "Volkswagen"
+    ],
+    "models": [],
+    "platforms": [],
+    "engine_families": [],
+    "engine_codes": [],
+    "transmissions": [],
+    "system_tags": [
+      "vehicle_painting",
+      "paint_topcoat",
+      "body_repair"
+    ],
+    "language": "en",
+    "publication_year": null,
+    "applicability_scope": "General vehicle topcoat principles and paint-workshop equipment/application; no model-specific scope stated.",
+    "ranking_tier": "C",
+    "confidence": 0.97,
+    "evidence": [
+      {
+        "field": "canonical_title",
+        "source": "local_pdf",
+        "page": 1,
+        "text": "Self-Study Programme 215 / Painting the Vehicle - The Topcoat / Basic Principles"
+      },
+      {
+        "field": "document_kind",
+        "source": "local_pdf",
+        "page": 2,
+        "text": "The self-study programme is not a workshop manual; testing, adjustment and repair instructions may be found in appropriate service material."
+      },
+      {
+        "field": "applicability_scope",
+        "source": "local_pdf",
+        "page": 2,
+        "text": "Equipment, Auxiliary Tools; Application of the Topcoat."
+      }
+    ],
+    "review_flags": [
+      "SSP training overview, not a repair manual; mirror distribution; publication year not explicit."
+    ]
+  },
+  {
+    "pdf_id": "PDF-040",
+    "canonical_title": "Body - Lupo 3L",
+    "document_kind": "self_study_program",
+    "publisher": "Volkswagen AG",
+    "source_host": "vdveer-engineering.nl",
+    "distribution_type": "third_party_mirror",
+    "authority_class": "oem_training",
+    "service_authority": "principle_only",
+    "brands": [
+      "Volkswagen"
+    ],
+    "models": [
+      "Lupo 3L"
+    ],
+    "platforms": [],
+    "engine_families": [],
+    "engine_codes": [],
+    "transmissions": [],
+    "system_tags": [
+      "body",
+      "lightweight_materials",
+      "aluminium",
+      "magnesium",
+      "joining_methods",
+      "aerodynamics"
+    ],
+    "language": "en",
+    "publication_year": null,
+    "applicability_scope": "Volkswagen Lupo 3L body design and construction features.",
+    "ranking_tier": "C",
+    "confidence": 0.98,
+    "evidence": [
+      {
+        "field": "canonical_title",
+        "source": "local_pdf",
+        "page": 1,
+        "text": "Self-Study Programme 216 / Body - LUPO 3L / Design and Function"
+      },
+      {
+        "field": "models",
+        "source": "local_pdf",
+        "page": 2,
+        "text": "The body had to satisfy requirements for the 3-litre car; contents cover lightweight materials, bodyshell and add-on parts."
+      }
+    ],
+    "review_flags": [
+      "SSP is not a workshop manual; mirror distribution; publication year not explicit."
+    ]
+  },
+  {
+    "pdf_id": "PDF-041",
+    "canonical_title": "The V8-5V Engine",
+    "document_kind": "self_study_program",
+    "publisher": "Audi AG",
+    "source_host": "vdveer-engineering.nl",
+    "distribution_type": "third_party_mirror",
+    "authority_class": "oem_training",
+    "service_authority": "principle_only",
+    "brands": [
+      "Audi"
+    ],
+    "models": [
+      "Audi A8",
+      "Audi A6"
+    ],
+    "platforms": [],
+    "engine_families": [
+      "V8-5V"
+    ],
+    "engine_codes": [],
+    "transmissions": [],
+    "system_tags": [
+      "engine_mechanicals",
+      "five_valve",
+      "motronic",
+      "engine_management",
+      "variable_intake_manifold"
+    ],
+    "language": "en",
+    "publication_year": null,
+    "applicability_scope": "Audi V8-5V engine; page 2 states the redesigned engine is available in the Audi A6 range and discusses Audi A8 technology basis.",
+    "ranking_tier": "C",
+    "confidence": 0.96,
+    "evidence": [
+      {
+        "field": "canonical_title",
+        "source": "local_pdf",
+        "page": 1,
+        "text": "The V8-5V Engine / Construction Features and Functions / Self-Study Programme 217"
+      },
+      {
+        "field": "models",
+        "source": "local_pdf",
+        "page": 2,
+        "text": "The V8 engine in combination with Aluminium Space Frame technology was the technical basis for Audi's breakthrough into the luxury class; new V8-5V engines are now also available for the Audi A6 model range."
+      }
+    ],
+    "review_flags": [
+      "A8 is contextual technology history while A6 is explicit availability; SSP is not a workshop manual; mirror distribution."
+    ]
+  },
+  {
+    "pdf_id": "PDF-042",
+    "canonical_title": "The Lupo 3L",
+    "document_kind": "self_study_program",
+    "publisher": "Volkswagen AG",
+    "source_host": "vdveer-engineering.nl",
+    "distribution_type": "third_party_mirror",
+    "authority_class": "oem_training",
+    "service_authority": "principle_only",
+    "brands": [
+      "Volkswagen"
+    ],
+    "models": [
+      "Lupo 3L"
+    ],
+    "platforms": [],
+    "engine_families": [
+      "1.2 l TDI"
+    ],
+    "engine_codes": [],
+    "transmissions": [
+      "085 electronic manual gearbox"
+    ],
+    "system_tags": [
+      "vehicle_overview",
+      "engine",
+      "gearbox",
+      "running_gear",
+      "electrical_system",
+      "heating_air_conditioning"
+    ],
+    "language": "en",
+    "publication_year": null,
+    "applicability_scope": "Volkswagen Lupo 3L vehicle design and function.",
+    "ranking_tier": "C",
+    "confidence": 0.98,
+    "evidence": [
+      {
+        "field": "canonical_title",
+        "source": "local_pdf",
+        "page": 1,
+        "text": "Self-Study Programme 218 / The Lupo 3L / Design and Function"
+      },
+      {
+        "field": "applicability_scope",
+        "source": "local_pdf",
+        "page": 2,
+        "text": "Development goal was a 3-litre car on the basis of the Lupo; contents include the 1.2 l TDI engine and electronic manual gearbox 085."
+      }
+    ],
+    "review_flags": [
+      "SSP is not a workshop manual; mirror distribution; publication year not explicit."
+    ]
+  },
+  {
+    "pdf_id": "PDF-043",
+    "canonical_title": "Tyre Pressure Monitoring System",
+    "document_kind": "self_study_program",
+    "publisher": "Audi AG",
+    "source_host": "vdveer-engineering.nl",
+    "distribution_type": "third_party_mirror",
+    "authority_class": "oem_training",
+    "service_authority": "principle_only",
+    "brands": [
+      "Audi"
+    ],
+    "models": [],
+    "platforms": [],
+    "engine_families": [],
+    "engine_codes": [],
+    "transmissions": [],
+    "system_tags": [
+      "tyre_pressure_monitoring",
+      "wheel_sensors",
+      "vehicle_electrics"
+    ],
+    "language": "en",
+    "publication_year": null,
+    "applicability_scope": "Audi tyre-pressure monitoring system; no model is named on the inspected cover/first pages.",
+    "ranking_tier": "C",
+    "confidence": 0.94,
+    "evidence": [
+      {
+        "field": "canonical_title",
+        "source": "local_pdf",
+        "page": 1,
+        "text": "Inspected rendered cover: Audi rings/logo, number 219, title 'Tyre Pressure Monitoring System'."
+      },
+      {
+        "field": "brands",
+        "source": "local_pdf",
+        "page": 1,
+        "text": "Rendered cover visibly carries Audi logo."
+      },
+      {
+        "field": "system_tags",
+        "source": "local_pdf",
+        "page": 1,
+        "text": "Rendered cover illustration shows wheel/tyre pressure monitoring components and vehicle wiring."
+      }
+    ],
+    "review_flags": [
+      "First pages are image-based/poorly text-extracted; title and Audi identity verified by rendered cover; SSP is not a workshop manual; mirror distribution."
+    ]
+  },
+  {
+    "pdf_id": "PDF-044",
+    "canonical_title": "Audi TT Roadster",
+    "document_kind": "self_study_program",
+    "publisher": "Audi AG",
+    "source_host": "vdveer-engineering.nl",
+    "distribution_type": "third_party_mirror",
+    "authority_class": "oem_training",
+    "service_authority": "principle_only",
+    "brands": [
+      "Audi"
+    ],
+    "models": [
+      "TT Roadster"
+    ],
+    "platforms": [],
+    "engine_families": [],
+    "engine_codes": [],
+    "transmissions": [],
+    "system_tags": [
+      "body",
+      "soft_top",
+      "occupant_protection",
+      "central_locking",
+      "interior_monitor"
+    ],
+    "language": "en",
+    "publication_year": null,
+    "applicability_scope": "Audi TT Roadster body, soft-top and associated systems.",
+    "ranking_tier": "C",
+    "confidence": 0.97,
+    "evidence": [
+      {
+        "field": "canonical_title",
+        "source": "local_pdf",
+        "page": 1,
+        "text": "Audi TT Roadster / Design and Function / Self-Study Programme 220 / For internal use only"
+      },
+      {
+        "field": "models",
+        "source": "local_pdf",
+        "page": 3,
+        "text": "Contents: Body; Soft top control; semiautomatic and manual soft top; central locking; interior monitor."
+      }
+    ],
+    "review_flags": [
+      "Third-party ProCarManuals watermark is visible in extracted pages; SSP is not a workshop manual; publication year not explicit."
+    ]
+  },
+  {
+    "pdf_id": "PDF-045",
+    "canonical_title": "Electronic Manual Gearbox",
+    "document_kind": "self_study_program",
+    "publisher": "Volkswagen AG",
+    "source_host": "vdveer-engineering.nl",
+    "distribution_type": "third_party_mirror",
+    "authority_class": "oem_training",
+    "service_authority": "principle_only",
+    "brands": [
+      "Volkswagen"
+    ],
+    "models": [
+      "Lupo 3L"
+    ],
+    "platforms": [],
+    "engine_families": [],
+    "engine_codes": [],
+    "transmissions": [
+      "electronic manual gearbox",
+      "DS085"
+    ],
+    "system_tags": [
+      "gearbox",
+      "automated_manual_transmission",
+      "hydraulics",
+      "gear_selection"
+    ],
+    "language": "en",
+    "publication_year": null,
+    "applicability_scope": "Electronic manual gearbox developed using the Volkswagen Lupo 3L as basis.",
+    "ranking_tier": "C",
+    "confidence": 0.97,
+    "evidence": [
+      {
+        "field": "canonical_title",
+        "source": "local_pdf",
+        "page": 1,
+        "text": "Self-Study Programme 221 / Electronic Manual Gearbox / Design and Function"
+      },
+      {
+        "field": "models",
+        "source": "local_pdf",
+        "page": 2,
+        "text": "Taking the Lupo as the basis, Volkswagen developed the world's first 3 L car; the electronic manual gearbox eliminates gear shift errors."
+      }
+    ],
+    "review_flags": [
+      "SSP is not a workshop manual; mirror distribution; publication year not explicit."
+    ]
+  },
+  {
+    "pdf_id": "PDF-046",
+    "canonical_title": "Electronically Mapped Cooling System",
+    "document_kind": "self_study_program",
+    "publisher": "Volkswagen AG",
+    "source_host": "vdveer-engineering.nl",
+    "distribution_type": "third_party_mirror",
+    "authority_class": "oem_training",
+    "service_authority": "principle_only",
+    "brands": [
+      "Volkswagen"
+    ],
+    "models": [],
+    "platforms": [],
+    "engine_families": [
+      "1.6-litre 4-cylinder in-line"
+    ],
+    "engine_codes": [
+      "APF"
+    ],
+    "transmissions": [],
+    "system_tags": [
+      "engine_cooling",
+      "mapped_cooling",
+      "thermostatic_control",
+      "engine_management",
+      "self_diagnosis"
+    ],
+    "language": "en",
+    "publication_year": null,
+    "applicability_scope": "Electronically mapped cooling system, first used in the 1.6-litre 4-cylinder in-line engine code APF; further engines were planned.",
+    "ranking_tier": "C",
+    "confidence": 0.98,
+    "evidence": [
+      {
+        "field": "canonical_title",
+        "source": "local_pdf",
+        "page": 1,
+        "text": "Self-Study Programme 222 / Electronically Mapped Cooling System / Design and Function"
+      },
+      {
+        "field": "engine_codes",
+        "source": "local_pdf",
+        "page": 2,
+        "text": "The 1.6-litre 4-cylinder in-line engine (code APF) is the first engine in which the newly developed system will be used."
+      }
+    ],
+    "review_flags": [
+      "No model is named in inspected pages; SSP is not a workshop manual; mirror distribution."
+    ]
+  },
+  {
+    "pdf_id": "PDF-047",
+    "canonical_title": "The 1.2l and 1.4l TDI engines With Pump Injection System",
+    "document_kind": "self_study_program",
+    "publisher": "Volkswagen AG",
+    "source_host": "vdveer-engineering.nl",
+    "distribution_type": "third_party_mirror",
+    "authority_class": "oem_training",
+    "service_authority": "principle_only",
+    "brands": [
+      "Volkswagen"
+    ],
+    "models": [
+      "Polo",
+      "Lupo"
+    ],
+    "platforms": [],
+    "engine_families": [
+      "1.2 l TDI",
+      "1.4 l TDI"
+    ],
+    "engine_codes": [],
+    "transmissions": [],
+    "system_tags": [
+      "diesel_engine",
+      "TDI",
+      "unit_injector",
+      "fuel_supply",
+      "exhaust_system"
+    ],
+    "language": "en",
+    "publication_year": null,
+    "applicability_scope": "1.2 l and 1.4 l TDI pump-injection engines exemplified in Volkswagen Polo and Lupo.",
+    "ranking_tier": "C",
+    "confidence": 0.97,
+    "evidence": [
+      {
+        "field": "canonical_title",
+        "source": "local_pdf",
+        "page": 1,
+        "text": "Self-Study Programme 223 / The 1.2l and 1.4l TDI engines / With Pump Injection System"
+      },
+      {
+        "field": "models",
+        "source": "local_pdf",
+        "page": 2,
+        "text": "The 1.2l TDI was developed specially for the Lupo 3L; the new engine generation is exemplified in the Polo and Lupo."
+      }
+    ],
+    "review_flags": [
+      "SSP is not a workshop manual; mirror distribution; publication year not explicit."
+    ]
+  },
+  {
+    "pdf_id": "PDF-048",
+    "canonical_title": "Service Interval Extension",
+    "document_kind": "self_study_program",
+    "publisher": "Volkswagen AG / Audi AG",
+    "source_host": "vdveer-engineering.nl",
+    "distribution_type": "third_party_mirror",
+    "authority_class": "oem_training",
+    "service_authority": "principle_only",
+    "brands": [
+      "Volkswagen",
+      "Audi"
+    ],
+    "models": [],
+    "platforms": [],
+    "engine_families": [],
+    "engine_codes": [],
+    "transmissions": [],
+    "system_tags": [
+      "service_intervals",
+      "longlife_service",
+      "engine_oil",
+      "maintenance"
+    ],
+    "language": "en",
+    "publication_year": null,
+    "applicability_scope": "Service interval extension for most models fitted with the system; exact vehicle identification is required for country/model details.",
+    "ranking_tier": "C",
+    "confidence": 0.94,
+    "evidence": [
+      {
+        "field": "canonical_title",
+        "source": "local_pdf",
+        "page": 1,
+        "text": "Self-Study Programme 224 / Service Interval Extension / Basics for LongLife Service"
+      },
+      {
+        "field": "applicability_scope",
+        "source": "local_pdf",
+        "page": 2,
+        "text": "Since Model Year 2000 Audi and Volkswagen have been fitting most models with service interval extension."
+      }
+    ],
+    "review_flags": [
+      "Broad applicability statement, no model list; SSP is not a workshop manual; publication year not explicit."
+    ]
+  },
+  {
+    "pdf_id": "PDF-049",
+    "canonical_title": "The Electro-Mechanical Power Steering System",
+    "document_kind": "self_study_program",
+    "publisher": "Volkswagen AG",
+    "source_host": "vdveer-engineering.nl",
+    "distribution_type": "third_party_mirror",
+    "authority_class": "oem_training",
+    "service_authority": "principle_only",
+    "brands": [
+      "Volkswagen"
+    ],
+    "models": [
+      "Lupo 3L"
+    ],
+    "platforms": [],
+    "engine_families": [],
+    "engine_codes": [],
+    "transmissions": [],
+    "system_tags": [
+      "power_steering",
+      "electromechanical_steering",
+      "steering_electronics"
+    ],
+    "language": "en",
+    "publication_year": null,
+    "applicability_scope": "Electro-mechanical power steering currently fitted to the Volkswagen Lupo 3L TDI.",
+    "ranking_tier": "C",
+    "confidence": 0.98,
+    "evidence": [
+      {
+        "field": "canonical_title",
+        "source": "local_pdf",
+        "page": 1,
+        "text": "Self-Study Programme 225 / The electro-mechanical power steering system / Design and Function"
+      },
+      {
+        "field": "models",
+        "source": "local_pdf",
+        "page": 2,
+        "text": "The electro-mechanical power steering system is currently fitted to the Lupo 3L TDI."
+      }
+    ],
+    "review_flags": [
+      "SSP is not a workshop manual; mirror distribution; publication year not explicit."
+    ]
+  },
+  {
+    "pdf_id": "PDF-050",
+    "canonical_title": "3.3 l V8 TDI Engine - Mechanicals",
+    "document_kind": "self_study_program",
+    "publisher": "Audi AG",
+    "source_host": "vdveer-engineering.nl",
+    "distribution_type": "third_party_mirror",
+    "authority_class": "oem_training",
+    "service_authority": "principle_only",
+    "brands": [
+      "Audi"
+    ],
+    "models": [],
+    "platforms": [],
+    "engine_families": [
+      "3.3 l V8 TDI"
+    ],
+    "engine_codes": [],
+    "transmissions": [],
+    "system_tags": [
+      "diesel_engine",
+      "TDI",
+      "engine_mechanicals",
+      "turbocharger",
+      "fuel_injection"
+    ],
+    "language": "en",
+    "publication_year": null,
+    "applicability_scope": "3.3 l V8 TDI engine mechanicals; inspected opening includes historical Audi engine examples but no confirmed target model.",
+    "ranking_tier": "C",
+    "confidence": 0.95,
+    "evidence": [
+      {
+        "field": "canonical_title",
+        "source": "local_pdf",
+        "page": 1,
+        "text": "3,3 l V8 TDI Engine - Mechanicals / Design and Function / Self-Study Programme 226"
+      },
+      {
+        "field": "engine_families",
+        "source": "local_pdf",
+        "page": 2,
+        "text": "Opening section is '10 years of TDI - The history of the TDI'; document title identifies the 3.3 l V8 TDI engine."
+      }
+    ],
+    "review_flags": [
+      "Audi 100/A6 are historical examples in the opening, not recorded as applies_to; SSP is not a workshop manual; mirror watermark visible."
+    ]
+  },
+  {
+    "pdf_id": "PDF-051",
+    "canonical_title": "3.3 l V8 TDI Common Rail Injection System",
+    "document_kind": "self_study_program",
+    "publisher": "Audi AG",
+    "source_host": "vdveer-engineering.nl",
+    "distribution_type": "third_party_mirror",
+    "authority_class": "oem_training",
+    "service_authority": "principle_only",
+    "brands": [
+      "Audi"
+    ],
+    "models": [],
+    "platforms": [],
+    "engine_families": [
+      "3.3 l V8 TDI"
+    ],
+    "engine_codes": [],
+    "transmissions": [],
+    "system_tags": [
+      "diesel_engine",
+      "TDI",
+      "common_rail",
+      "fuel_injection",
+      "high_pressure_fuel"
+    ],
+    "language": "en",
+    "publication_year": null,
+    "applicability_scope": "3.3 l V8 TDI common-rail injection system; no target model stated on inspected opening.",
+    "ranking_tier": "C",
+    "confidence": 0.97,
+    "evidence": [
+      {
+        "field": "canonical_title",
+        "source": "local_pdf",
+        "page": 1,
+        "text": "3,3 l V8 TDI Common Rail Injection System / Construction Features and Functions / Self-Study Programme 227"
+      },
+      {
+        "field": "system_tags",
+        "source": "local_pdf",
+        "page": 2,
+        "text": "Common Rail system supplies diesel fuel, generates injection pressure and distributes fuel to cylinders."
+      }
+    ],
+    "review_flags": [
+      "SSP is not a workshop manual; mirror distribution; publication year not explicit."
+    ]
+  },
+  {
+    "pdf_id": "PDF-052",
+    "canonical_title": "Variable Automatic Gearbox multitronic 01J",
+    "document_kind": "self_study_program",
+    "publisher": "Audi AG",
+    "source_host": "vdveer-engineering.nl",
+    "distribution_type": "third_party_mirror",
+    "authority_class": "oem_training",
+    "service_authority": "principle_only",
+    "brands": [
+      "Audi"
+    ],
+    "models": [],
+    "platforms": [],
+    "engine_families": [],
+    "engine_codes": [],
+    "transmissions": [
+      "multitronic 01J",
+      "CVT"
+    ],
+    "system_tags": [
+      "automatic_transmission",
+      "continuously_variable_transmission",
+      "variator",
+      "chain_drive"
+    ],
+    "language": "en",
+    "publication_year": null,
+    "applicability_scope": "Audi multitronic variable automatic gearbox 01J; no model-specific application stated.",
+    "ranking_tier": "C",
+    "confidence": 0.98,
+    "evidence": [
+      {
+        "field": "canonical_title",
+        "source": "local_pdf",
+        "page": 1,
+        "text": "Variable Automatic Gearbox multitronic 01J / Design and Function / Self-Study Programme 228"
+      },
+      {
+        "field": "transmissions",
+        "source": "local_pdf",
+        "page": 2,
+        "text": "multitronic is the variable automatic gearbox developed by Audi; CVT uses a chain-drive transmission and variator."
+      }
+    ],
+    "review_flags": [
+      "SSP is not a workshop manual; mirror distribution; publication year not explicit."
+    ]
+  },
+  {
+    "pdf_id": "PDF-053",
+    "canonical_title": "Motor Vehicle Exhaust Emissions",
+    "document_kind": "self_study_program",
+    "publisher": "Volkswagen AG",
+    "source_host": "vdveer-engineering.nl",
+    "distribution_type": "third_party_mirror",
+    "authority_class": "oem_training",
+    "service_authority": "principle_only",
+    "brands": [
+      "Volkswagen"
+    ],
+    "models": [],
+    "platforms": [],
+    "engine_families": [],
+    "engine_codes": [],
+    "transmissions": [],
+    "system_tags": [
+      "exhaust_emissions",
+      "emission_control",
+      "emission_standards",
+      "measurement_methods"
+    ],
+    "language": "en",
+    "publication_year": null,
+    "applicability_scope": "General motor-vehicle exhaust-emission composition, control, standards and measurement methods.",
+    "ranking_tier": "C",
+    "confidence": 0.96,
+    "evidence": [
+      {
+        "field": "canonical_title",
+        "source": "local_pdf",
+        "page": 1,
+        "text": "Self-Study Programme 230 / Motor Vehicle Exhaust Emissions / Composition, emission control, standards, etc."
+      },
+      {
+        "field": "applicability_scope",
+        "source": "local_pdf",
+        "page": 2,
+        "text": "The Lupo 3L TDI is cited as an example of the topic's relevance; document also covers measuring methods and standards."
+      }
+    ],
+    "review_flags": [
+      "Lupo 3L TDI is an example/context, not recorded as applies_to; SSP is not a workshop manual; mirror distribution."
+    ]
+  },
+  {
+    "pdf_id": "PDF-054",
+    "canonical_title": "Euro On-Board Diagnostic System",
+    "document_kind": "self_study_program",
+    "publisher": "Volkswagen AG",
+    "source_host": "vdveer-engineering.nl",
+    "distribution_type": "third_party_mirror",
+    "authority_class": "oem_training",
+    "service_authority": "principle_only",
+    "brands": [
+      "Volkswagen"
+    ],
+    "models": [],
+    "platforms": [],
+    "engine_families": [
+      "petrol engines"
+    ],
+    "engine_codes": [],
+    "transmissions": [],
+    "system_tags": [
+      "EOBD",
+      "OBD II",
+      "emissions",
+      "diagnostics",
+      "self_diagnosis"
+    ],
+    "language": "en",
+    "publication_year": null,
+    "applicability_scope": "Euro-On-Board Diagnostics for petrol engines; diesel version noted as future follow-on, no model-specific scope.",
+    "ranking_tier": "C",
+    "confidence": 0.97,
+    "evidence": [
+      {
+        "field": "canonical_title",
+        "source": "local_pdf",
+        "page": 1,
+        "text": "Self-Study Programme 231 / Euro On-Board Diagnostic System / For petrol engines / Design and Function"
+      },
+      {
+        "field": "applicability_scope",
+        "source": "local_pdf",
+        "page": 2,
+        "text": "EOBD initially available for petrol engines only; new monitored vehicle systems and associated diagnostics are described."
+      }
+    ],
+    "review_flags": [
+      "SSP is not a workshop manual; mirror distribution; publication year not explicit."
+    ]
+  },
+  {
+    "pdf_id": "PDF-055",
+    "canonical_title": "5-speed Automatic Gearbox 09A/09B",
+    "document_kind": "self_study_program",
+    "publisher": "Volkswagen AG / Audi AG",
+    "source_host": "vdveer-engineering.nl",
+    "distribution_type": "third_party_mirror",
+    "authority_class": "oem_training",
+    "service_authority": "principle_only",
+    "brands": [
+      "Volkswagen",
+      "Audi"
+    ],
+    "models": [],
+    "platforms": [
+      "transverse-engine platform"
+    ],
+    "engine_families": [],
+    "engine_codes": [],
+    "transmissions": [
+      "09A",
+      "09B",
+      "5-speed automatic gearbox"
+    ],
+    "system_tags": [
+      "automatic_transmission",
+      "gearbox_control",
+      "self_diagnosis"
+    ],
+    "language": "en",
+    "publication_year": null,
+    "applicability_scope": "09A/09B five-speed automatic gearbox for Volkswagen and Audi platform vehicles with transversely mounted engines.",
+    "ranking_tier": "C",
+    "confidence": 0.98,
+    "evidence": [
+      {
+        "field": "canonical_title",
+        "source": "local_pdf",
+        "page": 1,
+        "text": "Self-Study Programme 232 / 5-speed Automatic Gearbox 09A/09B / Design and Function"
+      },
+      {
+        "field": "platforms",
+        "source": "local_pdf",
+        "page": 2,
+        "text": "The new automatic gearbox is intended for installation in the Volkswagen and Audi platform for transversely mounted engines."
+      }
+    ],
+    "review_flags": [
+      "Platform wording is generic rather than a named platform code; SSP is not a workshop manual; mirror distribution."
+    ]
+  },
+  {
+    "pdf_id": "PDF-056",
+    "canonical_title": "2.0-litre Engine",
+    "document_kind": "self_study_program",
+    "publisher": "Volkswagen AG",
+    "source_host": "vdveer-engineering.nl",
+    "distribution_type": "third_party_mirror",
+    "authority_class": "oem_training",
+    "service_authority": "principle_only",
+    "brands": [
+      "Volkswagen"
+    ],
+    "models": [],
+    "platforms": [],
+    "engine_families": [
+      "2.0-litre petrol engine",
+      "113 series",
+      "827 series"
+    ],
+    "engine_codes": [
+      "AQY",
+      "ATU"
+    ],
+    "transmissions": [],
+    "system_tags": [
+      "engine_mechanicals",
+      "fuel_injection",
+      "emission_control",
+      "OBD II"
+    ],
+    "language": "en",
+    "publication_year": null,
+    "applicability_scope": "2.0-litre engine, including 85 kW AQY/ATU variant and 113/827 series engine design.",
+    "ranking_tier": "C",
+    "confidence": 0.98,
+    "evidence": [
+      {
+        "field": "canonical_title",
+        "source": "local_pdf",
+        "page": 1,
+        "text": "Self-Study Programme 233 / 2.0-litre Engine / Design and Function"
+      },
+      {
+        "field": "engine_codes",
+        "source": "local_pdf",
+        "page": 2,
+        "text": "Table of contents identifies 2.0-litre/85 kW engine AQY/ATU; opening describes 113 series and 827 series engine."
+      }
+    ],
+    "review_flags": [
+      "Golf convertible is mentioned as installation context, not recorded as applies_to; SSP is not a workshop manual; mirror distribution."
+    ]
+  },
+  {
+    "pdf_id": "PDF-057",
+    "canonical_title": "Vehicle Batteries",
+    "document_kind": "self_study_program",
+    "publisher": "Volkswagen AG",
+    "source_host": "vdveer-engineering.nl",
+    "distribution_type": "third_party_mirror",
+    "authority_class": "oem_training",
+    "service_authority": "principle_only",
+    "brands": [
+      "Volkswagen"
+    ],
+    "models": [],
+    "platforms": [],
+    "engine_families": [],
+    "engine_codes": [],
+    "transmissions": [],
+    "system_tags": [
+      "battery",
+      "vehicle_electrics",
+      "charging",
+      "battery_service",
+      "safety"
+    ],
+    "language": "en",
+    "publication_year": null,
+    "applicability_scope": "General vehicle battery fundamentals, handling, testing, charging and service.",
+    "ranking_tier": "C",
+    "confidence": 0.97,
+    "evidence": [
+      {
+        "field": "canonical_title",
+        "source": "local_pdf",
+        "page": 1,
+        "text": "Service Training / Self-study programme 234 / Vehicle batteries / Fundamentals and handling"
+      },
+      {
+        "field": "applicability_scope",
+        "source": "local_pdf",
+        "page": 2,
+        "text": "Contents include battery construction, latest technologies, factory-fitted batteries, energy structure and service."
+      }
+    ],
+    "review_flags": [
+      "No model-specific scope on inspected pages; SSP is not a workshop manual; mirror distribution."
+    ]
+  },
+  {
+    "pdf_id": "PDF-058",
+    "canonical_title": "The Multi-Function Steering Wheel",
+    "document_kind": "self_study_program",
+    "publisher": "Volkswagen AG",
+    "source_host": "vdveer-engineering.nl",
+    "distribution_type": "third_party_mirror",
+    "authority_class": "oem_training",
+    "service_authority": "principle_only",
+    "brands": [
+      "Volkswagen"
+    ],
+    "models": [],
+    "platforms": [],
+    "engine_families": [],
+    "engine_codes": [],
+    "transmissions": [],
+    "system_tags": [
+      "steering_wheel",
+      "airbag",
+      "cruise_control",
+      "radio",
+      "telephone",
+      "self_diagnosis"
+    ],
+    "language": "en",
+    "publication_year": null,
+    "applicability_scope": "Multi-function steering-wheel design, variants, controls, electrical circuits and self-diagnosis; no model named.",
+    "ranking_tier": "C",
+    "confidence": 0.97,
+    "evidence": [
+      {
+        "field": "canonical_title",
+        "source": "local_pdf",
+        "page": 1,
+        "text": "Self-Study Programme 235 / The Multi-Function Steering Wheel / Design and Function"
+      },
+      {
+        "field": "document_kind",
+        "source": "local_pdf",
+        "page": 2,
+        "text": "The Self-Study Programme presents the design and function of new developments; refer to Service literature for repair instructions."
+      }
+    ],
+    "review_flags": [
+      "No model-specific scope; SSP is not a workshop manual; mirror distribution."
+    ]
+  },
+  {
+    "pdf_id": "PDF-059",
+    "canonical_title": "Manual Gearbox 02T",
+    "document_kind": "self_study_program",
+    "publisher": "Volkswagen AG",
+    "source_host": "vdveer-engineering.nl",
+    "distribution_type": "third_party_mirror",
+    "authority_class": "oem_training",
+    "service_authority": "principle_only",
+    "brands": [
+      "Volkswagen"
+    ],
+    "models": [],
+    "platforms": [
+      "MQ200"
+    ],
+    "engine_families": [],
+    "engine_codes": [],
+    "transmissions": [
+      "02T",
+      "5-speed manual gearbox",
+      "6-speed manual gearbox"
+    ],
+    "system_tags": [
+      "manual_transmission",
+      "gearbox_mechanicals",
+      "selector_mechanism",
+      "sensors"
+    ],
+    "language": "en",
+    "publication_year": null,
+    "applicability_scope": "02T 5/6-speed manual gearbox in the MQ200 series; stated for A00 to A class automotive applications.",
+    "ranking_tier": "C",
+    "confidence": 0.98,
+    "evidence": [
+      {
+        "field": "canonical_title",
+        "source": "local_pdf",
+        "page": 1,
+        "text": "Self-Study Programme 237 / Manual gearbox 02T / Design and Function"
+      },
+      {
+        "field": "transmissions",
+        "source": "local_pdf",
+        "page": 2,
+        "text": "The 02T 5/6-speed manual gearbox of the MQ200 series can be used throughout the Group with various engines from A00 class to A class."
+      }
+    ],
+    "review_flags": [
+      "Not a workshop manual; mirror distribution; platform/application wording is class-level, not model-level."
+    ]
+  },
+  {
+    "pdf_id": "PDF-060",
+    "canonical_title": "Data Exchange On The CAN Bus I",
+    "document_kind": "self_study_program",
+    "publisher": "Volkswagen AG",
+    "source_host": "vdveer-engineering.nl",
+    "distribution_type": "third_party_mirror",
+    "authority_class": "oem_training",
+    "service_authority": "principle_only",
+    "brands": [
+      "Volkswagen",
+      "Audi"
+    ],
+    "models": [],
+    "platforms": [],
+    "engine_families": [],
+    "engine_codes": [],
+    "transmissions": [],
+    "system_tags": [
+      "CAN bus",
+      "control_units",
+      "vehicle_network",
+      "diagnostics",
+      "data_exchange"
+    ],
+    "language": "en",
+    "publication_year": null,
+    "applicability_scope": "Basic/current CAN-bus functions; text explicitly relates drive-train and convenience CAN as used by Volkswagen and Audi.",
+    "ranking_tier": "C",
+    "confidence": 0.97,
+    "evidence": [
+      {
+        "field": "canonical_title",
+        "source": "local_pdf",
+        "page": 1,
+        "text": "Self-Study Programme 238 / Data Exchange On The CAN Bus I / Basics"
+      },
+      {
+        "field": "brands",
+        "source": "local_pdf",
+        "page": 2,
+        "text": "SSP 269 deals with Drive Train CAN and Convenience CAN as used by VOLKSWAGEN and AUDI; SSP 238 describes current basic CAN functions."
+      }
+    ],
+    "review_flags": [
+      "Brand mention is system scope, not a model application; SSP is not a workshop manual; mirror distribution."
+    ]
+  },
+  {
+    "pdf_id": "PDF-061",
+    "canonical_title": "Audi A2 - Body",
+    "document_kind": "self_study_program",
+    "publisher": "Audi AG",
+    "source_host": "vdveer-engineering.nl",
+    "distribution_type": "third_party_mirror",
+    "authority_class": "oem_training",
+    "service_authority": "principle_only",
+    "brands": [
+      "Audi"
+    ],
+    "models": [
+      "A2"
+    ],
+    "platforms": [
+      "Audi Space Frame (ASF)"
+    ],
+    "engine_families": [],
+    "engine_codes": [],
+    "transmissions": [],
+    "system_tags": [
+      "body",
+      "aluminium",
+      "space_frame",
+      "bonding",
+      "rivets",
+      "welding",
+      "repair_concept"
+    ],
+    "language": "en",
+    "publication_year": null,
+    "applicability_scope": "Audi A2 body construction, ASF, bonding/repair and open-sky roof; A8 appears only in ASF comparison.",
+    "ranking_tier": "C",
+    "confidence": 0.98,
+    "evidence": [
+      {
+        "field": "canonical_title",
+        "source": "local_pdf",
+        "page": 1,
+        "text": "AUDI A2 - Body / Construction and Function / Self-study programme 239 / For internal use only"
+      },
+      {
+        "field": "models",
+        "source": "local_pdf",
+        "page": 2,
+        "text": "The Audi-Space-Frame ASF in the A2; contents include overview of ASF - A8 and A2."
+      }
+    ],
+    "review_flags": [
+      "A8 is comparison context, not recorded as primary applicability; SSP is not a workshop manual; mirror distribution."
+    ]
+  },
+  {
+    "pdf_id": "PDF-062",
+    "canonical_title": "Audi A2 Technology",
+    "document_kind": "self_study_program",
+    "publisher": "Audi AG",
+    "source_host": "vdveer-engineering.nl",
+    "distribution_type": "third_party_mirror",
+    "authority_class": "oem_training",
+    "service_authority": "principle_only",
+    "brands": [
+      "Audi"
+    ],
+    "models": [
+      "A2"
+    ],
+    "platforms": [],
+    "engine_families": [],
+    "engine_codes": [],
+    "transmissions": [],
+    "system_tags": [
+      "body",
+      "engine",
+      "gearbox",
+      "running_gear",
+      "ESP",
+      "CAN bus",
+      "comfort system",
+      "heating_air_conditioning",
+      "diagnostics"
+    ],
+    "language": "en",
+    "publication_year": null,
+    "applicability_scope": "Audi A2 vehicle technology and systems.",
+    "ranking_tier": "C",
+    "confidence": 0.98,
+    "evidence": [
+      {
+        "field": "canonical_title",
+        "source": "local_pdf",
+        "page": 1,
+        "text": "AUDI A2 Technology / Design and Function / Self-study program 240 / For internal use only"
+      },
+      {
+        "field": "models",
+        "source": "local_pdf",
+        "page": 2,
+        "text": "The Audi A2 is the first volume-produced car with an aluminium body; contents cover engine and gearbox, running gear, ESP and electrical systems."
+      }
+    ],
+    "review_flags": [
+      "SSP is not a workshop manual; mirror distribution; publication year not explicit."
+    ]
+  },
+  {
+    "pdf_id": "PDF-063",
+    "canonical_title": "The Audi allroad quattro with additional shift stage",
+    "document_kind": "self_study_program",
+    "publisher": "Audi AG",
+    "source_host": "vdveer-engineering.nl",
+    "distribution_type": "third_party_mirror",
+    "authority_class": "oem_training",
+    "service_authority": "principle_only",
+    "brands": [
+      "Audi"
+    ],
+    "models": [
+      "allroad quattro",
+      "A6"
+    ],
+    "platforms": [
+      "quattro"
+    ],
+    "engine_families": [],
+    "engine_codes": [],
+    "transmissions": [
+      "additional shift stage",
+      "low range"
+    ],
+    "system_tags": [
+      "four_wheel_drive",
+      "air_suspension",
+      "running_gear",
+      "gearbox",
+      "quattro",
+      "hydraulic_control"
+    ],
+    "language": "en",
+    "publication_year": null,
+    "applicability_scope": "Audi allroad quattro, described as combining Audi A6 driving dynamics with off-road capability; additional shift stage and quattro systems.",
+    "ranking_tier": "C",
+    "confidence": 0.98,
+    "evidence": [
+      {
+        "field": "canonical_title",
+        "source": "local_pdf",
+        "page": 1,
+        "text": "The Audi allroad quattro with additional shift stage / Design and Function / Self-study programme 241"
+      },
+      {
+        "field": "models",
+        "source": "local_pdf",
+        "page": 2,
+        "text": "The allroad quattro combines the driving dynamics of the Audi A6 with off-road capability; contents include additional shift stage and quattro drive."
+      }
+    ],
+    "review_flags": [
+      "A6 is the comparison/base vehicle stated in the opening; applicability centers on allroad quattro; SSP is not a workshop manual."
+    ]
+  },
+  {
+    "pdf_id": "PDF-064",
+    "canonical_title": "Pneumatic Suspension System Part 1 - Self-levelling Suspension in the Audi A6",
+    "document_kind": "self_study_program",
+    "publisher": "Audi AG",
+    "source_host": "vdveer-engineering.nl",
+    "distribution_type": "third_party_mirror",
+    "authority_class": "oem_training",
+    "service_authority": "principle_only",
+    "brands": [
+      "Audi"
+    ],
+    "models": [
+      "A6"
+    ],
+    "platforms": [],
+    "engine_families": [],
+    "engine_codes": [],
+    "transmissions": [],
+    "system_tags": [
+      "pneumatic_suspension",
+      "self_levelling",
+      "air_suspension",
+      "damping",
+      "suspension_control"
+    ],
+    "language": "en",
+    "publication_year": null,
+    "applicability_scope": "Audi A6 Avant rear-axle self-levelling air suspension; allroad quattro is explicitly deferred to SSP 243.",
+    "ranking_tier": "C",
+    "confidence": 0.98,
+    "evidence": [
+      {
+        "field": "canonical_title",
+        "source": "local_pdf",
+        "page": 1,
+        "text": "Pneumatic suspension system Part 1 / Selflevelling suspension in the Audi A6 / Self-study programme 242"
+      },
+      {
+        "field": "applicability_scope",
+        "source": "local_pdf",
+        "page": 2,
+        "text": "The rear axle air suspension system for the Audi A6 Avant is described here; the 4-level air suspension of the Audi allroad quattro is described in SSP 243."
+      }
+    ],
+    "review_flags": [
+      "Audi A6 Avant is explicit; allroad is cross-reference only; SSP is not a workshop manual."
+    ]
+  },
+  {
+    "pdf_id": "PDF-065",
+    "canonical_title": "Pneumatic Suspension System Part 2 - 4-level Air Suspension in the Audi allroad quattro",
+    "document_kind": "self_study_program",
+    "publisher": "Audi AG",
+    "source_host": "vdveer-engineering.nl",
+    "distribution_type": "third_party_mirror",
+    "authority_class": "oem_training",
+    "service_authority": "principle_only",
+    "brands": [
+      "Audi"
+    ],
+    "models": [
+      "allroad quattro"
+    ],
+    "platforms": [],
+    "engine_families": [],
+    "engine_codes": [],
+    "transmissions": [],
+    "system_tags": [
+      "pneumatic_suspension",
+      "air_suspension",
+      "self_levelling",
+      "control_strategies",
+      "ESP"
+    ],
+    "language": "en",
+    "publication_year": null,
+    "applicability_scope": "Audi allroad quattro 4-level air suspension; supplementary to SSP 242.",
+    "ranking_tier": "C",
+    "confidence": 0.98,
+    "evidence": [
+      {
+        "field": "canonical_title",
+        "source": "local_pdf",
+        "page": 1,
+        "text": "Pneumatic suspension system Part 2 / 4-level air suspension in the Audi allroad quattro / Self-study programme 243"
+      },
+      {
+        "field": "models",
+        "source": "local_pdf",
+        "page": 2,
+        "text": "The 4-level air suspension system in the allroad quattro; contents include control strategies and system components."
+      }
+    ],
+    "review_flags": [
+      "SSP 242 is a related reference, not an additional model application; SSP is not a workshop manual."
+    ]
+  },
+  {
+    "pdf_id": "PDF-066",
+    "canonical_title": "Audi RS 6",
+    "document_kind": "self_study_program",
+    "publisher": "Audi AG",
+    "source_host": "vdveer-engineering.nl",
+    "distribution_type": "third_party_mirror",
+    "authority_class": "oem_training",
+    "service_authority": "principle_only",
+    "brands": [
+      "Audi"
+    ],
+    "models": [
+      "RS 6",
+      "A6"
+    ],
+    "platforms": [],
+    "engine_families": [
+      "V8"
+    ],
+    "engine_codes": [],
+    "transmissions": [],
+    "system_tags": [
+      "high_performance_vehicle",
+      "engine",
+      "gearbox",
+      "body",
+      "running_gear",
+      "brakes"
+    ],
+    "language": "en",
+    "publication_year": null,
+    "applicability_scope": "Audi RS 6 special features; document identifies it as top model in the Audi A6 series.",
+    "ranking_tier": "C",
+    "confidence": 0.98,
+    "evidence": [
+      {
+        "field": "canonical_title",
+        "source": "local_pdf",
+        "page": 1,
+        "text": "AUDI RS 6 / Self Study Programme 244 / For internal use only"
+      },
+      {
+        "field": "models",
+        "source": "local_pdf",
+        "page": 2,
+        "text": "The Audi RS 6 is the top model in the Audi A6-Series; available as Saloon or Avant; this programme deals exclusively with special features of the Audi RS 6."
+      }
+    ],
+    "review_flags": [
+      "A6 is series context while RS 6 is primary scope; SSP is not a workshop manual; mirror distribution."
+    ]
+  },
+  {
+    "pdf_id": "PDF-067",
+    "canonical_title": "Audi RS4",
+    "document_kind": "self_study_program",
+    "publisher": "Audi AG",
+    "source_host": "vdveer-engineering.nl",
+    "distribution_type": "third_party_mirror",
+    "authority_class": "oem_training",
+    "service_authority": "principle_only",
+    "brands": [
+      "Audi"
+    ],
+    "models": [
+      "RS4"
+    ],
+    "platforms": [],
+    "engine_families": [],
+    "engine_codes": [],
+    "transmissions": [],
+    "system_tags": [
+      "high_performance_vehicle",
+      "body",
+      "engine",
+      "quattro",
+      "running_gear"
+    ],
+    "language": "en",
+    "publication_year": null,
+    "applicability_scope": "Audi RS4; rendered cover/first content page identifies RS4 and states it is an Avant in the A4 class.",
+    "ranking_tier": "C",
+    "confidence": 0.91,
+    "evidence": [
+      {
+        "field": "canonical_title",
+        "source": "local_pdf",
+        "page": 1,
+        "text": "Rendered cover visibly shows Audi vehicle and title page number 245; next page states 'RS4 - thoroughbred sports characteristics combined with everyday functionality'."
+      },
+      {
+        "field": "models",
+        "source": "local_pdf",
+        "page": 2,
+        "text": "The RS4 ... is produced exclusively as an Avant ... based on the Audi RS4 ... in the A4 class."
+      }
+    ],
+    "review_flags": [
+      "First page/early pages carry ProCarManuals.com watermark and poor text extraction; title confirmed by rendered pages; SSP is not a workshop manual."
+    ]
+  },
+  {
+    "pdf_id": "PDF-068",
+    "canonical_title": "Variable Valve Timing with fluted variator",
+    "document_kind": "self_study_program",
+    "publisher": "Volkswagen AG",
+    "source_host": "vdveer-engineering.nl",
+    "distribution_type": "third_party_mirror",
+    "authority_class": "oem_training",
+    "service_authority": "principle_only",
+    "brands": [
+      "Volkswagen"
+    ],
+    "models": [],
+    "platforms": [],
+    "engine_families": [
+      "2.8 litre V6",
+      "2.3 litre V5",
+      "W8",
+      "W12"
+    ],
+    "engine_codes": [],
+    "transmissions": [],
+    "system_tags": [
+      "variable_valve_timing",
+      "camshaft_adjustment",
+      "engine_management",
+      "self_diagnosis"
+    ],
+    "language": "en",
+    "publication_year": null,
+    "applicability_scope": "Variable valve timing system; opening explicitly names Volkswagen 2.8-litre V6 and 2.3-litre V5 as initial engines, with W8/W12 as later engines.",
+    "ranking_tier": "C",
+    "confidence": 0.97,
+    "evidence": [
+      {
+        "field": "canonical_title",
+        "source": "local_pdf",
+        "page": 1,
+        "text": "Self-study programme 246 / Variable Valve Timing / with fluted variator / Design and Function"
+      },
+      {
+        "field": "engine_families",
+        "source": "local_pdf",
+        "page": 2,
+        "text": "At Volkswagen, first the 2.8 litre V6 and 2.3 litre V5 engines will be equipped; later other engines such as W8 and W12."
+      }
+    ],
+    "review_flags": [
+      "No model is named; future W8/W12 wording is prospective; SSP is not a workshop manual."
+    ]
+  },
+  {
+    "pdf_id": "PDF-069",
+    "canonical_title": "Audi A2 - Engine and Gearbox",
+    "document_kind": "self_study_program",
+    "publisher": "Audi AG",
+    "source_host": "vdveer-engineering.nl",
+    "distribution_type": "third_party_mirror",
+    "authority_class": "oem_training",
+    "service_authority": "principle_only",
+    "brands": [
+      "Audi"
+    ],
+    "models": [
+      "A2"
+    ],
+    "platforms": [],
+    "engine_families": [
+      "1.4 l TDI",
+      "1.4 l 16V"
+    ],
+    "engine_codes": [
+      "AMF",
+      "AUA"
+    ],
+    "transmissions": [],
+    "system_tags": [
+      "engine",
+      "gearbox",
+      "engine_management",
+      "EOBD",
+      "manual_transmission",
+      "sensors"
+    ],
+    "language": "en",
+    "publication_year": null,
+    "applicability_scope": "Audi A2 engine and gearbox; opening contents explicitly list 1.4 l TDI 55 kW AMF and 1.4 l 16V 55 kW AUA.",
+    "ranking_tier": "C",
+    "confidence": 0.99,
+    "evidence": [
+      {
+        "field": "canonical_title",
+        "source": "local_pdf",
+        "page": 1,
+        "text": "AUDI A2 - Engine and Gearbox / Design and Function / Self-study programme 247"
+      },
+      {
+        "field": "engine_codes",
+        "source": "local_pdf",
+        "page": 3,
+        "text": "Contents: 1.4 l - TDI (55 kW) AMF; 1.4 l - 16 V (55 kW) AUA."
+      }
+    ],
+    "review_flags": [
+      "SSP is not a workshop manual; mirror distribution; publication year not explicit."
+    ]
+  },
+  {
+    "pdf_id": "PDF-070",
+    "canonical_title": "The W Engine Concept",
+    "document_kind": "self_study_program",
+    "publisher": "Volkswagen AG",
+    "source_host": "vdveer-engineering.nl",
+    "distribution_type": "third_party_mirror",
+    "authority_class": "oem_training",
+    "service_authority": "principle_only",
+    "brands": [
+      "Volkswagen"
+    ],
+    "models": [],
+    "platforms": [],
+    "engine_families": [
+      "W engine",
+      "W8",
+      "W12"
+    ],
+    "engine_codes": [],
+    "transmissions": [],
+    "system_tags": [
+      "engine_mechanicals",
+      "engine_management",
+      "cooling",
+      "air_supply",
+      "exhaust",
+      "service_tools"
+    ],
+    "language": "en",
+    "publication_year": null,
+    "applicability_scope": "Volkswagen W-engine family, specifically W8 and W12 engine concepts; no model-specific target stated.",
+    "ranking_tier": "C",
+    "confidence": 0.98,
+    "evidence": [
+      {
+        "field": "canonical_title",
+        "source": "local_pdf",
+        "page": 1,
+        "text": "Self-Study Programme 248 / The W Engine Concept / Design and Function"
+      },
+      {
+        "field": "engine_families",
+        "source": "local_pdf",
+        "page": 2,
+        "text": "The new W8 as well as the W12 engine by VOLKSWAGEN are representatives of a new engine generation; programme familiarises readers with W engine family."
+      }
+    ],
+    "review_flags": [
+      "No model-specific scope on inspected pages; SSP is not a workshop manual; mirror distribution."
+    ]
+  },
+  {
+    "pdf_id": "PDF-071",
+    "canonical_title": "Engine Management of the W8 Engine in the Passat",
+    "document_kind": "self_study_program",
+    "publisher": "Volkswagen AG",
+    "source_host": "vdveer-engineering.nl",
+    "distribution_type": "third_party_mirror",
+    "authority_class": "oem_training",
+    "service_authority": "principle_only",
+    "brands": [
+      "Volkswagen"
+    ],
+    "models": [
+      "Passat"
+    ],
+    "platforms": [],
+    "engine_families": [
+      "W8"
+    ],
+    "engine_codes": [],
+    "transmissions": [],
+    "system_tags": [
+      "engine_management",
+      "Motronic ME 7.1.1",
+      "sensors",
+      "actuators",
+      "diagnostics"
+    ],
+    "language": "en",
+    "publication_year": null,
+    "applicability_scope": "Volkswagen Passat W8 engine management with Motronic ME 7.1.1.",
+    "ranking_tier": "C",
+    "confidence": 0.98,
+    "evidence": [
+      {
+        "field": "canonical_title",
+        "source": "local_pdf",
+        "page": 1,
+        "text": "Self-Study Programme 249 / Engine Management of the W8 Engine in the Passat"
+      },
+      {
+        "field": "applicability_scope",
+        "source": "local_pdf",
+        "page": 2,
+        "text": "The Motronic engine management system of the W8 engine enables ...; for further information on the W8 engine, refer to SSP 248."
+      }
+    ],
+    "review_flags": [
+      "SSP contains a copyright/legal overlay in extracted text; not a workshop manual; mirror distribution."
+    ]
+  },
+  {
+    "pdf_id": "PDF-072",
+    "canonical_title": "Engine Management for the Phaeton W12 Engine",
+    "document_kind": "self_study_program",
+    "publisher": "Volkswagen AG",
+    "source_host": "vdveer-engineering.nl",
+    "distribution_type": "third_party_mirror",
+    "authority_class": "oem_training",
+    "service_authority": "principle_only",
+    "brands": [
+      "Volkswagen"
+    ],
+    "models": [
+      "Phaeton"
+    ],
+    "platforms": [],
+    "engine_families": [
+      "W12"
+    ],
+    "engine_codes": [],
+    "transmissions": [],
+    "system_tags": [
+      "engine_management",
+      "Motronic ME7.1.1",
+      "CAN bus",
+      "sensors",
+      "actuators",
+      "diagnostics"
+    ],
+    "language": "en",
+    "publication_year": null,
+    "applicability_scope": "Volkswagen Phaeton W12 engine management, including two-control-unit concept.",
+    "ranking_tier": "C",
+    "confidence": 0.98,
+    "evidence": [
+      {
+        "field": "canonical_title",
+        "source": "local_pdf",
+        "page": 1,
+        "text": "Self-Study Programme 250 / Engine Management for the Phaeton W12 Engine / Design and Function"
+      },
+      {
+        "field": "models",
+        "source": "local_pdf",
+        "page": 2,
+        "text": "The Motronic engine management system for the Phaeton W12 engine; two electronic control units are used."
+      }
+    ],
+    "review_flags": [
+      "SSP is not a workshop manual; mirror distribution; publication year not explicit."
+    ]
+  },
+  {
+    "pdf_id": "PDF-073",
+    "canonical_title": "The Passat, Model Year 2001",
+    "document_kind": "self_study_program",
+    "publisher": "Volkswagen AG",
+    "source_host": "vdveer-engineering.nl",
+    "distribution_type": "third_party_mirror",
+    "authority_class": "oem_training",
+    "service_authority": "principle_only",
+    "brands": [
+      "Volkswagen"
+    ],
+    "models": [
+      "Passat"
+    ],
+    "platforms": [],
+    "engine_families": [],
+    "engine_codes": [],
+    "transmissions": [],
+    "system_tags": [
+      "vehicle_overview",
+      "engines",
+      "power_transmission",
+      "running_gear",
+      "electrics",
+      "convenience_system"
+    ],
+    "language": "en",
+    "publication_year": null,
+    "applicability_scope": "Volkswagen Passat Model Year 2001 design features, engines, gearboxes, axles, electronics and convenience system.",
+    "ranking_tier": "C",
+    "confidence": 0.98,
+    "evidence": [
+      {
+        "field": "canonical_title",
+        "source": "local_pdf",
+        "page": 1,
+        "text": "Self-Study Programme 251 / The Passat, Model Year 2001"
+      },
+      {
+        "field": "applicability_scope",
+        "source": "local_pdf",
+        "page": 2,
+        "text": "This SSP summarises the design features of the Passat 2001, including engines and gearboxes, front/rear axle configurations, electronics and convenience system."
+      }
+    ],
+    "review_flags": [
+      "Model year is applicability, not confirmed publication year; SSP is not a workshop manual; mirror distribution."
+    ]
+  }
+]
